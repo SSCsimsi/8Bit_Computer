@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>LAYOUT</shapeType>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Height</string>
+      <int>4</int>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>4</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>CMD
+00 NOP
+01 LDA
+02 LDB
+03 ADD
+04 SUB
+05 INC
+06 TOF
+07 CMP
+08 NOT
+09 OR
+0A XOR
+0B AND
+0C SHL
+0D SHR
+0E SLD
+0F LDF</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CMD</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>.
+00000000
+00000001
+00000010
+00000011
+00000100
+00000101
+00000110
+00000111
+00001000
+00001001
+00001010
+00001011
+00001100
+00001101
+00001110
+00001111</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1120" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>MUX:
+00 -&gt; 000
+01 -&gt; 000
+02 -&gt; 000
+03 -&gt; 001
+04 -&gt; 001
+05 -&gt; 001
+06 -&gt; 010
+07 -&gt; 000
+08 -&gt; 011
+09 -&gt; 011
+0A -&gt; 011
+0B -&gt; 011
+0C -&gt; 100
+0D -&gt; 100
+0E -&gt; 000
+0F -&gt; 101</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1620" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Description:
+no operation
+load to register A
+load to register B
+add
+subract
+increment
+true or false
+compare
+not
+or
+exclusive or
+and
+shift left
+shift right
+load to shift register
+load flags</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1780" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Q
+00 -&gt;  X
+01 -&gt; 10
+02 -&gt; 10
+03 -&gt; 00
+04 -&gt; 10
+05 -&gt;
+06 -&gt;
+07 -&gt;  X
+08 -&gt; 00
+09 -&gt; 01
+0A -&gt; 10
+0B -&gt; 11
+0C -&gt; 01
+0D -&gt; 10
+0E -&gt; 11
+0F -&gt; 10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1260" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Modules:
+-
+LD
+LD
+ADD
+ADD
+ADD
+TOF
+CMP
+LOGIC
+LOGIC
+LOGIC
+LOGIC
+SHIFT
+SHIFT
+SHIFT
+FLAGS</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1400" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Out:
+-&gt; N
+-&gt; N
+-&gt; N
+-&gt; Y
+-&gt; Y
+-&gt; Y
+-&gt; Y
+-&gt; N
+-&gt; Y
+-&gt; Y
+-&gt; Y
+-&gt; Y
+-&gt; Y
+-&gt; Y
+-&gt; N
+-&gt; Y</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1520" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>000 on the multiplexer should not be connected</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1180" y="1140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>LDA</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>LDB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="-220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>ADD</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="-180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SUB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="-140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>TOF</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CMP</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>NOT</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>OR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>XOR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>AND</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SHL</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SHR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SLD</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>LDF</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>possible options:
+SN74BCT2424
+SN74154</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1340" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CLA</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2480" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CLB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2480" y="-220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>CLR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2500" y="-320"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="540" y="-260"/>
+      <p2 x="560" y="-260"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
