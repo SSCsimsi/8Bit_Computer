@@ -62,7 +62,12 @@
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
       <pos x="380" y="-140"/>
     </visualElement>
   </visualElements>
