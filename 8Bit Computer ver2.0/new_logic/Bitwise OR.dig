@@ -46,33 +46,14 @@
       <pos x="780" y="260"/>
     </visualElement>
     <visualElement>
-      <elementName>CMD DEC.dig</elementName>
-      <elementAttributes/>
-      <pos x="360" y="360"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>CMD</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
+          <string>EN</string>
         </entry>
       </elementAttributes>
       <pos x="320" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-      </elementAttributes>
-      <pos x="360" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -83,16 +64,6 @@
         </entry>
       </elementAttributes>
       <pos x="320" y="140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-      </elementAttributes>
-      <pos x="360" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -114,15 +85,21 @@
       <elementAttributes/>
       <pos x="580" y="120"/>
     </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="240"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
       <p1 x="340" y="240"/>
       <p2 x="360" y="240"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="400"/>
-      <p2 x="460" y="400"/>
     </wire>
     <wire>
       <p1 x="440" y="160"/>
@@ -154,7 +131,7 @@
     </wire>
     <wire>
       <p1 x="320" y="380"/>
-      <p2 x="360" y="380"/>
+      <p2 x="460" y="380"/>
     </wire>
     <wire>
       <p1 x="320" y="300"/>
@@ -194,7 +171,7 @@
     </wire>
     <wire>
       <p1 x="460" y="120"/>
-      <p2 x="460" y="400"/>
+      <p2 x="460" y="380"/>
     </wire>
     <wire>
       <p1 x="700" y="120"/>
