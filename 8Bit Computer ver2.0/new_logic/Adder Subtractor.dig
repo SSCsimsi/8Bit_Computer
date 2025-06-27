@@ -192,10 +192,11 @@
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>For Overflow detection during a subtraction</string>
+          <string>The split adder + the xor gate are for 
+Overflow detection during a subtraction</string>
         </entry>
       </elementAttributes>
-      <pos x="880" y="820"/>
+      <pos x="860" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -217,11 +218,11 @@ accept 8bit inputs.</string>
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>An XOR gate inverts the first input if the second one
+          <string>An XOR gate inverts one input if the other one
 is high. This is needed for 2&apos;s complement subtraction.</string>
         </entry>
       </elementAttributes>
-      <pos x="140" y="840"/>
+      <pos x="200" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -236,12 +237,12 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="460" y="300"/>
+      <pos x="460" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
       <elementAttributes/>
-      <pos x="360" y="280"/>
+      <pos x="360" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Bus Interface.dig</elementName>
@@ -291,16 +292,16 @@ to be there simultaneously</string>
       <p2 x="480" y="800"/>
     </wire>
     <wire>
-      <p1 x="440" y="320"/>
+      <p1 x="320" y="640"/>
+      <p2 x="360" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="320"/>
       <p2 x="460" y="320"/>
     </wire>
     <wire>
-      <p1 x="340" y="320"/>
-      <p2 x="360" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="640"/>
-      <p2 x="360" y="640"/>
+      <p1 x="520" y="320"/>
+      <p2 x="1000" y="320"/>
     </wire>
     <wire>
       <p1 x="740" y="580"/>
@@ -379,12 +380,8 @@ to be there simultaneously</string>
       <p2 x="360" y="620"/>
     </wire>
     <wire>
-      <p1 x="420" y="300"/>
-      <p2 x="460" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="520" y="300"/>
-      <p2 x="1000" y="300"/>
+      <p1 x="320" y="300"/>
+      <p2 x="360" y="300"/>
     </wire>
     <wire>
       <p1 x="940" y="400"/>
@@ -419,6 +416,14 @@ to be there simultaneously</string>
       <p2 x="320" y="560"/>
     </wire>
     <wire>
+      <p1 x="440" y="340"/>
+      <p2 x="460" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="340"/>
+      <p2 x="360" y="340"/>
+    </wire>
+    <wire>
       <p1 x="760" y="660"/>
       <p2 x="880" y="660"/>
     </wire>
@@ -441,10 +446,6 @@ to be there simultaneously</string>
     <wire>
       <p1 x="980" y="500"/>
       <p2 x="1020" y="500"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="280"/>
-      <p2 x="360" y="280"/>
     </wire>
     <wire>
       <p1 x="300" y="440"/>
@@ -515,7 +516,7 @@ to be there simultaneously</string>
       <p2 x="1020" y="380"/>
     </wire>
     <wire>
-      <p1 x="320" y="280"/>
+      <p1 x="320" y="300"/>
       <p2 x="320" y="560"/>
     </wire>
     <wire>
@@ -539,7 +540,7 @@ to be there simultaneously</string>
       <p2 x="680" y="720"/>
     </wire>
     <wire>
-      <p1 x="1000" y="300"/>
+      <p1 x="1000" y="320"/>
       <p2 x="1000" y="400"/>
     </wire>
     <wire>
@@ -603,7 +604,7 @@ to be there simultaneously</string>
       <p2 x="720" y="700"/>
     </wire>
     <wire>
-      <p1 x="340" y="320"/>
+      <p1 x="340" y="340"/>
       <p2 x="340" y="620"/>
     </wire>
     <wire>
@@ -623,7 +624,7 @@ to be there simultaneously</string>
       <p2 x="760" y="620"/>
     </wire>
     <wire>
-      <p1 x="440" y="320"/>
+      <p1 x="440" y="340"/>
       <p2 x="440" y="680"/>
     </wire>
     <wire>
