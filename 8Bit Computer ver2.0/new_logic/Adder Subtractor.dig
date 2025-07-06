@@ -245,11 +245,6 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
       <pos x="360" y="300"/>
     </visualElement>
     <visualElement>
-      <elementName>Bus Interface.dig</elementName>
-      <elementAttributes/>
-      <pos x="1020" y="360"/>
-    </visualElement>
-    <visualElement>
       <elementName>1bit Bus Interface.dig</elementName>
       <elementAttributes/>
       <pos x="1020" y="480"/>
@@ -280,6 +275,11 @@ to be there simultaneously</string>
         </entry>
       </elementAttributes>
       <pos x="-60" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8bit Bus Interface.dig</elementName>
+      <elementAttributes/>
+      <pos x="1020" y="360"/>
     </visualElement>
   </visualElements>
   <wires>
