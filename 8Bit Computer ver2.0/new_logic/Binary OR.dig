@@ -105,20 +105,20 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>CLK</string>
+          <string>EN</string>
         </entry>
       </elementAttributes>
-      <pos x="840" y="720"/>
+      <pos x="840" y="660"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>EN</string>
+          <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="840" y="660"/>
+      <pos x="840" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>

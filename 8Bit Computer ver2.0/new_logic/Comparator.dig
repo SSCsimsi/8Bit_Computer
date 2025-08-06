@@ -47,6 +47,20 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
+          <string>B</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="720" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
           <string>CMP_bigger</string>
         </entry>
       </elementAttributes>
@@ -63,16 +77,6 @@
       <pos x="720" y="400"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>CMP_smaller</string>
-        </entry>
-      </elementAttributes>
-      <pos x="720" y="460"/>
-    </visualElement>
-    <visualElement>
       <elementName>Comparator</elementName>
       <elementAttributes>
         <entry>
@@ -87,14 +91,10 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>B</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
+          <string>CMP_smaller</string>
         </entry>
       </elementAttributes>
-      <pos x="720" y="280"/>
+      <pos x="720" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>

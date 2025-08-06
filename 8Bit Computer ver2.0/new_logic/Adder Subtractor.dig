@@ -183,10 +183,10 @@ output exceeds the 8 bit limit
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>SUB</string>
+          <string>ADC</string>
         </entry>
       </elementAttributes>
-      <pos x="240" y="680"/>
+      <pos x="240" y="620"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -240,10 +240,10 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>CLK</string>
+          <string>SUB</string>
         </entry>
       </elementAttributes>
-      <pos x="240" y="740"/>
+      <pos x="240" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
@@ -320,10 +320,10 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ADC</string>
+          <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="240" y="620"/>
+      <pos x="240" y="740"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
