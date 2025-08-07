@@ -101,7 +101,9 @@
 
 -&gt; the carry output incase the adder 
 output exceeds the 8 bit limit
--&gt; overflow of the subtractor</string>
+-&gt; overflow of the subtractor
+
+-&gt; save the output to the C register</string>
         </entry>
       </elementAttributes>
       <pos x="1140" y="200"/>
@@ -259,7 +261,7 @@ output exceeds the 8 bit limit
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>STR</string>
+          <string>Q_S</string>
         </entry>
       </elementAttributes>
       <pos x="1060" y="400"/>
