@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>2</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>6</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>In</elementName>
@@ -71,6 +82,16 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
+          <string>STF</string>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
           <string>STB</string>
         </entry>
       </elementAttributes>
@@ -105,16 +126,6 @@
         </entry>
       </elementAttributes>
       <pos x="840" y="820"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>CLK</string>
-        </entry>
-      </elementAttributes>
-      <pos x="840" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -153,10 +164,10 @@ CLK: clock input</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>STF</string>
+          <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="840" y="560"/>
+      <pos x="840" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
