@@ -207,7 +207,7 @@ output exceeds the 8 bit limit
 Overflow detection during a subtraction</string>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="560"/>
+      <pos x="1040" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -340,6 +340,41 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
       </elementAttributes>
       <pos x="-60" y="600"/>
     </visualElement>
+    <visualElement>
+      <elementName>D_FF</elementName>
+      <elementAttributes/>
+      <pos x="1040" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>STC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1220" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes/>
+      <pos x="1180" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>STF</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1220" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes/>
+      <pos x="1180" y="560"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -349,6 +384,14 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
     <wire>
       <p1 x="320" y="320"/>
       <p2 x="360" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="640"/>
+      <p2 x="1040" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="640"/>
+      <p2 x="1120" y="640"/>
     </wire>
     <wire>
       <p1 x="740" y="580"/>
@@ -423,6 +466,10 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
       <p2 x="880" y="660"/>
     </wire>
     <wire>
+      <p1 x="1140" y="600"/>
+      <p2 x="1180" y="600"/>
+    </wire>
+    <wire>
       <p1 x="700" y="600"/>
       <p2 x="780" y="600"/>
     </wire>
@@ -441,6 +488,10 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
     <wire>
       <p1 x="500" y="540"/>
       <p2 x="540" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="540"/>
+      <p2 x="1180" y="540"/>
     </wire>
     <wire>
       <p1 x="860" y="800"/>
@@ -499,6 +550,26 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
       <p2 x="460" y="680"/>
     </wire>
     <wire>
+      <p1 x="1100" y="620"/>
+      <p2 x="1160" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="620"/>
+      <p2 x="1220" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="620"/>
+      <p2 x="780" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="620"/>
+      <p2 x="300" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="620"/>
+      <p2 x="1040" y="620"/>
+    </wire>
+    <wire>
       <p1 x="420" y="300"/>
       <p2 x="460" y="300"/>
     </wire>
@@ -519,16 +590,20 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
       <p2 x="1140" y="300"/>
     </wire>
     <wire>
-      <p1 x="760" y="620"/>
-      <p2 x="780" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="620"/>
-      <p2 x="300" y="620"/>
+      <p1 x="1200" y="560"/>
+      <p2 x="1220" y="560"/>
     </wire>
     <wire>
       <p1 x="240" y="560"/>
       <p2 x="280" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="560"/>
+      <p2 x="1160" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="560"/>
+      <p2 x="1020" y="560"/>
     </wire>
     <wire>
       <p1 x="460" y="820"/>
@@ -616,11 +691,19 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
     </wire>
     <wire>
       <p1 x="320" y="320"/>
+      <p2 x="320" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="560"/>
       <p2 x="320" y="680"/>
     </wire>
     <wire>
       <p1 x="960" y="440"/>
       <p2 x="960" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="560"/>
+      <p2 x="1120" y="640"/>
     </wire>
     <wire>
       <p1 x="740" y="440"/>
@@ -637,6 +720,10 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
     <wire>
       <p1 x="1000" y="300"/>
       <p2 x="1000" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="520"/>
+      <p2 x="1000" y="640"/>
     </wire>
     <wire>
       <p1 x="1000" y="380"/>
@@ -711,8 +798,16 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
       <p2 x="1140" y="420"/>
     </wire>
     <wire>
+      <p1 x="1140" y="540"/>
+      <p2 x="1140" y="600"/>
+    </wire>
+    <wire>
       <p1 x="1140" y="420"/>
       <p2 x="1140" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="480"/>
+      <p2 x="1140" y="540"/>
     </wire>
     <wire>
       <p1 x="980" y="500"/>
@@ -749,6 +844,10 @@ is high. This is needed for 2&apos;s complement subtraction.</string>
     <wire>
       <p1 x="1020" y="260"/>
       <p2 x="1020" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="560"/>
+      <p2 x="1020" y="620"/>
     </wire>
     <wire>
       <p1 x="860" y="720"/>
