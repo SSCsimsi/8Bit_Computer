@@ -92,7 +92,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>STB</string>
+          <string>STA</string>
         </entry>
       </elementAttributes>
       <pos x="840" y="620"/>
@@ -148,7 +148,7 @@ F: oveflow from the subtractor
 
 STC: store carry
 STF: store overflow
-STB: store from bus
+STA: store all from bus
 
 LDC: load carry
 LDF: load overflow
