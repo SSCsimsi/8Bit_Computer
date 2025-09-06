@@ -1369,6 +1369,18 @@
       </elementAttributes>
       <pos x="2600" y="120"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>the inputs for the binary functions 
+could be tied together to save on
+8 input or gates</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2420" y="980"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
