@@ -1,0 +1,446 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "34caa7c8-e308-4440-9492-dbde03a50bdf")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 209.55 133.35)
+		(size 20.32 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42b48664-2b06-403a-a050-9f9bc3b6e26f")
+		(property "Sheetname" "BinaryXOR"
+			(at 209.55 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BinaryXOR.kicad_sch"
+			(at 209.55 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 209.55 135.89 180)
+			(uuid "9e1802dd-e371-48c2-94d6-57b400313b1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 209.55 139.7 180)
+			(uuid "c92c9043-67a8-4717-b72b-879a70ad3fbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 209.55 143.51 180)
+			(uuid "b9057b2d-0ece-4e91-9750-1601a8b9a6a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 209.55 147.32 180)
+			(uuid "db9dee36-113d-4b57-8784-a85cc64b733d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 209.55 151.13 180)
+			(uuid "d43632d4-68d0-45b0-b11e-16c70908e756")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" tri_state
+			(at 209.55 154.94 180)
+			(uuid "5e5df297-b798-4154-aa4d-f000a47d8e10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 209.55 158.75 180)
+			(uuid "d96fa53f-6592-4751-9a6a-426b19358aaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 58.42)
+		(size 20.32 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fc5fc8a-0e6e-4928-9d09-151687b7a707")
+		(property "Sheetname" "BinaryOR"
+			(at 209.55 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BinaryOR.kicad_sch"
+			(at 209.55 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 209.55 60.96 180)
+			(uuid "5da04950-9f58-4a53-b1cc-6dcc4c18a1d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 209.55 64.77 180)
+			(uuid "209310ec-dc91-4015-9ca9-660c5cfe7362")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 209.55 68.58 180)
+			(uuid "6ab3729a-4873-4826-aafa-b7f74bea4478")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 209.55 72.39 180)
+			(uuid "3098a5e2-74fa-4ead-b203-42adf8c68996")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 209.55 76.2 180)
+			(uuid "f013e3fa-bdbe-430c-aea0-e11bd9cd4785")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" tri_state
+			(at 209.55 80.01 180)
+			(uuid "68ba12e0-95a3-4629-955a-7433e3273a52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 209.55 83.82 180)
+			(uuid "77d167b2-82d9-41d6-858d-41d677ff0901")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 95.25)
+		(size 20.32 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4e2b04b-49b9-4e4a-a580-9bf351e17eac")
+		(property "Sheetname" "BinaryAND"
+			(at 209.55 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BinaryAND.kicad_sch"
+			(at 209.55 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 209.55 97.79 180)
+			(uuid "78873be7-8928-4d07-8516-1b331dd90b36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 209.55 101.6 180)
+			(uuid "5b3f5cf8-ac81-4901-bda6-da9cb5078b48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 209.55 105.41 180)
+			(uuid "68eee02b-d3fc-48aa-b617-11fdf850e9f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 209.55 109.22 180)
+			(uuid "1c6ddc99-ea1a-487e-a20f-c2b1f0c22654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 209.55 113.03 180)
+			(uuid "91cce4ae-cde9-4dea-a08d-3f4c7b10670d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" tri_state
+			(at 209.55 116.84 180)
+			(uuid "dd902eda-1706-4055-b198-a5683e06da7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 209.55 120.65 180)
+			(uuid "020c9c12-81fc-486f-a4bc-6b1f1e205422")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 209.55 20.32)
+		(size 20.32 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d272606e-a004-40e6-98cb-622025f16d2e")
+		(property "Sheetname" "BinaryNOT"
+			(at 209.55 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BinaryNOT.kicad_sch"
+			(at 209.55 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 209.55 24.13 180)
+			(uuid "48e0baec-85b1-449e-8999-5eca4c8b13a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 209.55 27.94 180)
+			(uuid "e692e0c8-6008-4984-a742-ec92644b178f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 209.55 31.75 180)
+			(uuid "b3b61199-cdbb-40a0-a8bd-b053ccfa9da3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 209.55 35.56 180)
+			(uuid "72b2fc70-72bd-4ede-9046-20da07c6a3b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" tri_state
+			(at 209.55 39.37 180)
+			(uuid "f5a86352-ae72-49ed-83ae-8381c4fad5ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 209.55 43.18 180)
+			(uuid "2073431f-c5ec-4d9e-be0a-d83f08b91bf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(page "6")
+				)
+			)
+		)
+	)
+)
