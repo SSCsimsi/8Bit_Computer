@@ -475,9 +475,33 @@
       },
       {
         "bus_width": 12,
-        "name": "CLK",
+        "name": "ABXOR[0..7]",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(109, 0, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "A[0..7]",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 248, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "B[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
+        "schematic_color": "rgb(0, 72, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "CLK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
         "schematic_color": "rgb(255, 186, 0)",
         "wire_width": 6
       },
@@ -485,15 +509,15 @@
         "bus_width": 12,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "name": "Q",
+        "name": "Q[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgb(96, 255, 0)",
         "wire_width": 6
       },
@@ -501,7 +525,7 @@
         "bus_width": 12,
         "name": "VCC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 7)",
         "wire_width": 6
       }
@@ -511,281 +535,95 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/ALU/BinaryAND/CLK": [
+      "/ALU/A0": [
+        "A[0..7]"
+      ],
+      "/ALU/A1": [
+        "A[0..7]"
+      ],
+      "/ALU/A2": [
+        "A[0..7]"
+      ],
+      "/ALU/A3": [
+        "A[0..7]"
+      ],
+      "/ALU/A4": [
+        "A[0..7]"
+      ],
+      "/ALU/A5": [
+        "A[0..7]"
+      ],
+      "/ALU/A6": [
+        "A[0..7]"
+      ],
+      "/ALU/A7": [
+        "A[0..7]"
+      ],
+      "/ALU/B0": [
+        "B[0..7]"
+      ],
+      "/ALU/B1": [
+        "B[0..7]"
+      ],
+      "/ALU/B2": [
+        "B[0..7]"
+      ],
+      "/ALU/B3": [
+        "B[0..7]"
+      ],
+      "/ALU/B4": [
+        "B[0..7]"
+      ],
+      "/ALU/B5": [
+        "B[0..7]"
+      ],
+      "/ALU/B6": [
+        "B[0..7]"
+      ],
+      "/ALU/B7": [
+        "B[0..7]"
+      ],
+      "/ALU/CLK": [
         "CLK"
       ],
-      "/ALU/BinaryAND/GND": [
+      "/ALU/GND": [
         "GND"
       ],
-      "/ALU/BinaryAND/Q": [
-        "Q"
+      "/ALU/Q0": [
+        "Q[0..7]"
       ],
-      "/ALU/BinaryAND/Q0": [
-        "Q"
+      "/ALU/Q1": [
+        "Q[0..7]"
       ],
-      "/ALU/BinaryAND/Q1": [
-        "Q"
+      "/ALU/Q2": [
+        "Q[0..7]"
       ],
-      "/ALU/BinaryAND/Q2": [
-        "Q"
+      "/ALU/Q3": [
+        "Q[0..7]"
       ],
-      "/ALU/BinaryAND/Q3": [
-        "Q"
+      "/ALU/Q4": [
+        "Q[0..7]"
       ],
-      "/ALU/BinaryAND/Q4": [
-        "Q"
+      "/ALU/Q5": [
+        "Q[0..7]"
       ],
-      "/ALU/BinaryAND/Q5": [
-        "Q"
+      "/ALU/Q6": [
+        "Q[0..7]"
       ],
-      "/ALU/BinaryAND/Q6": [
-        "Q"
+      "/ALU/Q7": [
+        "Q[0..7]"
       ],
-      "/ALU/BinaryAND/Q7": [
-        "Q"
+      "/ALU/Q[0..7]": [
+        "Q[0..7]"
       ],
-      "/ALU/BinaryAND/Q[0..7]": [
-        "Q"
-      ],
-      "/ALU/BinaryAND/VCC": [
+      "/ALU/VCC": [
         "VCC"
       ],
-      "/ALU/BinaryNOT/CLK": [
-        "CLK"
-      ],
-      "/ALU/BinaryNOT/GND": [
-        "GND"
-      ],
-      "/ALU/BinaryNOT/Q": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/Q0": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/Q1": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/Q2": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/Q3": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/Q4": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/Q5": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/Q6": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/Q7": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/Q[0..7]": [
-        "Q"
-      ],
-      "/ALU/BinaryNOT/VCC": [
-        "VCC"
-      ],
-      "/ALU/BinaryOR/CLK": [
-        "CLK"
-      ],
-      "/ALU/BinaryOR/GND": [
-        "GND"
-      ],
-      "/ALU/BinaryOR/Q": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/Q0": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/Q1": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/Q2": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/Q3": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/Q4": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/Q5": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/Q6": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/Q7": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/Q[0..7]": [
-        "Q"
-      ],
-      "/ALU/BinaryOR/VCC": [
-        "VCC"
-      ],
-      "/ALU/BinaryXOR/CLK": [
-        "CLK"
-      ],
-      "/ALU/BinaryXOR/GND": [
-        "GND"
-      ],
-      "/ALU/BinaryXOR/Q": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/Q0": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/Q1": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/Q2": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/Q3": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/Q4": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/Q5": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/Q6": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/Q7": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/Q[0..7]": [
-        "Q"
-      ],
-      "/ALU/BinaryXOR/VCC": [
-        "VCC"
-      ],
-      "Net-(IC1-2D)": [
-        "GND"
-      ],
-      "Net-(IC12-2D)": [
-        "GND"
-      ],
-      "Net-(IC16-2D)": [
-        "GND"
-      ],
-      "Net-(IC8-2D)": [
-        "GND"
-      ],
-      "unconnected-(IC1-GND-Pad12)": [
-        "GND"
-      ],
-      "unconnected-(IC1-VCC-Pad24)": [
-        "VCC"
-      ],
-      "unconnected-(IC10-GND-Pad7)": [
-        "GND"
-      ],
-      "unconnected-(IC10-VCC-Pad14)": [
-        "VCC"
-      ],
-      "unconnected-(IC11-GND-Pad7)": [
-        "GND"
-      ],
-      "unconnected-(IC11-VCC-Pad14)": [
-        "VCC"
-      ],
-      "unconnected-(IC12-GND-Pad12)": [
-        "GND"
-      ],
-      "unconnected-(IC12-VCC-Pad24)": [
-        "VCC"
-      ],
-      "unconnected-(IC13-A-Pad2)": [
-        "CLK"
-      ],
-      "unconnected-(IC13-GND-Pad3)": [
-        "GND"
-      ],
-      "unconnected-(IC13-VCC-Pad5)": [
-        "VCC"
-      ],
-      "unconnected-(IC14-GND-Pad3)": [
-        "GND"
-      ],
-      "unconnected-(IC14-VCC-Pad5)": [
-        "VCC"
-      ],
-      "unconnected-(IC15-GND-Pad7)": [
-        "GND"
-      ],
-      "unconnected-(IC15-VCC-Pad14)": [
-        "VCC"
-      ],
-      "unconnected-(IC16-GND-Pad12)": [
-        "GND"
-      ],
-      "unconnected-(IC16-VCC-Pad24)": [
-        "VCC"
-      ],
-      "unconnected-(IC2-GND-Pad7)": [
-        "GND"
-      ],
-      "unconnected-(IC2-VCC-Pad14)": [
-        "VCC"
-      ],
-      "unconnected-(IC3-A-Pad2)": [
-        "CLK"
-      ],
-      "unconnected-(IC3-GND-Pad3)": [
-        "GND"
-      ],
-      "unconnected-(IC3-VCC-Pad5)": [
-        "VCC"
-      ],
-      "unconnected-(IC4-GND-Pad7)": [
-        "GND"
-      ],
-      "unconnected-(IC4-VCC-Pad14)": [
-        "VCC"
-      ],
-      "unconnected-(IC5-A-Pad2)": [
-        "CLK"
-      ],
-      "unconnected-(IC5-GND-Pad3)": [
-        "GND"
-      ],
-      "unconnected-(IC5-VCC-Pad5)": [
-        "VCC"
-      ],
-      "unconnected-(IC6-GND-Pad7)": [
-        "GND"
-      ],
-      "unconnected-(IC6-VCC-Pad14)": [
-        "VCC"
-      ],
-      "unconnected-(IC7-GND-Pad7)": [
-        "GND"
-      ],
-      "unconnected-(IC7-VCC-Pad14)": [
-        "VCC"
-      ],
-      "unconnected-(IC8-GND-Pad12)": [
-        "GND"
-      ],
-      "unconnected-(IC8-VCC-Pad24)": [
-        "VCC"
-      ],
-      "unconnected-(IC9-A-Pad2)": [
-        "CLK"
-      ],
-      "unconnected-(IC9-GND-Pad3)": [
-        "GND"
-      ],
-      "unconnected-(IC9-VCC-Pad5)": [
-        "VCC"
+      "/ALU/{A[0..7]}": [
+        "A[0..7]"
+      ],
+      "/ALU/{B[0..7]}": [
+        "B[0..7]"
       ]
     },
     "netclass_patterns": [
@@ -794,16 +632,24 @@
         "pattern": "GND"
       },
       {
-        "netclass": "VCC",
-        "pattern": "VCC"
-      },
-      {
         "netclass": "CLK",
         "pattern": "CLK"
       },
       {
-        "netclass": "Q",
-        "pattern": "Q"
+        "netclass": "Q[0..7]",
+        "pattern": "Q[0..7]"
+      },
+      {
+        "netclass": "A[0..7]",
+        "pattern": "A[0..7]"
+      },
+      {
+        "netclass": "B[0..7]",
+        "pattern": "B[0..7]"
+      },
+      {
+        "netclass": "VCC",
+        "pattern": "VCC"
       }
     ]
   },
@@ -958,6 +804,22 @@
     [
       "d272606e-a004-40e6-98cb-622025f16d2e",
       "BinaryNOT"
+    ],
+    [
+      "f9af7a82-e6e9-4a04-97f6-105df753f851",
+      "BitwiseXOR"
+    ],
+    [
+      "458ffd8e-575c-457c-8793-c7fb121b36d4",
+      "BitwiseAND"
+    ],
+    [
+      "7571b19f-73b4-4be3-b940-f2527c84bfed",
+      "BitwiseOR"
+    ],
+    [
+      "7090cede-cd4a-4bfc-9c4d-01038a638376",
+      "BitwiseNOT"
     ]
   ],
   "text_variables": {}

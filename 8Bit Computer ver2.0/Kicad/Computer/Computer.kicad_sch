@@ -39,6 +39,46 @@
 				(justify left top)
 			)
 		)
+		(pin "CLK" input
+			(at 283.21 96.52 180)
+			(uuid "5e1d1a44-b98c-44ff-a887-92dd903fb32e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 283.21 105.41 180)
+			(uuid "7bbe02c6-3e6b-4ca8-a07a-7991fcf7ff39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q[0..7]" tri_state
+			(at 283.21 114.3 180)
+			(uuid "1d91ebd4-75db-4efc-9fdd-d0228dffb9f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 283.21 124.46 180)
+			(uuid "5b79aace-b573-4c91-a3e6-25596fcea0f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
