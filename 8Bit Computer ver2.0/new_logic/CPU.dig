@@ -380,11 +380,6 @@ the current line of code being executed</string>
       <pos x="300" y="80"/>
     </visualElement>
     <visualElement>
-      <elementName>8 to 16 bit bus width converter.dig</elementName>
-      <elementAttributes/>
-      <pos x="1160" y="980"/>
-    </visualElement>
-    <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
@@ -623,6 +618,33 @@ the current line of code being executed</string>
       <elementName>Or</elementName>
       <elementAttributes/>
       <pos x="1220" y="1340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8 to 16 bit reg.dig</elementName>
+      <elementAttributes/>
+      <pos x="1160" y="980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>str - store to ram
+ld - write to data bus
+ (output enable)</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="1400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>- Flash memory</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1280" y="380"/>
     </visualElement>
   </visualElements>
   <wires>
