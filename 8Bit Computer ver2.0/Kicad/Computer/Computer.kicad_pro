@@ -624,6 +624,9 @@
       ],
       "/ALU/{B[0..7]}": [
         "B[0..7]"
+      ],
+      "/ALU/~{CLK}": [
+        "CLK"
       ]
     },
     "netclass_patterns": [
@@ -820,6 +823,18 @@
     [
       "7090cede-cd4a-4bfc-9c4d-01038a638376",
       "BitwiseNOT"
+    ],
+    [
+      "b0d3ca8d-4ecf-45d8-adc8-29c6089265db",
+      "FlagRegister"
+    ],
+    [
+      "fd61ce55-ae0c-4c43-b2a6-25ced748995f",
+      "Incrementor"
+    ],
+    [
+      "50f55c79-2069-4dac-a92a-a304de2499f6",
+      "Comparator"
     ]
   ],
   "text_variables": {}
