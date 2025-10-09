@@ -134,6 +134,10 @@ few AND gates</string>
           <string>Label</string>
           <string>ADR</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
       </elementAttributes>
       <pos x="480" y="180"/>
     </visualElement>
@@ -338,10 +342,34 @@ few AND gates</string>
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>8</int>
+          <int>16</int>
         </entry>
       </elementAttributes>
       <pos x="1180" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Delay</elementName>
+      <elementAttributes/>
+      <pos x="520" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Delay</elementName>
+      <elementAttributes/>
+      <pos x="520" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>two subsequent load commands can&apos;t be performed,
+since the previous address stays buffered.
+not a problem, just an observation
+(since the data after a load command just persists for
+one clock pulse, the first operation would be redundant)</string>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="-100"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -518,16 +546,24 @@ few AND gates</string>
       <p2 x="900" y="680"/>
     </wire>
     <wire>
-      <p1 x="480" y="300"/>
+      <p1 x="560" y="300"/>
       <p2 x="780" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="300"/>
+      <p2 x="520" y="300"/>
     </wire>
     <wire>
       <p1 x="560" y="620"/>
       <p2 x="580" y="620"/>
     </wire>
     <wire>
-      <p1 x="480" y="240"/>
+      <p1 x="560" y="240"/>
       <p2 x="800" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="240"/>
+      <p2 x="520" y="240"/>
     </wire>
     <wire>
       <p1 x="1240" y="560"/>
