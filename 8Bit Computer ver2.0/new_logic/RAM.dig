@@ -186,7 +186,7 @@ few AND gates</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>STR_fromaddr</string>
+          <string>STR_todata</string>
         </entry>
       </elementAttributes>
       <pos x="480" y="480"/>
@@ -196,7 +196,7 @@ few AND gates</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>LD_fromaddr</string>
+          <string>LD_fromdata</string>
         </entry>
       </elementAttributes>
       <pos x="480" y="540"/>
@@ -278,7 +278,7 @@ few AND gates</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>LD_toaddr</string>
+          <string>LD_toaddrbus</string>
         </entry>
       </elementAttributes>
       <pos x="480" y="600"/>
