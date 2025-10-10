@@ -9247,6 +9247,48 @@
 		)
 	)
 	(sheet
+		(at 466.09 354.33)
+		(size 27.94 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94505ca6-4c2b-4b0f-b160-ac9607e51728")
+		(property "Sheetname" "BarrelShiftRegister"
+			(at 466.09 353.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BarrelShiftRegister.kicad_sch"
+			(at 466.09 395.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 467.36 187.96)
 		(size 24.13 55.88)
 		(exclude_from_sim no)
