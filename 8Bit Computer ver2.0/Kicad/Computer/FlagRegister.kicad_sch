@@ -5,7 +5,7 @@
 	(uuid "a4149efd-94ea-4322-aa79-d79be5d490f4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Samacsys:SN74ABT821ADWR"
+		(symbol "Samacsys:SN74ABT574ADWR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SN74ABT821ADWR"
+			(property "Value" "SN74ABT574ADWR"
 				(at 21.59 5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:SOIC127P1030X265-24N"
+			(property "Footprint" "Samacsys:SOIC127P1030X265-20N"
 				(at 21.59 -94.92 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74abt821a"
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74abt574a"
 				(at 21.59 -194.92 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "10-Bit Bus Interface Flip-Flops With 3-State Outputs"
+			(property "Description" "Texas Instruments SN74ABT574ADWR, D Type Bus Interface Flip Flop, 3-State, 4.5  5.5 V, 20-Pin SOIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-SN74ABT821ADWR"
+			(property "Mouser Part Number" "595-SN74ABT574ADWR"
 				(at 21.59 -494.92 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ABT821ADWR?qs=FM6NhYOeeBXxX%2Fnpl0SzFQ%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ABT574ADWR?qs=nMmhAzRCgdCWNOUsuPi1DA%3D%3D"
 				(at 21.59 -594.92 0)
 				(effects
 					(font
@@ -96,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SN74ABT821ADWR"
+			(property "Manufacturer_Part_Number" "SN74ABT574ADWR"
 				(at 21.59 -794.92 0)
 				(effects
 					(font
@@ -106,10 +106,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SN74ABT821ADWR_1_1"
+			(symbol "SN74ABT574ADWR_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 20.32 -30.48)
+					(end 20.32 -25.4)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -283,42 +283,6 @@
 				(pin passive line
 					(at 0 -22.86 0)
 					(length 5.08)
-					(name "9D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 0)
-					(length 5.08)
-					(name "10D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 0)
-					(length 5.08)
 					(name "GND"
 						(effects
 							(font
@@ -326,7 +290,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -344,7 +308,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -362,7 +326,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -380,7 +344,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -398,7 +362,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -416,7 +380,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -434,7 +398,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -452,7 +416,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -470,7 +434,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -488,7 +452,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -499,42 +463,6 @@
 				(pin passive line
 					(at 25.4 -22.86 180)
 					(length 5.08)
-					(name "9Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -25.4 180)
-					(length 5.08)
-					(name "10Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -27.94 180)
-					(length 5.08)
 					(name "CLK"
 						(effects
 							(font
@@ -542,7 +470,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -553,7 +481,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:SN74HCS08DR"
+		(symbol "Samacsys:SN74AHC08DR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -566,7 +494,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SN74HCS08DR"
+			(property "Value" "SN74AHC08DR"
 				(at 21.59 5.08 0)
 				(effects
 					(font
@@ -585,7 +513,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs08.pdf?ts=1620753268442&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS08"
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc08"
 				(at 21.59 -194.92 0)
 				(effects
 					(font
@@ -595,7 +523,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Logic Gates 4-ch, 2-input, 2-V to 6-V low power AND gates with Schmitt-Trigger inputs 14-SOIC -40 to 125"
+			(property "Description" "Quadruple 2-Input Positive-AND Gates"
 				(at 0 0 0)
 				(effects
 					(font
@@ -614,7 +542,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-SN74HCS08DR"
+			(property "Mouser Part Number" "595-SN74AHC08DR"
 				(at 21.59 -494.92 0)
 				(effects
 					(font
@@ -624,7 +552,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS08DR?qs=7MVldsJ5UaxBpqBusi11%2Fg%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC08DR?qs=3pnr37ZAbK%252BRKKo59Fme5A%3D%3D"
 				(at 21.59 -594.92 0)
 				(effects
 					(font
@@ -644,7 +572,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SN74HCS08DR"
+			(property "Manufacturer_Part_Number" "SN74AHC08DR"
 				(at 21.59 -794.92 0)
 				(effects
 					(font
@@ -654,7 +582,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SN74HCS08DR_1_1"
+			(symbol "SN74AHC08DR_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -17.78)
@@ -921,7 +849,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:SN74HCS32DR"
+		(symbol "Samacsys:SN74AHC32DR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -934,7 +862,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SN74HCS32DR"
+			(property "Value" "SN74AHC32DR"
 				(at 21.59 5.08 0)
 				(effects
 					(font
@@ -953,7 +881,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/SN74HCS32"
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc32"
 				(at 21.59 -194.92 0)
 				(effects
 					(font
@@ -963,7 +891,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125"
+			(property "Description" "Quadruple 2-Input Positive-OR Gates"
 				(at 0 0 0)
 				(effects
 					(font
@@ -982,7 +910,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-SN74HCS32DR"
+			(property "Mouser Part Number" "595-SN74AHC32DR"
 				(at 21.59 -494.92 0)
 				(effects
 					(font
@@ -992,7 +920,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC32DR?qs=bvpNxolhIUP1gpgKlKyYQQ%3D%3D"
 				(at 21.59 -594.92 0)
 				(effects
 					(font
@@ -1012,7 +940,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SN74HCS32DR"
+			(property "Manufacturer_Part_Number" "SN74AHC32DR"
 				(at 21.59 -794.92 0)
 				(effects
 					(font
@@ -1022,7 +950,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SN74HCS32DR_1_1"
+			(symbol "SN74AHC32DR_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -17.78)
@@ -1272,6 +1200,374 @@
 					(at 25.4 -15.24 180)
 					(length 5.08)
 					(name "3Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Samacsys:SN74AHC74DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SN74AHC74DR"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:SOIC127P600X175-14N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc74"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Positive-Edge-Triggered D-Type Flip-Flops With Clear and Preset"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-SN74AHC74DR"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC74DR?qs=st7IWvlL5%2FgP9OJq63EsFQ%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SN74AHC74DR"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC74DR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1~{CLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "1CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "1~{PRE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "1Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "1~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "2~{CLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "2D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "2CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "2~{PRE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "2Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -15.24 180)
+					(length 5.08)
+					(name "2~{Q}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1657,374 +1953,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:SN74HCS74DR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 26.67 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SN74HCS74DR"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Samacsys:SOIC127P600X175-14N"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs74.pdf?ts=1639343819655&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS74"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Flip-Flops Schmitt-trigger input dual D-type positive-edge-triggered flip-flops w/ clear and preset 14-SOIC -40 to 125"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.75"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-SN74HCS74DR"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS74DR?qs=TiOZkKH1s2QvGxo75w4r5Q%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SN74HCS74DR"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SN74HCS74DR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1~{CLR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "1D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "1CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "1~{PRE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "1Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "1~{Q}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "2~{CLR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "2D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -7.62 180)
-					(length 5.08)
-					(name "2CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -10.16 180)
-					(length 5.08)
-					(name "2~{PRE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -12.7 180)
-					(length 5.08)
-					(name "2Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -15.24 180)
-					(length 5.08)
-					(name "2~{Q}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Samacsys:SN74LVC1G14DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2233,106 +2161,86 @@
 		)
 	)
 	(junction
-		(at 213.36 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14065c14-faa6-43aa-a9e7-0c9f98b66759")
-	)
-	(junction
-		(at 120.65 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36e2414e-4057-4023-b90b-7c5e9714675e")
-	)
-	(junction
 		(at 213.36 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d9c3ee1-b862-48a3-9e67-d433a55fe58f")
-	)
-	(junction
-		(at 120.65 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67027763-9d6c-40c9-8185-ecbe8648977e")
-	)
-	(junction
-		(at 229.87 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "671dab97-667e-42e4-b701-12abce640c03")
-	)
-	(junction
-		(at 229.87 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ff36d36-5b67-4bed-8573-f450db4d9108")
-	)
-	(junction
-		(at 229.87 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79697553-b951-454b-aef6-e49184e9851c")
-	)
-	(junction
-		(at 229.87 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d1878a4-2ec9-4e3f-a1c9-67db313cc79b")
-	)
-	(junction
-		(at 229.87 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a842847b-51e0-4f62-8072-42af07c0d53c")
-	)
-	(junction
-		(at 213.36 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6449a85-fc55-4a06-b0e0-99c9c58564e8")
-	)
-	(junction
-		(at 120.65 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb8ddf61-0572-4398-b5b2-c88b51a479e8")
-	)
-	(junction
-		(at 213.36 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1d81769-cc04-430e-8ae9-85d0fd235dba")
-	)
-	(junction
-		(at 120.65 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c94f8578-f36c-44ac-85ef-f7db07abf3bf")
+		(uuid "051fabe0-b3e6-4184-b8f7-58f3a16d248f")
 	)
 	(junction
 		(at 229.87 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df9b2e47-9054-4d8f-a87a-62517aace149")
+		(uuid "18859141-5ddc-4fc3-a279-7da287094c87")
+	)
+	(junction
+		(at 213.36 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2095923e-0504-4b0d-a2c2-de46fe2db69a")
+	)
+	(junction
+		(at 120.65 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3463a545-f8ce-4a7f-88e2-b4a54a5b8a76")
+	)
+	(junction
+		(at 213.36 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dc30aa8-d612-48f1-bef7-a0c02f3e797c")
+	)
+	(junction
+		(at 213.36 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61291bbd-e70e-498f-89cd-4faa03c2fb5c")
+	)
+	(junction
+		(at 120.65 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69fcfc07-5684-43c2-9a27-95e9fff3cdb9")
+	)
+	(junction
+		(at 120.65 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70099c81-5334-431c-a7ce-e4409da7b5cf")
 	)
 	(junction
 		(at 229.87 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e8a7a699-754b-428b-a6a6-4ce97a9eaec0")
+		(uuid "83ff9c8e-154d-4570-afe6-fcc813e6f1c4")
+	)
+	(junction
+		(at 229.87 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a167dfd7-6409-41ac-acfd-bac7152c0862")
+	)
+	(junction
+		(at 229.87 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb03683d-1563-478d-997f-86a5bf9f93de")
+	)
+	(junction
+		(at 120.65 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "becbce40-e830-45f7-bee7-33970c9facd3")
+	)
+	(junction
+		(at 229.87 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d42f1c06-366f-487e-8719-0eb209532823")
 	)
 	(no_connect
 		(at 121.92 48.26)
 		(uuid "1537deb8-0fef-4595-b634-99226461dc2a")
-	)
-	(no_connect
-		(at 255.27 99.06)
-		(uuid "3901ee57-5cfe-45ee-9d75-5aa4adb0bd89")
-	)
-	(no_connect
-		(at 255.27 96.52)
-		(uuid "46eb8027-f29b-4cb9-bc91-3e9f131fee77")
 	)
 	(no_connect
 		(at 213.36 54.61)
@@ -2586,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 49.53) (xy 213.36 52.07)
+			(xy 213.36 46.99) (xy 213.36 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2663,16 +2571,6 @@
 			(type default)
 		)
 		(uuid "18faf4ec-1e62-4003-b672-bcf0e9b2d155")
-	)
-	(wire
-		(pts
-			(xy 229.87 86.36) (xy 229.87 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191cb608-74d3-48f7-be22-1349f536614e")
 	)
 	(wire
 		(pts
@@ -2773,6 +2671,16 @@
 			(type default)
 		)
 		(uuid "26d40725-f209-4ad3-a1e7-37353708caf2")
+	)
+	(wire
+		(pts
+			(xy 229.87 83.82) (xy 229.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bce9e1-56ea-4ac7-90e9-764176e39fa3")
 	)
 	(wire
 		(pts
@@ -2886,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 88.9) (xy 229.87 91.44)
+			(xy 229.87 81.28) (xy 229.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2903,6 +2811,16 @@
 			(type default)
 		)
 		(uuid "3b622d11-82da-4bb1-b696-c5c54b6e875c")
+	)
+	(wire
+		(pts
+			(xy 229.87 88.9) (xy 229.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce22633-6ef2-44a4-8412-09444e90baa2")
 	)
 	(wire
 		(pts
@@ -2983,6 +2901,16 @@
 			(type default)
 		)
 		(uuid "44a08c4f-c614-4a24-b7f1-a16a2ed775ad")
+	)
+	(wire
+		(pts
+			(xy 229.87 86.36) (xy 229.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45407d8e-dd15-4dad-8db2-43e8e9fcf500")
 	)
 	(wire
 		(pts
@@ -3206,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 67.31) (xy 120.65 69.85)
+			(xy 120.65 64.77) (xy 120.65 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3357,7 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 101.6) (xy 257.81 101.6)
+			(xy 255.27 96.52) (xy 257.81 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3375,6 +3303,16 @@
 			(color 121 255 176 1)
 		)
 		(uuid "87ee5945-795a-483f-bf2d-c355bb17ceec")
+	)
+	(wire
+		(pts
+			(xy 120.65 67.31) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a36554e-e070-496d-b4dd-97a481f06d2a")
 	)
 	(wire
 		(pts
@@ -3408,6 +3346,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 91.44) (xy 229.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9318fd47-eb1f-43d7-ab0b-9d685ca819e3")
+	)
+	(wire
+		(pts
 			(xy 121.92 35.56) (xy 119.38 35.56)
 		)
 		(stroke
@@ -3418,6 +3366,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 49.53) (xy 213.36 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9901d542-9905-49a3-9dcb-d8655a185c0a")
+	)
+	(wire
+		(pts
 			(xy 182.88 132.08) (xy 185.42 132.08)
 		)
 		(stroke
@@ -3425,16 +3383,6 @@
 			(type default)
 		)
 		(uuid "9bee9aca-3f65-41e2-9739-88980066eb1d")
-	)
-	(wire
-		(pts
-			(xy 229.87 93.98) (xy 229.87 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f15397f-1b5d-4742-a480-20692550acbb")
 	)
 	(wire
 		(pts
@@ -3475,16 +3423,6 @@
 			(type default)
 		)
 		(uuid "a473de21-85d3-4ce7-8219-6d53e61a2afe")
-	)
-	(wire
-		(pts
-			(xy 229.87 83.82) (xy 229.87 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6653b43-2ac0-498e-8476-0a91b8a512c2")
 	)
 	(wire
 		(pts
@@ -3649,7 +3587,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 101.6) (xy 229.87 101.6)
+			(xy 227.33 96.52) (xy 229.87 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3852,16 +3790,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 96.52) (xy 229.87 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c8dbfb-b875-4a65-a899-da9cb7cf8a2d")
-	)
-	(wire
-		(pts
 			(xy 168.91 48.26) (xy 152.4 48.26)
 		)
 		(stroke
@@ -3954,16 +3882,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 64.77) (xy 120.65 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dda9abc5-4c1a-425c-9158-669f95b9871c")
-	)
-	(wire
-		(pts
 			(xy 121.92 43.18) (xy 119.38 43.18)
 		)
 		(stroke
@@ -4004,26 +3922,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 81.28) (xy 229.87 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e275732f-31f7-44cf-91fc-1ed261ce7901")
-	)
-	(wire
-		(pts
-			(xy 229.87 91.44) (xy 229.87 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4a615a3-7629-4ea6-83a3-2482ab43d043")
-	)
-	(wire
-		(pts
 			(xy 255.27 78.74) (xy 262.89 78.74)
 		)
 		(stroke
@@ -4031,16 +3929,6 @@
 			(type default)
 		)
 		(uuid "e548df98-60ec-4737-a7cb-991d1e249907")
-	)
-	(wire
-		(pts
-			(xy 213.36 46.99) (xy 213.36 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea312d16-f15e-4ab6-970d-e890bf4e12c8")
 	)
 	(wire
 		(pts
@@ -4246,7 +4134,7 @@
 		(uuid "082d0282-b5f2-4519-94ff-cd5454bfe551")
 	)
 	(label "GND"
-		(at 227.33 101.6 180)
+		(at 227.33 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4776,7 +4664,7 @@
 		(uuid "9db11e92-aea1-4aee-af0e-00a5796755fc")
 	)
 	(label "CLK"
-		(at 257.81 101.6 0)
+		(at 257.81 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5290,25 +5178,25 @@
 		(uuid "f0dd2183-ed04-4260-98aa-b9ba604efea3")
 	)
 	(symbol
-		(lib_id "Samacsys:SN74HCS74DR")
-		(at 152.4 99.06 0)
+		(lib_id "Samacsys:SN74AHC74DR")
+		(at 121.92 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42a45384-469b-4b0d-9527-67029c7d8393")
-		(property "Reference" "IC48"
-			(at 167.64 91.44 0)
+		(uuid "04811483-a695-4b44-9ff5-29803858f354")
+		(property "Reference" "IC27"
+			(at 137.16 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SN74HCS74DR"
-			(at 167.64 93.98 0)
+		(property "Value" "SN74AHC74DR"
+			(at 137.16 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5204,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
-			(at 179.07 193.98 0)
+			(at 148.59 130.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,8 +5213,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs74.pdf?ts=1639343819655&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS74"
-			(at 179.07 293.98 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc74"
+			(at 148.59 230.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,8 +5223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Flip-Flops Schmitt-trigger input dual D-type positive-edge-triggered flip-flops w/ clear and preset 14-SOIC -40 to 125"
-			(at 152.4 99.06 0)
+		(property "Description" "Dual Positive-Edge-Triggered D-Type Flip-Flops With Clear and Preset"
+			(at 121.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5233,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 179.07 493.98 0)
+			(at 148.59 430.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,8 +5242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-SN74HCS74DR"
-			(at 179.07 593.98 0)
+		(property "Mouser Part Number" "595-SN74AHC74DR"
+			(at 148.59 530.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,8 +5252,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS74DR?qs=TiOZkKH1s2QvGxo75w4r5Q%3D%3D"
-			(at 179.07 693.98 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC74DR?qs=st7IWvlL5%2FgP9OJq63EsFQ%3D%3D"
+			(at 148.59 630.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5263,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 179.07 793.98 0)
+			(at 148.59 730.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,8 +5272,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SN74HCS74DR"
-			(at 179.07 893.98 0)
+		(property "Manufacturer_Part_Number" "SN74AHC74DR"
+			(at 148.59 830.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,372 +5281,60 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f6a18de6-b919-4c81-b492-1fc781852f55")
-		)
-		(pin "8"
-			(uuid "46b08771-ea99-4174-9ebb-d19417620ed5")
-		)
-		(pin "3"
-			(uuid "5bcefd11-516f-4722-900c-1e9e66135943")
-		)
-		(pin "4"
-			(uuid "ebd36c35-bff4-4c6e-9a43-2e1459e6940d")
-		)
-		(pin "5"
-			(uuid "3e18bdcc-18c2-4bbd-8112-a6fe419905fd")
 		)
 		(pin "6"
-			(uuid "cf145a12-21f2-4ace-9239-15188a23cd70")
-		)
-		(pin "7"
-			(uuid "65b560a2-2ffc-4e25-9da2-090dcd24459a")
-		)
-		(pin "14"
-			(uuid "09ae638d-2217-4e84-b892-ba1649c046dd")
-		)
-		(pin "11"
-			(uuid "4ecd4589-7298-4103-8bc2-5db2b54273d2")
-		)
-		(pin "13"
-			(uuid "d4b3f90c-bb0f-4a5c-b664-29cac15eb07a")
-		)
-		(pin "10"
-			(uuid "808494c5-7707-4f9a-afae-57a59eadacc8")
-		)
-		(pin "12"
-			(uuid "c40faf3c-1c28-45af-adef-f73deaac55bf")
-		)
-		(pin "9"
-			(uuid "330d5b6c-c1ed-4c6a-9802-f1e64f1dc9ac")
-		)
-		(pin "2"
-			(uuid "bed8c12a-c216-4cd1-ba05-a2c25799d468")
-		)
-		(instances
-			(project "Computer"
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
-					(reference "IC48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:SN74HCS32DR")
-		(at 66.04 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "462a6333-245e-40e7-bc86-5867baf6347b")
-		(property "Reference" "IC15"
-			(at 78.74 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74HCS32DR"
-			(at 78.74 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
-			(at 87.63 126.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/SN74HCS32"
-			(at 87.63 226.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125"
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 87.63 426.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74HCS32DR"
-			(at 87.63 526.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D"
-			(at 87.63 626.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 87.63 726.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74HCS32DR"
-			(at 87.63 826.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a9b78e0-0256-48b0-b9b0-1c18585abc83")
-		)
-		(pin "6"
-			(uuid "da01cc36-c252-44db-96f8-d8030441e855")
-		)
-		(pin "14"
-			(uuid "5360c0a2-ed87-43a1-90fb-8a46e342a967")
-		)
-		(pin "12"
-			(uuid "51e502e2-31dc-4f2d-a449-b61c7d52a339")
-		)
-		(pin "10"
-			(uuid "9a7fbea3-24ca-41f5-bcee-851c1b2beb68")
-		)
-		(pin "8"
-			(uuid "e1bbec02-d2f9-4fe3-97f3-57ec249bd52c")
-		)
-		(pin "4"
-			(uuid "da976f7f-d1c4-4ddf-8c2d-6e124e44c0a2")
-		)
-		(pin "7"
-			(uuid "3b0d4081-82db-4ce5-b13d-8d1f0c8a596a")
-		)
-		(pin "13"
-			(uuid "8dc7cfad-c627-4899-8d1a-81fda4c517eb")
-		)
-		(pin "2"
-			(uuid "52595a13-d12c-492d-8663-6e8a3e612cec")
+			(uuid "89307016-9785-4fed-89c0-9cdfabe24e7e")
 		)
 		(pin "3"
-			(uuid "4959102c-a81f-4d0d-a3e7-289099590549")
+			(uuid "9782e029-7a32-4dcf-b8c3-dd9b41d2eeda")
+		)
+		(pin "4"
+			(uuid "0ec8d1ec-ec90-4b72-b4ca-3b6a378a2edf")
+		)
+		(pin "13"
+			(uuid "b1af3a46-de10-486e-9143-bf977771713e")
+		)
+		(pin "10"
+			(uuid "0d73da36-6802-4409-a9bc-edab1c0fd77e")
+		)
+		(pin "2"
+			(uuid "eb848002-9d89-4160-a10a-5186c0e10e7d")
 		)
 		(pin "5"
-			(uuid "a89a0887-fd61-4a77-b409-207cc04fdfa1")
+			(uuid "71c9d159-5429-437d-b6a6-322bae675864")
+		)
+		(pin "14"
+			(uuid "e34da572-a223-443e-8aa6-8ae9ace95047")
+		)
+		(pin "7"
+			(uuid "17857de5-f4a0-43bb-92d8-916779050f44")
+		)
+		(pin "1"
+			(uuid "3a299d39-7f8f-4467-ad47-10dac470f272")
+		)
+		(pin "12"
+			(uuid "72173a13-51d0-4434-943c-a2c2b3d965a7")
 		)
 		(pin "11"
-			(uuid "03535650-77b5-4928-9a76-a753aa6e22a9")
+			(uuid "fcf57469-da97-484b-9524-bef4a8e01e9d")
 		)
 		(pin "9"
-			(uuid "4b658570-d39e-4dd6-8f60-8a01f23a1ff5")
+			(uuid "d9b8d538-f929-4359-a4cc-2cb5ffdd1536")
+		)
+		(pin "8"
+			(uuid "3b05c5f0-8de6-4daa-80d7-a72cb7124daf")
 		)
 		(instances
 			(project ""
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
-					(reference "IC15")
+					(reference "IC27")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:SN74HCS08DR")
-		(at 95.25 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b35a791-4be6-465a-83f4-9b80e948a192")
-		(property "Reference" "IC42"
-			(at 107.95 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74HCS08DR"
-			(at 107.95 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
-			(at 116.84 159.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs08.pdf?ts=1620753268442&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS08"
-			(at 116.84 259.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Logic Gates 4-ch, 2-input, 2-V to 6-V low power AND gates with Schmitt-Trigger inputs 14-SOIC -40 to 125"
-			(at 95.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 116.84 459.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74HCS08DR"
-			(at 116.84 559.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS08DR?qs=7MVldsJ5UaxBpqBusi11%2Fg%3D%3D"
-			(at 116.84 659.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 116.84 759.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74HCS08DR"
-			(at 116.84 859.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "de61c2fd-6ace-44a9-8fc8-67f20048e229")
-		)
-		(pin "13"
-			(uuid "e4d00afe-695d-44e1-8f2e-9a5460b36d82")
-		)
-		(pin "1"
-			(uuid "b7911c88-9e5f-4062-b483-d45e7732420c")
-		)
-		(pin "5"
-			(uuid "2034a1d8-8004-47e8-a492-b1d73ebcf875")
-		)
-		(pin "2"
-			(uuid "ee5508d5-4d4c-4d57-906b-77c71dd99488")
-		)
-		(pin "3"
-			(uuid "e421f591-d9cd-43bf-acba-d088d8e32d8b")
-		)
-		(pin "4"
-			(uuid "3510c485-ad48-4096-82e4-813ef4eb9bad")
-		)
-		(pin "6"
-			(uuid "2ab3c327-0f8d-4fa7-bf8b-39de1b2c5195")
-		)
-		(pin "14"
-			(uuid "b87a3cf1-b598-4c06-836d-df1f3fe8febf")
-		)
-		(pin "12"
-			(uuid "76cdad18-4f08-44fd-9c9b-ae7a13f1d59a")
-		)
-		(pin "11"
-			(uuid "d8dcdb0f-7e87-412e-a179-599ea5a53afe")
-		)
-		(pin "10"
-			(uuid "b744bc18-3773-487f-96f6-f56f2c1068d0")
-		)
-		(pin "9"
-			(uuid "c4b32d15-aaae-46ce-ac92-f27fa4af3596")
-		)
-		(pin "8"
-			(uuid "bf00a659-1c28-42bb-a3e7-09881908d70d")
-		)
-		(instances
-			(project ""
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
-					(reference "IC42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:SN74ABT821ADWR")
+		(lib_id "Samacsys:SN74ABT574ADWR")
 		(at 229.87 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5766,8 +5342,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "762efbac-6460-4e91-862a-b038ff874d34")
-		(property "Reference" "IC16"
+		(uuid "072f151c-0a6b-4567-a613-12eb48de7ace")
+		(property "Reference" "IC37"
 			(at 242.57 66.04 0)
 			(effects
 				(font
@@ -5775,7 +5351,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74ABT821ADWR"
+		(property "Value" "SN74ABT574ADWR"
 			(at 242.57 68.58 0)
 			(effects
 				(font
@@ -5783,7 +5359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOIC127P1030X265-24N"
+		(property "Footprint" "Samacsys:SOIC127P1030X265-20N"
 			(at 251.46 168.58 0)
 			(effects
 				(font
@@ -5793,7 +5369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74abt821a"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74abt574a"
 			(at 251.46 268.58 0)
 			(effects
 				(font
@@ -5803,7 +5379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10-Bit Bus Interface Flip-Flops With 3-State Outputs"
+		(property "Description" "Texas Instruments SN74ABT574ADWR, D Type Bus Interface Flip Flop, 3-State, 4.5  5.5 V, 20-Pin SOIC"
 			(at 229.87 73.66 0)
 			(effects
 				(font
@@ -5822,7 +5398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-SN74ABT821ADWR"
+		(property "Mouser Part Number" "595-SN74ABT574ADWR"
 			(at 251.46 568.58 0)
 			(effects
 				(font
@@ -5832,7 +5408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ABT821ADWR?qs=FM6NhYOeeBXxX%2Fnpl0SzFQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ABT574ADWR?qs=nMmhAzRCgdCWNOUsuPi1DA%3D%3D"
 			(at 251.46 668.58 0)
 			(effects
 				(font
@@ -5852,7 +5428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SN74ABT821ADWR"
+		(property "Manufacturer_Part_Number" "SN74ABT574ADWR"
 			(at 251.46 868.58 0)
 			(effects
 				(font
@@ -5862,82 +5438,850 @@
 				(hide yes)
 			)
 		)
-		(pin "24"
-			(uuid "fb941f77-ea76-4300-9561-32332dbadf38")
+		(pin "4"
+			(uuid "35586846-76f7-47f0-b896-7f353c7ccc3c")
 		)
 		(pin "1"
-			(uuid "4624978a-71ea-41e7-a258-5e09b064c558")
-		)
-		(pin "6"
-			(uuid "b5d88769-d725-4077-9654-759c6d3b5ca6")
-		)
-		(pin "11"
-			(uuid "003595a3-cfd1-4749-af86-591ad27901e4")
-		)
-		(pin "3"
-			(uuid "20071e13-0483-48ac-9784-e3445fc2d09f")
-		)
-		(pin "21"
-			(uuid "327b1156-cede-4a02-9182-56d9869d08f9")
-		)
-		(pin "19"
-			(uuid "106d0bef-0730-41fb-a82d-3a763b8fc26d")
-		)
-		(pin "10"
-			(uuid "ac97fab9-3e37-480f-8ff9-cdf4dd087617")
-		)
-		(pin "18"
-			(uuid "0ff81a94-476c-40fc-8d73-f18767cadfe7")
-		)
-		(pin "12"
-			(uuid "7a164421-a09d-40d6-97de-92f6f9191619")
-		)
-		(pin "5"
-			(uuid "6a32b07c-0579-457b-b3df-1b647a46a8f9")
-		)
-		(pin "8"
-			(uuid "b3191ea4-d224-4908-8192-f7ae34efef5d")
-		)
-		(pin "22"
-			(uuid "a21835f3-03be-44df-82cc-4de4b97b4ee5")
-		)
-		(pin "17"
-			(uuid "41f2e4a1-01c6-4b49-b5a7-d45fca1a82c4")
-		)
-		(pin "20"
-			(uuid "a5733965-7ef6-4c69-a38c-aaff58938f00")
+			(uuid "cc077697-459f-4c5d-b18a-057ebe49b86c")
 		)
 		(pin "2"
-			(uuid "df72e5a2-1b95-4efc-b50d-df39ec752eb5")
+			(uuid "5eb36f86-9f60-4483-8bc5-c8f94a518a22")
 		)
-		(pin "4"
-			(uuid "0373a46f-965f-49fb-9987-9629cf2561bc")
-		)
-		(pin "9"
-			(uuid "e7de847d-e15d-4928-9d74-22f9568b0a8c")
-		)
-		(pin "7"
-			(uuid "bea4ae0e-4ac5-4aea-8172-407f32558f37")
-		)
-		(pin "23"
-			(uuid "becc0f03-2303-4be2-a571-19a4e05289bf")
+		(pin "3"
+			(uuid "32637ced-6abe-40c2-b5be-b8110a59e23d")
 		)
 		(pin "14"
-			(uuid "e87131ff-07b2-43c5-88c9-ded74e7fc2eb")
+			(uuid "6286bbba-83dd-4ceb-aa8e-0307feb26615")
+		)
+		(pin "7"
+			(uuid "004f2230-6cf8-48a1-8b2a-3fc4bea30a66")
+		)
+		(pin "8"
+			(uuid "15095fe0-8915-47ad-a052-1a05af1b0033")
+		)
+		(pin "19"
+			(uuid "8f5aeab2-8179-44a8-977f-6c79aac04519")
+		)
+		(pin "18"
+			(uuid "53594eed-3181-4bd6-847d-1643127824b1")
+		)
+		(pin "6"
+			(uuid "79555549-116a-4b37-a578-805a3c132768")
+		)
+		(pin "10"
+			(uuid "74f48289-d096-47f5-885e-9b6e9cafb2c3")
+		)
+		(pin "20"
+			(uuid "22c02fb0-959d-4181-a958-e1daddd2f004")
 		)
 		(pin "16"
-			(uuid "87299c61-d058-45d8-a31c-45ecb5077c2b")
+			(uuid "797b90e0-123f-4138-bc32-83f83626324f")
 		)
-		(pin "15"
-			(uuid "fc46bed0-8c21-4d1c-9372-de436692e7e5")
+		(pin "9"
+			(uuid "f45fd1be-559a-4559-8f44-209ede128214")
 		)
 		(pin "13"
-			(uuid "442dc786-68d9-4c6b-a129-716cd9a7cfb5")
+			(uuid "e6e5650d-093f-412e-9b64-d131d155f51e")
+		)
+		(pin "15"
+			(uuid "acb03d38-70a8-4468-b634-81046c767286")
+		)
+		(pin "12"
+			(uuid "424781c8-60c3-4271-94c0-26b790eb324c")
+		)
+		(pin "11"
+			(uuid "7b85f1e6-dd31-4568-b3b9-8ddf1d116015")
+		)
+		(pin "5"
+			(uuid "270d9683-8e0d-4029-9817-3ed13c8fd0ff")
+		)
+		(pin "17"
+			(uuid "ee1e3648-c549-454b-b762-e00f1d6c5d1b")
+		)
+		(instances
+			(project ""
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
+					(reference "IC37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:SN74AHC74DR")
+		(at 152.4 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5275e6-7de1-4c8e-b065-f0a804e813d0")
+		(property "Reference" "IC36"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC74DR"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
+			(at 179.07 193.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc74"
+			(at 179.07 293.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Positive-Edge-Triggered D-Type Flip-Flops With Clear and Preset"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 179.07 493.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC74DR"
+			(at 179.07 593.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC74DR?qs=st7IWvlL5%2FgP9OJq63EsFQ%3D%3D"
+			(at 179.07 693.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 179.07 793.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC74DR"
+			(at 179.07 893.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "59b0740a-feb6-4b0c-b7be-8eab03549b0b")
+		)
+		(pin "3"
+			(uuid "560e9e26-7e03-468f-8337-d3e5bb5c35ff")
+		)
+		(pin "4"
+			(uuid "ae7fa33a-cc5b-492f-90dd-dc2798394412")
+		)
+		(pin "13"
+			(uuid "fe605c04-cc5f-40f3-baa3-5d4529f1191c")
+		)
+		(pin "10"
+			(uuid "60ba2ac1-da0e-463c-9b9e-1618410a1729")
+		)
+		(pin "2"
+			(uuid "da50e332-fcb9-45bb-8665-62bb75a659f3")
+		)
+		(pin "5"
+			(uuid "c583caa9-8e7b-45c9-abf6-06901608ab34")
+		)
+		(pin "14"
+			(uuid "db6f56fa-960b-4c57-be56-c6f7ba57ed70")
+		)
+		(pin "7"
+			(uuid "93e2b779-7dbc-46e1-9f78-789443ec815b")
+		)
+		(pin "1"
+			(uuid "8ba843a9-9a22-4802-a606-dc4767fa7b37")
+		)
+		(pin "12"
+			(uuid "9085964c-a5cc-47a2-9976-d442915864b4")
+		)
+		(pin "11"
+			(uuid "3d6430e7-b4d9-4958-a112-68c6d55701ea")
+		)
+		(pin "9"
+			(uuid "f8f02206-90f0-4e5a-b85b-84f7b7cc05ea")
+		)
+		(pin "8"
+			(uuid "fbaeba24-4506-4472-9e61-c89a2500e440")
 		)
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
-					(reference "IC16")
+					(reference "IC36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:SN74AHC08DR")
+		(at 95.25 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ccee4c9-5c97-4abb-8d6a-da4e0710e9fb")
+		(property "Reference" "IC15"
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC08DR"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
+			(at 116.84 159.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc08"
+			(at 116.84 259.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple 2-Input Positive-AND Gates"
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 116.84 459.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC08DR"
+			(at 116.84 559.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC08DR?qs=3pnr37ZAbK%252BRKKo59Fme5A%3D%3D"
+			(at 116.84 659.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 116.84 759.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC08DR"
+			(at 116.84 859.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f12e947-d034-49a7-8a0f-1fae34f17e3d")
+		)
+		(pin "2"
+			(uuid "c25bf75d-4219-4423-99ab-e44d478d567d")
+		)
+		(pin "4"
+			(uuid "c8c1252c-8d5a-42a5-ad7d-4d192d6fcd42")
+		)
+		(pin "6"
+			(uuid "de73867a-8fef-4539-bb24-a2426cea7143")
+		)
+		(pin "14"
+			(uuid "c91b9413-92f0-45a0-ac3e-370bcc42b256")
+		)
+		(pin "12"
+			(uuid "34b4b235-0304-419e-af90-04ba0250564c")
+		)
+		(pin "7"
+			(uuid "0ae478ee-a1ce-4311-bb4f-a541a75a1a23")
+		)
+		(pin "11"
+			(uuid "573cd432-75c0-4f08-b6d5-488d1ebefbaf")
+		)
+		(pin "3"
+			(uuid "5259f41d-cdda-40fa-a5c2-56884d8b0272")
+		)
+		(pin "13"
+			(uuid "e3287c46-af75-453f-8648-02e57e1b9c17")
+		)
+		(pin "10"
+			(uuid "a9f9a608-b0f9-434d-b4e9-fc33aa587b18")
+		)
+		(pin "5"
+			(uuid "6e6a1304-c679-4230-a231-d4d7c6026b9a")
+		)
+		(pin "9"
+			(uuid "63441470-dec8-44f6-a0b7-8c14391f0752")
+		)
+		(pin "8"
+			(uuid "7595193b-b8f8-4700-993c-65ef99af98e6")
+		)
+		(instances
+			(project ""
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
+					(reference "IC15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:SN74AHC32DR")
+		(at 66.04 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bb24a07-afc9-49b3-a92e-4b05561a2da2")
+		(property "Reference" "IC4"
+			(at 78.74 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC32DR"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
+			(at 87.63 126.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc32"
+			(at 87.63 226.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 87.63 426.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC32DR"
+			(at 87.63 526.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC32DR?qs=bvpNxolhIUP1gpgKlKyYQQ%3D%3D"
+			(at 87.63 626.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 87.63 726.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC32DR"
+			(at 87.63 826.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "6580546e-9b01-4082-a1bf-4bc93ce8ea58")
+		)
+		(pin "4"
+			(uuid "de172ae4-fbfa-4768-810a-c196165f561c")
+		)
+		(pin "5"
+			(uuid "e9dfa7c4-2179-4c6e-9ea8-ea61735dba3b")
+		)
+		(pin "10"
+			(uuid "9ba8112a-d1e1-4635-9ba5-5f3080bd647c")
+		)
+		(pin "1"
+			(uuid "9a2761ad-9c7f-48c3-b41f-d46faa7fc7b0")
+		)
+		(pin "2"
+			(uuid "960f3100-4da2-423e-b7b5-32688b6d5021")
+		)
+		(pin "3"
+			(uuid "9bc5bda4-bc04-450b-89ea-cfe56a9395d9")
+		)
+		(pin "12"
+			(uuid "a28a2b45-963a-4ce1-a94a-147044ac9be2")
+		)
+		(pin "11"
+			(uuid "c646c40b-399d-40c4-91dc-c02a063be8ac")
+		)
+		(pin "6"
+			(uuid "f9eae7c1-7ca5-4a75-a3bb-3324f83559c5")
+		)
+		(pin "7"
+			(uuid "bea8518b-17e3-4516-a30a-9b1c3dcab18d")
+		)
+		(pin "13"
+			(uuid "bd74cd09-8f88-429b-b7c6-c60a5ac3bfe5")
+		)
+		(pin "8"
+			(uuid "52924cfb-b99d-430b-b5c1-24e76c8be148")
+		)
+		(pin "9"
+			(uuid "3aa8a82f-b95a-4ca3-9027-0458a3cca85c")
+		)
+		(instances
+			(project ""
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:SN74AHC74DR")
+		(at 152.4 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e535e20-d36d-46e0-a657-c7ca9cf5f51f")
+		(property "Reference" "IC32"
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC74DR"
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
+			(at 179.07 224.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc74"
+			(at 179.07 324.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Positive-Edge-Triggered D-Type Flip-Flops With Clear and Preset"
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 179.07 524.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC74DR"
+			(at 179.07 624.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC74DR?qs=st7IWvlL5%2FgP9OJq63EsFQ%3D%3D"
+			(at 179.07 724.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 179.07 824.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC74DR"
+			(at 179.07 924.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f22b668c-c4b9-4dbf-a9ed-93a11e005d17")
+		)
+		(pin "3"
+			(uuid "c6d6cc2b-15b9-47f0-86b5-a406c23de71d")
+		)
+		(pin "4"
+			(uuid "086889d2-12b6-464b-80df-b31ad817231a")
+		)
+		(pin "13"
+			(uuid "24b30356-ccc0-4f60-bc31-02c0ba9873b1")
+		)
+		(pin "10"
+			(uuid "8fcc916e-9578-4bef-9a1b-102827e32098")
+		)
+		(pin "2"
+			(uuid "1cf433c8-2da3-4b09-87e0-751145dea917")
+		)
+		(pin "5"
+			(uuid "e8e43e60-d7f6-4e78-97bb-8ca44c199b5e")
+		)
+		(pin "14"
+			(uuid "9e1e2ec9-a26b-481e-b7c9-6921ea826db8")
+		)
+		(pin "7"
+			(uuid "f87ee92b-4992-4182-962f-72d4dc8d604d")
+		)
+		(pin "1"
+			(uuid "75d807d7-3588-4f1f-b0d1-3e5cab34d0a9")
+		)
+		(pin "12"
+			(uuid "10bcddb9-b0b9-40c8-a5cf-8541f3e254e3")
+		)
+		(pin "11"
+			(uuid "fc00f526-b703-4831-85f8-234daf78448d")
+		)
+		(pin "9"
+			(uuid "714ca08e-7c8d-4bea-a95d-459043d05aaf")
+		)
+		(pin "8"
+			(uuid "49890117-1476-4898-beb3-f388835bd6ac")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
+					(reference "IC32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:SN74AHC08DR")
+		(at 187.96 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b794372-5e5e-4a1b-bc3f-044d32134669")
+		(property "Reference" "IC31"
+			(at 200.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC08DR"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
+			(at 209.55 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc08"
+			(at 209.55 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple 2-Input Positive-AND Gates"
+			(at 187.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 209.55 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC08DR"
+			(at 209.55 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC08DR?qs=3pnr37ZAbK%252BRKKo59Fme5A%3D%3D"
+			(at 209.55 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 209.55 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC08DR"
+			(at 209.55 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a86a01a0-ab5a-4183-b81f-3ab1408bea09")
+		)
+		(pin "2"
+			(uuid "da7c3495-17d8-4c99-a60c-e08ef4e25142")
+		)
+		(pin "4"
+			(uuid "2e510316-fde7-49cf-9fdc-194664b2d18c")
+		)
+		(pin "6"
+			(uuid "e1933733-c2c9-48e3-a707-88ac02fd6629")
+		)
+		(pin "14"
+			(uuid "e78f5cb0-bc7d-4072-be99-2c4ceba3c1ec")
+		)
+		(pin "12"
+			(uuid "d999d321-568d-4fa4-89f7-09a78a0211e3")
+		)
+		(pin "7"
+			(uuid "281c2455-daa9-412d-b388-2c071320fb54")
+		)
+		(pin "11"
+			(uuid "f027d440-5d49-42fd-9f5b-42b0b22eb4f1")
+		)
+		(pin "3"
+			(uuid "e85d7dca-0ff9-43b1-8903-2385dc44cc16")
+		)
+		(pin "13"
+			(uuid "164882e4-2923-4a57-8fe4-5c3cfa951a51")
+		)
+		(pin "10"
+			(uuid "fc1c4294-dfb7-4107-9dd0-18e06690cf09")
+		)
+		(pin "5"
+			(uuid "10a8a6ef-5204-4aad-b3ae-9bde75af9515")
+		)
+		(pin "9"
+			(uuid "a65ee13a-117e-4512-a6e2-a5912436fd2e")
+		)
+		(pin "8"
+			(uuid "fad435e5-f824-4c2f-a29e-b70750f6d050")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
+					(reference "IC31")
 					(unit 1)
 				)
 			)
@@ -6067,162 +6411,6 @@
 			(project ""
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
 					(reference "IC46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:SN74HCS74DR")
-		(at 152.4 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b227036c-1698-418f-96e0-07f44dc4847f")
-		(property "Reference" "IC49"
-			(at 167.64 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74HCS74DR"
-			(at 167.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
-			(at 179.07 224.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs74.pdf?ts=1639343819655&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS74"
-			(at 179.07 324.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Flip-Flops Schmitt-trigger input dual D-type positive-edge-triggered flip-flops w/ clear and preset 14-SOIC -40 to 125"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 179.07 524.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74HCS74DR"
-			(at 179.07 624.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS74DR?qs=TiOZkKH1s2QvGxo75w4r5Q%3D%3D"
-			(at 179.07 724.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 179.07 824.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74HCS74DR"
-			(at 179.07 924.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f906315-75eb-4d7c-b4f9-5c7b18fda654")
-		)
-		(pin "8"
-			(uuid "1d3ac58e-6408-4042-bde7-56813a39788e")
-		)
-		(pin "3"
-			(uuid "6acc4e5c-6655-4017-bdea-dd4f390e4f5a")
-		)
-		(pin "4"
-			(uuid "117069c1-93cf-42d0-8cf9-bf3c6f1d37d4")
-		)
-		(pin "5"
-			(uuid "bf315127-6dab-4b67-8ffd-1b6fd08db30b")
-		)
-		(pin "6"
-			(uuid "f0ff83f5-f45d-4728-b0a6-512c8f386ace")
-		)
-		(pin "7"
-			(uuid "8ae09a33-bf72-401f-bbcb-4e15328620ad")
-		)
-		(pin "14"
-			(uuid "9eef6b13-d173-489e-9ed1-cd3cfdc59ad4")
-		)
-		(pin "11"
-			(uuid "7d793907-23ba-47f4-ac3b-41d6e5bb8033")
-		)
-		(pin "13"
-			(uuid "d00f66ee-3df9-401b-b5b5-d53d05864ed0")
-		)
-		(pin "10"
-			(uuid "96a281ef-4c19-4f79-8f17-797b68ec72b9")
-		)
-		(pin "12"
-			(uuid "99190997-a23c-4360-a6b5-3450e0e868d1")
-		)
-		(pin "9"
-			(uuid "9406dd49-eddd-430a-8951-be20b023d1c1")
-		)
-		(pin "2"
-			(uuid "72c8cf30-a377-4c79-9a39-951bb7b9b195")
-		)
-		(instances
-			(project "Computer"
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
-					(reference "IC49")
 					(unit 1)
 				)
 			)
@@ -6379,318 +6567,6 @@
 			(project ""
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
 					(reference "IC14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:SN74HCS74DR")
-		(at 121.92 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc8d40fb-803f-41fe-a745-ed91062efeeb")
-		(property "Reference" "IC43"
-			(at 137.16 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74HCS74DR"
-			(at 137.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
-			(at 148.59 130.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs74.pdf?ts=1639343819655&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS74"
-			(at 148.59 230.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Flip-Flops Schmitt-trigger input dual D-type positive-edge-triggered flip-flops w/ clear and preset 14-SOIC -40 to 125"
-			(at 121.92 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 148.59 430.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74HCS74DR"
-			(at 148.59 530.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS74DR?qs=TiOZkKH1s2QvGxo75w4r5Q%3D%3D"
-			(at 148.59 630.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 148.59 730.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74HCS74DR"
-			(at 148.59 830.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dc9878d-210a-46bd-a27b-3fcaaf0fbeee")
-		)
-		(pin "8"
-			(uuid "02793a52-34f6-4d60-8acb-3d4530a60303")
-		)
-		(pin "3"
-			(uuid "8ddf882f-2434-4d99-83f2-f9b64d04e02e")
-		)
-		(pin "4"
-			(uuid "866d51da-fd5c-437c-bd3a-1be06a942b61")
-		)
-		(pin "5"
-			(uuid "c7cb6831-5188-4dcf-93c4-57cbd5bb8758")
-		)
-		(pin "6"
-			(uuid "903618af-6a67-4edf-a0fa-4b1368f6cd6e")
-		)
-		(pin "7"
-			(uuid "658c6f6e-b057-4742-9e45-47698c95233b")
-		)
-		(pin "14"
-			(uuid "19469dce-0d91-481b-af8f-fd5dbb083eab")
-		)
-		(pin "11"
-			(uuid "505c0667-28ac-4494-bac1-317f9f59d0cd")
-		)
-		(pin "13"
-			(uuid "79d20587-8154-404f-8379-c129a8279031")
-		)
-		(pin "10"
-			(uuid "376c7027-42fa-45d0-b2cf-962800e6de91")
-		)
-		(pin "12"
-			(uuid "f733c7b7-4a76-4649-b8e8-41d35cf0a649")
-		)
-		(pin "9"
-			(uuid "6d7c8052-326c-4ed1-ac7f-d2ca22e14111")
-		)
-		(pin "2"
-			(uuid "c858cf0f-ffb6-452e-b211-f6545e6adefb")
-		)
-		(instances
-			(project ""
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
-					(reference "IC43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:SN74HCS08DR")
-		(at 187.96 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff185aca-5d50-4ef7-86a3-ca28fac3d177")
-		(property "Reference" "IC47"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74HCS08DR"
-			(at 200.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
-			(at 209.55 141.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs08.pdf?ts=1620753268442&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS08"
-			(at 209.55 241.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Logic Gates 4-ch, 2-input, 2-V to 6-V low power AND gates with Schmitt-Trigger inputs 14-SOIC -40 to 125"
-			(at 187.96 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 209.55 441.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74HCS08DR"
-			(at 209.55 541.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS08DR?qs=7MVldsJ5UaxBpqBusi11%2Fg%3D%3D"
-			(at 209.55 641.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 209.55 741.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74HCS08DR"
-			(at 209.55 841.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "257c64f6-8322-4979-8a84-36f160931cac")
-		)
-		(pin "13"
-			(uuid "63d55cda-351a-400c-835b-b97071929ccf")
-		)
-		(pin "1"
-			(uuid "2ceaa5c1-da76-4c35-8898-59de2ec435d7")
-		)
-		(pin "5"
-			(uuid "4b785f8a-13f3-4593-be9e-199ef555ee55")
-		)
-		(pin "2"
-			(uuid "4dd8d657-5881-4310-be4c-4aedbbf0ff58")
-		)
-		(pin "3"
-			(uuid "9563f171-fda9-4f86-bf25-55aedfbc950e")
-		)
-		(pin "4"
-			(uuid "e3043788-cca8-471b-ae18-bfbd2cf7126a")
-		)
-		(pin "6"
-			(uuid "43f84790-949d-45b1-933c-a3b06ce122f8")
-		)
-		(pin "14"
-			(uuid "267dae6d-c3fa-47b6-a264-e403fd27bf68")
-		)
-		(pin "12"
-			(uuid "ba54934a-9203-4c83-9002-62454f63ea2b")
-		)
-		(pin "11"
-			(uuid "2f75b7c4-6407-484e-85e1-feb6e2bae4db")
-		)
-		(pin "10"
-			(uuid "c8fde8a6-1bfb-49c2-bc88-53abbe2a49de")
-		)
-		(pin "9"
-			(uuid "bdad88bf-2881-4cf7-96c8-ea54554f0114")
-		)
-		(pin "8"
-			(uuid "bd8e4a3c-06ed-4314-873b-3afa0f8b7031")
-		)
-		(instances
-			(project "Computer"
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/b0d3ca8d-4ecf-45d8-adc8-29c6089265db"
-					(reference "IC47")
 					(unit 1)
 				)
 			)

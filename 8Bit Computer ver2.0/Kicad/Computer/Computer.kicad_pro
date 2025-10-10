@@ -477,15 +477,23 @@
         "bus_width": 12,
         "name": "ABXOR[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgb(109, 0, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "ADR[0..15]",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(143, 197, 255)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "A[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgb(0, 248, 255)",
         "wire_width": 6
       },
@@ -493,7 +501,7 @@
         "bus_width": 12,
         "name": "B[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgb(0, 72, 255)",
         "wire_width": 6
       },
@@ -501,23 +509,47 @@
         "bus_width": 12,
         "name": "CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 8,
         "schematic_color": "rgb(255, 186, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "CMD[0..7]",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 0, 231)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "DAT[0..7]",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 100, 0)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 9,
         "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "LN[0..15]",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(150, 255, 203)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "Q[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 7,
         "schematic_color": "rgb(96, 255, 0)",
         "wire_width": 6
       },
@@ -525,7 +557,7 @@
         "bus_width": 12,
         "name": "VCC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 10,
         "schematic_color": "rgb(255, 0, 7)",
         "wire_width": 6
       }
@@ -535,6 +567,57 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/ADR0": [
+        "ADR[0..15]"
+      ],
+      "/ADR1": [
+        "ADR[0..15]"
+      ],
+      "/ADR10": [
+        "ADR[0..15]"
+      ],
+      "/ADR11": [
+        "ADR[0..15]"
+      ],
+      "/ADR12": [
+        "ADR[0..15]"
+      ],
+      "/ADR13": [
+        "ADR[0..15]"
+      ],
+      "/ADR14": [
+        "ADR[0..15]"
+      ],
+      "/ADR15": [
+        "ADR[0..15]"
+      ],
+      "/ADR2": [
+        "ADR[0..15]"
+      ],
+      "/ADR3": [
+        "ADR[0..15]"
+      ],
+      "/ADR4": [
+        "ADR[0..15]"
+      ],
+      "/ADR5": [
+        "ADR[0..15]"
+      ],
+      "/ADR6": [
+        "ADR[0..15]"
+      ],
+      "/ADR7": [
+        "ADR[0..15]"
+      ],
+      "/ADR8": [
+        "ADR[0..15]"
+      ],
+      "/ADR9": [
+        "ADR[0..15]"
+      ],
+      "/ADR[0..15]": [
+        "ADR[0..15]"
+      ],
       "/ALU/A0": [
         "A[0..7]"
       ],
@@ -586,6 +669,33 @@
       "/ALU/CLK": [
         "CLK"
       ],
+      "/ALU/CMD0": [
+        "CMD[0..7]"
+      ],
+      "/ALU/CMD1": [
+        "CMD[0..7]"
+      ],
+      "/ALU/CMD2": [
+        "CMD[0..7]"
+      ],
+      "/ALU/CMD3": [
+        "CMD[0..7]"
+      ],
+      "/ALU/CMD4": [
+        "CMD[0..7]"
+      ],
+      "/ALU/CMD5": [
+        "CMD[0..7]"
+      ],
+      "/ALU/CMD6": [
+        "CMD[0..7]"
+      ],
+      "/ALU/CMD7": [
+        "CMD[0..7]"
+      ],
+      "/ALU/CMD[0..7]": [
+        "CMD[0..7]"
+      ],
       "/ALU/GND": [
         "GND"
       ],
@@ -627,6 +737,93 @@
       ],
       "/ALU/~{CLK}": [
         "CLK"
+      ],
+      "/DAT0": [
+        "DAT[0..7]"
+      ],
+      "/DAT1": [
+        "DAT[0..7]"
+      ],
+      "/DAT2": [
+        "DAT[0..7]"
+      ],
+      "/DAT3": [
+        "DAT[0..7]"
+      ],
+      "/DAT4": [
+        "DAT[0..7]"
+      ],
+      "/DAT5": [
+        "DAT[0..7]"
+      ],
+      "/DAT6": [
+        "DAT[0..7]"
+      ],
+      "/DAT7": [
+        "DAT[0..7]"
+      ],
+      "/DAT[0..7]": [
+        "DAT[0..7]"
+      ],
+      "/GND": [
+        "GND"
+      ],
+      "/LN0": [
+        "LN[0..15]"
+      ],
+      "/LN1": [
+        "LN[0..15]"
+      ],
+      "/LN10": [
+        "LN[0..15]"
+      ],
+      "/LN11": [
+        "LN[0..15]"
+      ],
+      "/LN12": [
+        "LN[0..15]"
+      ],
+      "/LN13": [
+        "LN[0..15]"
+      ],
+      "/LN14": [
+        "LN[0..15]"
+      ],
+      "/LN15": [
+        "LN[0..15]"
+      ],
+      "/LN2": [
+        "LN[0..15]"
+      ],
+      "/LN3": [
+        "LN[0..15]"
+      ],
+      "/LN4": [
+        "LN[0..15]"
+      ],
+      "/LN5": [
+        "LN[0..15]"
+      ],
+      "/LN6": [
+        "LN[0..15]"
+      ],
+      "/LN7": [
+        "LN[0..15]"
+      ],
+      "/LN8": [
+        "LN[0..15]"
+      ],
+      "/LN9": [
+        "LN[0..15]"
+      ],
+      "/LN[0..15]": [
+        "LN[0..15]"
+      ],
+      "/VCC": [
+        "VCC"
+      ],
+      "/~{CLK}": [
+        "CLK"
       ]
     },
     "netclass_patterns": [
@@ -653,6 +850,22 @@
       {
         "netclass": "VCC",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "CMD[0..7]",
+        "pattern": "CMD[0..7]"
+      },
+      {
+        "netclass": "DAT[0..7]",
+        "pattern": "DAT[0..7]"
+      },
+      {
+        "netclass": "ADR[0..15]",
+        "pattern": "ADR[0..15]"
+      },
+      {
+        "netclass": "LN[0..15]",
+        "pattern": "LN[0..15]"
       }
     ]
   },
@@ -835,6 +1048,10 @@
     [
       "50f55c79-2069-4dac-a92a-a304de2499f6",
       "Comparator"
+    ],
+    [
+      "94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6",
+      "ProgrammeCounter"
     ]
   ],
   "text_variables": {}

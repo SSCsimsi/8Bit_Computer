@@ -5,9 +5,401 @@
 	(uuid "1196a00e-6878-4d6d-82b7-9e052dfe7c14")
 	(paper "A1")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 457.2 208.28) (xy 467.36 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127ce510-b98a-4e86-82c6-612f9d9e84a4")
+	)
+	(wire
+		(pts
+			(xy 453.39 289.56) (xy 472.44 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20267416-4754-4aa6-a25c-d9e246d1a58a")
+	)
+	(wire
+		(pts
+			(xy 453.39 279.4) (xy 472.44 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b11307d-5bd6-402b-a61c-80d823a11a6b")
+	)
+	(wire
+		(pts
+			(xy 453.39 179.07) (xy 467.36 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5abcec-8509-4187-89e0-f8ee183a6f57")
+	)
+	(wire
+		(pts
+			(xy 457.2 170.18) (xy 467.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a148a5ab-7d65-402d-b70c-62f8a1e17562")
+	)
+	(wire
+		(pts
+			(xy 457.2 189.23) (xy 467.36 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ef5e0f-9579-438a-aba5-d3ea81526e00")
+	)
+	(bus
+		(pts
+			(xy 506.73 266.7) (xy 520.7 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d2e8f9-fe5b-4d6e-8bac-3f1b07e6efad")
+	)
+	(bus
+		(pts
+			(xy 462.28 274.32) (xy 472.44 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c907a915-0a55-4783-bc8f-3cc4913d6f76")
+	)
+	(bus
+		(pts
+			(xy 462.28 264.16) (xy 472.44 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bdc32f-8053-4729-8f2a-c618c6c20f89")
+	)
+	(wire
+		(pts
+			(xy 462.28 294.64) (xy 472.44 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59b531c-a652-4470-a85c-5662032f876e")
+	)
+	(label "~{CLK}"
+		(at 457.2 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "209d521d-de6f-45ba-a2fb-f3631c996bec")
+	)
+	(label "DAT[0..7]"
+		(at 457.2 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33769403-eb6a-4c6f-b613-3df5a55cefcd")
+	)
+	(label "GND"
+		(at 453.39 279.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "524a6d82-0cb8-4588-afe4-63dafd23bb16")
+	)
+	(label "ADR[0..15]"
+		(at 462.28 264.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "687b159e-4d01-4591-81fc-4d38fb22dad8")
+	)
+	(label "VCC"
+		(at 453.39 289.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99f72e73-c852-4d81-8cdc-68b18479b94f")
+	)
+	(label "GND"
+		(at 453.39 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d9ff0bf-1d66-4f50-ae98-56e2765ba095")
+	)
+	(label "DAT[0..7]"
+		(at 462.28 274.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a119fecf-40eb-4f33-818a-8722a717ccfb")
+	)
+	(label "~{CLK}"
+		(at 462.28 294.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca842d00-b143-4044-98fc-905fdb602bd8")
+	)
+	(label "LN[0..15]"
+		(at 520.7 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc5c740e-abc2-4747-9622-dc02589d45ca")
+	)
+	(label "VCC"
+		(at 457.2 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8f8ca72-2a40-401b-907a-da1c871ae204")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 513.08 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "184930b0-ab6e-4202-800b-c22e813231d8")
+		(property "Netclass" "LN[0..15]"
+			(at 509.524 262.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -48.26 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 466.09 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a04e6fb4-276d-4391-b186-f339126f2072")
+		(property "Netclass" "ADR[0..15]"
+			(at 461.01 259.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -80.01 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 283.21 85.09)
-		(size 125.73 121.92)
+		(at 472.44 259.08)
+		(size 34.29 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6")
+		(property "Sheetname" "ProgrammeCounter"
+			(at 472.44 258.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ProgrammeCounter.kicad_sch"
+			(at 472.44 306.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADR[0..15]" tri_state
+			(at 472.44 264.16 180)
+			(uuid "acde0427-3064-4418-a5d2-ef05a4a084e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CJP" input
+			(at 472.44 269.24 180)
+			(uuid "9be91703-ee9f-4ec3-9953-e2f89459da94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAT[0..7]" tri_state
+			(at 472.44 274.32 180)
+			(uuid "3b916707-61e2-4e7e-b83a-8229801267a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 472.44 279.4 180)
+			(uuid "a1c60851-0b51-413c-9d6c-3fbc9ef92062")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JMP" input
+			(at 472.44 284.48 180)
+			(uuid "ba5ce776-ab54-411a-a994-fb90709e9936")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LN[0..15]" tri_state
+			(at 506.73 266.7 0)
+			(uuid "30b0618e-8f59-4e02-ba07-61549f70b1ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 472.44 289.56 180)
+			(uuid "746ab326-c64f-4a54-b43f-86a76b56502d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CLK}" input
+			(at 472.44 294.64 180)
+			(uuid "a72dace9-f564-4d61-9f97-bb71bdf0c8b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CLR}" input
+			(at 472.44 299.72 180)
+			(uuid "840661fa-87ce-427e-820f-b480b009376a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 467.36 158.75)
+		(size 52.07 73.66)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +414,7 @@
 		)
 		(uuid "c4d8b530-1c6d-45af-88d2-7dc1d4321a34")
 		(property "Sheetname" "ALU"
-			(at 283.21 84.3784 0)
+			(at 467.36 158.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +423,7 @@
 			)
 		)
 		(property "Sheetfile" "ALU.kicad_sch"
-			(at 283.21 207.5946 0)
+			(at 467.36 232.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +432,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 283.21 105.41 180)
+			(at 467.36 179.07 180)
 			(uuid "7bbe02c6-3e6b-4ca8-a07a-7991fcf7ff39")
 			(effects
 				(font
@@ -50,17 +442,17 @@
 			)
 		)
 		(pin "Q[0..7]" tri_state
-			(at 283.21 114.3 180)
+			(at 519.43 171.45 0)
 			(uuid "1d91ebd4-75db-4efc-9fdd-d0228dffb9f1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "VCC" input
-			(at 283.21 124.46 180)
+			(at 467.36 189.23 180)
 			(uuid "5b79aace-b573-4c91-a3e6-25596fcea0f4")
 			(effects
 				(font
@@ -70,8 +462,28 @@
 			)
 		)
 		(pin "~{CLK}" input
-			(at 283.21 96.52 180)
+			(at 467.36 170.18 180)
 			(uuid "42060016-6144-42ab-a560-b4072edd6521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CMD[0..7]" tri_state
+			(at 467.36 198.12 180)
+			(uuid "29087c75-bd7e-413a-ad3c-26801905dfeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAT[0..7]" tri_state
+			(at 467.36 208.28 180)
+			(uuid "15b93318-d584-429c-8045-8d47adc4b9a0")
 			(effects
 				(font
 					(size 1.27 1.27)
