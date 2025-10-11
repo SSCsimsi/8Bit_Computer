@@ -477,7 +477,7 @@
         "bus_width": 12,
         "name": "ABXOR[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(109, 0, 255)",
         "wire_width": 6
       },
@@ -485,7 +485,7 @@
         "bus_width": 12,
         "name": "ADR[0..15]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(143, 197, 255)",
         "wire_width": 6
       },
@@ -493,7 +493,7 @@
         "bus_width": 12,
         "name": "A[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(0, 248, 255)",
         "wire_width": 6
       },
@@ -501,7 +501,7 @@
         "bus_width": 12,
         "name": "B[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 72, 255)",
         "wire_width": 6
       },
@@ -509,7 +509,7 @@
         "bus_width": 12,
         "name": "CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(255, 186, 0)",
         "wire_width": 6
       },
@@ -517,15 +517,23 @@
         "bus_width": 12,
         "name": "CMD[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(255, 0, 231)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "C[0..7]",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(143, 124, 255)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "name": "DAT[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 100, 0)",
         "wire_width": 6
       },
@@ -533,7 +541,7 @@
         "bus_width": 12,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 6
       },
@@ -541,7 +549,7 @@
         "bus_width": 12,
         "name": "LN[0..15]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(150, 255, 203)",
         "wire_width": 6
       },
@@ -549,7 +557,7 @@
         "bus_width": 12,
         "name": "Q[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(96, 255, 0)",
         "wire_width": 6
       },
@@ -557,7 +565,7 @@
         "bus_width": 12,
         "name": "VCC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(255, 0, 7)",
         "wire_width": 6
       }
@@ -666,6 +674,30 @@
       "/ALU/B7": [
         "B[0..7]"
       ],
+      "/ALU/C0": [
+        "C[0..7]"
+      ],
+      "/ALU/C1": [
+        "C[0..7]"
+      ],
+      "/ALU/C2": [
+        "C[0..7]"
+      ],
+      "/ALU/C3": [
+        "C[0..7]"
+      ],
+      "/ALU/C4": [
+        "C[0..7]"
+      ],
+      "/ALU/C5": [
+        "C[0..7]"
+      ],
+      "/ALU/C6": [
+        "C[0..7]"
+      ],
+      "/ALU/C7": [
+        "C[0..7]"
+      ],
       "/ALU/CLK": [
         "CLK"
       ],
@@ -734,6 +766,9 @@
       ],
       "/ALU/{B[0..7]}": [
         "B[0..7]"
+      ],
+      "/ALU/{C[0..7]}": [
+        "C[0..7]"
       ],
       "/ALU/~{CLK}": [
         "CLK"
@@ -866,6 +901,10 @@
       {
         "netclass": "LN[0..15]",
         "pattern": "LN[0..15]"
+      },
+      {
+        "netclass": "C[0..7]",
+        "pattern": "C[0..7]"
       }
     ]
   },
