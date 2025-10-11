@@ -62,7 +62,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="800" y="-20"/>
+      <pos x="800" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -76,7 +76,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="840" y="-20"/>
+      <pos x="840" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -90,7 +90,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="760" y="-20"/>
+      <pos x="760" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -129,7 +129,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="880" y="-20"/>
+      <pos x="880" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -143,7 +143,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1500" y="-20"/>
+      <pos x="1500" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -157,47 +157,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1540" y="-20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>CMD</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="-160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>DAT</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="-140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>ADR</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="-120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>CLK</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="-100"/>
+      <pos x="1540" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -211,7 +171,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="-20"/>
+      <pos x="1460" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -225,7 +185,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1580" y="-20"/>
+      <pos x="1580" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -239,7 +199,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="720" y="-40"/>
+      <pos x="720" y="-20"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -253,16 +213,6 @@ the current line of code being executed</string>
       <pos x="860" y="-260"/>
     </visualElement>
     <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>LN</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1040" y="-180"/>
-    </visualElement>
-    <visualElement>
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
@@ -274,7 +224,7 @@ the current line of code being executed</string>
           <int>10</int>
         </entry>
       </elementAttributes>
-      <pos x="1200" y="20"/>
+      <pos x="580" y="-80"/>
     </visualElement>
     <visualElement>
       <elementName>Programme Counter.dig</elementName>
@@ -293,7 +243,7 @@ the current line of code being executed</string>
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1420" y="-40"/>
+      <pos x="1420" y="-20"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -807,10 +757,6 @@ the current line of code being executed</string>
       <p2 x="1000" y="1680"/>
     </wire>
     <wire>
-      <p1 x="1200" y="20"/>
-      <p2 x="1600" y="20"/>
-    </wire>
-    <wire>
       <p1 x="1060" y="1300"/>
       <p2 x="1120" y="1300"/>
     </wire>
@@ -967,6 +913,10 @@ the current line of code being executed</string>
       <p2 x="1280" y="1100"/>
     </wire>
     <wire>
+      <p1 x="580" y="-80"/>
+      <p2 x="900" y="-80"/>
+    </wire>
+    <wire>
       <p1 x="900" y="-80"/>
       <p2 x="1600" y="-80"/>
     </wire>
@@ -1083,15 +1033,11 @@ the current line of code being executed</string>
       <p2 x="1180" y="760"/>
     </wire>
     <wire>
-      <p1 x="860" y="120"/>
+      <p1 x="900" y="120"/>
       <p2 x="1180" y="120"/>
     </wire>
     <wire>
       <p1 x="1600" y="-80"/>
-      <p2 x="1600" y="20"/>
-    </wire>
-    <wire>
-      <p1 x="1600" y="20"/>
       <p2 x="1600" y="1960"/>
     </wire>
     <wire>
@@ -1116,11 +1062,15 @@ the current line of code being executed</string>
     </wire>
     <wire>
       <p1 x="900" y="-80"/>
-      <p2 x="900" y="960"/>
+      <p2 x="900" y="120"/>
     </wire>
     <wire>
       <p1 x="900" y="1860"/>
       <p2 x="900" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="120"/>
+      <p2 x="900" y="960"/>
     </wire>
     <wire>
       <p1 x="900" y="960"/>
@@ -1320,15 +1270,11 @@ the current line of code being executed</string>
     </wire>
     <wire>
       <p1 x="860" y="-100"/>
-      <p2 x="860" y="120"/>
+      <p2 x="860" y="1080"/>
     </wire>
     <wire>
       <p1 x="860" y="1080"/>
       <p2 x="860" y="1960"/>
-    </wire>
-    <wire>
-      <p1 x="860" y="120"/>
-      <p2 x="860" y="1080"/>
     </wire>
   </wires>
   <measurementOrdering/>
