@@ -221,7 +221,7 @@ the current line of code being executed</string>
         </entry>
         <entry>
           <string>Frequency</string>
-          <int>20</int>
+          <int>5</int>
         </entry>
       </elementAttributes>
       <pos x="580" y="0"/>
@@ -244,58 +244,6 @@ the current line of code being executed</string>
         </entry>
       </elementAttributes>
       <pos x="1420" y="60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Comparator</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1000" y="160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>hex</intFormat>
-        </entry>
-      </elementAttributes>
-      <pos x="980" y="180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Comparator</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1000" y="240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>2</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>hex</intFormat>
-        </entry>
-      </elementAttributes>
-      <pos x="980" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -702,7 +650,7 @@ the current line of code being executed</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="320"/>
+      <pos x="1000" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -720,7 +668,7 @@ the current line of code being executed</string>
           <intFormat>hex</intFormat>
         </entry>
       </elementAttributes>
-      <pos x="980" y="340"/>
+      <pos x="980" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -730,7 +678,7 @@ the current line of code being executed</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="400"/>
+      <pos x="1000" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -748,7 +696,7 @@ the current line of code being executed</string>
           <intFormat>hex</intFormat>
         </entry>
       </elementAttributes>
-      <pos x="980" y="420"/>
+      <pos x="980" y="260"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -773,14 +721,6 @@ the current line of code being executed</string>
       <p2 x="1600" y="0"/>
     </wire>
     <wire>
-      <p1 x="980" y="260"/>
-      <p2 x="1000" y="260"/>
-    </wire>
-    <wire>
-      <p1 x="1060" y="260"/>
-      <p2 x="1100" y="260"/>
-    </wire>
-    <wire>
       <p1 x="1060" y="1540"/>
       <p2 x="1180" y="1540"/>
     </wire>
@@ -789,20 +729,24 @@ the current line of code being executed</string>
       <p2 x="1000" y="1540"/>
     </wire>
     <wire>
-      <p1 x="1140" y="1160"/>
-      <p2 x="1280" y="1160"/>
+      <p1 x="980" y="260"/>
+      <p2 x="1000" y="260"/>
     </wire>
     <wire>
-      <p1 x="1080" y="140"/>
-      <p2 x="1180" y="140"/>
+      <p1 x="1060" y="260"/>
+      <p2 x="1140" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="1160"/>
+      <p2 x="1280" y="1160"/>
     </wire>
     <wire>
       <p1 x="1240" y="780"/>
       <p2 x="1560" y="780"/>
     </wire>
     <wire>
-      <p1 x="780" y="400"/>
-      <p2 x="1000" y="400"/>
+      <p1 x="900" y="140"/>
+      <p2 x="1180" y="140"/>
     </wire>
     <wire>
       <p1 x="780" y="1680"/>
@@ -837,24 +781,12 @@ the current line of code being executed</string>
       <p2 x="1000" y="160"/>
     </wire>
     <wire>
-      <p1 x="1100" y="160"/>
-      <p2 x="1180" y="160"/>
-    </wire>
-    <wire>
       <p1 x="1160" y="800"/>
       <p2 x="1180" y="800"/>
     </wire>
     <wire>
       <p1 x="780" y="1440"/>
       <p2 x="1000" y="1440"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="420"/>
-      <p2 x="1000" y="420"/>
-    </wire>
-    <wire>
-      <p1 x="1060" y="420"/>
-      <p2 x="1140" y="420"/>
     </wire>
     <wire>
       <p1 x="820" y="1060"/>
@@ -905,16 +837,12 @@ the current line of code being executed</string>
       <p2 x="1000" y="1460"/>
     </wire>
     <wire>
+      <p1 x="1060" y="180"/>
+      <p2 x="1180" y="180"/>
+    </wire>
+    <wire>
       <p1 x="980" y="180"/>
       <p2 x="1000" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="1060" y="180"/>
-      <p2 x="1080" y="180"/>
-    </wire>
-    <wire>
-      <p1 x="1120" y="180"/>
-      <p2 x="1180" y="180"/>
     </wire>
     <wire>
       <p1 x="1400" y="1080"/>
@@ -941,8 +869,8 @@ the current line of code being executed</string>
       <p2 x="1120" y="960"/>
     </wire>
     <wire>
-      <p1 x="780" y="320"/>
-      <p2 x="1000" y="320"/>
+      <p1 x="660" y="320"/>
+      <p2 x="1160" y="320"/>
     </wire>
     <wire>
       <p1 x="900" y="1860"/>
@@ -993,14 +921,6 @@ the current line of code being executed</string>
       <p2 x="1000" y="1620"/>
     </wire>
     <wire>
-      <p1 x="980" y="340"/>
-      <p2 x="1000" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="1060" y="340"/>
-      <p2 x="1120" y="340"/>
-    </wire>
-    <wire>
       <p1 x="1220" y="1240"/>
       <p2 x="1280" y="1240"/>
     </wire>
@@ -1025,10 +945,6 @@ the current line of code being executed</string>
       <p2 x="1000" y="1760"/>
     </wire>
     <wire>
-      <p1 x="660" y="480"/>
-      <p2 x="1160" y="480"/>
-    </wire>
-    <wire>
       <p1 x="1060" y="1380"/>
       <p2 x="1140" y="1380"/>
     </wire>
@@ -1049,12 +965,12 @@ the current line of code being executed</string>
       <p2 x="1480" y="620"/>
     </wire>
     <wire>
-      <p1 x="780" y="1520"/>
-      <p2 x="1000" y="1520"/>
-    </wire>
-    <wire>
       <p1 x="780" y="240"/>
       <p2 x="1000" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="1520"/>
+      <p2 x="1000" y="1520"/>
     </wire>
     <wire>
       <p1 x="1060" y="1140"/>
@@ -1081,7 +997,7 @@ the current line of code being executed</string>
       <p2 x="1180" y="760"/>
     </wire>
     <wire>
-      <p1 x="900" y="120"/>
+      <p1 x="860" y="120"/>
       <p2 x="1180" y="120"/>
     </wire>
     <wire>
@@ -1101,23 +1017,19 @@ the current line of code being executed</string>
       <p2 x="1120" y="1300"/>
     </wire>
     <wire>
-      <p1 x="1120" y="180"/>
-      <p2 x="1120" y="340"/>
-    </wire>
-    <wire>
       <p1 x="1220" y="1240"/>
       <p2 x="1220" y="1700"/>
     </wire>
     <wire>
       <p1 x="900" y="0"/>
-      <p2 x="900" y="120"/>
+      <p2 x="900" y="140"/>
     </wire>
     <wire>
       <p1 x="900" y="1860"/>
       <p2 x="900" y="1960"/>
     </wire>
     <wire>
-      <p1 x="900" y="120"/>
+      <p1 x="900" y="140"/>
       <p2 x="900" y="960"/>
     </wire>
     <wire>
@@ -1142,7 +1054,7 @@ the current line of code being executed</string>
     </wire>
     <wire>
       <p1 x="1160" y="220"/>
-      <p2 x="1160" y="480"/>
+      <p2 x="1160" y="320"/>
     </wire>
     <wire>
       <p1 x="1160" y="1180"/>
@@ -1177,10 +1089,6 @@ the current line of code being executed</string>
       <p2 x="780" y="160"/>
     </wire>
     <wire>
-      <p1 x="780" y="400"/>
-      <p2 x="780" y="920"/>
-    </wire>
-    <wire>
       <p1 x="780" y="1680"/>
       <p2 x="780" y="1760"/>
     </wire>
@@ -1205,12 +1113,12 @@ the current line of code being executed</string>
       <p2 x="780" y="1960"/>
     </wire>
     <wire>
-      <p1 x="780" y="1520"/>
-      <p2 x="780" y="1600"/>
+      <p1 x="780" y="240"/>
+      <p2 x="780" y="920"/>
     </wire>
     <wire>
-      <p1 x="780" y="240"/>
-      <p2 x="780" y="320"/>
+      <p1 x="780" y="1520"/>
+      <p2 x="780" y="1600"/>
     </wire>
     <wire>
       <p1 x="780" y="1280"/>
@@ -1219,10 +1127,6 @@ the current line of code being executed</string>
     <wire>
       <p1 x="780" y="1600"/>
       <p2 x="780" y="1680"/>
-    </wire>
-    <wire>
-      <p1 x="780" y="320"/>
-      <p2 x="780" y="400"/>
     </wire>
     <wire>
       <p1 x="780" y="1360"/>
@@ -1235,10 +1139,6 @@ the current line of code being executed</string>
     <wire>
       <p1 x="1100" y="1120"/>
       <p2 x="1100" y="1220"/>
-    </wire>
-    <wire>
-      <p1 x="1100" y="160"/>
-      <p2 x="1100" y="260"/>
     </wire>
     <wire>
       <p1 x="1520" y="-40"/>
@@ -1278,7 +1178,7 @@ the current line of code being executed</string>
     </wire>
     <wire>
       <p1 x="660" y="-80"/>
-      <p2 x="660" y="480"/>
+      <p2 x="660" y="320"/>
     </wire>
     <wire>
       <p1 x="1140" y="1160"/>
@@ -1286,15 +1186,11 @@ the current line of code being executed</string>
     </wire>
     <wire>
       <p1 x="1140" y="200"/>
-      <p2 x="1140" y="420"/>
+      <p2 x="1140" y="260"/>
     </wire>
     <wire>
       <p1 x="1080" y="1100"/>
       <p2 x="1080" y="1140"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="140"/>
-      <p2 x="1080" y="180"/>
     </wire>
     <wire>
       <p1 x="1560" y="-20"/>
@@ -1318,11 +1214,15 @@ the current line of code being executed</string>
     </wire>
     <wire>
       <p1 x="860" y="-20"/>
-      <p2 x="860" y="1080"/>
+      <p2 x="860" y="120"/>
     </wire>
     <wire>
       <p1 x="860" y="1080"/>
       <p2 x="860" y="1960"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="120"/>
+      <p2 x="860" y="1080"/>
     </wire>
   </wires>
   <measurementOrdering/>
