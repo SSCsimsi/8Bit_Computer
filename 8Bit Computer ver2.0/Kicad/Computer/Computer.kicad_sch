@@ -35,6 +35,16 @@
 		)
 		(uuid "2b11307d-5bd6-402b-a61c-80d823a11a6b")
 	)
+	(bus
+		(pts
+			(xy 453.39 198.12) (xy 467.36 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f293f66-c2b1-47e6-85df-cd82ac9c6997")
+	)
 	(wire
 		(pts
 			(xy 453.39 179.07) (xy 467.36 179.07)
@@ -64,6 +74,16 @@
 			(type default)
 		)
 		(uuid "a1ef5e0f-9579-438a-aba5-d3ea81526e00")
+	)
+	(bus
+		(pts
+			(xy 519.43 171.45) (xy 529.59 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab85cbcc-fe59-421f-baed-39b01bb7a7a1")
 	)
 	(bus
 		(pts
@@ -114,6 +134,16 @@
 			(justify right bottom)
 		)
 		(uuid "209d521d-de6f-45ba-a2fb-f3631c996bec")
+	)
+	(label "Q[0..7]"
+		(at 529.59 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c8c753a-2fd4-4f16-960b-7cf5cea88565")
 	)
 	(label "DAT[0..7]"
 		(at 457.2 208.28 180)
@@ -174,6 +204,16 @@
 			(justify right bottom)
 		)
 		(uuid "a119fecf-40eb-4f33-818a-8722a717ccfb")
+	)
+	(label "CMD[0..7]"
+		(at 453.39 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9c7ebc3-ae5b-4b91-8c81-1bf029ccb66c")
 	)
 	(label "~{CLK}"
 		(at 462.28 294.64 180)
