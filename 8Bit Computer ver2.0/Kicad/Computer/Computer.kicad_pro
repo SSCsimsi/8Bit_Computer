@@ -518,7 +518,7 @@
         "name": "CMD[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
-        "schematic_color": "rgb(255, 0, 231)",
+        "schematic_color": "rgb(255, 0, 147)",
         "wire_width": 6
       },
       {
@@ -773,6 +773,33 @@
       "/ALU/~{CLK}": [
         "CLK"
       ],
+      "/CMD0": [
+        "CMD[0..7]"
+      ],
+      "/CMD1": [
+        "CMD[0..7]"
+      ],
+      "/CMD2": [
+        "CMD[0..7]"
+      ],
+      "/CMD3": [
+        "CMD[0..7]"
+      ],
+      "/CMD4": [
+        "CMD[0..7]"
+      ],
+      "/CMD5": [
+        "CMD[0..7]"
+      ],
+      "/CMD6": [
+        "CMD[0..7]"
+      ],
+      "/CMD7": [
+        "CMD[0..7]"
+      ],
+      "/CMD[0..7]": [
+        "CMD[0..7]"
+      ],
       "/DAT0": [
         "DAT[0..7]"
       ],
@@ -853,6 +880,33 @@
       ],
       "/LN[0..15]": [
         "LN[0..15]"
+      ],
+      "/Q0": [
+        "Q[0..7]"
+      ],
+      "/Q1": [
+        "Q[0..7]"
+      ],
+      "/Q2": [
+        "Q[0..7]"
+      ],
+      "/Q3": [
+        "Q[0..7]"
+      ],
+      "/Q4": [
+        "Q[0..7]"
+      ],
+      "/Q5": [
+        "Q[0..7]"
+      ],
+      "/Q6": [
+        "Q[0..7]"
+      ],
+      "/Q7": [
+        "Q[0..7]"
+      ],
+      "/Q[0..7]": [
+        "Q[0..7]"
       ],
       "/VCC": [
         "VCC"
@@ -1045,36 +1099,36 @@
       "ALU"
     ],
     [
-      "42b48664-2b06-403a-a050-9f9bc3b6e26f",
-      "BinaryXOR"
-    ],
-    [
-      "b4e2b04b-49b9-4e4a-a580-9bf351e17eac",
+      "aefbc185-b96a-4e68-9567-15494077fa52",
       "BinaryAND"
     ],
     [
-      "8fc5fc8a-0e6e-4928-9d09-151687b7a707",
-      "BinaryOR"
-    ],
-    [
-      "d272606e-a004-40e6-98cb-622025f16d2e",
+      "5e0e6205-2801-44b7-a427-e7718c49bdd7",
       "BinaryNOT"
     ],
     [
-      "f9af7a82-e6e9-4a04-97f6-105df753f851",
-      "BitwiseXOR"
+      "f378dbdf-df8b-4230-93b7-3ecbbffd1ccb",
+      "BinaryOR"
     ],
     [
-      "458ffd8e-575c-457c-8793-c7fb121b36d4",
+      "4a21659e-6e4a-4683-bbd6-72ca2c7a4ec9",
+      "BinaryXOR"
+    ],
+    [
+      "88d9deac-8ee4-4e62-9612-525be97c3130",
       "BitwiseAND"
     ],
     [
-      "7571b19f-73b4-4be3-b940-f2527c84bfed",
+      "ea379de7-167f-4681-88e3-fa025ade4a21",
+      "BitwiseNOT"
+    ],
+    [
+      "aa0223c1-ee7f-4786-bdbb-d5c154528f66",
       "BitwiseOR"
     ],
     [
-      "7090cede-cd4a-4bfc-9c4d-01038a638376",
-      "BitwiseNOT"
+      "b731a2c3-fa27-45d9-a37d-42ef1ac61baf",
+      "BitwiseXOR"
     ],
     [
       "b0d3ca8d-4ecf-45d8-adc8-29c6089265db",
@@ -1095,6 +1149,10 @@
     [
       "94505ca6-4c2b-4b0f-b160-ac9607e51728",
       "BarrelShiftRegister"
+    ],
+    [
+      "fab3b598-6285-4b88-9c97-383a6e59f4fc",
+      "AdderSubstractor"
     ]
   ],
   "text_variables": {}
