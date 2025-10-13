@@ -106,8 +106,7 @@ output exceeds the 8 bit limit
 -&gt; store the carry bit to the
 flags register
 -&gt; store the overflow bit to the
-flags register
--&gt; save the output to the C register</string>
+flags register</string>
         </entry>
       </elementAttributes>
       <pos x="1160" y="200"/>
@@ -236,11 +235,6 @@ flags register
       <pos x="1060" y="400"/>
     </visualElement>
     <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes/>
-      <pos x="600" y="160"/>
-    </visualElement>
-    <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
@@ -249,16 +243,6 @@ flags register
         </entry>
       </elementAttributes>
       <pos x="1060" y="460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Q_S</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1060" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
@@ -323,7 +307,7 @@ adder is now accessible, at the cost of
 losing fast carry functionality</string>
         </entry>
       </elementAttributes>
-      <pos x="-20" y="560"/>
+      <pos x="-80" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -340,7 +324,7 @@ future programming guides or potential compilers
 (lookup tables)</string>
         </entry>
       </elementAttributes>
-      <pos x="540" y="760"/>
+      <pos x="540" y="720"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -385,16 +369,8 @@ future programming guides or potential compilers
       <p2 x="780" y="580"/>
     </wire>
     <wire>
-      <p1 x="820" y="520"/>
-      <p2 x="1060" y="520"/>
-    </wire>
-    <wire>
       <p1 x="540" y="520"/>
       <p2 x="640" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="200"/>
-      <p2 x="600" y="200"/>
     </wire>
     <wire>
       <p1 x="740" y="200"/>
@@ -406,7 +382,7 @@ future programming guides or potential compilers
     </wire>
     <wire>
       <p1 x="300" y="140"/>
-      <p2 x="580" y="140"/>
+      <p2 x="840" y="140"/>
     </wire>
     <wire>
       <p1 x="980" y="140"/>
@@ -415,10 +391,6 @@ future programming guides or potential compilers
     <wire>
       <p1 x="840" y="140"/>
       <p2 x="980" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="140"/>
-      <p2 x="840" y="140"/>
     </wire>
     <wire>
       <p1 x="960" y="460"/>
@@ -446,7 +418,7 @@ future programming guides or potential compilers
     </wire>
     <wire>
       <p1 x="40" y="400"/>
-      <p2 x="100" y="400"/>
+      <p2 x="120" y="400"/>
     </wire>
     <wire>
       <p1 x="940" y="400"/>
@@ -467,10 +439,6 @@ future programming guides or potential compilers
     <wire>
       <p1 x="540" y="400"/>
       <p2 x="640" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="400"/>
-      <p2 x="120" y="400"/>
     </wire>
     <wire>
       <p1 x="800" y="340"/>
@@ -573,10 +541,6 @@ future programming guides or potential compilers
       <p2 x="240" y="160"/>
     </wire>
     <wire>
-      <p1 x="580" y="160"/>
-      <p2 x="600" y="160"/>
-    </wire>
-    <wire>
       <p1 x="260" y="480"/>
       <p2 x="280" y="480"/>
     </wire>
@@ -641,10 +605,6 @@ future programming guides or potential compilers
       <p2 x="500" y="240"/>
     </wire>
     <wire>
-      <p1 x="660" y="180"/>
-      <p2 x="820" y="180"/>
-    </wire>
-    <wire>
       <p1 x="260" y="500"/>
       <p2 x="280" y="500"/>
     </wire>
@@ -701,8 +661,12 @@ future programming guides or potential compilers
       <p2 x="640" y="660"/>
     </wire>
     <wire>
-      <p1 x="580" y="140"/>
-      <p2 x="580" y="160"/>
+      <p1 x="800" y="340"/>
+      <p2 x="800" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="260"/>
+      <p2 x="480" y="560"/>
     </wire>
     <wire>
       <p1 x="260" y="280"/>
@@ -737,6 +701,10 @@ future programming guides or potential compilers
       <p2 x="260" y="400"/>
     </wire>
     <wire>
+      <p1 x="740" y="200"/>
+      <p2 x="740" y="320"/>
+    </wire>
+    <wire>
       <p1 x="840" y="140"/>
       <p2 x="840" y="220"/>
     </wire>
@@ -755,6 +723,14 @@ future programming guides or potential compilers
     <wire>
       <p1 x="520" y="220"/>
       <p2 x="520" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="360"/>
+      <p2 x="680" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="360"/>
+      <p2 x="360" y="380"/>
     </wire>
     <wire>
       <p1 x="780" y="280"/>
@@ -793,6 +769,18 @@ future programming guides or potential compilers
       <p2 x="660" y="620"/>
     </wire>
     <wire>
+      <p1 x="500" y="240"/>
+      <p2 x="500" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="380"/>
+      <p2 x="440" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="280"/>
+      <p2 x="760" y="400"/>
+    </wire>
+    <wire>
       <p1 x="860" y="100"/>
       <p2 x="860" y="240"/>
     </wire>
@@ -811,46 +799,6 @@ future programming guides or potential compilers
     <wire>
       <p1 x="220" y="160"/>
       <p2 x="220" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="800" y="340"/>
-      <p2 x="800" y="640"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="260"/>
-      <p2 x="480" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="740" y="200"/>
-      <p2 x="740" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="200"/>
-      <p2 x="100" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="360"/>
-      <p2 x="680" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="360"/>
-      <p2 x="360" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="240"/>
-      <p2 x="500" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="820" y="180"/>
-      <p2 x="820" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="380"/>
-      <p2 x="440" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="760" y="280"/>
-      <p2 x="760" y="400"/>
     </wire>
     <wire>
       <p1 x="60" y="120"/>
