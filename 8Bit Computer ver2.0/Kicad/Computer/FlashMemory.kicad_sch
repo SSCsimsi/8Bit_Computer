@@ -1,0 +1,85 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "52a58335-cedb-4333-a9fc-72ffd06340e9")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "LN[0..15]"
+		(shape tri_state)
+		(at 52.07 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fef3d0f-833f-41ee-bce5-52ede11bf63f")
+	)
+	(hierarchical_label "CMD[0..7]"
+		(shape tri_state)
+		(at 52.07 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52a63f96-1678-4133-b902-6085eb25f169")
+	)
+	(hierarchical_label "~{CLK}"
+		(shape input)
+		(at 52.07 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60d7f321-2293-4ffa-bcfd-ace8383711a1")
+	)
+	(hierarchical_label "DAT[0..7]"
+		(shape tri_state)
+		(at 52.07 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76f38329-58dc-4a5e-a647-dc646c8200d9")
+	)
+	(hierarchical_label "DAT_{dis}"
+		(shape input)
+		(at 52.07 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0370f85-ad96-4050-b4f3-376fe11f5d2a")
+	)
+	(hierarchical_label "ADR_{dis}"
+		(shape input)
+		(at 52.07 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d37770a4-422a-4e68-86b1-64c78660e4e3")
+	)
+	(hierarchical_label "ADR[0..15]"
+		(shape tri_state)
+		(at 52.07 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f42ba502-e04e-4ad8-8527-bab912a3a1e3")
+	)
+)
