@@ -40,7 +40,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="300" y="340"/>
+      <pos x="340" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -50,7 +50,7 @@
           <string>STR</string>
         </entry>
       </elementAttributes>
-      <pos x="300" y="400"/>
+      <pos x="340" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -60,7 +60,7 @@
           <string>LD</string>
         </entry>
       </elementAttributes>
-      <pos x="300" y="460"/>
+      <pos x="340" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -83,33 +83,9 @@
       <pos x="540" y="400"/>
     </visualElement>
     <visualElement>
-      <elementName>Rising Edge Detector.dig</elementName>
-      <elementAttributes/>
-      <pos x="420" y="520"/>
-    </visualElement>
-    <visualElement>
       <elementName>Delay</elementName>
       <elementAttributes/>
-      <pos x="340" y="520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>The signal to the store input on the register needs
-to be long enough for the register to store the value
-as specified in the datasheet of whatever register we 
-end up using.
-The delay used here should be long enough for the 
-STR command to arrive right before the rising edge of
-CLK, and it should be long enough for the STR command
-to be gone the next cycle, before the rising edge comes,
-so that there is no accidental storing done during
-the next cycle.</string>
-        </entry>
-      </elementAttributes>
-      <pos x="260" y="660"/>
+      <pos x="380" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -147,48 +123,34 @@ the next cycle.</string>
           <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="300" y="520"/>
+      <pos x="340" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="420" y="460"/>
+      <pos x="440" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="340" y="480"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>36</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>!!!!!!!!!!!! not needed in the final design !!!!!!!</string>
-        </entry>
-      </elementAttributes>
-      <pos x="200" y="600"/>
+      <pos x="380" y="480"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="300" y="400"/>
+      <p1 x="340" y="400"/>
       <p2 x="540" y="400"/>
     </wire>
     <wire>
-      <p1 x="380" y="480"/>
-      <p2 x="420" y="480"/>
+      <p1 x="420" y="480"/>
+      <p2 x="440" y="480"/>
     </wire>
     <wire>
-      <p1 x="320" y="480"/>
-      <p2 x="340" y="480"/>
+      <p1 x="360" y="480"/>
+      <p2 x="380" y="480"/>
     </wire>
     <wire>
-      <p1 x="300" y="340"/>
+      <p1 x="340" y="340"/>
       <p2 x="660" y="340"/>
     </wire>
     <wire>
@@ -204,20 +166,16 @@ the next cycle.</string>
       <p2 x="760" y="420"/>
     </wire>
     <wire>
-      <p1 x="300" y="520"/>
-      <p2 x="320" y="520"/>
+      <p1 x="340" y="520"/>
+      <p2 x="360" y="520"/>
     </wire>
     <wire>
-      <p1 x="380" y="520"/>
-      <p2 x="420" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="520"/>
+      <p1 x="420" y="520"/>
       <p2 x="520" y="520"/>
     </wire>
     <wire>
-      <p1 x="320" y="520"/>
-      <p2 x="340" y="520"/>
+      <p1 x="360" y="520"/>
+      <p2 x="380" y="520"/>
     </wire>
     <wire>
       <p1 x="720" y="360"/>
@@ -240,11 +198,11 @@ the next cycle.</string>
       <p2 x="660" y="380"/>
     </wire>
     <wire>
-      <p1 x="300" y="460"/>
-      <p2 x="420" y="460"/>
+      <p1 x="340" y="460"/>
+      <p2 x="440" y="460"/>
     </wire>
     <wire>
-      <p1 x="480" y="460"/>
+      <p1 x="500" y="460"/>
       <p2 x="780" y="460"/>
     </wire>
     <wire>
@@ -252,12 +210,12 @@ the next cycle.</string>
       <p2 x="640" y="380"/>
     </wire>
     <wire>
-      <p1 x="320" y="480"/>
-      <p2 x="320" y="520"/>
-    </wire>
-    <wire>
       <p1 x="740" y="360"/>
       <p2 x="740" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="480"/>
+      <p2 x="360" y="520"/>
     </wire>
     <wire>
       <p1 x="520" y="440"/>
