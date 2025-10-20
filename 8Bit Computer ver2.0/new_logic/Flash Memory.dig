@@ -88,6 +88,10 @@
           <int>16</int>
         </entry>
         <entry>
+          <string>isProgramMemory</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>CMD</string>
         </entry>
@@ -96,8 +100,8 @@
           <int>8</int>
         </entry>
         <entry>
-          <string>Data</string>
-          <data>27</data>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
         </entry>
       </elementAttributes>
       <pos x="1260" y="440"/>
@@ -108,6 +112,10 @@
         <entry>
           <string>AddrBits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>isProgramMemory</string>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>Label</string>
@@ -126,6 +134,10 @@
         <entry>
           <string>AddrBits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>isProgramMemory</string>
+          <boolean>true</boolean>
         </entry>
         <entry>
           <string>Label</string>
