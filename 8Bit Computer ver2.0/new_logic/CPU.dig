@@ -400,16 +400,16 @@
           <string>Description</string>
           <string>commands requiring the data bus to be disabled:
 Storage: 
-- load &gt; data
+- load
 
 ALU:
-- add &gt; data
-- add with carry &gt; data
-- subtract &gt; data
+- add
+- add with carry
+- subtract
 
 incrementor:
-- increment &gt; data
-- decrement &gt; data
+- increment
+- decrement
 
 logic:
 - binary not
@@ -422,19 +422,19 @@ logic:
 - bitwise xor
 
 a/b/c registers:
-- load a &gt; data
-- load b &gt; data
-- load c &gt; data
+- load a
+- load b
+- load c
 
 compare:
-- bigger &gt; data
-- equal &gt; data
-- smaller &gt; data
+- bigger
+- equal
+- smaller
 
 flag reg:
-- load carry &gt; data
-- load overflow &gt; data
-- load flags &gt; data</string>
+- load carry
+- load overflow
+- load flags</string>
         </entry>
       </elementAttributes>
       <pos x="1800" y="480"/>
