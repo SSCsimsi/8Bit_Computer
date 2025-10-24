@@ -21,8 +21,12 @@
           <string>Label</string>
           <string>Q</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
       </elementAttributes>
-      <pos x="1380" y="300"/>
+      <pos x="1440" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -96,6 +100,30 @@ written to</string>
       <elementAttributes/>
       <pos x="1160" y="460"/>
     </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1380" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1360" y="320"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -105,6 +133,10 @@ written to</string>
     <wire>
       <p1 x="1120" y="320"/>
       <p2 x="1160" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="320"/>
+      <p2 x="1380" y="320"/>
     </wire>
     <wire>
       <p1 x="1080" y="420"/>
@@ -139,8 +171,8 @@ written to</string>
       <p2 x="1260" y="460"/>
     </wire>
     <wire>
-      <p1 x="1340" y="300"/>
-      <p2 x="1380" y="300"/>
+      <p1 x="1400" y="300"/>
+      <p2 x="1440" y="300"/>
     </wire>
     <wire>
       <p1 x="1220" y="300"/>
@@ -149,6 +181,10 @@ written to</string>
     <wire>
       <p1 x="1000" y="300"/>
       <p2 x="1160" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="300"/>
+      <p2 x="1380" y="300"/>
     </wire>
     <wire>
       <p1 x="1120" y="380"/>
