@@ -212,7 +212,8 @@ avoid bus collisions</string>
           <string>the clock is delayed in order to wait
 for commands to send their disable 
 signals before they get saved in order
-to instantly stop output to the buses</string>
+to instantly stop output to the buses
+- at least 16ns delay</string>
         </entry>
       </elementAttributes>
       <pos x="740" y="660"/>
@@ -221,12 +222,12 @@ to instantly stop output to the buses</string>
       <elementName>Driver</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>8</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="1400" y="580"/>
@@ -235,12 +236,12 @@ to instantly stop output to the buses</string>
       <elementName>Driver</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="1400" y="700"/>
