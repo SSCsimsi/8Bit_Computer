@@ -124,7 +124,7 @@ not a problem, just an observation
 one clock pulse, the first operation would be redundant)</string>
         </entry>
       </elementAttributes>
-      <pos x="940" y="200"/>
+      <pos x="880" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -136,15 +136,32 @@ one clock pulse, the first operation would be redundant)</string>
       </elementAttributes>
       <pos x="1060" y="680"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>the connection from DAT to Q is 
+to mimic the layout of the chip we
+are planning on using, as its
+i/o is combined into the same pins</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1380" y="360"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
       <p1 x="1340" y="560"/>
-      <p2 x="1380" y="560"/>
+      <p2 x="1360" y="560"/>
     </wire>
     <wire>
       <p1 x="1060" y="560"/>
       <p2 x="1280" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="560"/>
+      <p2 x="1380" y="560"/>
     </wire>
     <wire>
       <p1 x="1140" y="640"/>
@@ -159,12 +176,16 @@ one clock pulse, the first operation would be redundant)</string>
       <p2 x="1280" y="580"/>
     </wire>
     <wire>
-      <p1 x="1260" y="600"/>
-      <p2 x="1280" y="600"/>
-    </wire>
-    <wire>
       <p1 x="1060" y="440"/>
       <p2 x="1240" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="440"/>
+      <p2 x="1360" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="600"/>
+      <p2 x="1280" y="600"/>
     </wire>
     <wire>
       <p1 x="1260" y="520"/>
@@ -195,16 +216,20 @@ one clock pulse, the first operation would be redundant)</string>
       <p2 x="1280" y="540"/>
     </wire>
     <wire>
+      <p1 x="1360" y="440"/>
+      <p2 x="1360" y="560"/>
+    </wire>
+    <wire>
       <p1 x="1140" y="640"/>
       <p2 x="1140" y="680"/>
     </wire>
     <wire>
-      <p1 x="1240" y="440"/>
-      <p2 x="1240" y="540"/>
-    </wire>
-    <wire>
       <p1 x="1240" y="580"/>
       <p2 x="1240" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="440"/>
+      <p2 x="1240" y="540"/>
     </wire>
     <wire>
       <p1 x="1260" y="600"/>
