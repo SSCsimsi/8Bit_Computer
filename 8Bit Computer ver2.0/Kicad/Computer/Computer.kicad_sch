@@ -1064,6 +1064,16 @@
 	)
 	(wire
 		(pts
+			(xy 457.2 256.54) (xy 467.36 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3103afaf-d375-414a-a881-b28948469bd6")
+	)
+	(wire
+		(pts
 			(xy 337.82 105.41) (xy 340.36 105.41)
 		)
 		(stroke
@@ -1534,6 +1544,16 @@
 	)
 	(bus
 		(pts
+			(xy 468.63 347.98) (xy 458.47 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b730d8bd-2937-4eef-8ae9-50b43a4da82b")
+	)
+	(bus
+		(pts
 			(xy 510.54 274.32) (xy 520.7 274.32)
 		)
 		(stroke
@@ -1564,7 +1584,7 @@
 	)
 	(bus
 		(pts
-			(xy 453.39 260.35) (xy 467.36 260.35)
+			(xy 453.39 261.62) (xy 467.36 261.62)
 		)
 		(stroke
 			(width 0)
@@ -1621,6 +1641,16 @@
 			(type default)
 		)
 		(uuid "d528b71f-800f-49ef-83d3-8673ed4a1666")
+	)
+	(bus
+		(pts
+			(xy 453.39 341.63) (xy 468.63 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1ef326-15c4-42d4-abfd-987d39fd778f")
 	)
 	(wire
 		(pts
@@ -1711,6 +1741,16 @@
 			(type default)
 		)
 		(uuid "f7996f17-8c44-4498-970e-dea4c936a38c")
+	)
+	(wire
+		(pts
+			(xy 453.39 251.46) (xy 467.36 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6bf802-5f00-4499-9eff-4b858a7c9d1f")
 	)
 	(wire
 		(pts
@@ -1822,8 +1862,8 @@
 		)
 		(uuid "33769403-eb6a-4c6f-b613-3df5a55cefcd")
 	)
-	(label "LN[0..15]"
-		(at 453.39 260.35 180)
+	(label "{LN[0..15]}"
+		(at 453.39 261.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1861,6 +1901,16 @@
 			(justify left bottom)
 		)
 		(uuid "37bbf061-c759-4df4-ace1-4d9d752d2e94")
+	)
+	(label "DAT[0..7]"
+		(at 458.47 347.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38a4d96e-19d2-49e3-be43-904388ab1b9e")
 	)
 	(label "CMD5"
 		(at 373.38 102.87 0)
@@ -1932,6 +1982,16 @@
 		)
 		(uuid "5489a57a-8737-4506-9d1d-81a48689cbf5")
 	)
+	(label "GND"
+		(at 453.39 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "556028e5-0d6f-4b96-9d05-4d5e42dba820")
+	)
 	(label "VCC"
 		(at 373.38 85.09 0)
 		(effects
@@ -1982,7 +2042,7 @@
 		)
 		(uuid "635df29d-1116-4d5c-b6cb-46ccb1130d38")
 	)
-	(label "ADR[0..15]"
+	(label "{ADR[0..15]}"
 		(at 458.47 87.63 180)
 		(effects
 			(font
@@ -2242,6 +2302,26 @@
 		)
 		(uuid "cc08d8ae-28e9-4189-840a-b65d23933f9c")
 	)
+	(label "VCC"
+		(at 457.2 256.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce23c815-c4d3-4ab6-8b45-1b568e0c2cad")
+	)
+	(label "{ADR[0..15]}"
+		(at 453.39 341.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cee8d139-3e5c-4405-9fc9-8e9b7b5afba6")
+	)
 	(label "GND"
 		(at 337.82 135.89 180)
 		(effects
@@ -2252,7 +2332,7 @@
 		)
 		(uuid "d75237b9-f602-49b7-9a15-72cef5a39fc0")
 	)
-	(label "LN[0..15]"
+	(label "{LN[0..15]}"
 		(at 516.89 90.17 0)
 		(effects
 			(font
@@ -2312,7 +2392,7 @@
 		)
 		(uuid "f989e89d-0713-4cbf-bf38-b3f9ca2e24f0")
 	)
-	(label "ADR[0..15]"
+	(label "{ADR[0..15]}"
 		(at 520.7 274.32 0)
 		(effects
 			(font
@@ -2999,6 +3079,118 @@
 		)
 	)
 	(sheet
+		(at 468.63 312.42)
+		(size 40.64 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42d222c2-85ce-47c7-bf35-977080c4de05")
+		(property "Sheetname" "RAM"
+			(at 468.63 311.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RAM.kicad_sch"
+			(at 468.63 362.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 468.63 318.77 180)
+			(uuid "fde4b908-27b5-4411-a445-35734a67b53c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LD" input
+			(at 468.63 323.85 180)
+			(uuid "a7a77bd1-168d-4bf9-a858-d93059177a58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "str" input
+			(at 468.63 328.93 180)
+			(uuid "0d4a3b1d-811b-431b-9823-c42314c2f610")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 468.63 335.28 180)
+			(uuid "5a0cdd31-e900-45ed-a916-e96feb0d221b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ADR[0..15]}" tri_state
+			(at 468.63 341.63 180)
+			(uuid "8f57b533-cb0e-4624-9c84-1a1c95c6d4fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAT[0..7]" tri_state
+			(at 468.63 347.98 180)
+			(uuid "e93f264d-00b2-4c2f-a092-52fca0470198")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CLK}" input
+			(at 468.63 355.6 180)
+			(uuid "4e2d57cd-a9d8-4dc8-9c0f-6b26ac4f6ec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 467.36 248.92)
 		(size 43.18 44.45)
 		(exclude_from_sim no)
@@ -3032,18 +3224,8 @@
 				(justify left top)
 			)
 		)
-		(pin "ADR[0..15]" tri_state
-			(at 510.54 274.32 0)
-			(uuid "702d48da-a90d-4549-be20-8b8425c6bec0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ADR_{dis}" input
-			(at 467.36 270.51 180)
+			(at 467.36 271.78 180)
 			(uuid "164decd6-8b38-4769-959a-992e05a34755")
 			(effects
 				(font
@@ -3052,28 +3234,8 @@
 				(justify left)
 			)
 		)
-		(pin "CMD[0..7]" tri_state
-			(at 510.54 269.24 0)
-			(uuid "235f5a3b-0501-4f13-85f0-7da6527468b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DAT[0..7]" tri_state
-			(at 510.54 264.16 0)
-			(uuid "34adcc78-ce6f-4461-9534-91e9552e8854")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DAT_{dis}" input
-			(at 467.36 265.43 180)
+			(at 467.36 266.7 180)
 			(uuid "53c5d951-4269-4f78-a868-138d7b8b450b")
 			(effects
 				(font
@@ -3092,9 +3254,59 @@
 				(justify left)
 			)
 		)
-		(pin "LN[0..15]" tri_state
-			(at 467.36 260.35 180)
-			(uuid "fb65096a-c1e7-4e4f-b4f9-6e5aa0f9c119")
+		(pin "GND" input
+			(at 467.36 251.46 180)
+			(uuid "d1dd7f42-8e2d-4d66-bd0a-2603950e9aac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 467.36 256.54 180)
+			(uuid "529e3397-b900-4be6-a040-4be99c6ec127")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ADR[0..15]}" tri_state
+			(at 510.54 274.32 0)
+			(uuid "81081187-6733-44b5-9afc-238656c808a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CMD[0..7]" tri_state
+			(at 510.54 269.24 0)
+			(uuid "68547067-9525-488a-8682-aea250fb57d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAT[0..7]" tri_state
+			(at 510.54 264.16 0)
+			(uuid "04a29a2a-18f5-4279-9c4a-d3795bd6d23f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{LN[0..15]}" tri_state
+			(at 467.36 261.62 180)
+			(uuid "bc9e294c-9a44-4df9-8bd3-5ead7cbf0ea8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3356,7 @@
 				(justify left top)
 			)
 		)
-		(pin "ADR[0..15]" tri_state
+		(pin "{ADR[0..15]}" tri_state
 			(at 468.63 87.63 180)
 			(uuid "acde0427-3064-4418-a5d2-ef05a4a084e2")
 			(effects
@@ -3194,7 +3406,7 @@
 				(justify left)
 			)
 		)
-		(pin "LN[0..15]" tri_state
+		(pin "{LN[0..15]}" tri_state
 			(at 502.92 90.17 0)
 			(uuid "30b0618e-8f59-4e02-ba07-61549f70b1ed")
 			(effects
