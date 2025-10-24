@@ -158,15 +158,11 @@
           <boolean>true</boolean>
         </entry>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
           <string>Frequency</string>
           <int>5</int>
         </entry>
       </elementAttributes>
-      <pos x="900" y="-60"/>
+      <pos x="740" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Programme Counter.dig</elementName>
@@ -1223,6 +1219,10 @@ Bus Transfer:
       <p2 x="1000" y="1080"/>
     </wire>
     <wire>
+      <p1 x="740" y="60"/>
+      <p2 x="900" y="60"/>
+    </wire>
+    <wire>
       <p1 x="900" y="60"/>
       <p2 x="1580" y="60"/>
     </wire>
@@ -1439,8 +1439,8 @@ Bus Transfer:
       <p2 x="1920" y="140"/>
     </wire>
     <wire>
-      <p1 x="900" y="-60"/>
-      <p2 x="900" y="60"/>
+      <p1 x="900" y="60"/>
+      <p2 x="900" y="200"/>
     </wire>
     <wire>
       <p1 x="900" y="1340"/>
@@ -1461,10 +1461,6 @@ Bus Transfer:
     <wire>
       <p1 x="900" y="540"/>
       <p2 x="900" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="900" y="60"/>
-      <p2 x="900" y="200"/>
     </wire>
     <wire>
       <p1 x="900" y="1160"/>
