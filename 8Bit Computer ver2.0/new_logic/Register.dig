@@ -135,6 +135,17 @@
       <elementAttributes/>
       <pos x="380" y="480"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>delay of 8ns - until the setup time of
+the dlatch has passed</string>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="540"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
