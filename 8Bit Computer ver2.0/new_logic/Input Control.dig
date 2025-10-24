@@ -69,11 +69,15 @@ written to</string>
       <elementName>Driver</elementName>
       <elementAttributes>
         <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
           <string>flipSelPos</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1320" y="300"/>
+      <pos x="1380" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
@@ -108,7 +112,7 @@ written to</string>
           <string>1,7</string>
         </entry>
       </elementAttributes>
-      <pos x="1380" y="300"/>
+      <pos x="1320" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -122,7 +126,7 @@ written to</string>
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="1360" y="320"/>
+      <pos x="1300" y="320"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -135,8 +139,8 @@ written to</string>
       <p2 x="1160" y="320"/>
     </wire>
     <wire>
-      <p1 x="1360" y="320"/>
-      <p2 x="1380" y="320"/>
+      <p1 x="1300" y="320"/>
+      <p2 x="1320" y="320"/>
     </wire>
     <wire>
       <p1 x="1080" y="420"/>
@@ -148,7 +152,7 @@ written to</string>
     </wire>
     <wire>
       <p1 x="1140" y="420"/>
-      <p2 x="1320" y="420"/>
+      <p2 x="1380" y="420"/>
     </wire>
     <wire>
       <p1 x="1120" y="260"/>
@@ -160,7 +164,7 @@ written to</string>
     </wire>
     <wire>
       <p1 x="1220" y="360"/>
-      <p2 x="1320" y="360"/>
+      <p2 x="1380" y="360"/>
     </wire>
     <wire>
       <p1 x="1140" y="460"/>
@@ -171,20 +175,20 @@ written to</string>
       <p2 x="1260" y="460"/>
     </wire>
     <wire>
-      <p1 x="1400" y="300"/>
-      <p2 x="1440" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="1220" y="300"/>
-      <p2 x="1300" y="300"/>
-    </wire>
-    <wire>
       <p1 x="1000" y="300"/>
       <p2 x="1160" y="300"/>
     </wire>
     <wire>
+      <p1 x="1400" y="300"/>
+      <p2 x="1440" y="300"/>
+    </wire>
+    <wire>
       <p1 x="1340" y="300"/>
-      <p2 x="1380" y="300"/>
+      <p2 x="1360" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="300"/>
+      <p2 x="1320" y="300"/>
     </wire>
     <wire>
       <p1 x="1120" y="380"/>
@@ -207,12 +211,12 @@ written to</string>
       <p2 x="1140" y="460"/>
     </wire>
     <wire>
-      <p1 x="1320" y="320"/>
-      <p2 x="1320" y="360"/>
+      <p1 x="1380" y="320"/>
+      <p2 x="1380" y="360"/>
     </wire>
     <wire>
-      <p1 x="1320" y="360"/>
-      <p2 x="1320" y="420"/>
+      <p1 x="1380" y="360"/>
+      <p2 x="1380" y="420"/>
     </wire>
     <wire>
       <p1 x="1260" y="260"/>
