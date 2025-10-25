@@ -1663,6 +1663,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Samacsys:DS1100Z-20+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DS1100Z-20+"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:SOIC127P600X175-8N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DS1100.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DS1100Z-20+, Delay Line, 5-Taps 500ns, 8-Pin SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "700-DS1100Z-20"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS1100Z-20%2b?qs=0Y9aZN%252BMVCX5CJKJjF7c1Q%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DS1100Z-20+"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DS1100Z-20+_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "TAP_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "TAP_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "TAP_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "TAP_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "TAP_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Samacsys:M29F800FT55N3E2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3603,6 +3863,12 @@
 		(uuid "912ce8f9-3049-4e57-93b5-7fe06e8ed645")
 	)
 	(junction
+		(at 184.15 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9182ca22-ad5d-494e-a93d-14d998a3efc4")
+	)
+	(junction
 		(at 411.48 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3647,12 +3913,24 @@
 		(uuid "112a301f-fdca-4682-bb18-ce3b32788885")
 	)
 	(no_connect
+		(at 179.07 267.97)
+		(uuid "1646e74a-c9b4-4563-85d6-0ff74618c5d4")
+	)
+	(no_connect
 		(at 298.45 113.03)
 		(uuid "166253d4-57bf-4d43-8fa1-640ca5e5c9cf")
 	)
 	(no_connect
+		(at 148.59 265.43)
+		(uuid "18276e7e-aa16-42a5-b1b2-82e819b43375")
+	)
+	(no_connect
 		(at 246.38 458.47)
 		(uuid "197c9a83-162e-4fc6-8c17-55582fb4344e")
+	)
+	(no_connect
+		(at 179.07 270.51)
+		(uuid "29208510-cd1d-4af7-8264-d019d8a10402")
 	)
 	(no_connect
 		(at 369.57 237.49)
@@ -3665,6 +3943,10 @@
 	(no_connect
 		(at 220.98 455.93)
 		(uuid "396e6a71-1c39-4abf-bb58-3bfcd1ec3c65")
+	)
+	(no_connect
+		(at 468.63 100.33)
+		(uuid "442be116-9e05-46dc-b9f1-cdd959c35973")
 	)
 	(no_connect
 		(at 285.75 378.46)
@@ -3715,6 +3997,10 @@
 		(uuid "b9562980-6360-4e9b-b0e4-497298f1dfbc")
 	)
 	(no_connect
+		(at 293.37 100.33)
+		(uuid "d8756e92-6a37-4f42-b423-952b2a9faf98")
+	)
+	(no_connect
 		(at 369.57 224.79)
 		(uuid "dff0173b-2197-4473-8b87-18fcf1a0faaf")
 	)
@@ -3729,6 +4015,10 @@
 	(no_connect
 		(at 368.3 306.07)
 		(uuid "e517dc86-b753-4a12-a07d-ea146060bac9")
+	)
+	(no_connect
+		(at 179.07 265.43)
+		(uuid "e7224708-6034-47a3-ae26-eb7d4b426b20")
 	)
 	(no_connect
 		(at 204.47 309.88)
@@ -6926,6 +7216,16 @@
 		)
 		(uuid "0516d0a6-7a49-4f3d-9103-1a791e746d66")
 	)
+	(wire
+		(pts
+			(xy 250.19 307.34) (xy 234.95 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b2d278-9b0f-4cd5-b344-df5a610feba4")
+	)
 	(bus
 		(pts
 			(xy 257.81 468.63) (xy 257.81 471.17)
@@ -7475,6 +7775,16 @@
 			(type default)
 		)
 		(uuid "16e558c2-2700-4442-aa5d-9319ea5a51a7")
+	)
+	(wire
+		(pts
+			(xy 184.15 304.8) (xy 204.47 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176e6cd6-45ab-4faf-b74f-cbc1838a2013")
 	)
 	(wire
 		(pts
@@ -9928,6 +10238,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 267.97) (xy 137.16 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6b23a2-16ab-48cb-9597-5b1fcce74117")
+	)
+	(wire
+		(pts
 			(xy 500.38 381) (xy 497.84 381)
 		)
 		(stroke
@@ -11005,6 +11325,16 @@
 			(type default)
 		)
 		(uuid "8240bf85-6fa0-4653-b1b5-c67b190dda02")
+	)
+	(wire
+		(pts
+			(xy 184.15 304.8) (xy 184.15 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824ac8ce-e5f3-4698-96dd-0dbaae9f1e54")
 	)
 	(wire
 		(pts
@@ -12346,6 +12676,16 @@
 		)
 		(uuid "a7d453a4-5710-4020-b3d4-e731bcd83520")
 	)
+	(wire
+		(pts
+			(xy 184.15 287.02) (xy 250.19 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91903ad-2a1b-4a08-afb4-856bf952a373")
+	)
 	(bus
 		(pts
 			(xy 440.69 132.08) (xy 443.23 132.08)
@@ -12568,6 +12908,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 304.8) (xy 184.15 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b054d1d3-62a1-4435-b7b0-3052680e3542")
+	)
+	(wire
+		(pts
 			(xy 369.57 207.01) (xy 353.06 207.01)
 		)
 		(stroke
@@ -12605,6 +12955,16 @@
 			(type default)
 		)
 		(uuid "b14db136-b999-4569-a584-bee482bbe69f")
+	)
+	(wire
+		(pts
+			(xy 146.05 270.51) (xy 148.59 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15e249b-a891-413c-b1b2-6518313d4c00")
 	)
 	(bus
 		(pts
@@ -13116,6 +13476,16 @@
 		)
 		(uuid "be9c05b7-c6bf-422b-ad11-27f8bf26884f")
 	)
+	(wire
+		(pts
+			(xy 148.59 267.97) (xy 137.16 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef989a6-45ca-48a2-a8f4-92d6621e6ca1")
+	)
 	(bus
 		(pts
 			(xy 482.6 370.84) (xy 482.6 373.38)
@@ -13285,6 +13655,16 @@
 			(type default)
 		)
 		(uuid "c35e4a83-a60f-402f-8e04-e4880f28513d")
+	)
+	(wire
+		(pts
+			(xy 146.05 262.89) (xy 148.59 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b6101b-c720-43a6-aa0f-13c9f03e61b7")
 	)
 	(wire
 		(pts
@@ -13925,6 +14305,16 @@
 			(type default)
 		)
 		(uuid "d867e1ef-cb0d-4dbe-8eec-0d3b7a233ebb")
+	)
+	(wire
+		(pts
+			(xy 179.07 262.89) (xy 181.61 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87d4ef8-f704-4af6-9ab2-b0549d3b89d8")
 	)
 	(wire
 		(pts
@@ -15088,6 +15478,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 287.02) (xy 250.19 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f981b188-e3de-49c0-8a0d-b51852b8273f")
+	)
+	(wire
+		(pts
 			(xy 485.14 422.91) (xy 500.38 422.91)
 		)
 		(stroke
@@ -16096,6 +16496,16 @@
 		)
 		(uuid "29e7ee18-18f2-407e-be88-a10c5f7604cd")
 	)
+	(label "GND"
+		(at 146.05 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a6ef750-d180-416c-a5a4-a38a029a204a")
+	)
 	(label "DMISC0"
 		(at 440.69 97.79 90)
 		(effects
@@ -16285,6 +16695,16 @@
 			(justify left bottom)
 		)
 		(uuid "33cf6a69-4cf5-43eb-ab84-afe4f4ae8efb")
+	)
+	(label "VCC"
+		(at 181.61 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3462a884-bd82-4c68-aa0a-5a4b2be2d4e9")
 	)
 	(label "HDATCMD8"
 		(at 497.84 370.84 180)
@@ -19096,6 +19516,16 @@
 		)
 		(uuid "c7683f56-6fa5-467e-9caf-5712219b1868")
 	)
+	(label "~{CLK}"
+		(at 146.05 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7b2f904-4701-4fcd-a70e-6b3a9563331a")
+	)
 	(label "BMISC0"
 		(at 323.85 355.6 0)
 		(effects
@@ -20294,6 +20724,144 @@
 			(justify right)
 		)
 		(uuid "f42ba502-e04e-4ad8-8527-bab912a3a1e3")
+	)
+	(symbol
+		(lib_id "Samacsys:DS1100Z-20+")
+		(at 148.59 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0163dccb-eab3-42ba-9e93-d8e6b0d794b4")
+		(property "Reference" "IC191"
+			(at 163.83 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS1100Z-20+"
+			(at 163.83 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
+			(at 175.26 357.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DS1100.pdf"
+			(at 175.26 457.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DS1100Z-20+, Delay Line, 5-Taps 500ns, 8-Pin SOIC"
+			(at 148.59 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 175.26 657.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "700-DS1100Z-20"
+			(at 175.26 757.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/DS1100Z-20%2b?qs=0Y9aZN%252BMVCX5CJKJjF7c1Q%3D%3D"
+			(at 175.26 857.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 175.26 957.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DS1100Z-20+"
+			(at 175.26 1057.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9aa78aa6-6847-4776-abbf-eae2e61c5030")
+		)
+		(pin "3"
+			(uuid "b9ee0585-cc0f-49d4-a98b-0ba6c6a2b37d")
+		)
+		(pin "8"
+			(uuid "583dce17-04aa-4159-88ca-09a979a39641")
+		)
+		(pin "1"
+			(uuid "c7762730-3f21-48a2-9eaa-75f0b20dbe40")
+		)
+		(pin "2"
+			(uuid "0498207b-43e3-4170-b05a-d1eec5b3dcc2")
+		)
+		(pin "4"
+			(uuid "eb6079f1-4f6b-44a6-aac3-12eaf147a3a4")
+		)
+		(pin "7"
+			(uuid "c298222b-d673-4e99-92c7-d68c78b10984")
+		)
+		(pin "5"
+			(uuid "f6ce44b5-09d8-47e7-ac31-de3c5729d8ed")
+		)
+		(instances
+			(project ""
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/51d10ac8-27e7-4c9f-83ea-98776ebc8169"
+					(reference "IC191")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")

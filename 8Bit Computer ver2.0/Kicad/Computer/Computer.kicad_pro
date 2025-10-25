@@ -952,27 +952,35 @@
         "LN[0..15]"
       ],
       "/Q0": [
+        "DAT[0..7]",
         "Q[0..7]"
       ],
       "/Q1": [
+        "DAT[0..7]",
         "Q[0..7]"
       ],
       "/Q2": [
+        "DAT[0..7]",
         "Q[0..7]"
       ],
       "/Q3": [
+        "DAT[0..7]",
         "Q[0..7]"
       ],
       "/Q4": [
+        "DAT[0..7]",
         "Q[0..7]"
       ],
       "/Q5": [
+        "DAT[0..7]",
         "Q[0..7]"
       ],
       "/Q6": [
+        "DAT[0..7]",
         "Q[0..7]"
       ],
       "/Q7": [
+        "DAT[0..7]",
         "Q[0..7]"
       ],
       "/Q[0..7]": [
@@ -1211,6 +1219,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -1295,6 +1311,10 @@
     [
       "42d222c2-85ce-47c7-bf35-977080c4de05",
       "RAM"
+    ],
+    [
+      "38ef002d-382e-42a8-ab7d-73fd8329d0a3",
+      "DATtoADR"
     ]
   ],
   "text_variables": {}

@@ -2221,6 +2221,12 @@
 		(uuid "a167dfd7-6409-41ac-acfd-bac7152c0862")
 	)
 	(junction
+		(at 168.91 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4d446d3-b867-4992-b545-b30c9403bdec")
+	)
+	(junction
 		(at 229.87 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3051,6 +3057,16 @@
 			(type default)
 		)
 		(uuid "5af3ba0e-a1a0-45b8-8c5f-ee7412bd7dc6")
+	)
+	(wire
+		(pts
+			(xy 168.91 44.45) (xy 168.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c63acf6-68c3-430a-96a5-d4c5073da1bb")
 	)
 	(wire
 		(pts
@@ -4292,6 +4308,16 @@
 			(justify left bottom)
 		)
 		(uuid "33a80a20-2228-41dd-90d1-0dc609e0b079")
+	)
+	(label "C_{in}"
+		(at 168.91 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36021edd-bacd-4606-ae7b-d1bcceb4c0c5")
 	)
 	(label "STCSTA"
 		(at 93.98 46.99 0)
