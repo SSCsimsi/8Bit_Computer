@@ -2048,16 +2048,6 @@
 		)
 		(uuid "2bb01eb7-d63e-41e2-b52c-1661d2dab667")
 	)
-	(wire
-		(pts
-			(xy 39.37 80.01) (xy 45.72 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2be0809e-436a-4171-a1c5-8d20c32577f9")
-	)
 	(bus
 		(pts
 			(xy 237.49 85.09) (xy 237.49 87.63)
@@ -3080,16 +3070,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 109.22) (xy 59.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efc907c8-723a-4db5-8313-cdc068193b27")
-	)
-	(wire
-		(pts
 			(xy 99.06 90.17) (xy 109.22 90.17)
 		)
 		(stroke
@@ -3468,16 +3448,6 @@
 		)
 		(uuid "6911370e-5122-4aeb-8d6a-deab77ff9a49")
 	)
-	(label "LD"
-		(at 53.34 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "699e103e-994e-4821-afad-a740d1c66613")
-	)
 	(label "VCC"
 		(at 185.42 77.47 180)
 		(effects
@@ -3718,26 +3688,6 @@
 		)
 		(uuid "c333347f-f67f-41a1-b8ca-ec9980404c11")
 	)
-	(label "ADR_{dis}"
-		(at 59.69 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3d1dd7f-e542-4f42-92f8-a33941bd2ccf")
-	)
-	(label "ADR_{dis}"
-		(at 45.72 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c43cf532-8b43-487b-b5e0-2bcaf15be12b")
-	)
 	(label "GND"
 		(at 45.72 41.91 0)
 		(effects
@@ -3952,17 +3902,6 @@
 			(justify right)
 		)
 		(uuid "859c33c2-0b6e-47fe-a90c-0c422b1ba4dc")
-	)
-	(hierarchical_label "ADR_{dis}"
-		(shape input)
-		(at 39.37 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d08c9e8-d92b-4c64-b913-7c5e1afa5aa0")
 	)
 	(hierarchical_label "~{CLK}"
 		(shape input)

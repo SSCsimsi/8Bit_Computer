@@ -1228,7 +1228,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1315,6 +1315,10 @@
     [
       "38ef002d-382e-42a8-ab7d-73fd8329d0a3",
       "DATtoADR"
+    ],
+    [
+      "ba5a7074-f649-4584-80a3-402a8e31fba6",
+      "InputOutput"
     ]
   ],
   "text_variables": {}

@@ -4172,7 +4172,7 @@
 		)
 		(uuid "ff4c5965-08fe-4c96-8a63-18a5e166dd4c")
 	)
-	(label "Q0"
+	(label "DAT0"
 		(at 214.63 99.06 0)
 		(effects
 			(font
@@ -4212,7 +4212,7 @@
 		)
 		(uuid "0cd435de-a27f-4488-98c3-d356210edcc7")
 	)
-	(label "Q7"
+	(label "DAT7"
 		(at 214.63 116.84 0)
 		(effects
 			(font
@@ -4492,7 +4492,7 @@
 		)
 		(uuid "5e81d446-ff39-46f4-bc5e-1c60a7eb40e0")
 	)
-	(label "Q4"
+	(label "DAT4"
 		(at 214.63 109.22 0)
 		(effects
 			(font
@@ -4682,7 +4682,7 @@
 		)
 		(uuid "8a81a649-12a4-4cf8-8224-53acaf850846")
 	)
-	(label "Q3"
+	(label "DAT3"
 		(at 214.63 106.68 0)
 		(effects
 			(font
@@ -4712,7 +4712,7 @@
 		)
 		(uuid "9a9e2fd0-bb4f-4afb-9efe-b2d83de48f11")
 	)
-	(label "Q1"
+	(label "DAT1"
 		(at 214.63 101.6 0)
 		(effects
 			(font
@@ -4722,7 +4722,7 @@
 		)
 		(uuid "9da09075-73c3-4ada-9aef-3fc6cfe519b2")
 	)
-	(label "Q2"
+	(label "DAT2"
 		(at 214.63 104.14 0)
 		(effects
 			(font
@@ -4802,7 +4802,7 @@
 		)
 		(uuid "b0e2c415-dac6-4feb-8a40-1dd4b67a2710")
 	)
-	(label "Q5"
+	(label "DAT5"
 		(at 214.63 111.76 0)
 		(effects
 			(font
@@ -4892,7 +4892,7 @@
 		)
 		(uuid "d3bd32ae-a3f5-49d5-9ac1-f82fe0a61fb6")
 	)
-	(label "Q[0..7]"
+	(label "DAT[0..7]"
 		(at 62.23 113.03 0)
 		(effects
 			(font
@@ -5012,7 +5012,7 @@
 		)
 		(uuid "f5b6be63-9950-4842-817b-4f5789605cf1")
 	)
-	(label "Q6"
+	(label "DAT6"
 		(at 214.63 114.3 0)
 		(effects
 			(font
@@ -5032,7 +5032,7 @@
 		)
 		(uuid "f786a4cf-087e-464f-82a5-0eac3bc22abf")
 	)
-	(label "Q[0..7]"
+	(label "DAT[0..7]"
 		(at 223.52 100.33 0)
 		(effects
 			(font
@@ -5073,7 +5073,7 @@
 		)
 		(uuid "0abbbd67-cfde-41c3-acce-66860f011293")
 	)
-	(hierarchical_label "Q[0..7]"
+	(hierarchical_label "DAT[0..7]"
 		(shape tri_state)
 		(at 49.53 106.68 180)
 		(effects

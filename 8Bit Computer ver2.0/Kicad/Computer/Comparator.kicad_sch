@@ -5364,7 +5364,7 @@
 		)
 		(uuid "0a2283db-2e21-4a0a-ad23-c69cbff44d9e")
 	)
-	(label "Q1"
+	(label "DAT1"
 		(at 229.87 72.39 0)
 		(effects
 			(font
@@ -5464,7 +5464,7 @@
 		)
 		(uuid "2bf4d398-5668-49c0-b2f6-73a4d7329005")
 	)
-	(label "Q5"
+	(label "DAT5"
 		(at 229.87 82.55 0)
 		(effects
 			(font
@@ -5514,7 +5514,7 @@
 		)
 		(uuid "394969db-05ae-49af-95d0-5ef644ac0849")
 	)
-	(label "Q2"
+	(label "DAT2"
 		(at 229.87 74.93 0)
 		(effects
 			(font
@@ -5544,7 +5544,7 @@
 		)
 		(uuid "43b85a51-31b0-4ba2-917c-9413bf537cd8")
 	)
-	(label "Q6"
+	(label "DAT6"
 		(at 229.87 85.09 0)
 		(effects
 			(font
@@ -5614,7 +5614,7 @@
 		)
 		(uuid "575dc51f-986d-4d72-aa6e-90f6b27a1a4c")
 	)
-	(label "~{P>Q}"
+	(label "~{P>DAT}"
 		(at 144.78 45.72 180)
 		(effects
 			(font
@@ -5674,7 +5674,7 @@
 		)
 		(uuid "6b7ff6d3-3af6-4c1a-99f7-ef9cde34007e")
 	)
-	(label "Q0"
+	(label "DAT0"
 		(at 229.87 69.85 0)
 		(effects
 			(font
@@ -5744,7 +5744,7 @@
 		)
 		(uuid "825e3f0e-9722-49cd-83dc-828a3b50c944")
 	)
-	(label "Q3"
+	(label "DAT3"
 		(at 229.87 77.47 0)
 		(effects
 			(font
@@ -5764,7 +5764,7 @@
 		)
 		(uuid "86a857f0-69fb-45b3-a2c4-811b070784e5")
 	)
-	(label "~{P>Q}"
+	(label "~{P>DAT}"
 		(at 80.01 26.67 180)
 		(effects
 			(font
@@ -5884,7 +5884,7 @@
 		)
 		(uuid "a6949e73-d040-423d-bb98-0ebb5063af27")
 	)
-	(label "Q7"
+	(label "DAT7"
 		(at 229.87 87.63 0)
 		(effects
 			(font
@@ -5994,7 +5994,7 @@
 		)
 		(uuid "c66e241d-05dd-4f4e-894a-95b5ca0f299c")
 	)
-	(label "Q[0..7]"
+	(label "DAT[0..7]"
 		(at 40.64 81.28 0)
 		(effects
 			(font
@@ -6024,7 +6024,7 @@
 		)
 		(uuid "ce340b25-2b8d-4b44-ae5d-ebc94f23f31e")
 	)
-	(label "Q[0..7]"
+	(label "DAT[0..7]"
 		(at 238.76 71.12 0)
 		(effects
 			(font
@@ -6104,7 +6104,7 @@
 		)
 		(uuid "eadc439f-32c3-4f84-8f02-6dad94028508")
 	)
-	(label "Q4"
+	(label "DAT4"
 		(at 229.87 80.01 0)
 		(effects
 			(font
@@ -6114,7 +6114,7 @@
 		)
 		(uuid "eb427c57-4c7e-4b90-a81a-887e68465010")
 	)
-	(label "~{P=Q}"
+	(label "~{P=DAT}"
 		(at 114.3 29.21 0)
 		(effects
 			(font
@@ -6154,7 +6154,7 @@
 		)
 		(uuid "f2f2a936-38a6-4f07-b929-35e6f4ff0cc4")
 	)
-	(label "~{P=Q}"
+	(label "~{P=DAT}"
 		(at 144.78 27.94 180)
 		(effects
 			(font
@@ -6250,7 +6250,7 @@
 		)
 		(uuid "c3078b73-3352-477a-89f2-abaf693a5a94")
 	)
-	(hierarchical_label "Q[0..7]"
+	(hierarchical_label "DAT[0..7]"
 		(shape tri_state)
 		(at 35.56 81.28 180)
 		(effects
