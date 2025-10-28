@@ -818,6 +818,10 @@ Bus Transfer:
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>splitterSpreading</string>
           <int>2</int>
         </entry>
@@ -830,11 +834,15 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="160" y="180"/>
+      <pos x="440" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
         <entry>
           <string>splitterSpreading</string>
           <int>2</int>
@@ -852,7 +860,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="160" y="100"/>
+      <pos x="440" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -938,6 +946,10 @@ Bus Transfer:
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>splitterSpreading</string>
           <int>2</int>
         </entry>
@@ -954,7 +966,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="160"/>
+      <pos x="2160" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -1064,7 +1076,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1680" y="260"/>
-      <p2 x="1880" y="260"/>
+      <p2 x="2160" y="260"/>
     </wire>
     <wire>
       <p1 x="900" y="1540"/>
@@ -1087,7 +1099,7 @@ Bus Transfer:
       <p2 x="1800" y="140"/>
     </wire>
     <wire>
-      <p1 x="160" y="140"/>
+      <p1 x="440" y="140"/>
       <p2 x="700" y="140"/>
     </wire>
     <wire>
@@ -1419,7 +1431,7 @@ Bus Transfer:
       <p2 x="1140" y="760"/>
     </wire>
     <wire>
-      <p1 x="160" y="120"/>
+      <p1 x="440" y="120"/>
       <p2 x="720" y="120"/>
     </wire>
     <wire>
@@ -1663,10 +1675,6 @@ Bus Transfer:
       <p2 x="1880" y="140"/>
     </wire>
     <wire>
-      <p1 x="1880" y="160"/>
-      <p2 x="1880" y="260"/>
-    </wire>
-    <wire>
       <p1 x="1180" y="700"/>
       <p2 x="1180" y="900"/>
     </wire>
@@ -1711,16 +1719,8 @@ Bus Transfer:
       <p2 x="860" y="1860"/>
     </wire>
     <wire>
-      <p1 x="160" y="100"/>
-      <p2 x="160" y="120"/>
-    </wire>
-    <wire>
       <p1 x="160" y="180"/>
       <p2 x="160" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="140"/>
-      <p2 x="160" y="160"/>
     </wire>
     <wire>
       <p1 x="160" y="60"/>
@@ -1791,6 +1791,14 @@ Bus Transfer:
       <p2 x="1260" y="360"/>
     </wire>
     <wire>
+      <p1 x="2160" y="160"/>
+      <p2 x="2160" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="2160" y="120"/>
+      <p2 x="2160" y="140"/>
+    </wire>
+    <wire>
       <p1 x="240" y="60"/>
       <p2 x="240" y="80"/>
     </wire>
@@ -1801,10 +1809,6 @@ Bus Transfer:
     <wire>
       <p1 x="560" y="180"/>
       <p2 x="560" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="2160" y="120"/>
-      <p2 x="2160" y="140"/>
     </wire>
     <wire>
       <p1 x="1460" y="0"/>
@@ -1865,6 +1869,14 @@ Bus Transfer:
     <wire>
       <p1 x="1780" y="120"/>
       <p2 x="1780" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="100"/>
+      <p2 x="440" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="140"/>
+      <p2 x="440" y="160"/>
     </wire>
     <wire>
       <p1 x="440" y="180"/>
