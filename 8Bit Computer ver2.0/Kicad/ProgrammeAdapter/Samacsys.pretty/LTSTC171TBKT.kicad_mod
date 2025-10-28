@@ -1,0 +1,243 @@
+(footprint "LTSTC171TBKT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LTST-C171TBKT-2")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ad0119b8-60b0-4149-9a15-93c73f7d539a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LTSTC171TBKT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d3974681-923d-4ee4-b894-d3b465b169c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47fc7093-9527-4291-8261-b61d521bc779")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "134196bb-513f-4467-b806-95155883e84a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 0)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb4b2119-b5d7-498b-a36a-6d448115d469")
+	)
+	(fp_line
+		(start -2.2 0)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f157bc1-19cf-4b06-8792-679d3f3351ed")
+	)
+	(fp_line
+		(start -0.4 -0.625)
+		(end 0.4 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "325f87a2-4b86-49ec-b5a0-471166c40f84")
+	)
+	(fp_line
+		(start -0.4 0.625)
+		(end -0.4 0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8e9f02c-4a17-4df1-ad59-65fc4dba980b")
+	)
+	(fp_line
+		(start -0.4 0.625)
+		(end 0.4 0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e275f806-dbfc-4766-ae59-a48de408e171")
+	)
+	(fp_arc
+		(start -2.3 0)
+		(mid -2.25 -0.05)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ad30c89-4044-4180-a043-b2161bbc6910")
+	)
+	(fp_arc
+		(start -2.2 0)
+		(mid -2.25 0.05)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4e33132-0c28-4019-b67c-14dca77ca1c0")
+	)
+	(fp_line
+		(start -2.8 -1.625)
+		(end 2.8 -1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82d731f0-d80b-4f81-9b36-d26a648dbe1f")
+	)
+	(fp_line
+		(start -2.8 1.625)
+		(end -2.8 -1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57821ca6-2530-4463-a46c-2e9eb602d832")
+	)
+	(fp_line
+		(start 2.8 -1.625)
+		(end 2.8 1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1c25a64-c571-4723-9528-eb91350305a9")
+	)
+	(fp_line
+		(start 2.8 1.625)
+		(end -2.8 1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "363f4392-ab51-42df-9309-8b4f23fde831")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0adf6f9-afe5-44ca-8043-0e887b181ab1")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f91e1ff-84cf-4d7a-ba3a-9de1b8fbd33b")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fa19d26-8b76-4927-b8aa-b7ecf76e6fb1")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "250e3cc4-cdd3-4f60-94c3-e88450323b23")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9ed62c48-e518-476b-955b-8fc26e9d7470")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0)
+		(size 1.1 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9749c6be-2a06-4af7-9971-aeacd7f86bb9")
+	)
+	(pad "2" smd rect
+		(at 1.25 0)
+		(size 1.1 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74a89f07-ec05-4f5a-aec8-e0d730497523")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Samacsys.3dshapes/LTST-C171TBKT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

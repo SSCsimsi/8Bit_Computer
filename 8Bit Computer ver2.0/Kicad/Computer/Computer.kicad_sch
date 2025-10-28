@@ -953,16 +953,16 @@
 		(uuid "e60884d7-6093-45df-b637-456e7cbd18cf")
 	)
 	(junction
-		(at 320.04 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f70fb8e-f2d6-4993-8c23-2497b3a0cd2d")
-	)
-	(junction
 		(at 232.41 312.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b14dd37-7426-4808-9b42-d72505862c07")
+	)
+	(junction
+		(at 320.04 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe404f32-8a00-4c61-977c-202ad23c331b")
 	)
 	(bus_entry
 		(at 158.75 426.72)
@@ -1468,6 +1468,16 @@
 		)
 		(uuid "f565a8ed-559e-45c9-8394-eb47de22679b")
 	)
+	(wire
+		(pts
+			(xy 247.65 500.38) (xy 257.81 500.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000af4bc-9825-4c2d-8021-148e97b0ec1a")
+	)
 	(bus
 		(pts
 			(xy 158.75 411.48) (xy 158.75 416.56)
@@ -1640,7 +1650,7 @@
 	)
 	(bus
 		(pts
-			(xy 246.38 176.53) (xy 256.54 176.53)
+			(xy 245.11 182.88) (xy 255.27 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1760,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 146.05) (xy 334.01 208.28)
+			(xy 334.01 152.4) (xy 334.01 207.01)
 		)
 		(stroke
 			(width 0)
@@ -1887,16 +1897,6 @@
 			(type default)
 		)
 		(uuid "26b9d1ca-7196-452b-85bb-ba85f95b5e05")
-	)
-	(wire
-		(pts
-			(xy 247.65 514.35) (xy 257.81 514.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26d25a34-4e73-4a78-acea-432c472a6a91")
 	)
 	(bus
 		(pts
@@ -2210,7 +2210,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 495.3) (xy 242.57 495.3)
+			(xy 257.81 481.33) (xy 242.57 481.33)
 		)
 		(stroke
 			(width 0)
@@ -2330,6 +2330,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 163.83) (xy 255.27 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4884491d-7fdf-4310-8afc-6f91820a2834")
+	)
+	(wire
+		(pts
 			(xy 127 104.14) (xy 129.54 104.14)
 		)
 		(stroke
@@ -2390,7 +2400,7 @@
 	)
 	(bus
 		(pts
-			(xy 242.57 166.37) (xy 256.54 166.37)
+			(xy 241.3 172.72) (xy 255.27 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2470,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 208.28) (xy 226.06 208.28)
+			(xy 320.04 207.01) (xy 226.06 207.01)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 208.28) (xy 226.06 234.95)
+			(xy 226.06 207.01) (xy 226.06 234.95)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 208.28) (xy 320.04 208.28)
+			(xy 334.01 207.01) (xy 320.04 207.01)
 		)
 		(stroke
 			(width 0)
@@ -2990,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 146.05) (xy 334.01 146.05)
+			(xy 307.34 152.4) (xy 334.01 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3070,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 508) (xy 257.81 508)
+			(xy 242.57 494.03) (xy 257.81 494.03)
 		)
 		(stroke
 			(width 0)
@@ -3190,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 147.32) (xy 256.54 147.32)
+			(xy 241.3 153.67) (xy 255.27 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3220,23 +3230,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 138.43) (xy 256.54 138.43)
+			(xy 245.11 144.78) (xy 255.27 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a148a5ab-7d65-402d-b70c-62f8a1e17562")
-	)
-	(wire
-		(pts
-			(xy 246.38 157.48) (xy 256.54 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1ef5e0f-9579-438a-aba5-d3ea81526e00")
 	)
 	(wire
 		(pts
@@ -3330,7 +3330,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 520.7) (xy 257.81 520.7)
+			(xy 242.57 506.73) (xy 257.81 506.73)
 		)
 		(stroke
 			(width 0)
@@ -3950,7 +3950,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 501.65) (xy 247.65 501.65)
+			(xy 257.81 487.68) (xy 247.65 487.68)
 		)
 		(stroke
 			(width 0)
@@ -4220,7 +4220,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 203.2) (xy 320.04 208.28)
+			(xy 320.04 203.2) (xy 320.04 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4479,7 +4479,7 @@
 		(uuid "0e20dca2-4895-41fb-8c50-535eafaca503")
 	)
 	(label "DAT[0..7]"
-		(at 247.65 501.65 180)
+		(at 247.65 487.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4629,7 +4629,7 @@
 		(uuid "204dc123-19cd-410b-a42c-f85ed5b02bf3")
 	)
 	(label "~{CLK}"
-		(at 246.38 138.43 180)
+		(at 245.11 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4699,7 +4699,7 @@
 		(uuid "30f4373a-3857-45e9-b485-a53583f5bb20")
 	)
 	(label "GND"
-		(at 242.57 508 180)
+		(at 242.57 494.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4709,7 +4709,7 @@
 		(uuid "31493001-74e9-46c5-bedc-869b9432e5a7")
 	)
 	(label "DAT[0..7]"
-		(at 246.38 176.53 180)
+		(at 245.11 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4809,7 +4809,7 @@
 		(uuid "3d91b200-28fc-4e54-be3b-1583794fc355")
 	)
 	(label "CMD[0..7]"
-		(at 242.57 495.3 180)
+		(at 242.57 481.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5368,6 +5368,16 @@
 		)
 		(uuid "85da2e88-ebd3-46c3-b58d-56dcd86164d6")
 	)
+	(label "VBUS"
+		(at 247.65 500.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "860c3694-c542-4277-9cb6-335b7a9bdc5c")
+	)
 	(label "CMD3"
 		(at 127 71.12 180)
 		(effects
@@ -5377,6 +5387,16 @@
 			(justify right bottom)
 		)
 		(uuid "87efd409-61fe-4519-b918-7f75a7d84c56")
+	)
+	(label "VBUS"
+		(at 245.11 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88a62b6f-ac1f-4171-8aac-875df12d9630")
 	)
 	(label "CMD7"
 		(at 142.24 360.68 0)
@@ -5519,7 +5539,7 @@
 		(uuid "9c7d8f89-5a6c-4c3e-b122-887d6ce30509")
 	)
 	(label "GND"
-		(at 242.57 147.32 180)
+		(at 241.3 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5569,7 +5589,7 @@
 		(uuid "a78e029f-d3e6-46b2-b546-0d2383640c96")
 	)
 	(label "~{CLK}"
-		(at 242.57 520.7 180)
+		(at 242.57 506.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5729,7 +5749,7 @@
 		(uuid "b95936da-e495-48c5-a002-8d813bc15b6f")
 	)
 	(label "CMD[0..7]"
-		(at 242.57 166.37 180)
+		(at 241.3 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5887,16 +5907,6 @@
 			(justify right bottom)
 		)
 		(uuid "d75237b9-f602-49b7-9a15-72cef5a39fc0")
-	)
-	(label "VCC"
-		(at 247.65 514.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d7a06735-e703-4798-9478-fc71b9d28cfd")
 	)
 	(label "CMD4"
 		(at 148.59 429.26 0)
@@ -6147,16 +6157,6 @@
 			(justify right bottom)
 		)
 		(uuid "f81ff7ae-a49c-4ae3-9bf3-f039cb9eff81")
-	)
-	(label "VCC"
-		(at 246.38 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8f8ca72-2a40-401b-907a-da1c871ae204")
 	)
 	(label "VCC"
 		(at 127 58.42 180)
@@ -8694,8 +8694,8 @@
 		)
 	)
 	(sheet
-		(at 256.54 217.17)
-		(size 43.18 44.45)
+		(at 256.54 214.63)
+		(size 43.18 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8710,7 +8710,7 @@
 		)
 		(uuid "51d10ac8-27e7-4c9f-83ea-98776ebc8169")
 		(property "Sheetname" "FlashMemory"
-			(at 256.54 216.4584 0)
+			(at 256.54 213.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +8719,7 @@
 			)
 		)
 		(property "Sheetfile" "FlashMemory.kicad_sch"
-			(at 256.54 262.2046 0)
+			(at 256.54 254.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,8 +8958,8 @@
 		)
 	)
 	(sheet
-		(at 257.81 490.22)
-		(size 40.64 50.8)
+		(at 257.81 476.25)
+		(size 40.64 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8974,7 +8974,7 @@
 		)
 		(uuid "ba5a7074-f649-4584-80a3-402a8e31fba6")
 		(property "Sheetname" "InputOutput"
-			(at 257.81 489.5084 0)
+			(at 257.81 475.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,7 +8983,7 @@
 			)
 		)
 		(property "Sheetfile" "InputOutput.kicad_sch"
-			(at 257.81 541.6046 0)
+			(at 257.81 514.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +8992,7 @@
 			)
 		)
 		(pin "CMD[0..7]" tri_state
-			(at 257.81 495.3 180)
+			(at 257.81 481.33 180)
 			(uuid "54d6c052-02e0-40eb-8684-6f9bb8eb13a7")
 			(effects
 				(font
@@ -9002,7 +9002,7 @@
 			)
 		)
 		(pin "DAT[0..7]" tri_state
-			(at 257.81 501.65 180)
+			(at 257.81 487.68 180)
 			(uuid "bdae2f2d-0688-41dd-a062-49785cc40793")
 			(effects
 				(font
@@ -9012,7 +9012,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 257.81 508 180)
+			(at 257.81 494.03 180)
 			(uuid "6b1c53d6-74c6-49ad-83f6-21afdb68ac81")
 			(effects
 				(font
@@ -9021,9 +9021,9 @@
 				(justify left)
 			)
 		)
-		(pin "VCC" input
-			(at 257.81 514.35 180)
-			(uuid "4b77f4f6-14d6-4ad3-894d-b527ad9ee3b3")
+		(pin "~{CLK}" input
+			(at 257.81 506.73 180)
+			(uuid "551752fd-90ac-4486-a6f2-be550c749f65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9031,9 +9031,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{CLK}" input
-			(at 257.81 520.7 180)
-			(uuid "551752fd-90ac-4486-a6f2-be550c749f65")
+		(pin "VBUS" input
+			(at 257.81 500.38 180)
+			(uuid "ef057a0b-7a22-44e4-aedf-4afcd1e6fdad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9050,8 +9050,8 @@
 		)
 	)
 	(sheet
-		(at 256.54 127)
-		(size 52.07 73.66)
+		(at 255.27 133.35)
+		(size 52.07 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9066,7 +9066,7 @@
 		)
 		(uuid "c4d8b530-1c6d-45af-88d2-7dc1d4321a34")
 		(property "Sheetname" "ALU"
-			(at 256.54 126.2884 0)
+			(at 255.27 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,7 +9075,7 @@
 			)
 		)
 		(property "Sheetfile" "ALU.kicad_sch"
-			(at 256.54 201.2446 0)
+			(at 255.27 194.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9084,7 +9084,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 256.54 147.32 180)
+			(at 255.27 153.67 180)
 			(uuid "7bbe02c6-3e6b-4ca8-a07a-7991fcf7ff39")
 			(effects
 				(font
@@ -9093,18 +9093,8 @@
 				(justify left)
 			)
 		)
-		(pin "VCC" input
-			(at 256.54 157.48 180)
-			(uuid "5b79aace-b573-4c91-a3e6-25596fcea0f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{CLK}" input
-			(at 256.54 138.43 180)
+			(at 255.27 144.78 180)
 			(uuid "42060016-6144-42ab-a560-b4072edd6521")
 			(effects
 				(font
@@ -9114,7 +9104,7 @@
 			)
 		)
 		(pin "CMD[0..7]" tri_state
-			(at 256.54 166.37 180)
+			(at 255.27 172.72 180)
 			(uuid "29087c75-bd7e-413a-ad3c-26801905dfeb")
 			(effects
 				(font
@@ -9124,7 +9114,7 @@
 			)
 		)
 		(pin "DAT[0..7]" tri_state
-			(at 256.54 176.53 180)
+			(at 255.27 182.88 180)
 			(uuid "15b93318-d584-429c-8045-8d47adc4b9a0")
 			(effects
 				(font
@@ -9134,13 +9124,23 @@
 			)
 		)
 		(pin "DAT_{dis}" output
-			(at 308.61 146.05 0)
+			(at 307.34 152.4 0)
 			(uuid "f60de0d4-3d43-43bb-a51d-77f44a66eb43")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 255.27 163.83 180)
+			(uuid "7e35c442-8d28-4f73-9b33-d557e6b8a7a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

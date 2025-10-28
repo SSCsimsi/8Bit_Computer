@@ -837,6 +837,9 @@
       "/ALU/DAT_{dis}": [
         "DAT_{dis}"
       ],
+      "/ALU/VCC": [
+        "VCC"
+      ],
       "/ALU/{A[0..7]}": [
         "A[0..7]"
       ],
@@ -902,6 +905,9 @@
       ],
       "/GND": [
         "GND"
+      ],
+      "/InputOutput/VCC": [
+        "VCC"
       ],
       "/LN0": [
         "LN[0..15]"
