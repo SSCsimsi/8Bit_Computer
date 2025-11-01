@@ -3341,16 +3341,6 @@
 		)
 		(uuid "3e50ef67-f2bb-4802-a90e-193b1466c71a")
 	)
-	(wire
-		(pts
-			(xy 238.76 217.17) (xy 241.3 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eefc8e8-94c7-409b-92fd-282f1c178a1d")
-	)
 	(bus
 		(pts
 			(xy 90.17 76.2) (xy 90.17 66.04)
@@ -4410,6 +4400,16 @@
 			(type default)
 		)
 		(uuid "b1a61302-f4fc-424e-922a-88d34a3d59ec")
+	)
+	(wire
+		(pts
+			(xy 238.76 217.17) (xy 241.3 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b2f7be-0e2e-4025-bca0-84221bcfac18")
 	)
 	(wire
 		(pts
@@ -6468,16 +6468,6 @@
 		)
 		(uuid "06a117c1-e0bc-4bee-bb17-296d6200179b")
 	)
-	(label "VCC"
-		(at 241.3 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07a9e394-e0a2-4f7a-9546-649f44ba5599")
-	)
 	(label "~{CLR}"
 		(at 341.63 186.69 180)
 		(effects
@@ -6708,7 +6698,7 @@
 		)
 		(uuid "22552f15-3771-4860-9b22-bc0ac2c38d2a")
 	)
-	(label "{LN[0..15]}"
+	(label "LN[0..15]"
 		(at 388.62 121.92 0)
 		(effects
 			(font
@@ -6738,7 +6728,7 @@
 		)
 		(uuid "27bcbf0c-dcbf-4689-bb42-cf12d818a917")
 	)
-	(label "{ADR[0..15]}"
+	(label "ADR[0..15]"
 		(at 325.12 121.92 0)
 		(effects
 			(font
@@ -6768,7 +6758,7 @@
 		)
 		(uuid "2b5183d4-d6be-4db1-ae1f-4f713f2fc443")
 	)
-	(label "{LN[0..15]}"
+	(label "LN[0..15]"
 		(at 39.37 64.77 0)
 		(effects
 			(font
@@ -6908,7 +6898,7 @@
 		)
 		(uuid "551362ad-6e49-4931-be27-5daa803e2481")
 	)
-	(label "{ADR[0..15]}"
+	(label "ADR[0..15]"
 		(at 39.37 87.63 0)
 		(effects
 			(font
@@ -7918,6 +7908,16 @@
 		)
 		(uuid "fd2c5550-269c-4719-8d18-6e6f8c27271f")
 	)
+	(label "VCC"
+		(at 241.3 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe65db7f-9596-4097-9eb6-4f0e6938edd4")
+	)
 	(label "GND"
 		(at 152.4 113.03 0)
 		(effects
@@ -7959,7 +7959,7 @@
 		)
 		(uuid "093b4a85-8e3b-4f99-831c-8bc88a80b7cb")
 	)
-	(hierarchical_label "{ADR[0..15]}"
+	(hierarchical_label "ADR[0..15]"
 		(shape tri_state)
 		(at 31.75 87.63 180)
 		(effects
@@ -8014,7 +8014,7 @@
 		)
 		(uuid "d664fa74-5c1b-4dd8-8bb7-d0a1b92c29f9")
 	)
-	(hierarchical_label "{LN[0..15]}"
+	(hierarchical_label "LN[0..15]"
 		(shape tri_state)
 		(at 31.75 64.77 180)
 		(effects

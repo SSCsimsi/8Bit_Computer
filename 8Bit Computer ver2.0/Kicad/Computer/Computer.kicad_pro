@@ -478,14 +478,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ABXOR[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(109, 0, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -496,14 +495,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ADR[0..15]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(143, 197, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -514,14 +512,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "A[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 248, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -532,14 +529,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "B[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 72, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -550,14 +546,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 186, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -568,14 +563,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CMD[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 147)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -586,14 +580,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "C[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(143, 124, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -604,14 +597,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DAT[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 100, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -622,14 +614,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DAT_{dis}",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(34, 175, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -640,14 +631,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -658,14 +648,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "LN[0..15]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(150, 255, 203)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -676,14 +665,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Q[0..7]",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(96, 255, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -692,16 +680,24 @@
       },
       {
         "bus_width": 12,
+        "line_style": 0,
+        "name": "VBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 9, 2)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "VCC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(255, 0, 7)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -760,6 +756,108 @@
         "ADR[0..15]"
       ],
       "/ADR9": [
+        "ADR[0..15]"
+      ],
+      "/ADRA0": [
+        "ADR[0..15]"
+      ],
+      "/ADRA1": [
+        "ADR[0..15]"
+      ],
+      "/ADRA10": [
+        "ADR[0..15]"
+      ],
+      "/ADRA11": [
+        "ADR[0..15]"
+      ],
+      "/ADRA12": [
+        "ADR[0..15]"
+      ],
+      "/ADRA13": [
+        "ADR[0..15]"
+      ],
+      "/ADRA14": [
+        "ADR[0..15]"
+      ],
+      "/ADRA15": [
+        "ADR[0..15]"
+      ],
+      "/ADRA2": [
+        "ADR[0..15]"
+      ],
+      "/ADRA3": [
+        "ADR[0..15]"
+      ],
+      "/ADRA4": [
+        "ADR[0..15]"
+      ],
+      "/ADRA5": [
+        "ADR[0..15]"
+      ],
+      "/ADRA6": [
+        "ADR[0..15]"
+      ],
+      "/ADRA7": [
+        "ADR[0..15]"
+      ],
+      "/ADRA8": [
+        "ADR[0..15]"
+      ],
+      "/ADRA9": [
+        "ADR[0..15]"
+      ],
+      "/ADRA[0..15]": [
+        "ADR[0..15]"
+      ],
+      "/ADRM0": [
+        "ADR[0..15]"
+      ],
+      "/ADRM1": [
+        "ADR[0..15]"
+      ],
+      "/ADRM10": [
+        "ADR[0..15]"
+      ],
+      "/ADRM11": [
+        "ADR[0..15]"
+      ],
+      "/ADRM12": [
+        "ADR[0..15]"
+      ],
+      "/ADRM13": [
+        "ADR[0..15]"
+      ],
+      "/ADRM14": [
+        "ADR[0..15]"
+      ],
+      "/ADRM15": [
+        "ADR[0..15]"
+      ],
+      "/ADRM2": [
+        "ADR[0..15]"
+      ],
+      "/ADRM3": [
+        "ADR[0..15]"
+      ],
+      "/ADRM4": [
+        "ADR[0..15]"
+      ],
+      "/ADRM5": [
+        "ADR[0..15]"
+      ],
+      "/ADRM6": [
+        "ADR[0..15]"
+      ],
+      "/ADRM7": [
+        "ADR[0..15]"
+      ],
+      "/ADRM8": [
+        "ADR[0..15]"
+      ],
+      "/ADRM9": [
+        "ADR[0..15]"
+      ],
+      "/ADRM[0..15]": [
         "ADR[0..15]"
       ],
       "/ALU/A0": [
@@ -873,6 +971,87 @@
       "/CMD7": [
         "CMD[0..7]"
       ],
+      "/CMDA0": [
+        "CMD[0..7]"
+      ],
+      "/CMDA1": [
+        "CMD[0..7]"
+      ],
+      "/CMDA2": [
+        "CMD[0..7]"
+      ],
+      "/CMDA3": [
+        "CMD[0..7]"
+      ],
+      "/CMDA4": [
+        "CMD[0..7]"
+      ],
+      "/CMDA5": [
+        "CMD[0..7]"
+      ],
+      "/CMDA6": [
+        "CMD[0..7]"
+      ],
+      "/CMDA7": [
+        "CMD[0..7]"
+      ],
+      "/CMDA[0..7]": [
+        "CMD[0..7]"
+      ],
+      "/CMDIO0": [
+        "CMD[0..7]"
+      ],
+      "/CMDIO1": [
+        "CMD[0..7]"
+      ],
+      "/CMDIO2": [
+        "CMD[0..7]"
+      ],
+      "/CMDIO3": [
+        "CMD[0..7]"
+      ],
+      "/CMDIO4": [
+        "CMD[0..7]"
+      ],
+      "/CMDIO5": [
+        "CMD[0..7]"
+      ],
+      "/CMDIO6": [
+        "CMD[0..7]"
+      ],
+      "/CMDIO7": [
+        "CMD[0..7]"
+      ],
+      "/CMDIO[0..7]": [
+        "CMD[0..7]"
+      ],
+      "/CMDM0": [
+        "CMD[0..7]"
+      ],
+      "/CMDM1": [
+        "CMD[0..7]"
+      ],
+      "/CMDM2": [
+        "CMD[0..7]"
+      ],
+      "/CMDM3": [
+        "CMD[0..7]"
+      ],
+      "/CMDM4": [
+        "CMD[0..7]"
+      ],
+      "/CMDM5": [
+        "CMD[0..7]"
+      ],
+      "/CMDM6": [
+        "CMD[0..7]"
+      ],
+      "/CMDM7": [
+        "CMD[0..7]"
+      ],
+      "/CMDM[0..7]": [
+        "CMD[0..7]"
+      ],
       "/CMD[0..7]": [
         "CMD[0..7]"
       ],
@@ -900,14 +1079,116 @@
       "/DAT7": [
         "DAT[0..7]"
       ],
+      "/DATA0": [
+        "DAT[0..7]"
+      ],
+      "/DATA1": [
+        "DAT[0..7]"
+      ],
+      "/DATA2": [
+        "DAT[0..7]"
+      ],
+      "/DATA3": [
+        "DAT[0..7]"
+      ],
+      "/DATA4": [
+        "DAT[0..7]"
+      ],
+      "/DATA5": [
+        "DAT[0..7]"
+      ],
+      "/DATA6": [
+        "DAT[0..7]"
+      ],
+      "/DATA7": [
+        "DAT[0..7]"
+      ],
+      "/DATA[0..7]": [
+        "DAT[0..7]"
+      ],
+      "/DATIO0": [
+        "DAT[0..7]"
+      ],
+      "/DATIO1": [
+        "DAT[0..7]"
+      ],
+      "/DATIO2": [
+        "DAT[0..7]"
+      ],
+      "/DATIO3": [
+        "DAT[0..7]"
+      ],
+      "/DATIO4": [
+        "DAT[0..7]"
+      ],
+      "/DATIO5": [
+        "DAT[0..7]"
+      ],
+      "/DATIO6": [
+        "DAT[0..7]"
+      ],
+      "/DATIO7": [
+        "DAT[0..7]"
+      ],
+      "/DATIO[0..7]": [
+        "DAT[0..7]"
+      ],
+      "/DATM0": [
+        "DAT[0..7]"
+      ],
+      "/DATM1": [
+        "DAT[0..7]"
+      ],
+      "/DATM2": [
+        "DAT[0..7]"
+      ],
+      "/DATM3": [
+        "DAT[0..7]"
+      ],
+      "/DATM4": [
+        "DAT[0..7]"
+      ],
+      "/DATM5": [
+        "DAT[0..7]"
+      ],
+      "/DATM6": [
+        "DAT[0..7]"
+      ],
+      "/DATM7": [
+        "DAT[0..7]"
+      ],
+      "/DATM[0..7]": [
+        "DAT[0..7]"
+      ],
       "/DAT[0..7]": [
         "DAT[0..7]"
+      ],
+      "/DATtoADR/~{CLKd}": [
+        "CLK"
+      ],
+      "/FlashMemory/GND": [
+        "GND"
+      ],
+      "/FlashMemory/~{CLK}": [
+        "CLK"
       ],
       "/GND": [
         "GND"
       ],
+      "/GNDA": [
+        "GND"
+      ],
+      "/InputOutput/GND": [
+        "GND"
+      ],
+      "/InputOutput/VBUS": [
+        "VBUS"
+      ],
       "/InputOutput/VCC": [
         "VCC"
+      ],
+      "/InputOutput/~{CLKd}": [
+        "CLK"
       ],
       "/LN0": [
         "LN[0..15]"
@@ -957,6 +1238,111 @@
       "/LN9": [
         "LN[0..15]"
       ],
+      "/LNA0": [
+        "LN[0..15]"
+      ],
+      "/LNA1": [
+        "LN[0..15]"
+      ],
+      "/LNA10": [
+        "LN[0..15]"
+      ],
+      "/LNA11": [
+        "LN[0..15]"
+      ],
+      "/LNA12": [
+        "LN[0..15]"
+      ],
+      "/LNA13": [
+        "LN[0..15]"
+      ],
+      "/LNA14": [
+        "LN[0..15]"
+      ],
+      "/LNA15": [
+        "LN[0..15]"
+      ],
+      "/LNA2": [
+        "LN[0..15]"
+      ],
+      "/LNA3": [
+        "LN[0..15]"
+      ],
+      "/LNA4": [
+        "LN[0..15]"
+      ],
+      "/LNA5": [
+        "LN[0..15]"
+      ],
+      "/LNA6": [
+        "LN[0..15]"
+      ],
+      "/LNA7": [
+        "LN[0..15]"
+      ],
+      "/LNA8": [
+        "LN[0..15]"
+      ],
+      "/LNA9": [
+        "LN[0..15]"
+      ],
+      "/LNA[0..15]": [
+        "LN[0..15]"
+      ],
+      "/LNM0": [
+        "LN[0..15]"
+      ],
+      "/LNM1": [
+        "LN[0..15]"
+      ],
+      "/LNM10": [
+        "LN[0..15]"
+      ],
+      "/LNM11": [
+        "LN[0..15]"
+      ],
+      "/LNM12": [
+        "LN[0..15]"
+      ],
+      "/LNM13": [
+        "LN[0..15]"
+      ],
+      "/LNM14": [
+        "LN[0..15]"
+      ],
+      "/LNM15": [
+        "LN[0..15]"
+      ],
+      "/LNM2": [
+        "LN[0..15]"
+      ],
+      "/LNM3": [
+        "LN[0..15]"
+      ],
+      "/LNM4": [
+        "LN[0..15]"
+      ],
+      "/LNM5": [
+        "LN[0..15]"
+      ],
+      "/LNM6": [
+        "LN[0..15]"
+      ],
+      "/LNM7": [
+        "LN[0..15]"
+      ],
+      "/LNM8": [
+        "LN[0..15]"
+      ],
+      "/LNM9": [
+        "LN[0..15]"
+      ],
+      "/LNM[0..15]": [
+        "LN[0..15]"
+      ],
+      "/ProgrammeCounter/~{CLK}": [
+        "CLK"
+      ],
       "/Q0": [
         "DAT[0..7]",
         "Q[0..7]"
@@ -992,7 +1378,19 @@
       "/Q[0..7]": [
         "Q[0..7]"
       ],
+      "/RAM/~{CLKd}": [
+        "CLK"
+      ],
+      "/VBUS": [
+        "VBUS"
+      ],
       "/VCC": [
+        "VCC"
+      ],
+      "/VCCA": [
+        "VCC"
+      ],
+      "/VCCM": [
         "VCC"
       ],
       "/{ADR[0..15]}": [
@@ -1006,6 +1404,12 @@
       ],
       "/~{CLK}": [
         "CLK"
+      ],
+      "Net-(IC261-VIN)": [
+        "VBUS"
+      ],
+      "Net-(IC262-VIN)": [
+        "VBUS"
       ]
     },
     "netclass_patterns": [
@@ -1056,6 +1460,10 @@
       {
         "netclass": "DAT_{dis}",
         "pattern": "DAT_{dis}"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "VBUS"
       }
     ]
   },

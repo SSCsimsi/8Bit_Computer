@@ -7830,7 +7830,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 185.42) (xy 124.46 185.42)
+			(xy 120.65 185.42) (xy 129.54 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8830,7 +8830,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 172.72) (xy 93.98 172.72)
+			(xy 129.54 172.72) (xy 93.98 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9877,6 +9877,16 @@
 			(type default)
 		)
 		(uuid "8be4c7b3-7d00-4781-9d9f-0afaecf675f7")
+	)
+	(wire
+		(pts
+			(xy 120.65 182.88) (xy 123.19 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6d8c71-2b9d-48a6-9dc5-5f862deed919")
 	)
 	(wire
 		(pts
@@ -11800,7 +11810,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 185.42) (xy 124.46 172.72)
+			(xy 129.54 185.42) (xy 129.54 172.72)
 		)
 		(stroke
 			(width 0)
@@ -15903,6 +15913,16 @@
 			(justify right bottom)
 		)
 		(uuid "94970b75-2632-4c7e-ad46-ce80fe908846")
+	)
+	(label "VCC"
+		(at 123.19 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95528a29-6a93-4729-a3e9-108ace39c175")
 	)
 	(label "OUTval4"
 		(at 254 316.23 180)
