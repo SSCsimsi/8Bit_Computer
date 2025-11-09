@@ -2563,7 +2563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25b9aa75-9edf-4326-bfb3-721a57388af0")
-		(property "Reference" "IC25"
+		(property "Reference" "IC102"
 			(at 106.68 45.72 0)
 			(effects
 				(font
@@ -2703,7 +2703,7 @@
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/4a21659e-6e4a-4683-bbd6-72ca2c7a4ec9"
-					(reference "IC25")
+					(reference "IC102")
 					(unit 1)
 				)
 			)
@@ -2719,7 +2719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f2e4b96-e4f5-407f-be1a-008a78829d81")
-		(property "Reference" "IC3"
+		(property "Reference" "IC101"
 			(at 60.96 96.52 0)
 			(effects
 				(font
@@ -2832,7 +2832,7 @@
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/4a21659e-6e4a-4683-bbd6-72ca2c7a4ec9"
-					(reference "IC3")
+					(reference "IC101")
 					(unit 1)
 				)
 			)
@@ -2848,7 +2848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98f6aff3-37b3-4e54-b40f-8be769af8c2b")
-		(property "Reference" "IC2"
+		(property "Reference" "IC103"
 			(at 109.22 91.44 0)
 			(effects
 				(font
@@ -2988,7 +2988,7 @@
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/4a21659e-6e4a-4683-bbd6-72ca2c7a4ec9"
-					(reference "IC2")
+					(reference "IC103")
 					(unit 1)
 				)
 			)
@@ -3004,7 +3004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2b0a930-031c-4387-9e56-eeb0d4872d65")
-		(property "Reference" "IC1"
+		(property "Reference" "IC104"
 			(at 162.56 64.77 0)
 			(effects
 				(font
@@ -3162,7 +3162,7 @@
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/4a21659e-6e4a-4683-bbd6-72ca2c7a4ec9"
-					(reference "IC1")
+					(reference "IC104")
 					(unit 1)
 				)
 			)
