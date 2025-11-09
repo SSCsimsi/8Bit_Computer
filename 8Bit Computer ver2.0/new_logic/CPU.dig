@@ -648,6 +648,10 @@ Bus Transfer:
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
         </entry>
@@ -660,7 +664,7 @@ Bus Transfer:
           <string>4,4</string>
         </entry>
       </elementAttributes>
-      <pos x="1700" y="240"/>
+      <pos x="1720" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
@@ -1107,12 +1111,12 @@ Bus Transfer:
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
-          <string>Frequency</string>
-          <int>5</int>
-        </entry>
-        <entry>
           <string>runRealTime</string>
           <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>5</int>
         </entry>
       </elementAttributes>
       <pos x="680" y="60"/>
@@ -1136,7 +1140,7 @@ Bus Transfer:
       <p2 x="1280" y="260"/>
     </wire>
     <wire>
-      <p1 x="1700" y="260"/>
+      <p1 x="1720" y="260"/>
       <p2 x="2180" y="260"/>
     </wire>
     <wire>
@@ -1401,7 +1405,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1400" y="1620"/>
-      <p2 x="1700" y="1620"/>
+      <p2 x="1720" y="1620"/>
     </wire>
     <wire>
       <p1 x="760" y="1620"/>
@@ -1776,14 +1780,6 @@ Bus Transfer:
       <p2 x="1700" y="220"/>
     </wire>
     <wire>
-      <p1 x="1700" y="240"/>
-      <p2 x="1700" y="260"/>
-    </wire>
-    <wire>
-      <p1 x="1700" y="260"/>
-      <p2 x="1700" y="1620"/>
-    </wire>
-    <wire>
       <p1 x="1060" y="1020"/>
       <p2 x="1060" y="1060"/>
     </wire>
@@ -1852,12 +1848,20 @@ Bus Transfer:
       <p2 x="500" y="200"/>
     </wire>
     <wire>
+      <p1 x="1720" y="240"/>
+      <p2 x="1720" y="260"/>
+    </wire>
+    <wire>
       <p1 x="1720" y="200"/>
       <p2 x="1720" y="220"/>
     </wire>
     <wire>
       <p1 x="1720" y="140"/>
       <p2 x="1720" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="260"/>
+      <p2 x="1720" y="1620"/>
     </wire>
     <wire>
       <p1 x="760" y="20"/>
