@@ -40,12 +40,12 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1520" y="380"/>
+      <pos x="1540" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="1140" y="360"/>
+      <pos x="1140" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -132,10 +132,10 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>C_in</string>
+          <string>C</string>
         </entry>
       </elementAttributes>
-      <pos x="1520" y="440"/>
+      <pos x="1540" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -177,7 +177,7 @@ CLK: clock input</string>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="1140" y="520"/>
+      <pos x="1140" y="500"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -206,7 +206,7 @@ CLK: clock input</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1480" y="380"/>
+      <pos x="1500" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
@@ -236,12 +236,12 @@ CLK: clock input</string>
     <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
-      <pos x="1280" y="360"/>
+      <pos x="1300" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
-      <pos x="1280" y="440"/>
+      <pos x="1300" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -271,7 +271,7 @@ CLK: clock input</string>
           <string>1*2,6</string>
         </entry>
       </elementAttributes>
-      <pos x="1400" y="380"/>
+      <pos x="1420" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -285,7 +285,7 @@ CLK: clock input</string>
           <int>6</int>
         </entry>
       </elementAttributes>
-      <pos x="1400" y="420"/>
+      <pos x="1420" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
@@ -301,6 +301,26 @@ CLK: clock input</string>
       <elementName>D_FF</elementName>
       <elementAttributes/>
       <pos x="1120" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>C_8 - carry out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1100" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>F - overflow</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1100" y="460"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -337,28 +357,16 @@ CLK: clock input</string>
       <p2 x="1100" y="580"/>
     </wire>
     <wire>
-      <p1 x="1200" y="520"/>
-      <p2 x="1220" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="520"/>
-      <p2 x="1140" y="520"/>
-    </wire>
-    <wire>
       <p1 x="940" y="520"/>
       <p2 x="980" y="520"/>
     </wire>
     <wire>
-      <p1 x="1220" y="520"/>
-      <p2 x="1380" y="520"/>
+      <p1 x="1120" y="520"/>
+      <p2 x="1140" y="520"/>
     </wire>
     <wire>
       <p1 x="940" y="840"/>
       <p2 x="1020" y="840"/>
-    </wire>
-    <wire>
-      <p1 x="1340" y="460"/>
-      <p2 x="1360" y="460"/>
     </wire>
     <wire>
       <p1 x="1080" y="780"/>
@@ -366,19 +374,15 @@ CLK: clock input</string>
     </wire>
     <wire>
       <p1 x="1180" y="780"/>
-      <p2 x="1260" y="780"/>
+      <p2 x="1280" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="460"/>
+      <p2 x="1300" y="460"/>
     </wire>
     <wire>
       <p1 x="980" y="400"/>
       <p2 x="1020" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="1360" y="400"/>
-      <p2 x="1400" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="400"/>
-      <p2 x="1280" y="400"/>
     </wire>
     <wire>
       <p1 x="1080" y="720"/>
@@ -386,11 +390,27 @@ CLK: clock input</string>
     </wire>
     <wire>
       <p1 x="1180" y="720"/>
-      <p2 x="1240" y="720"/>
+      <p2 x="1260" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="340"/>
+      <p2 x="1140" y="340"/>
     </wire>
     <wire>
       <p1 x="880" y="340"/>
       <p2 x="920" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="340"/>
+      <p2 x="1220" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="340"/>
+      <p2 x="1500" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="340"/>
+      <p2 x="1300" y="340"/>
     </wire>
     <wire>
       <p1 x="960" y="660"/>
@@ -409,10 +429,6 @@ CLK: clock input</string>
       <p2 x="880" y="540"/>
     </wire>
     <wire>
-      <p1 x="1120" y="540"/>
-      <p2 x="1140" y="540"/>
-    </wire>
-    <wire>
       <p1 x="960" y="860"/>
       <p2 x="1020" y="860"/>
     </wire>
@@ -422,7 +438,7 @@ CLK: clock input</string>
     </wire>
     <wire>
       <p1 x="1180" y="860"/>
-      <p2 x="1440" y="860"/>
+      <p2 x="1460" y="860"/>
     </wire>
     <wire>
       <p1 x="980" y="800"/>
@@ -433,12 +449,20 @@ CLK: clock input</string>
       <p2 x="1120" y="800"/>
     </wire>
     <wire>
-      <p1 x="1260" y="480"/>
-      <p2 x="1280" y="480"/>
+      <p1 x="1220" y="480"/>
+      <p2 x="1400" y="480"/>
     </wire>
     <wire>
       <p1 x="840" y="420"/>
       <p2 x="920" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="420"/>
+      <p2 x="1300" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="420"/>
+      <p2 x="1540" y="420"/>
     </wire>
     <wire>
       <p1 x="980" y="740"/>
@@ -453,12 +477,16 @@ CLK: clock input</string>
       <p2 x="880" y="360"/>
     </wire>
     <wire>
-      <p1 x="1000" y="360"/>
+      <p1 x="1520" y="360"/>
+      <p2 x="1540" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="360"/>
       <p2 x="1140" y="360"/>
     </wire>
     <wire>
-      <p1 x="1200" y="360"/>
-      <p2 x="1280" y="360"/>
+      <p1 x="1360" y="360"/>
+      <p2 x="1420" y="360"/>
     </wire>
     <wire>
       <p1 x="1440" y="360"/>
@@ -497,6 +525,14 @@ CLK: clock input</string>
       <p2 x="1120" y="880"/>
     </wire>
     <wire>
+      <p1 x="1200" y="500"/>
+      <p2 x="1240" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="500"/>
+      <p2 x="1140" y="500"/>
+    </wire>
+    <wire>
       <p1 x="840" y="500"/>
       <p2 x="880" y="500"/>
     </wire>
@@ -505,12 +541,8 @@ CLK: clock input</string>
       <p2 x="980" y="820"/>
     </wire>
     <wire>
-      <p1 x="1220" y="440"/>
-      <p2 x="1280" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="1380" y="440"/>
-      <p2 x="1520" y="440"/>
+      <p1 x="1360" y="440"/>
+      <p2 x="1380" y="440"/>
     </wire>
     <wire>
       <p1 x="840" y="760"/>
@@ -521,24 +553,16 @@ CLK: clock input</string>
       <p2 x="1020" y="760"/>
     </wire>
     <wire>
-      <p1 x="1500" y="380"/>
-      <p2 x="1520" y="380"/>
+      <p1 x="1380" y="380"/>
+      <p2 x="1420" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="380"/>
+      <p2 x="1300" y="380"/>
     </wire>
     <wire>
       <p1 x="900" y="380"/>
       <p2 x="920" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="1100" y="380"/>
-      <p2 x="1140" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="1340" y="380"/>
-      <p2 x="1400" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="1420" y="380"/>
-      <p2 x="1460" y="380"/>
     </wire>
     <wire>
       <p1 x="840" y="700"/>
@@ -549,7 +573,7 @@ CLK: clock input</string>
       <p2 x="1020" y="700"/>
     </wire>
     <wire>
-      <p1 x="1120" y="540"/>
+      <p1 x="1120" y="520"/>
       <p2 x="1120" y="640"/>
     </wire>
     <wire>
@@ -561,20 +585,20 @@ CLK: clock input</string>
       <p2 x="960" y="860"/>
     </wire>
     <wire>
-      <p1 x="1440" y="360"/>
-      <p2 x="1440" y="860"/>
+      <p1 x="1280" y="460"/>
+      <p2 x="1280" y="780"/>
     </wire>
     <wire>
       <p1 x="900" y="320"/>
       <p2 x="900" y="380"/>
     </wire>
     <wire>
-      <p1 x="1220" y="440"/>
-      <p2 x="1220" y="520"/>
+      <p1 x="1380" y="380"/>
+      <p2 x="1380" y="440"/>
     </wire>
     <wire>
-      <p1 x="1380" y="440"/>
-      <p2 x="1380" y="520"/>
+      <p1 x="1220" y="340"/>
+      <p2 x="1220" y="480"/>
     </wire>
     <wire>
       <p1 x="1000" y="560"/>
@@ -582,14 +606,14 @@ CLK: clock input</string>
     </wire>
     <wire>
       <p1 x="1000" y="320"/>
-      <p2 x="1000" y="360"/>
+      <p2 x="1000" y="340"/>
     </wire>
     <wire>
       <p1 x="1000" y="620"/>
       <p2 x="1000" y="900"/>
     </wire>
     <wire>
-      <p1 x="1100" y="380"/>
+      <p1 x="1100" y="360"/>
       <p2 x="1100" y="580"/>
     </wire>
     <wire>
@@ -609,16 +633,16 @@ CLK: clock input</string>
       <p2 x="940" y="840"/>
     </wire>
     <wire>
-      <p1 x="1260" y="480"/>
-      <p2 x="1260" y="780"/>
+      <p1 x="1260" y="380"/>
+      <p2 x="1260" y="720"/>
     </wire>
     <wire>
       <p1 x="880" y="340"/>
       <p2 x="880" y="360"/>
     </wire>
     <wire>
-      <p1 x="1360" y="400"/>
-      <p2 x="1360" y="460"/>
+      <p1 x="1460" y="340"/>
+      <p2 x="1460" y="860"/>
     </wire>
     <wire>
       <p1 x="980" y="520"/>
@@ -637,12 +661,16 @@ CLK: clock input</string>
       <p2 x="980" y="880"/>
     </wire>
     <wire>
-      <p1 x="1240" y="400"/>
-      <p2 x="1240" y="720"/>
+      <p1 x="1240" y="420"/>
+      <p2 x="1240" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="420"/>
+      <p2 x="1400" y="480"/>
     </wire>
     <wire>
       <p1 x="1020" y="400"/>
-      <p2 x="1020" y="520"/>
+      <p2 x="1020" y="500"/>
     </wire>
     <wire>
       <p1 x="860" y="540"/>
