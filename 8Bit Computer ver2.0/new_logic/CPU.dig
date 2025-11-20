@@ -1108,8 +1108,17 @@ Bus Transfer:
       <pos x="1280" y="980"/>
     </visualElement>
     <visualElement>
-      <elementName>Button</elementName>
-      <elementAttributes/>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Frequency</string>
+          <int>30</int>
+        </entry>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
       <pos x="680" y="60"/>
     </visualElement>
   </visualElements>
