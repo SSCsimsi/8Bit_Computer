@@ -40,7 +40,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="180"/>
+      <pos x="940" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -54,7 +54,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="240"/>
+      <pos x="940" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -69,7 +69,7 @@ CJP: Conditional Jump command
 CLR: Clear for starting the CPU</string>
         </entry>
       </elementAttributes>
-      <pos x="540" y="220"/>
+      <pos x="540" y="500"/>
     </visualElement>
     <visualElement>
       <elementName>CounterPreset</elementName>
@@ -112,7 +112,7 @@ CLR: Clear for starting the CPU</string>
           <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="300"/>
+      <pos x="940" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -122,7 +122,7 @@ CLR: Clear for starting the CPU</string>
     <visualElement>
       <elementName>8 Input Or.dig</elementName>
       <elementAttributes/>
-      <pos x="1080" y="180"/>
+      <pos x="980" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -132,7 +132,7 @@ CLR: Clear for starting the CPU</string>
           <string>JMP</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="360"/>
+      <pos x="940" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -142,7 +142,7 @@ CLR: Clear for starting the CPU</string>
           <string>CJP</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="420"/>
+      <pos x="940" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -152,13 +152,50 @@ CLR: Clear for starting the CPU</string>
           <string>CLR</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="480"/>
+      <pos x="940" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>D_FF</elementName>
+      <elementAttributes/>
+      <pos x="1080" y="180"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
       <p1 x="1360" y="320"/>
       <p2 x="1440" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="480"/>
+      <p2 x="1380" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="420"/>
+      <p2 x="1060" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="420"/>
+      <p2 x="1200" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="260"/>
+      <p2 x="1440" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="360"/>
+      <p2 x="1280" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="200"/>
+      <p2 x="1080" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="300"/>
+      <p2 x="1360" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="300"/>
+      <p2 x="1440" y="300"/>
     </wire>
     <wire>
       <p1 x="1500" y="240"/>
@@ -169,24 +206,12 @@ CLR: Clear for starting the CPU</string>
       <p2 x="1440" y="240"/>
     </wire>
     <wire>
-      <p1 x="1040" y="240"/>
+      <p1 x="940" y="240"/>
       <p2 x="1380" y="240"/>
     </wire>
     <wire>
       <p1 x="1260" y="400"/>
       <p2 x="1280" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="1040" y="480"/>
-      <p2 x="1380" y="480"/>
-    </wire>
-    <wire>
-      <p1 x="1040" y="420"/>
-      <p2 x="1200" y="420"/>
-    </wire>
-    <wire>
-      <p1 x="1360" y="260"/>
-      <p2 x="1440" y="260"/>
     </wire>
     <wire>
       <p1 x="1380" y="340"/>
@@ -197,12 +222,12 @@ CLR: Clear for starting the CPU</string>
       <p2 x="1180" y="180"/>
     </wire>
     <wire>
-      <p1 x="1040" y="180"/>
-      <p2 x="1080" y="180"/>
+      <p1 x="940" y="180"/>
+      <p2 x="980" y="180"/>
     </wire>
     <wire>
-      <p1 x="1040" y="360"/>
-      <p2 x="1280" y="360"/>
+      <p1 x="1040" y="180"/>
+      <p2 x="1080" y="180"/>
     </wire>
     <wire>
       <p1 x="1420" y="280"/>
@@ -215,14 +240,6 @@ CLR: Clear for starting the CPU</string>
     <wire>
       <p1 x="1180" y="380"/>
       <p2 x="1200" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="1040" y="300"/>
-      <p2 x="1360" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="1380" y="300"/>
-      <p2 x="1440" y="300"/>
     </wire>
     <wire>
       <p1 x="1360" y="320"/>
@@ -239,6 +256,10 @@ CLR: Clear for starting the CPU</string>
     <wire>
       <p1 x="1380" y="240"/>
       <p2 x="1380" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="200"/>
+      <p2 x="1060" y="420"/>
     </wire>
     <wire>
       <p1 x="1180" y="180"/>
