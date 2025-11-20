@@ -40,7 +40,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="220"/>
+      <pos x="1080" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -50,7 +50,7 @@
           <string>C_8</string>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="280"/>
+      <pos x="1080" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -60,7 +60,7 @@
           <string>F</string>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="340"/>
+      <pos x="1080" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -109,7 +109,7 @@ flags register
 flags register</string>
         </entry>
       </elementAttributes>
-      <pos x="1160" y="200"/>
+      <pos x="1200" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Add</elementName>
@@ -172,17 +172,17 @@ flags register</string>
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="220"/>
+      <pos x="1040" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
       <elementAttributes/>
-      <pos x="1020" y="280"/>
+      <pos x="1040" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
       <elementAttributes/>
-      <pos x="1020" y="340"/>
+      <pos x="1040" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
@@ -232,7 +232,7 @@ flags register</string>
           <string>STC</string>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="400"/>
+      <pos x="1080" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -242,7 +242,7 @@ flags register</string>
           <string>STF</string>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="460"/>
+      <pos x="1080" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
@@ -252,12 +252,12 @@ flags register</string>
     <visualElement>
       <elementName>Driver</elementName>
       <elementAttributes/>
-      <pos x="1020" y="400"/>
+      <pos x="1040" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
       <elementAttributes/>
-      <pos x="1020" y="460"/>
+      <pos x="1040" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
@@ -329,8 +329,8 @@ future programming guides or potential compilers
   </visualElements>
   <wires>
     <wire>
-      <p1 x="980" y="320"/>
-      <p2 x="1020" y="320"/>
+      <p1 x="1000" y="320"/>
+      <p2 x="1040" y="320"/>
     </wire>
     <wire>
       <p1 x="620" y="320"/>
@@ -349,8 +349,8 @@ future programming guides or potential compilers
       <p2 x="800" y="640"/>
     </wire>
     <wire>
-      <p1 x="980" y="260"/>
-      <p2 x="1020" y="260"/>
+      <p1 x="1000" y="260"/>
+      <p2 x="1040" y="260"/>
     </wire>
     <wire>
       <p1 x="380" y="260"/>
@@ -377,28 +377,8 @@ future programming guides or potential compilers
       <p2 x="880" y="200"/>
     </wire>
     <wire>
-      <p1 x="200" y="140"/>
-      <p2 x="240" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="300" y="140"/>
-      <p2 x="840" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="140"/>
-      <p2 x="1020" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="840" y="140"/>
-      <p2 x="980" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="960" y="460"/>
-      <p2 x="1000" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="1040" y="460"/>
-      <p2 x="1060" y="460"/>
+      <p1 x="1060" y="460"/>
+      <p2 x="1080" y="460"/>
     </wire>
     <wire>
       <p1 x="260" y="460"/>
@@ -413,20 +393,36 @@ future programming guides or potential compilers
       <p2 x="560" y="460"/>
     </wire>
     <wire>
+      <p1 x="960" y="460"/>
+      <p2 x="1020" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="140"/>
+      <p2 x="240" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="140"/>
+      <p2 x="840" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="140"/>
+      <p2 x="1040" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="140"/>
+      <p2 x="1000" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="400"/>
+      <p2 x="1080" y="400"/>
+    </wire>
+    <wire>
       <p1 x="160" y="400"/>
       <p2 x="220" y="400"/>
     </wire>
     <wire>
       <p1 x="40" y="400"/>
       <p2 x="120" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="940" y="400"/>
-      <p2 x="1000" y="400"/>
-    </wire>
-    <wire>
-      <p1 x="1040" y="400"/>
-      <p2 x="1060" y="400"/>
     </wire>
     <wire>
       <p1 x="760" y="400"/>
@@ -441,16 +437,24 @@ future programming guides or potential compilers
       <p2 x="640" y="400"/>
     </wire>
     <wire>
+      <p1 x="940" y="400"/>
+      <p2 x="960" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="400"/>
+      <p2 x="1020" y="400"/>
+    </wire>
+    <wire>
       <p1 x="800" y="340"/>
       <p2 x="880" y="340"/>
     </wire>
     <wire>
-      <p1 x="1040" y="340"/>
-      <p2 x="1060" y="340"/>
+      <p1 x="1060" y="340"/>
+      <p2 x="1080" y="340"/>
     </wire>
     <wire>
       <p1 x="940" y="340"/>
-      <p2 x="1000" y="340"/>
+      <p2 x="1020" y="340"/>
     </wire>
     <wire>
       <p1 x="340" y="340"/>
@@ -489,12 +493,12 @@ future programming guides or potential compilers
       <p2 x="880" y="280"/>
     </wire>
     <wire>
-      <p1 x="1040" y="280"/>
-      <p2 x="1060" y="280"/>
+      <p1 x="1060" y="280"/>
+      <p2 x="1080" y="280"/>
     </wire>
     <wire>
       <p1 x="940" y="280"/>
-      <p2 x="1000" y="280"/>
+      <p2 x="1020" y="280"/>
     </wire>
     <wire>
       <p1 x="40" y="280"/>
@@ -513,12 +517,12 @@ future programming guides or potential compilers
       <p2 x="560" y="600"/>
     </wire>
     <wire>
-      <p1 x="1040" y="220"/>
-      <p2 x="1060" y="220"/>
+      <p1 x="1060" y="220"/>
+      <p2 x="1080" y="220"/>
     </wire>
     <wire>
       <p1 x="940" y="220"/>
-      <p2 x="1000" y="220"/>
+      <p2 x="1020" y="220"/>
     </wire>
     <wire>
       <p1 x="40" y="220"/>
@@ -549,16 +553,16 @@ future programming guides or potential compilers
       <p2 x="560" y="480"/>
     </wire>
     <wire>
-      <p1 x="940" y="420"/>
-      <p2 x="960" y="420"/>
-    </wire>
-    <wire>
       <p1 x="840" y="420"/>
       <p2 x="880" y="420"/>
     </wire>
     <wire>
       <p1 x="260" y="420"/>
       <p2 x="280" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="420"/>
+      <p2 x="980" y="420"/>
     </wire>
     <wire>
       <p1 x="840" y="360"/>
@@ -609,12 +613,12 @@ future programming guides or potential compilers
       <p2 x="280" y="500"/>
     </wire>
     <wire>
-      <p1 x="620" y="440"/>
-      <p2 x="660" y="440"/>
+      <p1 x="1000" y="440"/>
+      <p2 x="1040" y="440"/>
     </wire>
     <wire>
-      <p1 x="980" y="440"/>
-      <p2 x="1020" y="440"/>
+      <p1 x="620" y="440"/>
+      <p2 x="660" y="440"/>
     </wire>
     <wire>
       <p1 x="260" y="440"/>
@@ -629,8 +633,8 @@ future programming guides or potential compilers
       <p2 x="140" y="120"/>
     </wire>
     <wire>
-      <p1 x="980" y="380"/>
-      <p2 x="1020" y="380"/>
+      <p1 x="1000" y="380"/>
+      <p2 x="1040" y="380"/>
     </wire>
     <wire>
       <p1 x="260" y="380"/>
@@ -643,10 +647,6 @@ future programming guides or potential compilers
     <wire>
       <p1 x="400" y="380"/>
       <p2 x="440" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="960" y="420"/>
-      <p2 x="960" y="460"/>
     </wire>
     <wire>
       <p1 x="640" y="460"/>
@@ -667,6 +667,10 @@ future programming guides or potential compilers
     <wire>
       <p1 x="480" y="260"/>
       <p2 x="480" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="400"/>
+      <p2 x="960" y="460"/>
     </wire>
     <wire>
       <p1 x="260" y="280"/>
@@ -733,6 +737,22 @@ future programming guides or potential compilers
       <p2 x="360" y="380"/>
     </wire>
     <wire>
+      <p1 x="1000" y="140"/>
+      <p2 x="1000" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="260"/>
+      <p2 x="1000" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="320"/>
+      <p2 x="1000" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="380"/>
+      <p2 x="1000" y="440"/>
+    </wire>
+    <wire>
       <p1 x="780" y="280"/>
       <p2 x="780" y="580"/>
     </wire>
@@ -745,20 +765,12 @@ future programming guides or potential compilers
       <p2 x="80" y="340"/>
     </wire>
     <wire>
-      <p1 x="980" y="140"/>
-      <p2 x="980" y="260"/>
+      <p1 x="1040" y="140"/>
+      <p2 x="1040" y="200"/>
     </wire>
     <wire>
-      <p1 x="980" y="380"/>
-      <p2 x="980" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="260"/>
-      <p2 x="980" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="980" y="320"/>
-      <p2 x="980" y="380"/>
+      <p1 x="980" y="400"/>
+      <p2 x="980" y="420"/>
     </wire>
     <wire>
       <p1 x="660" y="340"/>
@@ -803,10 +815,6 @@ future programming guides or potential compilers
     <wire>
       <p1 x="60" y="120"/>
       <p2 x="60" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="140"/>
-      <p2 x="1020" y="200"/>
     </wire>
   </wires>
   <measurementOrdering/>
