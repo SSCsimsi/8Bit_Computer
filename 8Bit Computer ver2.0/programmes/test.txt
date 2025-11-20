@@ -31,9 +31,9 @@
 001D SFT
 001E STA	 //A:1F
 001F LDF
-0020 STC	 //C:01
+0020 STC	 //C:01 -> during testing it is 3!!!!!!!!!!!
 0021 INC
-0022 STF	 //C8:low, O:high
+0022 STF	 //C8:low, Ovf:high
 0023 LDO
 0024 STB	 //A:1F, B:02
 0025 SUB
