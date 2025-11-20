@@ -7,7 +7,7 @@
 0005 ADD 	 
 0006 STB 	 //A:FB, B:02, C8:high
 0007 ADC	 
-0008 STC	 //C:FE
+0008 STC	 //C:FE, C8:low
 0009 INC	 
 000A STA
 000B STB FF	 //A:FF, B:FF
@@ -21,7 +21,7 @@
 0013 STB 7E	 //A:7F, B:7E
 0014 CPB
 0015 STA	 //A:01
-0016 CPS
+0016 CPS	 //currently set to LDF for debugging purposes, shows random numbers!!!!!!
 0017 STF	 //C8:high
 0018 LCR	 /* load carry flag */
 0019 STA	 //A:01
