@@ -21,7 +21,7 @@
 0013 STB 7E	 //A:7F, B:7E
 0014 CPB
 0015 STA	 //A:01
-0016 CPS	 //currently set to LDF for debugging purposes, shows random numbers!!!!!!
+0016 CPS
 0017 STF	 //C8:high
 0018 LCR	 /* load carry flag */
 0019 STA	 //A:01
@@ -31,7 +31,7 @@
 001D SFT
 001E STA	 //A:1F
 001F LDF
-0020 STC	 //C:01 -> during testing it is 3!!!!!!!!!!!
+0020 STC	 //C:01
 0021 INC
 0022 STF	 //C8:low, Ovf:high
 0023 LDO
