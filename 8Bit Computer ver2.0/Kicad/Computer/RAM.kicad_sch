@@ -1801,6 +1801,12 @@
 		(uuid "4225e330-07b7-466d-9952-94e074eb54f0")
 	)
 	(junction
+		(at 162.56 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bda195b-6d03-46d6-b871-f44e17f1c317")
+	)
+	(junction
 		(at 184.15 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2696,6 +2702,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 43.18) (xy 35.56 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6083d609-1d70-46ac-aab6-9abe7bd35376")
+	)
+	(wire
+		(pts
 			(xy 73.66 100.33) (xy 76.2 100.33)
 		)
 		(stroke
@@ -2706,7 +2722,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 73.66) (xy 167.64 73.66)
+			(xy 153.67 73.66) (xy 162.56 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3103,6 +3119,16 @@
 			(type default)
 		)
 		(uuid "9d5fbf10-c2a3-48e9-a85d-f8da7df0cc9d")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d80a890-0847-4d8a-a89f-b2db1476308b")
 	)
 	(wire
 		(pts
@@ -3543,6 +3569,16 @@
 			(type default)
 		)
 		(uuid "dfb876e2-bf53-4400-b565-b6ab724677f7")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfed8b0f-a9bc-4c76-9ee3-e8e13136cd14")
 	)
 	(bus
 		(pts
@@ -4234,6 +4270,16 @@
 		)
 		(uuid "974936fd-dee6-40b9-9f93-8c42d83aa34f")
 	)
+	(label "DAT_{dis}"
+		(at 162.56 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "987097c6-db5c-444b-8f42-04b9f225736f")
+	)
 	(label "CMD7"
 		(at 109.22 85.09 0)
 		(effects
@@ -4413,6 +4459,16 @@
 			(justify left bottom)
 		)
 		(uuid "be8c2432-28c5-4e45-ae44-14851f025efc")
+	)
+	(label "DAT_{dis}"
+		(at 35.56 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c41dfec9-a300-4643-bd31-33d469740eed")
 	)
 	(label "CMD6"
 		(at 109.22 90.17 0)
@@ -4644,6 +4700,17 @@
 			(justify right)
 		)
 		(uuid "34b5296c-7031-47cb-b1c1-f4efbfdd24a5")
+	)
+	(hierarchical_label "DAT_{dis}"
+		(shape output)
+		(at 30.48 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57fc641f-e974-4a3e-a50b-9a7be1926335")
 	)
 	(hierarchical_label "DAT[0..7]"
 		(shape tri_state)

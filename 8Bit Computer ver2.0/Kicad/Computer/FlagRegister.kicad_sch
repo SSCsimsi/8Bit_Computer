@@ -2191,6 +2191,12 @@
 		(uuid "3dc30aa8-d612-48f1-bef7-a0c02f3e797c")
 	)
 	(junction
+		(at 182.88 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5526fd51-23be-42fc-8261-1e9009887c44")
+	)
+	(junction
 		(at 213.36 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2219,12 +2225,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a167dfd7-6409-41ac-acfd-bac7152c0862")
-	)
-	(junction
-		(at 168.91 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4d446d3-b867-4992-b545-b30c9403bdec")
 	)
 	(junction
 		(at 229.87 86.36)
@@ -3060,16 +3060,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 44.45) (xy 168.91 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c63acf6-68c3-430a-96a5-d4c5073da1bb")
-	)
-	(wire
-		(pts
 			(xy 92.71 64.77) (xy 95.25 64.77)
 		)
 		(stroke
@@ -3217,6 +3207,16 @@
 			(type default)
 		)
 		(uuid "7ba78694-b4bb-459c-9579-8fe96f01ddb1")
+	)
+	(wire
+		(pts
+			(xy 182.88 21.59) (xy 182.88 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f10fd51-120c-459c-bfb8-3d8c95da9324")
 	)
 	(wire
 		(pts
@@ -4309,16 +4309,6 @@
 		)
 		(uuid "33a80a20-2228-41dd-90d1-0dc609e0b079")
 	)
-	(label "C_{in}"
-		(at 168.91 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36021edd-bacd-4606-ae7b-d1bcceb4c0c5")
-	)
 	(label "STCSTA"
 		(at 93.98 46.99 0)
 		(effects
@@ -4588,6 +4578,16 @@
 			(justify left bottom)
 		)
 		(uuid "887599f6-7e9b-409c-9b5f-b200cb77d0cd")
+	)
+	(label "C_{in}"
+		(at 182.88 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88d9ab85-cab2-45da-bc20-f2636f93e9f0")
 	)
 	(label "VCC"
 		(at 185.42 139.7 0)

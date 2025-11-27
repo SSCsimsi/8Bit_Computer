@@ -2421,12 +2421,6 @@
 		(uuid "9c6e9a45-12f6-4b3e-b9a3-41652b0aaf14")
 	)
 	(junction
-		(at 278.13 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa8b4389-9d0d-487b-a36c-32d52134e115")
-	)
-	(junction
 		(at 50.8 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2443,16 +2437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f23ea37c-7db4-4748-a526-d5d5d9110bf5")
-	)
-	(junction
-		(at 278.13 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbd45d71-f709-4e29-b934-e9e067987bdf")
-	)
-	(no_connect
-		(at 303.53 96.52)
-		(uuid "18d8ab20-136f-4155-bdd8-908225ca09ce")
 	)
 	(no_connect
 		(at 191.77 120.65)
@@ -3378,6 +3362,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 114.3) (xy 273.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405d7293-a891-4893-8062-5f5f8c1c2294")
+	)
+	(wire
+		(pts
 			(xy 142.24 157.48) (xy 142.24 160.02)
 		)
 		(stroke
@@ -3405,6 +3399,16 @@
 			(type default)
 		)
 		(uuid "496ffa1a-b4a5-4940-99ed-9a034a1690de")
+	)
+	(wire
+		(pts
+			(xy 283.21 120.65) (xy 283.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0c7fce-8b56-4e58-96e3-bebc91d27feb")
 	)
 	(wire
 		(pts
@@ -3495,6 +3499,16 @@
 			(type default)
 		)
 		(uuid "536ccad9-85e3-461a-8477-8107900fc0e3")
+	)
+	(wire
+		(pts
+			(xy 273.05 110.49) (xy 270.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c80947-a606-4d7f-9fb8-25fa5f2cde7e")
 	)
 	(wire
 		(pts
@@ -3728,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 99.06) (xy 364.49 99.06)
+			(xy 280.67 123.19) (xy 283.21 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4098,6 +4112,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 101.6) (xy 278.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979f55ab-5566-4463-b02b-995597c7a7ca")
+	)
+	(wire
+		(pts
 			(xy 309.88 109.22) (xy 303.53 109.22)
 		)
 		(stroke
@@ -4238,6 +4262,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 96.52) (xy 278.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a777a225-7217-4ec1-a670-8a538fce0ab5")
+	)
+	(wire
+		(pts
 			(xy 204.47 46.99) (xy 191.77 46.99)
 		)
 		(stroke
@@ -4298,26 +4332,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 96.52) (xy 278.13 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae89d9e7-a69b-4fa1-834d-ce3cbf6fa325")
-	)
-	(wire
-		(pts
-			(xy 275.59 96.52) (xy 278.13 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af6dfdbe-afa6-4bb7-81c5-985b0db6b0e4")
-	)
-	(wire
-		(pts
 			(xy 163.83 62.23) (xy 166.37 62.23)
 		)
 		(stroke
@@ -4338,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 168.91) (xy 153.67 135.89)
+			(xy 153.67 168.91) (xy 153.67 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4468,7 +4482,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 99.06) (xy 334.01 99.06)
+			(xy 255.27 123.19) (xy 252.73 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4588,6 +4602,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 110.49) (xy 270.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e4189a-3f1b-4a75-9428-13d7b14eed32")
+	)
+	(wire
+		(pts
 			(xy 204.47 77.47) (xy 191.77 77.47)
 		)
 		(stroke
@@ -4618,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 135.89) (xy 260.35 86.36)
+			(xy 245.11 86.36) (xy 245.11 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4688,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 96.52) (xy 364.49 96.52)
+			(xy 280.67 120.65) (xy 283.21 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4698,7 +4722,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 101.6) (xy 336.55 101.6)
+			(xy 252.73 125.73) (xy 255.27 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4866,6 +4890,16 @@
 		)
 		(uuid "e56da811-734b-409f-a8d9-3a3acc96f9f4")
 	)
+	(wire
+		(pts
+			(xy 245.11 86.36) (xy 260.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ab5035-618a-4817-94f0-fa5b69bff3fd")
+	)
 	(bus
 		(pts
 			(xy 151.13 115.57) (xy 151.13 123.19)
@@ -4986,6 +5020,16 @@
 		)
 		(uuid "f3b0a385-6f19-49aa-b516-412b058c8eff")
 	)
+	(wire
+		(pts
+			(xy 283.21 114.3) (xy 273.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45f7648-9dfa-400c-9320-6d42e7308992")
+	)
 	(bus
 		(pts
 			(xy 316.23 55.88) (xy 316.23 58.42)
@@ -4998,7 +5042,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 135.89) (xy 260.35 135.89)
+			(xy 153.67 137.16) (xy 245.11 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5157,7 +5201,7 @@
 		(uuid "09c8bf49-e122-402c-a7bd-718681323c3b")
 	)
 	(label "VCC"
-		(at 364.49 99.06 0)
+		(at 283.21 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5376,16 +5420,6 @@
 		)
 		(uuid "43100c78-b2cc-4edd-8e6a-6bfb65a92dd8")
 	)
-	(label "STF"
-		(at 364.49 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43966ef1-f9cd-45b3-84fc-049ae3b67d39")
-	)
 	(label "DEC"
 		(at 48.26 69.85 180)
 		(effects
@@ -5456,6 +5490,16 @@
 		)
 		(uuid "49461a52-aaa5-4cef-a267-b17d02eb06db")
 	)
+	(label "DEC"
+		(at 252.73 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ef16fd5-e2f5-4f68-b443-ed820483b257")
+	)
 	(label "GND"
 		(at 275.59 68.58 180)
 		(effects
@@ -5495,6 +5539,16 @@
 			(justify left bottom)
 		)
 		(uuid "5380b603-4c67-4d99-aa8d-23ea9371bf41")
+	)
+	(label "GND"
+		(at 275.59 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5411bebd-2cf4-4a96-8598-da8516b2cc8b")
 	)
 	(label "Sum3"
 		(at 275.59 55.88 180)
@@ -5676,16 +5730,6 @@
 		)
 		(uuid "6e11aedd-f8a0-4484-9b5d-f2fce7188f4e")
 	)
-	(label "STC"
-		(at 334.01 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "71cd240d-c8e9-46d7-a130-2f4f9ac02896")
-	)
 	(label "DEC_{Bus}0"
 		(at 101.6 73.66 180)
 		(effects
@@ -5807,7 +5851,7 @@
 		(uuid "9338d177-6ebb-42aa-989d-1bc782059213")
 	)
 	(label "GND"
-		(at 334.01 101.6 180)
+		(at 252.73 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5825,16 +5869,6 @@
 			(justify left bottom)
 		)
 		(uuid "9bfa121a-4fa8-4fbe-9a95-4f6ffaf99324")
-	)
-	(label "GND"
-		(at 275.59 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c068612-bc28-4daf-a31c-288a28410d4a")
 	)
 	(label "GND"
 		(at 59.69 148.59 180)
@@ -6105,6 +6139,16 @@
 			(justify left bottom)
 		)
 		(uuid "d6335caf-089d-420c-97c7-0a3bb128c9e7")
+	)
+	(label "STF"
+		(at 303.53 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcb8f6e9-7ed0-4bc5-b608-959847a51590")
 	)
 	(label "Sum0"
 		(at 163.83 52.07 180)
@@ -7527,7 +7571,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SN74LVC1G14DBVR")
-		(at 336.55 96.52 0)
+		(at 255.27 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7536,7 +7580,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab7a6f62-74ee-4f60-b8fb-aa5776ae2b0f")
 		(property "Reference" "IC145"
-			(at 349.25 88.9 0)
+			(at 267.97 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7588,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBVR"
-			(at 349.25 91.44 0)
+			(at 267.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7596,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:SOT95P280X145-5N"
-			(at 358.14 191.44 0)
+			(at 276.86 215.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7606,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1136296.pdf"
-			(at 358.14 291.44 0)
+			(at 276.86 315.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +7616,7 @@
 			)
 		)
 		(property "Description" "TEXAS INSTRUMENTS - SN74LVC1G14DBVR - IC, SCHMITT TRIGGER INVERTER, SMD"
-			(at 336.55 96.52 0)
+			(at 255.27 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +7625,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 358.14 491.44 0)
+			(at 276.86 515.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7635,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LVC1G14DBVR"
-			(at 358.14 591.44 0)
+			(at 276.86 615.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +7645,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G14DBVR?qs=dT9u2OTAaVWRIgCrQFnxuQ%3D%3D"
-			(at 358.14 691.44 0)
+			(at 276.86 715.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7655,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 358.14 791.44 0)
+			(at 276.86 815.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +7665,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LVC1G14DBVR"
-			(at 358.14 891.44 0)
+			(at 276.86 915.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
