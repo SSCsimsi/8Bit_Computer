@@ -721,6 +721,374 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Samacsys:SN74AHC74DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SN74AHC74DR"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:SOIC127P600X175-14N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc74"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Positive-Edge-Triggered D-Type Flip-Flops With Clear and Preset"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-SN74AHC74DR"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC74DR?qs=st7IWvlL5%2FgP9OJq63EsFQ%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SN74AHC74DR"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC74DR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1~{CLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "1CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "1~{PRE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "1Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "1~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "2~{CLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "2D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "2CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "2~{PRE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "2Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -15.24 180)
+					(length 5.08)
+					(name "2~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Samacsys:SN74F521DWR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2248,6 +2616,24 @@
 		(uuid "86dcc6ef-f82f-47ef-abec-110c8b2cfcd4")
 	)
 	(junction
+		(at 243.84 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a03540c5-1d78-4250-ba91-c989af587d5d")
+	)
+	(junction
+		(at 243.84 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b34a634e-b34e-4e6e-b30b-23489e6609b3")
+	)
+	(junction
+		(at 243.84 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f708c046-e68c-4d01-ac6c-d5c784ac058a")
+	)
+	(junction
 		(at 72.39 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2256,6 +2642,18 @@
 	(no_connect
 		(at 369.57 219.71)
 		(uuid "61345835-6f0f-4146-a8c9-d92bc67a5cf7")
+	)
+	(no_connect
+		(at 243.84 246.38)
+		(uuid "b8e0f2a2-9bdc-476d-b851-2a7547e4fbc0")
+	)
+	(no_connect
+		(at 213.36 243.84)
+		(uuid "f0bb5389-20fb-4b89-8306-63c76c8ef397")
+	)
+	(no_connect
+		(at 243.84 248.92)
+		(uuid "f2b1f9b5-1602-45f0-a9b8-ccba90aa6bf3")
 	)
 	(bus_entry
 		(at 90.17 86.36)
@@ -2833,6 +3231,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 241.3) (xy 243.84 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072e7d87-0d69-4e54-aafc-943871f89f21")
+	)
+	(wire
+		(pts
 			(xy 344.17 140.97) (xy 341.63 140.97)
 		)
 		(stroke
@@ -3041,6 +3449,16 @@
 		)
 		(uuid "1c86d56e-32f5-4c90-9158-4f96198d8a4d")
 	)
+	(wire
+		(pts
+			(xy 213.36 246.38) (xy 204.47 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb06f93-a582-4d38-a856-923c505c9551")
+	)
 	(bus
 		(pts
 			(xy 236.22 133.35) (xy 236.22 119.38)
@@ -3173,6 +3591,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 233.68) (xy 210.82 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e89ee5c-c8d7-415a-9faa-0b263ed523d2")
+	)
+	(wire
+		(pts
 			(xy 191.77 76.2) (xy 176.53 76.2)
 		)
 		(stroke
@@ -3251,6 +3679,16 @@
 		)
 		(uuid "34fd236e-0f3e-4a6a-b6a0-d2932b69783c")
 	)
+	(wire
+		(pts
+			(xy 204.47 255.27) (xy 254 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3762193c-e2d4-4feb-9a0d-b19b1316e3eb")
+	)
 	(bus
 		(pts
 			(xy 388.62 191.77) (xy 388.62 194.31)
@@ -3260,6 +3698,16 @@
 			(type default)
 		)
 		(uuid "37d28df2-9158-4adb-bac0-64f719c4ce98")
+	)
+	(wire
+		(pts
+			(xy 243.84 238.76) (xy 243.84 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e482de-16a3-4080-952a-4fbc3c8be269")
 	)
 	(wire
 		(pts
@@ -3673,6 +4121,26 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 246.38) (xy 204.47 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d892dd5-43ea-4439-a961-a4712b8776b5")
+	)
+	(wire
+		(pts
+			(xy 189.23 222.25) (xy 191.77 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea236d4-2a2f-4fb5-aea9-4113fa501bce")
+	)
+	(wire
+		(pts
 			(xy 100.33 116.84) (xy 102.87 116.84)
 		)
 		(stroke
@@ -3770,6 +4238,16 @@
 			(type default)
 		)
 		(uuid "64590a53-b4fa-4569-8b3a-54c36c406943")
+	)
+	(wire
+		(pts
+			(xy 254 223.52) (xy 204.47 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6526eab9-2add-4817-8677-3a62d246895e")
 	)
 	(wire
 		(pts
@@ -3880,16 +4358,6 @@
 			(type default)
 		)
 		(uuid "7028f27b-38f4-47be-9852-49bfd4733ebb")
-	)
-	(wire
-		(pts
-			(xy 210.82 214.63) (xy 213.36 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70c7ff49-250d-44d7-8883-e9b6f271cdb8")
 	)
 	(wire
 		(pts
@@ -4033,6 +4501,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 224.79) (xy 163.83 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df6e6c4-07a3-4cf4-bb74-bf22fc03fefd")
+	)
+	(wire
+		(pts
 			(xy 133.35 76.2) (xy 135.89 76.2)
 		)
 		(stroke
@@ -4060,6 +4538,16 @@
 			(type default)
 		)
 		(uuid "7f97a1e9-e307-4d0c-8774-f57b03cc2d04")
+	)
+	(wire
+		(pts
+			(xy 254 223.52) (xy 254 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb03be7-ff16-402a-83ed-7de048cbfcfa")
 	)
 	(bus
 		(pts
@@ -4160,6 +4648,16 @@
 			(type default)
 		)
 		(uuid "8d3c8548-9d8d-4f52-a4c5-ceecf7896d92")
+	)
+	(wire
+		(pts
+			(xy 213.36 241.3) (xy 210.82 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e357e47-36c2-4562-a326-57c2c7d9f4ac")
 	)
 	(wire
 		(pts
@@ -4361,6 +4859,26 @@
 		)
 		(uuid "a77b90aa-ac7a-42c9-bbac-7f379d738628")
 	)
+	(wire
+		(pts
+			(xy 161.29 222.25) (xy 163.83 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b5cbd7-4c06-4499-8381-08663f4ca794")
+	)
+	(wire
+		(pts
+			(xy 243.84 236.22) (xy 246.38 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af610948-011e-49e9-a905-5ceddc5af526")
+	)
 	(bus
 		(pts
 			(xy 236.22 138.43) (xy 236.22 135.89)
@@ -4370,6 +4888,16 @@
 			(type default)
 		)
 		(uuid "b088e60a-6aba-40e3-a71b-9010aa3a7da0")
+	)
+	(wire
+		(pts
+			(xy 199.39 238.76) (xy 213.36 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b129c754-26f3-4e70-855c-68fa42f92adc")
 	)
 	(wire
 		(pts
@@ -4440,6 +4968,26 @@
 			(type default)
 		)
 		(uuid "b44fa674-07a9-4605-be8a-8ab709ef1c3b")
+	)
+	(wire
+		(pts
+			(xy 210.82 236.22) (xy 213.36 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48aea1f-8e23-4afe-8d7e-26f6f3b57363")
+	)
+	(wire
+		(pts
+			(xy 243.84 236.22) (xy 243.84 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ad249c-9968-4fed-b322-ec273e915f2d")
 	)
 	(wire
 		(pts
@@ -4530,6 +5078,16 @@
 			(type default)
 		)
 		(uuid "c1eea909-9dc5-4d00-a710-1fca8b22d8ad")
+	)
+	(wire
+		(pts
+			(xy 199.39 219.71) (xy 199.39 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4252b3c-8b1d-49e1-bee0-dc0fb11a200a")
 	)
 	(bus
 		(pts
@@ -4743,6 +5301,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 248.92) (xy 213.36 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d5ee1f-7a1c-45e1-994c-e3579a68e958")
+	)
+	(wire
+		(pts
 			(xy 100.33 81.28) (xy 102.87 81.28)
 		)
 		(stroke
@@ -4841,6 +5409,16 @@
 		)
 		(uuid "df6b4b6d-c232-40a2-ab92-b61b38b21391")
 	)
+	(wire
+		(pts
+			(xy 189.23 219.71) (xy 199.39 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43c1097-569e-4fd5-9e38-4070cc704438")
+	)
 	(bus
 		(pts
 			(xy 325.12 121.92) (xy 325.12 128.27)
@@ -4931,6 +5509,16 @@
 		)
 		(uuid "e968bc73-73a6-4db4-b4c3-7c03f3d2d5a3")
 	)
+	(wire
+		(pts
+			(xy 243.84 233.68) (xy 246.38 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ea53ec-5e88-4ce5-814c-981490564c95")
+	)
 	(bus
 		(pts
 			(xy 325.12 128.27) (xy 325.12 130.81)
@@ -4971,6 +5559,16 @@
 		)
 		(uuid "ec422fc4-01d7-471a-aeb3-225e7d327f01")
 	)
+	(wire
+		(pts
+			(xy 204.47 223.52) (xy 204.47 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed6dbf8e-b0f3-4154-90d7-3fcce4333fe8")
+	)
 	(bus
 		(pts
 			(xy 146.05 116.84) (xy 146.05 121.92)
@@ -5010,6 +5608,16 @@
 			(type default)
 		)
 		(uuid "f23b1a66-dc23-4a9a-aaaf-96326378dd13")
+	)
+	(wire
+		(pts
+			(xy 204.47 214.63) (xy 213.36 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a32ca3-f951-41f1-8d96-848bdf3d4277")
 	)
 	(wire
 		(pts
@@ -6758,6 +7366,16 @@
 		)
 		(uuid "2b5183d4-d6be-4db1-ae1f-4f713f2fc443")
 	)
+	(label "VCC"
+		(at 210.82 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f5d2eae-aa43-40ec-9371-6e4f1ab304c4")
+	)
 	(label "LN[0..15]"
 		(at 39.37 64.77 0)
 		(effects
@@ -6988,6 +7606,16 @@
 		)
 		(uuid "5eb33bd4-1399-4774-94b3-ec03b2f31c8b")
 	)
+	(label "GND"
+		(at 161.29 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f28e70f-e6ce-4f93-91a4-8c6123eb5ba0")
+	)
 	(label "TC1"
 		(at 372.11 201.93 0)
 		(effects
@@ -7107,6 +7735,16 @@
 			(justify right bottom)
 		)
 		(uuid "77b641d4-bd66-4f22-9cf9-5772ded2edc0")
+	)
+	(label "VCC"
+		(at 210.82 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78c80cc9-9b63-4eba-95e0-23876fdee300")
 	)
 	(label "GND"
 		(at 246.38 203.2 180)
@@ -7438,6 +8076,16 @@
 		)
 		(uuid "b140665d-a69c-4276-a71a-b5e9cdd8b7cf")
 	)
+	(label "GND"
+		(at 210.82 248.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1a6cdfd-7194-4444-a51f-5e831120f701")
+	)
 	(label "LN10"
 		(at 372.11 196.85 0)
 		(effects
@@ -7628,6 +8276,16 @@
 		)
 		(uuid "cf54d751-755c-4abe-9503-e55bc43c8cf9")
 	)
+	(label "DAT0-7"
+		(at 210.82 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf9b2ddd-d80e-4026-9fa7-5cb1b87e2808")
+	)
 	(label "LN9"
 		(at 372.11 194.31 0)
 		(effects
@@ -7687,6 +8345,26 @@
 			(justify right bottom)
 		)
 		(uuid "d5269bf8-4cbd-4888-8286-4105d541375b")
+	)
+	(label "VCC"
+		(at 246.38 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d63ec730-e9d0-4280-983b-cb842edd1144")
+	)
+	(label "CJP"
+		(at 161.29 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9f9a910-052e-4f9e-8e3a-5b68e8b30a3a")
 	)
 	(label "VCC"
 		(at 100.33 81.28 180)
@@ -7777,16 +8455,6 @@
 			(justify left bottom)
 		)
 		(uuid "e6f335fa-a11c-4b76-b9c7-408a7fab999b")
-	)
-	(label "DAT0-7"
-		(at 210.82 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e7361a78-1ab7-4c5b-b786-59bd402d1c7e")
 	)
 	(label "CMD1"
 		(at 100.33 83.82 180)
@@ -7888,6 +8556,16 @@
 		)
 		(uuid "f93a79c4-ce08-47f7-8cd6-8b19a238b53d")
 	)
+	(label "VCC"
+		(at 246.38 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f94f2379-7efc-418d-a4c8-7c40c6f1ec32")
+	)
 	(label "ADR0"
 		(at 336.55 130.81 0)
 		(effects
@@ -7897,6 +8575,16 @@
 			(justify left bottom)
 		)
 		(uuid "f9e1db98-19cf-4cac-9ccb-7c3088c9e3e8")
+	)
+	(label "VCC"
+		(at 191.77 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbf8fe84-0c79-41d6-a571-298375e01dd3")
 	)
 	(label "ADR14"
 		(at 336.55 227.33 0)
@@ -8182,6 +8870,135 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
 					(reference "IC168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:SN74LVC1G14DBVR")
+		(at 163.83 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20383738-c5c2-4209-9d60-e1399f73ccca")
+		(property "Reference" "IC265"
+			(at 176.53 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G14DBVR"
+			(at 176.53 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOT95P280X145-5N"
+			(at 185.42 314.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1136296.pdf"
+			(at 185.42 414.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEXAS INSTRUMENTS - SN74LVC1G14DBVR - IC, SCHMITT TRIGGER INVERTER, SMD"
+			(at 163.83 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 185.42 614.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74LVC1G14DBVR"
+			(at 185.42 714.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G14DBVR?qs=dT9u2OTAaVWRIgCrQFnxuQ%3D%3D"
+			(at 185.42 814.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 185.42 914.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74LVC1G14DBVR"
+			(at 185.42 1014.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4798f4d4-55f6-43b8-a1c5-9ea6369bb36f")
+		)
+		(pin "3"
+			(uuid "8d70e924-91d9-4306-b670-3d8796fab704")
+		)
+		(pin "2"
+			(uuid "dc8fe652-6405-4ca0-b72f-69a453eeb033")
+		)
+		(pin "4"
+			(uuid "cee8f41f-5643-4a08-9cfc-47d2bc5fe744")
+		)
+		(pin "5"
+			(uuid "f0375551-800f-40e7-ab06-ffb0bb3df5f4")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
+					(reference "IC265")
 					(unit 1)
 				)
 			)
@@ -9910,6 +10727,162 @@
 			(project ""
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
 					(reference "IC159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:SN74AHC74DR")
+		(at 213.36 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b25368df-f1e2-4db1-8169-8f5c665517c9")
+		(property "Reference" "IC264"
+			(at 228.6 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC74DR"
+			(at 228.6 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
+			(at 240.03 328.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc74"
+			(at 240.03 428.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Positive-Edge-Triggered D-Type Flip-Flops With Clear and Preset"
+			(at 213.36 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 240.03 628.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC74DR"
+			(at 240.03 728.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC74DR?qs=st7IWvlL5%2FgP9OJq63EsFQ%3D%3D"
+			(at 240.03 828.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 240.03 928.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC74DR"
+			(at 240.03 1028.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "0c8f8905-cb0d-41eb-806a-3502a7883e89")
+		)
+		(pin "5"
+			(uuid "36985e0f-04ae-4fc4-967c-ad5abf6e83d1")
+		)
+		(pin "14"
+			(uuid "c6bae2dc-bf9f-4bbb-ae6a-a0e8c5aa6fb2")
+		)
+		(pin "4"
+			(uuid "4ab964e8-a717-464d-9851-6f9db40fd4e1")
+		)
+		(pin "11"
+			(uuid "2ce5387f-1f57-4824-8c03-b1fca7bdeee1")
+		)
+		(pin "12"
+			(uuid "09e9a0f0-4c05-4226-b886-a4ad5abde12f")
+		)
+		(pin "7"
+			(uuid "8294f665-3e2a-4b60-9b3e-f5feb2aacd90")
+		)
+		(pin "2"
+			(uuid "6fc00127-4536-4e4d-adf6-f49aed202fb5")
+		)
+		(pin "3"
+			(uuid "f7bf6017-e113-4aae-b694-e4fc78c36cd0")
+		)
+		(pin "6"
+			(uuid "f982c0ce-ec6a-41a3-a202-ace7fda047c0")
+		)
+		(pin "10"
+			(uuid "43bb2c25-dc71-4708-9498-d3d511360d75")
+		)
+		(pin "8"
+			(uuid "bf280e3e-97eb-4fbc-b54d-922af0ed9257")
+		)
+		(pin "1"
+			(uuid "3551df9a-4d4b-4249-98c9-f6cb0e4ea713")
+		)
+		(pin "9"
+			(uuid "bc6537e9-b54d-4abe-b593-41a3e5abaa83")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
+					(reference "IC264")
 					(unit 1)
 				)
 			)

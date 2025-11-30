@@ -2160,6 +2160,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Overflow"
+		(exclude_from_sim no)
+		(at 153.924 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8538cdbb-273d-4f03-a004-cef2fea830b9")
+	)
+	(text "CarryOUT"
+		(exclude_from_sim no)
+		(at 117.348 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3ea57e7-2735-428d-8a2a-c6ef330edc5b")
+	)
 	(junction
 		(at 213.36 52.07)
 		(diameter 0)

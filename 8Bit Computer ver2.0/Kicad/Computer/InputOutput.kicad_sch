@@ -430,10 +430,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Samacsys:1N4148WS-7-F"
 			(pin_names
 				(hide yes)
 			)
@@ -441,22 +438,44 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 11.43 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
+			(property "Value" "1N4148WS-7-F"
+				(at 11.43 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(property "Footprint" "Samacsys:SOD2513X120N"
+				(at 11.43 -97.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N4148WS_BAV16WS.pdf"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode Switching 150mA 75V 200mW SOD323 Diodes Inc 1N4148WS-7-F Switching Diode, 150mA 75V, 2-Pin SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -465,64 +484,60 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
+			(property "Height" "1.2"
+				(at 11.43 -397.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
+			(property "Mouser Part Number" "621-1N4148WS-F"
+				(at 11.43 -497.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4148WS-7-F?qs=4drIV0IxA0r8aNy7%2Fu4kVw%3D%3D"
+				(at 11.43 -597.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 11.43 -697.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "1N4148WS-7-F"
+				(at 11.43 -797.46 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148_0_1"
+			(symbol "1N4148WS-7-F_1_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy 2.54 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.254)
@@ -534,7 +549,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 5.08 2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -546,20 +561,30 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "1N4148_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 0 0 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -577,7 +602,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 15.24 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -5250,6 +5275,12 @@
 		(uuid "65398d4b-2a55-40a5-a7ca-2fbd08bb3eea")
 	)
 	(junction
+		(at 167.64 345.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67d20bdc-7aaa-4699-963e-4957e811e0a9")
+	)
+	(junction
 		(at 97.79 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5376,6 +5407,12 @@
 		(uuid "a7a0daa1-5a9a-4653-8f7a-f90a671df124")
 	)
 	(junction
+		(at 92.71 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa869192-e4c5-4479-8a35-fe7f3301187c")
+	)
+	(junction
 		(at 87.63 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5388,22 +5425,10 @@
 		(uuid "ad9e2526-aea4-4b52-a721-f963939efa7a")
 	)
 	(junction
-		(at 90.17 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adbfafdc-24a2-4973-a67d-cc8eb2d67aa0")
-	)
-	(junction
 		(at 203.2 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b05330cd-9982-4731-9437-293cc88240bc")
-	)
-	(junction
-		(at 167.64 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b102d4b4-2126-42ea-8812-80907be0238c")
 	)
 	(junction
 		(at 250.19 181.61)
@@ -6811,7 +6836,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 213.36) (xy 93.98 213.36)
+			(xy 106.68 213.36) (xy 109.22 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6861,7 +6886,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 106.68) (xy 127 106.68)
+			(xy 123.19 106.68) (xy 128.27 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7161,7 +7186,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 363.22) (xy 212.09 363.22)
+			(xy 210.82 363.22) (xy 212.09 363.22)
 		)
 		(stroke
 			(width 0)
@@ -7401,7 +7426,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 78.74) (xy 96.52 78.74)
+			(xy 38.1 78.74) (xy 146.05 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7581,7 +7606,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 342.9) (xy 201.93 342.9)
+			(xy 205.74 342.9) (xy 210.82 342.9)
 		)
 		(stroke
 			(width 0)
@@ -7781,7 +7806,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 345.44) (xy 199.39 345.44)
+			(xy 205.74 345.44) (xy 208.28 345.44)
 		)
 		(stroke
 			(width 0)
@@ -8691,7 +8716,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 347.98) (xy 171.45 347.98)
+			(xy 177.8 347.98) (xy 180.34 347.98)
 		)
 		(stroke
 			(width 0)
@@ -8838,6 +8863,16 @@
 			(type default)
 		)
 		(uuid "481bf312-2fe3-47ae-8c53-c897373d89a4")
+	)
+	(wire
+		(pts
+			(xy 167.64 345.44) (xy 180.34 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48740bea-fc42-4d04-9314-7ab8d8220373")
 	)
 	(wire
 		(pts
@@ -9021,7 +9056,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 210.82) (xy 121.92 210.82)
+			(xy 134.62 210.82) (xy 137.16 210.82)
 		)
 		(stroke
 			(width 0)
@@ -9191,7 +9226,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 210.82) (xy 90.17 210.82)
+			(xy 73.66 210.82) (xy 92.71 210.82)
 		)
 		(stroke
 			(width 0)
@@ -9281,7 +9316,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 109.22) (xy 127 109.22)
+			(xy 125.73 109.22) (xy 128.27 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9519,16 +9554,6 @@
 		)
 		(uuid "5d23fc0a-98c7-4937-821a-5056d12e6fdf")
 	)
-	(wire
-		(pts
-			(xy 96.52 78.74) (xy 96.52 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d95d6ec-098a-4b94-9d28-457c90fc21f7")
-	)
 	(bus
 		(pts
 			(xy 398.78 66.04) (xy 398.78 74.93)
@@ -9588,16 +9613,6 @@
 			(type default)
 		)
 		(uuid "5ef1cee5-8bc5-489f-8194-9331b60c38f5")
-	)
-	(wire
-		(pts
-			(xy 90.17 208.28) (xy 90.17 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f05a090-142c-4d44-b00b-f83b01fde733")
 	)
 	(bus
 		(pts
@@ -9921,6 +9936,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 195.58) (xy 99.06 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5ef646-ffe2-4e83-8d97-ee385b122b14")
+	)
+	(wire
+		(pts
 			(xy 364.49 34.29) (xy 364.49 43.18)
 		)
 		(stroke
@@ -10131,7 +10156,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 146.05 90.17)
+			(xy 146.05 97.79) (xy 146.05 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10281,7 +10306,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 104.14) (xy 157.48 104.14)
+			(xy 153.67 104.14) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -10509,16 +10534,6 @@
 		)
 		(uuid "7e5f0dd9-9bbe-472d-8c8a-cb6d70b55ecb")
 	)
-	(wire
-		(pts
-			(xy 167.64 344.17) (xy 167.64 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef7a98d-5ff6-4d8e-a790-0f14d6d2610a")
-	)
 	(bus
 		(pts
 			(xy 290.83 321.31) (xy 290.83 323.85)
@@ -10641,23 +10656,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 335.28) (xy 167.64 336.55)
+			(xy 167.64 364.49) (xy 167.64 360.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "831b7a74-378e-434b-b7f8-ee60d4935093")
-	)
-	(wire
-		(pts
-			(xy 167.64 345.44) (xy 171.45 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "839c28a5-dd2b-41ee-bb9a-0ff3dd76331b")
 	)
 	(wire
 		(pts
@@ -11051,16 +11056,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 96.52 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92cbbd0b-206d-49fa-872c-452a1252ac2e")
-	)
-	(wire
-		(pts
 			(xy 97.79 40.64) (xy 111.76 40.64)
 		)
 		(stroke
@@ -11128,16 +11123,6 @@
 			(type default)
 		)
 		(uuid "94e9c230-e6a3-4d5b-88a4-61e0e0c662e9")
-	)
-	(wire
-		(pts
-			(xy 90.17 198.12) (xy 90.17 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94fded8f-563a-4e21-9b78-e1563f9ed916")
 	)
 	(wire
 		(pts
@@ -11211,7 +11196,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 92.71) (xy 123.19 95.25)
+			(xy 123.19 85.09) (xy 123.19 87.63)
 		)
 		(stroke
 			(width 0)
@@ -11288,6 +11273,16 @@
 			(type default)
 		)
 		(uuid "98c58241-9791-49fc-aed2-6ff7af7810a1")
+	)
+	(wire
+		(pts
+			(xy 92.71 210.82) (xy 109.22 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c62357-62b8-4366-ab05-0aa7b542d4c8")
 	)
 	(bus
 		(pts
@@ -12191,16 +12186,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 210.82) (xy 93.98 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4d882e-bd09-46d4-a96e-fd014f96e694")
-	)
-	(wire
-		(pts
 			(xy 189.23 69.85) (xy 191.77 69.85)
 		)
 		(stroke
@@ -12211,7 +12196,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 154.94 106.68)
+			(xy 153.67 106.68) (xy 156.21 106.68)
 		)
 		(stroke
 			(width 0)
@@ -13131,7 +13116,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 208.28) (xy 171.45 208.28)
+			(xy 134.62 208.28) (xy 171.45 208.28)
 		)
 		(stroke
 			(width 0)
@@ -13581,7 +13566,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 342.9) (xy 201.93 363.22)
+			(xy 210.82 342.9) (xy 210.82 363.22)
 		)
 		(stroke
 			(width 0)
@@ -15566,7 +15551,7 @@
 		(uuid "02704706-09c3-4f8c-81f1-4d897b31ad40")
 	)
 	(label "GND"
-		(at 91.44 213.36 180)
+		(at 106.68 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16016,7 +16001,7 @@
 		(uuid "2821d759-b69e-4528-86c8-d376bc48c16d")
 	)
 	(label "VCC"
-		(at 154.94 106.68 180)
+		(at 156.21 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16666,7 +16651,7 @@
 		(uuid "576663de-7a11-4439-a67c-8c35b427454b")
 	)
 	(label "GND"
-		(at 124.46 109.22 180)
+		(at 125.73 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17105,6 +17090,16 @@
 		)
 		(uuid "81d05462-1ee2-48f3-8988-9bc60187ea42")
 	)
+	(label "DAT_{dis}"
+		(at 99.06 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "820dee13-5e11-4e41-9c10-c2d3954074da")
+	)
 	(label "GND"
 		(at 482.6 196.85 0)
 		(effects
@@ -17366,7 +17361,7 @@
 		(uuid "9770e445-eca7-4f9f-ba33-b4e4faf23f99")
 	)
 	(label "GND"
-		(at 168.91 347.98 180)
+		(at 177.8 347.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17424,16 +17419,6 @@
 			(justify right bottom)
 		)
 		(uuid "99f031b6-ef9b-4377-8e72-6aafb7e5a43d")
-	)
-	(label "DAT_{dis}"
-		(at 90.17 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a0262ac-af91-40c1-af8c-179e2575ae28")
 	)
 	(label "GND"
 		(at 436.88 184.15 270)
@@ -17686,7 +17671,7 @@
 		(uuid "b3119937-bcdd-40de-bab6-ceb132e89895")
 	)
 	(label "VCC"
-		(at 199.39 345.44 180)
+		(at 208.28 345.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18336,7 +18321,7 @@
 		(uuid "e3c81f3b-c84b-4f03-9799-b2d3e5e8d377")
 	)
 	(label "DAT_{dis}"
-		(at 167.64 335.28 0)
+		(at 167.64 364.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18536,7 +18521,7 @@
 		(uuid "f1f9c768-e1f4-4a0b-9bc5-5d576dd9acfa")
 	)
 	(label "DAT_{dis}"
-		(at 123.19 92.71 180)
+		(at 123.19 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18556,7 +18541,7 @@
 		(uuid "f2cd8bf0-5322-4cc5-919e-2756dcf59444")
 	)
 	(label "VCC"
-		(at 121.92 210.82 180)
+		(at 137.16 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21064,93 +21049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 123.19 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30e74cc9-2939-49c5-97a0-0e3432c55329")
-		(property "Reference" "D28"
-			(at 125.984 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 128.524 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40f7f59f-2dc2-47fa-9aca-7f1c64f1d878")
-		)
-		(pin "2"
-			(uuid "8e9c8578-03ed-485b-a9b9-deb8dafe844e")
-		)
-		(instances
-			(project "Computer"
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/ba5a7074-f649-4584-80a3-402a8e31fba6"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Samacsys:MP2338GTL-Z")
 		(at 318.77 43.18 0)
 		(unit 1)
@@ -21283,93 +21181,6 @@
 			(project ""
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/ba5a7074-f649-4584-80a3-402a8e31fba6"
 					(reference "IC261")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 90.17 204.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3262349b-80ca-4916-abd3-9fd97d4e7069")
-		(property "Reference" "D29"
-			(at 92.964 205.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 95.504 205.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 90.17 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 90.17 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 90.17 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d4b436a-2ae3-42f2-b2e0-8a6b64f4560a")
-		)
-		(pin "2"
-			(uuid "11e2d7c0-482f-4f32-b419-32b9de743464")
-		)
-		(instances
-			(project "Computer"
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/ba5a7074-f649-4584-80a3-402a8e31fba6"
-					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -21710,93 +21521,6 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/ba5a7074-f649-4584-80a3-402a8e31fba6"
 					(reference "C211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 167.64 340.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38dd4bef-93ca-482b-abee-6917da71ab05")
-		(property "Reference" "D30"
-			(at 170.434 341.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 172.212 336.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 167.64 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 167.64 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 167.64 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 167.64 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c33c38a-551b-4189-bb50-b858c38c71a4")
-		)
-		(pin "2"
-			(uuid "ef1c2f32-891b-4274-ace2-87e67adda174")
-		)
-		(instances
-			(project "Computer"
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/ba5a7074-f649-4584-80a3-402a8e31fba6"
-					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -24406,6 +24130,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:1N4148WS-7-F")
+		(at 92.71 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ac24d25-2eb4-48f7-9912-0e1219adec63")
+		(property "Reference" "D31"
+			(at 96.52 201.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WS-7-F"
+			(at 96.52 204.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Samacsys:SOD2513X120N"
+			(at -4.75 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N4148WS_BAV16WS.pdf"
+			(at -104.75 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Switching 150mA 75V 200mW SOD323 Diodes Inc 1N4148WS-7-F Switching Diode, 150mA 75V, 2-Pin SOD-323"
+			(at 92.71 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at -304.75 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WS-F"
+			(at -404.75 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4148WS-7-F?qs=4drIV0IxA0r8aNy7%2Fu4kVw%3D%3D"
+			(at -504.75 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at -604.75 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WS-7-F"
+			(at -704.75 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a1c66d3-e85a-49ae-bd23-aad62e94dfc0")
+		)
+		(pin "1"
+			(uuid "3b55dc47-bf16-4e6a-8643-09ea57e00510")
+		)
+		(instances
+			(project ""
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/ba5a7074-f649-4584-80a3-402a8e31fba6"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 513.08 130.81 180)
 		(unit 1)
@@ -26594,7 +26440,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SN74LVC1G14DBVR")
-		(at 93.98 208.28 0)
+		(at 109.22 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26603,7 +26449,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c7f4359-aefc-4e4e-a22a-8383e8cf8aae")
 		(property "Reference" "IC239"
-			(at 106.68 200.66 0)
+			(at 121.92 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26611,7 +26457,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBVR"
-			(at 106.68 203.2 0)
+			(at 121.92 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26619,7 +26465,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:SOT95P280X145-5N"
-			(at 115.57 303.2 0)
+			(at 130.81 303.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26629,7 +26475,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1136296.pdf"
-			(at 115.57 403.2 0)
+			(at 130.81 403.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26639,7 +26485,7 @@
 			)
 		)
 		(property "Description" "TEXAS INSTRUMENTS - SN74LVC1G14DBVR - IC, SCHMITT TRIGGER INVERTER, SMD"
-			(at 93.98 208.28 0)
+			(at 109.22 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26648,7 +26494,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 115.57 603.2 0)
+			(at 130.81 603.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26658,7 +26504,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LVC1G14DBVR"
-			(at 115.57 703.2 0)
+			(at 130.81 703.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26668,7 +26514,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G14DBVR?qs=dT9u2OTAaVWRIgCrQFnxuQ%3D%3D"
-			(at 115.57 803.2 0)
+			(at 130.81 803.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26678,7 +26524,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 115.57 903.2 0)
+			(at 130.81 903.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26688,7 +26534,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LVC1G14DBVR"
-			(at 115.57 1003.2 0)
+			(at 130.81 1003.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27792,6 +27638,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:1N4148WS-7-F")
+		(at 123.19 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a91922ef-55fa-46b7-88d6-21ef9c78a2e7")
+		(property "Reference" "D28"
+			(at 127 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WS-7-F"
+			(at 129.032 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Samacsys:SOD2513X120N"
+			(at 25.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N4148WS_BAV16WS.pdf"
+			(at -74.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Switching 150mA 75V 200mW SOD323 Diodes Inc 1N4148WS-7-F Switching Diode, 150mA 75V, 2-Pin SOD-323"
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at -274.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WS-F"
+			(at -374.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4148WS-7-F?qs=4drIV0IxA0r8aNy7%2Fu4kVw%3D%3D"
+			(at -474.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at -574.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WS-7-F"
+			(at -674.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99a75034-200f-44e4-b9a3-059f04f9a0c4")
+		)
+		(pin "2"
+			(uuid "d6ab87f9-a82f-4b0b-b576-1a32c436692c")
+		)
+		(instances
+			(project ""
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/ba5a7074-f649-4584-80a3-402a8e31fba6"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 347.98 54.61 0)
 		(unit 1)
@@ -28525,7 +28492,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SN74LVC1G14DBVR")
-		(at 127 104.14 0)
+		(at 128.27 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28534,7 +28501,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2c2dca4-f304-4fea-a13a-482e38e46ac5")
 		(property "Reference" "IC244"
-			(at 139.7 96.52 0)
+			(at 140.97 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28542,7 +28509,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBVR"
-			(at 139.7 99.06 0)
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28550,7 +28517,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:SOT95P280X145-5N"
-			(at 148.59 199.06 0)
+			(at 149.86 199.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28560,7 +28527,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1136296.pdf"
-			(at 148.59 299.06 0)
+			(at 149.86 299.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28570,7 +28537,7 @@
 			)
 		)
 		(property "Description" "TEXAS INSTRUMENTS - SN74LVC1G14DBVR - IC, SCHMITT TRIGGER INVERTER, SMD"
-			(at 127 104.14 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28579,7 +28546,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 148.59 499.06 0)
+			(at 149.86 499.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28589,7 +28556,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LVC1G14DBVR"
-			(at 148.59 599.06 0)
+			(at 149.86 599.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28599,7 +28566,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G14DBVR?qs=dT9u2OTAaVWRIgCrQFnxuQ%3D%3D"
-			(at 148.59 699.06 0)
+			(at 149.86 699.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28609,7 +28576,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 148.59 799.06 0)
+			(at 149.86 799.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28619,7 +28586,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LVC1G14DBVR"
-			(at 148.59 899.06 0)
+			(at 149.86 899.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30722,6 +30689,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:1N4148WS-7-F")
+		(at 167.64 360.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f25100a9-fafd-476d-ad27-f9065859b55a")
+		(property "Reference" "D29"
+			(at 171.45 351.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS-7-F"
+			(at 171.45 354.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:SOD2513X120N"
+			(at 265.1 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N4148WS_BAV16WS.pdf"
+			(at 365.1 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Switching 150mA 75V 200mW SOD323 Diodes Inc 1N4148WS-7-F Switching Diode, 150mA 75V, 2-Pin SOD-323"
+			(at 167.64 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 565.1 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WS-F"
+			(at 665.1 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4148WS-7-F?qs=4drIV0IxA0r8aNy7%2Fu4kVw%3D%3D"
+			(at 765.1 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 865.1 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WS-7-F"
+			(at 965.1 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efeeedff-51f5-48df-9e5e-f2fed52203fc")
+		)
+		(pin "2"
+			(uuid "a4917a14-fcf7-4ba3-8a81-c4b6e1c6387c")
+		)
+		(instances
+			(project ""
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/ba5a7074-f649-4584-80a3-402a8e31fba6"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:SN74LVC1G14DBVR")
 		(at 105.41 233.68 0)
 		(unit 1)
@@ -31512,7 +31601,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:SN74LVC1G14DBVR")
-		(at 171.45 342.9 0)
+		(at 180.34 342.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31521,7 +31610,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffe600f6-136a-4305-9521-4645f102844e")
 		(property "Reference" "IC249"
-			(at 184.15 335.28 0)
+			(at 193.04 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31529,7 +31618,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G14DBVR"
-			(at 184.15 337.82 0)
+			(at 193.04 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31537,7 +31626,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:SOT95P280X145-5N"
-			(at 193.04 437.82 0)
+			(at 201.93 437.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31547,7 +31636,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1136296.pdf"
-			(at 193.04 537.82 0)
+			(at 201.93 537.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31557,7 +31646,7 @@
 			)
 		)
 		(property "Description" "TEXAS INSTRUMENTS - SN74LVC1G14DBVR - IC, SCHMITT TRIGGER INVERTER, SMD"
-			(at 171.45 342.9 0)
+			(at 180.34 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31566,7 +31655,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 193.04 737.82 0)
+			(at 201.93 737.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31576,7 +31665,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74LVC1G14DBVR"
-			(at 193.04 837.82 0)
+			(at 201.93 837.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31586,7 +31675,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G14DBVR?qs=dT9u2OTAaVWRIgCrQFnxuQ%3D%3D"
-			(at 193.04 937.82 0)
+			(at 201.93 937.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31596,7 +31685,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 193.04 1037.82 0)
+			(at 201.93 1037.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31606,7 +31695,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74LVC1G14DBVR"
-			(at 193.04 1137.82 0)
+			(at 201.93 1137.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
