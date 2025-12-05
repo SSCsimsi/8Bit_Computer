@@ -43,14 +43,14 @@
 0029 CJP    002B /* conditional jump */
 002A STB 01
 002B NOP
-002C LDB
-002D SOP	 /* store outputs */ //should be 02
-002E JMP    0000
-002F 
-0030 
-0031 
-0032 
-0033 
+002C LDB	 // should be 02
+002D BIO	 /* binary or */
+002E STA	 //A:01
+002F BIA	 /* binary and */
+0030 STA	 //A:01
+0031 STB 00	 //B:00
+0032 BIX	 /* binary xor */
+0033 STA	 //A:01
 0034 
 0035 
 0036 
