@@ -22623,7 +22623,7 @@
 	(footprint "Samacsys:SOT95P280X145-5N"
 		(layer "F.Cu")
 		(uuid "1263d2e3-0f64-4490-82fe-aff9c020d0d3")
-		(at 703.535 482.67)
+		(at 685.225 493.02)
 		(descr "DBV (R-PDSO-G5)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC227"
@@ -24299,13 +24299,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/Samacsys.3dshapes/2MS1T2B3M2QES.stp"
 			(offset
-				(xyz 0 2.539999924 2.219999995)
+				(xyz 0 2.54 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 -180)
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -44265,7 +44265,7 @@
 	(footprint "Samacsys:SOIC127P1030X265-20N"
 		(layer "F.Cu")
 		(uuid "30a27322-9dcc-477d-946a-81d3f5b7d0ac")
-		(at 733.285 473.095)
+		(at 714.975 483.445)
 		(descr "DW0020A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC235"
@@ -51419,7 +51419,7 @@
 	(footprint "Samacsys:SOIC127P1030X265-20N"
 		(layer "F.Cu")
 		(uuid "37eeb583-8784-46c5-a505-2d02992d3b38")
-		(at 720.335 473.095)
+		(at 702.025 483.445)
 		(descr "DW0020A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC234"
@@ -78901,7 +78901,7 @@
 	(footprint "Samacsys:SOT95P280X145-5N"
 		(layer "F.Cu")
 		(uuid "57d09434-8544-4414-8b36-7fc9b947fde6")
-		(at 703.535 487.27)
+		(at 685.225 497.62)
 		(descr "DBV (R-PDSO-G5)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC228"
@@ -98581,7 +98581,7 @@
 	(footprint "Samacsys:SOT95P280X145-5N"
 		(layer "F.Cu")
 		(uuid "73271786-a56d-43dc-b807-c69a0ca98e1a")
-		(at 703.535 496.47)
+		(at 685.225 506.82)
 		(descr "DBV (R-PDSO-G5)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC230"
@@ -108482,7 +108482,7 @@
 	(footprint "Samacsys:SOIC127P1030X265-20N"
 		(layer "F.Cu")
 		(uuid "80533038-2d7d-41a3-acc8-829086f3c927")
-		(at 707.385 473.095)
+		(at 689.075 483.445)
 		(descr "DW0020A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC232"
@@ -119941,7 +119941,7 @@
 	(footprint "Samacsys:SOIC127P600X175-14N"
 		(layer "F.Cu")
 		(uuid "8d6b1f62-ae69-4d44-974c-3ab12128b8ba")
-		(at 710.41 485.52)
+		(at 692.1 495.87)
 		(descr "D (R-PDSO-G14)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC233"
@@ -141346,7 +141346,7 @@
 	(footprint "Samacsys:SOIC127P1030X265-20N"
 		(layer "F.Cu")
 		(uuid "a9970d75-036c-43ee-a240-dff064ab6ed7")
-		(at 720.335 458.545)
+		(at 702.025 468.895)
 		(descr "DW0020A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC225"
@@ -157942,13 +157942,13 @@
 		(embedded_fonts no)
 		(model "SN74HC682N.stp"
 			(offset
-				(xyz -3.809999886 11.43000013 2.499999962)
+				(xyz 0 0 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -170204,7 +170204,7 @@
 	(footprint "Samacsys:SOIC127P1030X265-20N"
 		(layer "F.Cu")
 		(uuid "d0d8af7d-5c48-47d9-8fdd-84b7ce60ff37")
-		(at 733.285 458.545)
+		(at 714.975 468.895)
 		(descr "DW0020A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC226"
@@ -171001,7 +171001,7 @@
 	(footprint "Samacsys:SOIC127P1030X265-20N"
 		(layer "F.Cu")
 		(uuid "d199088f-14cc-4ff8-bdf3-6000dbabd06a")
-		(at 746.235 458.545)
+		(at 727.925 468.895)
 		(descr "DW0020A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC231"
@@ -171666,7 +171666,7 @@
 	(footprint "Samacsys:SOT95P280X145-5N"
 		(layer "F.Cu")
 		(uuid "d2229c42-6967-40ec-a181-a358acc9998e")
-		(at 703.535 491.87)
+		(at 685.225 502.22)
 		(descr "DBV (R-PDSO-G5)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC229"
@@ -193804,7 +193804,7 @@
 	(footprint "Samacsys:SOIC127P1030X265-20N"
 		(layer "F.Cu")
 		(uuid "ee801e47-118a-4edd-a7da-0880bfc9746a")
-		(at 707.385 458.545)
+		(at 689.075 468.895)
 		(descr "DW0020A")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC224"
@@ -207656,6 +207656,66 @@
 		(net 27)
 		(uuid "fde1beca-6ddc-477f-8094-2d244f4d79f2")
 	)
+	(gr_line
+		(start 354.25 24.25)
+		(end 354.25 23)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21e64248-0424-4c3a-be6c-331bca5b5bc2")
+	)
+	(gr_line
+		(start 358.75 23)
+		(end 358.75 24.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "573b0ada-85d0-4188-a7cd-4c67110a0cf2")
+	)
+	(gr_line
+		(start 362.25 73)
+		(end 362.25 74)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "67686f1f-9c33-4815-b2e2-f637133ffa14")
+	)
+	(gr_line
+		(start 357.25 74)
+		(end 357.25 73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cb2e58a6-2f24-4809-883b-ec2ee0b6c8e2")
+	)
+	(gr_line
+		(start 354.25 23)
+		(end 358.75 23)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e949d9c1-37ba-4d30-81c6-1e86654c06cc")
+	)
+	(gr_line
+		(start 357.25 73)
+		(end 362.25 73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f319df27-e834-4be6-9bd3-b9e4486d797c")
+	)
 	(gr_rect
 		(start 168.205128 178.601282)
 		(end 589.2 541.198718)
@@ -208099,6 +208159,14 @@
 		(layer "F.Cu")
 		(net 6)
 		(uuid "3a8856f1-020e-4d25-8637-46c5b68aa723")
+	)
+	(segment
+		(start 361.2 54.95)
+		(end 361.5 55.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "40d3870d-8d54-4a1b-a247-946e3608531b")
 	)
 	(segment
 		(start 366.4 50.72)
@@ -208651,6 +208719,14 @@
 		(layer "F.Cu")
 		(net 6)
 		(uuid "93695c30-33c3-47ac-8790-1366a73b8c61")
+	)
+	(segment
+		(start 360.2 54.95)
+		(end 361.2 54.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "954e7da7-77df-48b9-a62e-026f3208e6b8")
 	)
 	(segment
 		(start 430.95 61.25)
@@ -210203,6 +210279,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 6)
 		(uuid "c5da6544-0fdd-4824-aba3-8d6fabe8c3d8")
+	)
+	(via
+		(at 361.5 55.25)
+		(size 0.5)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "c705c13d-a49e-42f6-9781-57c6acdc429c")
 	)
 	(via
 		(at 435.3 118.65)
