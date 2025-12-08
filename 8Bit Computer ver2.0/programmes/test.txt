@@ -79,3 +79,12 @@
 004D LTA	 /* load to address */ //should be 5555
 004E LD 	 //should work, since the address is hopefully still on the bus
 004F STO
+0050 NOP	 //for the loop to repeat starting from here
+0051 LDU	 /* load unread */
+0052 STA
+0053 BIN
+0054 CJP    0057
+0055 LDI	 /* load inputs */
+0056 STO
+0057 NOP
+0058 JMP    0050
