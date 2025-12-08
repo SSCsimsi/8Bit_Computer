@@ -2098,6 +2098,16 @@
       <elementAttributes/>
       <pos x="1320" y="1020"/>
     </visualElement>
+    <visualElement>
+      <elementName>DiodeForward</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="1460"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -2507,6 +2517,14 @@
     <wire>
       <p1 x="600" y="1460"/>
       <p2 x="620" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="1460"/>
+      <p2 x="760" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1460"/>
+      <p2 x="680" y="1460"/>
     </wire>
     <wire>
       <p1 x="-560" y="440"/>
@@ -3906,6 +3924,10 @@
     </wire>
     <wire>
       <p1 x="760" y="1280"/>
+      <p2 x="760" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="1460"/>
       <p2 x="760" y="1600"/>
     </wire>
     <wire>
