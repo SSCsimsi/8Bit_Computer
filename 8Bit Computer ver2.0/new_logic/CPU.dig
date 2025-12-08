@@ -181,7 +181,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="740" y="1900"/>
+      <pos x="740" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -195,7 +195,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="780" y="1900"/>
+      <pos x="780" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -209,7 +209,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="700" y="1900"/>
+      <pos x="700" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -223,7 +223,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="820" y="1900"/>
+      <pos x="820" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -237,7 +237,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1500" y="1900"/>
+      <pos x="1500" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -251,7 +251,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1540" y="1900"/>
+      <pos x="1540" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -265,7 +265,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="1900"/>
+      <pos x="1460" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -279,7 +279,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1580" y="1900"/>
+      <pos x="1580" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -418,7 +418,7 @@ flag reg:
 - load flags</string>
         </entry>
       </elementAttributes>
-      <pos x="1820" y="480"/>
+      <pos x="1880" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>DAT to ADR interface.dig</elementName>
@@ -627,7 +627,7 @@ Bus Transfer:
 - load from interface registers</string>
         </entry>
       </elementAttributes>
-      <pos x="1820" y="340"/>
+      <pos x="1880" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Seven-Seg-Hex</elementName>
@@ -1046,7 +1046,7 @@ Bus Transfer:
     <visualElement>
       <elementName>PullDown</elementName>
       <elementAttributes/>
-      <pos x="1240" y="1920"/>
+      <pos x="1240" y="2160"/>
     </visualElement>
     <visualElement>
       <elementName>DiodeForward</elementName>
@@ -1090,7 +1090,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1220" y="1900"/>
+      <pos x="1220" y="2140"/>
     </visualElement>
     <visualElement>
       <elementName>DiodeForward</elementName>
@@ -1111,15 +1111,900 @@ Bus Transfer:
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
-          <string>Frequency</string>
-          <int>20</int>
-        </entry>
-        <entry>
           <string>runRealTime</string>
           <boolean>true</boolean>
         </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>20</int>
+        </entry>
       </elementAttributes>
       <pos x="680" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>8 By 8 Pixel Display.dig</elementName>
+      <elementAttributes/>
+      <pos x="1280" y="1880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2100" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2100" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2100" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2100" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2100" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2100" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2100" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2100" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2180" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8*8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>64</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1420" y="1880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>64</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>8*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1860" y="420"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -1134,6 +2019,14 @@ Bus Transfer:
     <wire>
       <p1 x="1400" y="1280"/>
       <p2 x="1440" y="1280"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="1920"/>
+      <p2 x="1280" y="1920"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="1920"/>
+      <p2 x="1420" y="1920"/>
     </wire>
     <wire>
       <p1 x="1080" y="260"/>
@@ -1208,8 +2101,16 @@ Bus Transfer:
       <p2 x="1280" y="660"/>
     </wire>
     <wire>
+      <p1 x="1880" y="660"/>
+      <p2 x="2180" y="660"/>
+    </wire>
+    <wire>
       <p1 x="760" y="20"/>
       <p2 x="1520" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="1940"/>
+      <p2 x="1420" y="1940"/>
     </wire>
     <wire>
       <p1 x="1100" y="280"/>
@@ -1222,6 +2123,10 @@ Bus Transfer:
     <wire>
       <p1 x="1400" y="540"/>
       <p2 x="1440" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1880" y="540"/>
+      <p2 x="2180" y="540"/>
     </wire>
     <wire>
       <p1 x="840" y="1820"/>
@@ -1268,6 +2173,14 @@ Bus Transfer:
       <p2 x="1280" y="420"/>
     </wire>
     <wire>
+      <p1 x="1880" y="420"/>
+      <p2 x="2180" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1800" y="420"/>
+      <p2 x="1860" y="420"/>
+    </wire>
+    <wire>
       <p1 x="1060" y="680"/>
       <p2 x="1280" y="680"/>
     </wire>
@@ -1278,6 +2191,10 @@ Bus Transfer:
     <wire>
       <p1 x="800" y="40"/>
       <p2 x="1560" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="1960"/>
+      <p2 x="1420" y="1960"/>
     </wire>
     <wire>
       <p1 x="840" y="940"/>
@@ -1336,6 +2253,10 @@ Bus Transfer:
       <p2 x="1560" y="700"/>
     </wire>
     <wire>
+      <p1 x="1880" y="700"/>
+      <p2 x="2180" y="700"/>
+    </wire>
+    <wire>
       <p1 x="680" y="60"/>
       <p2 x="840" y="60"/>
     </wire>
@@ -1344,12 +2265,20 @@ Bus Transfer:
       <p2 x="1600" y="60"/>
     </wire>
     <wire>
+      <p1 x="1400" y="1980"/>
+      <p2 x="1420" y="1980"/>
+    </wire>
+    <wire>
       <p1 x="920" y="320"/>
       <p2 x="940" y="320"/>
     </wire>
     <wire>
       <p1 x="1000" y="320"/>
       <p2 x="1080" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1880" y="580"/>
+      <p2 x="2180" y="580"/>
     </wire>
     <wire>
       <p1 x="1720" y="200"/>
@@ -1366,6 +2295,10 @@ Bus Transfer:
     <wire>
       <p1 x="1400" y="1480"/>
       <p2 x="1520" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="1880" y="460"/>
+      <p2 x="2180" y="460"/>
     </wire>
     <wire>
       <p1 x="720" y="1740"/>
@@ -1404,6 +2337,10 @@ Bus Transfer:
       <p2 x="1280" y="720"/>
     </wire>
     <wire>
+      <p1 x="1400" y="2000"/>
+      <p2 x="1420" y="2000"/>
+    </wire>
+    <wire>
       <p1 x="1400" y="1620"/>
       <p2 x="1720" y="1620"/>
     </wire>
@@ -1422,6 +2359,18 @@ Bus Transfer:
     <wire>
       <p1 x="660" y="1240"/>
       <p2 x="1440" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="1880"/>
+      <p2 x="1280" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="1880"/>
+      <p2 x="1420" y="1880"/>
+    </wire>
+    <wire>
+      <p1 x="1440" y="1880"/>
+      <p2 x="1800" y="1880"/>
     </wire>
     <wire>
       <p1 x="1080" y="1500"/>
@@ -1468,6 +2417,10 @@ Bus Transfer:
       <p2 x="1280" y="740"/>
     </wire>
     <wire>
+      <p1 x="1400" y="2020"/>
+      <p2 x="1420" y="2020"/>
+    </wire>
+    <wire>
       <p1 x="1060" y="1640"/>
       <p2 x="1280" y="1640"/>
     </wire>
@@ -1480,12 +2433,24 @@ Bus Transfer:
       <p2 x="1280" y="1000"/>
     </wire>
     <wire>
+      <p1 x="1880" y="620"/>
+      <p2 x="2180" y="620"/>
+    </wire>
+    <wire>
       <p1 x="1240" y="620"/>
       <p2 x="1320" y="620"/>
     </wire>
     <wire>
       <p1 x="1340" y="620"/>
       <p2 x="1440" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="1900"/>
+      <p2 x="1280" y="1900"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="1900"/>
+      <p2 x="1420" y="1900"/>
     </wire>
     <wire>
       <p1 x="920" y="1520"/>
@@ -1518,6 +2483,10 @@ Bus Transfer:
     <wire>
       <p1 x="920" y="240"/>
       <p2 x="940" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1880" y="500"/>
+      <p2 x="2180" y="500"/>
     </wire>
     <wire>
       <p1 x="1000" y="1140"/>
@@ -1569,7 +2538,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1600" y="60"/>
-      <p2 x="1600" y="1900"/>
+      <p2 x="1600" y="2140"/>
     </wire>
     <wire>
       <p1 x="2180" y="100"/>
@@ -1589,7 +2558,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="840" y="1820"/>
-      <p2 x="840" y="1900"/>
+      <p2 x="840" y="2140"/>
     </wire>
     <wire>
       <p1 x="840" y="1420"/>
@@ -1617,11 +2586,15 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1480" y="380"/>
-      <p2 x="1480" y="1900"/>
+      <p2 x="1480" y="2140"/>
     </wire>
     <wire>
       <p1 x="1800" y="140"/>
       <p2 x="1800" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1800" y="420"/>
+      <p2 x="1800" y="1880"/>
     </wire>
     <wire>
       <p1 x="1100" y="280"/>
@@ -1664,6 +2637,10 @@ Bus Transfer:
       <p2 x="720" y="1500"/>
     </wire>
     <wire>
+      <p1 x="720" y="1880"/>
+      <p2 x="720" y="2140"/>
+    </wire>
+    <wire>
       <p1 x="720" y="860"/>
       <p2 x="720" y="1040"/>
     </wire>
@@ -1693,7 +2670,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="720" y="1740"/>
-      <p2 x="720" y="1900"/>
+      <p2 x="720" y="1880"/>
     </wire>
     <wire>
       <p1 x="660" y="120"/>
@@ -1713,7 +2690,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1560" y="700"/>
-      <p2 x="1560" y="1900"/>
+      <p2 x="1560" y="2140"/>
     </wire>
     <wire>
       <p1 x="1240" y="400"/>
@@ -1733,7 +2710,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1240" y="1760"/>
-      <p2 x="1240" y="1920"/>
+      <p2 x="1240" y="2160"/>
     </wire>
     <wire>
       <p1 x="1240" y="1360"/>
@@ -1768,8 +2745,12 @@ Bus Transfer:
       <p2 x="800" y="180"/>
     </wire>
     <wire>
+      <p1 x="800" y="1920"/>
+      <p2 x="800" y="2140"/>
+    </wire>
+    <wire>
       <p1 x="800" y="1000"/>
-      <p2 x="800" y="1900"/>
+      <p2 x="800" y="1920"/>
     </wire>
     <wire>
       <p1 x="800" y="180"/>
@@ -1829,7 +2810,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1520" y="1640"/>
-      <p2 x="1520" y="1900"/>
+      <p2 x="1520" y="2140"/>
     </wire>
     <wire>
       <p1 x="1520" y="1300"/>
@@ -1866,6 +2847,10 @@ Bus Transfer:
     <wire>
       <p1 x="760" y="160"/>
       <p2 x="760" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="1900"/>
+      <p2 x="760" y="2140"/>
     </wire>
     <wire>
       <p1 x="760" y="980"/>
