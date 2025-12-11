@@ -181,7 +181,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="740" y="2300"/>
+      <pos x="740" y="2540"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -195,7 +195,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="780" y="2300"/>
+      <pos x="780" y="2540"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -209,7 +209,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="700" y="2300"/>
+      <pos x="700" y="2540"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -223,7 +223,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="820" y="2300"/>
+      <pos x="820" y="2540"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -237,7 +237,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1500" y="2300"/>
+      <pos x="1500" y="2540"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -251,7 +251,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1540" y="2300"/>
+      <pos x="1540" y="2540"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -265,7 +265,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="2300"/>
+      <pos x="1460" y="2540"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -279,7 +279,7 @@
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1580" y="2300"/>
+      <pos x="1580" y="2540"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -1046,7 +1046,7 @@ Bus Transfer:
     <visualElement>
       <elementName>PullDown</elementName>
       <elementAttributes/>
-      <pos x="1240" y="2260"/>
+      <pos x="1240" y="2500"/>
     </visualElement>
     <visualElement>
       <elementName>DiodeForward</elementName>
@@ -1090,7 +1090,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="1220" y="2240"/>
+      <pos x="1220" y="2480"/>
     </visualElement>
     <visualElement>
       <elementName>DiodeForward</elementName>
@@ -2091,6 +2091,93 @@ Bus Transfer:
       </elementAttributes>
       <pos x="920" y="1360"/>
     </visualElement>
+    <visualElement>
+      <elementName>Comparator</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="2260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>45</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="2280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DiodeForward</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="2280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="120" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1*6</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="160" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="160" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="200" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="160" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="220" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Controller Input.dig</elementName>
+      <elementAttributes/>
+      <pos x="1280" y="2220"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -2152,6 +2239,10 @@ Bus Transfer:
     <wire>
       <p1 x="1400" y="400"/>
       <p2 x="1520" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="400"/>
+      <p2 x="240" y="400"/>
     </wire>
     <wire>
       <p1 x="720" y="1040"/>
@@ -2274,12 +2365,20 @@ Bus Transfer:
       <p2 x="1860" y="420"/>
     </wire>
     <wire>
+      <p1 x="160" y="420"/>
+      <p2 x="240" y="420"/>
+    </wire>
+    <wire>
       <p1 x="1400" y="1700"/>
       <p2 x="1720" y="1700"/>
     </wire>
     <wire>
       <p1 x="760" y="1700"/>
       <p2 x="1280" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="2340"/>
+      <p2 x="1120" y="2340"/>
     </wire>
     <wire>
       <p1 x="1060" y="680"/>
@@ -2320,6 +2419,10 @@ Bus Transfer:
     <wire>
       <p1 x="720" y="1580"/>
       <p2 x="940" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="2220"/>
+      <p2 x="1280" y="2220"/>
     </wire>
     <wire>
       <p1 x="840" y="1200"/>
@@ -2414,6 +2517,14 @@ Bus Transfer:
       <p2 x="1520" y="1980"/>
     </wire>
     <wire>
+      <p1 x="260" y="320"/>
+      <p2 x="580" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="320"/>
+      <p2 x="240" y="320"/>
+    </wire>
+    <wire>
       <p1 x="920" y="320"/>
       <p2 x="940" y="320"/>
     </wire>
@@ -2436,6 +2547,14 @@ Bus Transfer:
     <wire>
       <p1 x="1060" y="1600"/>
       <p2 x="1160" y="1600"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="2240"/>
+      <p2 x="1280" y="2240"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="2240"/>
+      <p2 x="1520" y="2240"/>
     </wire>
     <wire>
       <p1 x="1880" y="580"/>
@@ -2506,12 +2625,24 @@ Bus Transfer:
       <p2 x="1020" y="1360"/>
     </wire>
     <wire>
-      <p1 x="760" y="980"/>
-      <p2 x="1280" y="980"/>
+      <p1 x="160" y="340"/>
+      <p2 x="240" y="340"/>
     </wire>
     <wire>
       <p1 x="1260" y="340"/>
       <p2 x="1440" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="2260"/>
+      <p2 x="940" y="2260"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="2260"/>
+      <p2 x="1280" y="2260"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="980"/>
+      <p2 x="1280" y="980"/>
     </wire>
     <wire>
       <p1 x="660" y="1240"/>
@@ -2560,6 +2691,26 @@ Bus Transfer:
     <wire>
       <p1 x="1120" y="740"/>
       <p2 x="1280" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="360"/>
+      <p2 x="240" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="2280"/>
+      <p2 x="940" y="2280"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="2280"/>
+      <p2 x="1100" y="2280"/>
+    </wire>
+    <wire>
+      <p1 x="1180" y="2280"/>
+      <p2 x="1240" y="2280"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="2280"/>
+      <p2 x="1160" y="2280"/>
     </wire>
     <wire>
       <p1 x="800" y="1000"/>
@@ -2634,6 +2785,26 @@ Bus Transfer:
       <p2 x="660" y="120"/>
     </wire>
     <wire>
+      <p1 x="160" y="380"/>
+      <p2 x="180" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="380"/>
+      <p2 x="240" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="380"/>
+      <p2 x="140" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="380"/>
+      <p2 x="1480" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="380"/>
+      <p2 x="1280" y="380"/>
+    </wire>
+    <wire>
       <p1 x="840" y="1660"/>
       <p2 x="1080" y="1660"/>
     </wire>
@@ -2646,24 +2817,20 @@ Bus Transfer:
       <p2 x="1520" y="1020"/>
     </wire>
     <wire>
-      <p1 x="1400" y="380"/>
-      <p2 x="1480" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="1260" y="380"/>
-      <p2 x="1280" y="380"/>
-    </wire>
-    <wire>
       <p1 x="640" y="140"/>
       <p2 x="640" y="1280"/>
     </wire>
     <wire>
       <p1 x="1600" y="60"/>
-      <p2 x="1600" y="2300"/>
+      <p2 x="1600" y="2540"/>
     </wire>
     <wire>
       <p1 x="2180" y="100"/>
       <p2 x="2180" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="320"/>
+      <p2 x="580" y="2220"/>
     </wire>
     <wire>
       <p1 x="840" y="60"/>
@@ -2675,7 +2842,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="840" y="2180"/>
-      <p2 x="840" y="2300"/>
+      <p2 x="840" y="2340"/>
     </wire>
     <wire>
       <p1 x="840" y="1200"/>
@@ -2684,6 +2851,10 @@ Bus Transfer:
     <wire>
       <p1 x="840" y="200"/>
       <p2 x="840" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="2340"/>
+      <p2 x="840" y="2540"/>
     </wire>
     <wire>
       <p1 x="840" y="1900"/>
@@ -2711,7 +2882,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1480" y="380"/>
-      <p2 x="1480" y="2300"/>
+      <p2 x="1480" y="2540"/>
     </wire>
     <wire>
       <p1 x="1800" y="140"/>
@@ -2746,8 +2917,20 @@ Bus Transfer:
       <p2 x="1100" y="1340"/>
     </wire>
     <wire>
+      <p1 x="1100" y="2240"/>
+      <p2 x="1100" y="2280"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="360"/>
+      <p2 x="140" y="380"/>
+    </wire>
+    <wire>
       <p1 x="720" y="0"/>
       <p2 x="720" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="2260"/>
+      <p2 x="720" y="2540"/>
     </wire>
     <wire>
       <p1 x="720" y="220"/>
@@ -2795,7 +2978,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="720" y="2100"/>
-      <p2 x="720" y="2300"/>
+      <p2 x="720" y="2260"/>
     </wire>
     <wire>
       <p1 x="720" y="1120"/>
@@ -2827,7 +3010,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1560" y="700"/>
-      <p2 x="1560" y="2300"/>
+      <p2 x="1560" y="2540"/>
     </wire>
     <wire>
       <p1 x="1240" y="400"/>
@@ -2839,7 +3022,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1240" y="2120"/>
-      <p2 x="1240" y="2260"/>
+      <p2 x="1240" y="2280"/>
     </wire>
     <wire>
       <p1 x="1240" y="620"/>
@@ -2848,6 +3031,10 @@ Bus Transfer:
     <wire>
       <p1 x="1240" y="1140"/>
       <p2 x="1240" y="1440"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="2280"/>
+      <p2 x="1240" y="2500"/>
     </wire>
     <wire>
       <p1 x="1240" y="1840"/>
@@ -2886,12 +3073,16 @@ Bus Transfer:
       <p2 x="1120" y="1440"/>
     </wire>
     <wire>
+      <p1 x="1120" y="2260"/>
+      <p2 x="1120" y="2340"/>
+    </wire>
+    <wire>
       <p1 x="800" y="40"/>
       <p2 x="800" y="180"/>
     </wire>
     <wire>
       <p1 x="800" y="1980"/>
-      <p2 x="800" y="2300"/>
+      <p2 x="800" y="2540"/>
     </wire>
     <wire>
       <p1 x="800" y="1000"/>
@@ -2962,6 +3153,10 @@ Bus Transfer:
       <p2 x="1520" y="1980"/>
     </wire>
     <wire>
+      <p1 x="1520" y="2240"/>
+      <p2 x="1520" y="2540"/>
+    </wire>
+    <wire>
       <p1 x="1520" y="1300"/>
       <p2 x="1520" y="1560"/>
     </wire>
@@ -2971,7 +3166,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1520" y="1980"/>
-      <p2 x="1520" y="2300"/>
+      <p2 x="1520" y="2240"/>
     </wire>
     <wire>
       <p1 x="1140" y="1340"/>
@@ -2980,6 +3175,10 @@ Bus Transfer:
     <wire>
       <p1 x="500" y="180"/>
       <p2 x="500" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="380"/>
+      <p2 x="180" y="400"/>
     </wire>
     <wire>
       <p1 x="1080" y="1580"/>
@@ -3027,7 +3226,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="760" y="1960"/>
-      <p2 x="760" y="2300"/>
+      <p2 x="760" y="2540"/>
     </wire>
     <wire>
       <p1 x="760" y="980"/>
