@@ -1500,6 +1500,10 @@
       {
         "netclass": "Default",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "ABXOR[0..7]",
+        "pattern": "/ALU/AdderSubstractor/"
       }
     ]
   },

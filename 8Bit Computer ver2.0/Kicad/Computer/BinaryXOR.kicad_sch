@@ -849,374 +849,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:SN74AHC86DR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SN74AHC86DR"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Samacsys:SOIC127P600X175-14N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc86"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quadruple 2-Input Exclusive-OR Gates"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.75"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-SN74AHC86DR"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC86DR?qs=D5pVkbrsqqK0yvWJ8LFETg%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SN74AHC86DR"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SN74AHC86DR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "1B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "1Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "2B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "2Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "4A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "4Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -10.16 180)
-					(length 5.08)
-					(name "3B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -12.7 180)
-					(length 5.08)
-					(name "3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -15.24 180)
-					(length 5.08)
-					(name "3Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Samacsys:SN74LVC1G14DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1423,6 +1055,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Samacsys:SN74LVC1G86DBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SN74LVC1G86DBVR"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:SOT95P280X145-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single 2-Input Exclusive-OR Gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-SN74LVC1G86DBVR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G86DBVR?qs=d9gICRQKuCcyH%2F0J6yE9tQ%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SN74LVC1G86DBVR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1G86DBVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 124.46 101.6)
@@ -1449,12 +1287,6 @@
 		(uuid "546b5102-6c7c-4219-bbe9-65aa22808e5a")
 	)
 	(junction
-		(at 119.38 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bba35ca-abb0-4ad2-b283-6923d7437562")
-	)
-	(junction
 		(at 149.86 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1473,28 +1305,10 @@
 		(uuid "afc988de-6a36-4d48-b075-5ff523e87ae5")
 	)
 	(junction
-		(at 119.38 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3c1015f-903e-43a7-9bc8-927046004348")
-	)
-	(junction
 		(at 149.86 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0c1b00d-3a28-4d20-bec7-a7aaae82896d")
-	)
-	(no_connect
-		(at 119.38 60.96)
-		(uuid "47f9b459-53fc-4b62-98b3-1f8c0786a98b")
-	)
-	(no_connect
-		(at 93.98 66.04)
-		(uuid "55f982ee-25d8-4d07-a4aa-ce2f1cf632a2")
-	)
-	(no_connect
-		(at 119.38 68.58)
-		(uuid "bc167089-45e6-4c72-89be-139b555082b2")
 	)
 	(no_connect
 		(at 124.46 111.76)
@@ -1598,23 +1412,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 74.93) (xy 81.28 74.93)
+			(xy 149.86 74.93) (xy 128.27 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "042704b6-5160-4f7b-8e5f-cf01e40a65ff")
-	)
-	(wire
-		(pts
-			(xy 119.38 53.34) (xy 119.38 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08faf883-1a76-4d44-b8f7-df2e0b424c94")
 	)
 	(wire
 		(pts
@@ -1675,6 +1479,16 @@
 			(type default)
 		)
 		(uuid "1f7c08f9-df51-46dd-832c-f9c29e3cda06")
+	)
+	(wire
+		(pts
+			(xy 91.44 58.42) (xy 93.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24da2522-c9a0-4014-a08d-83d3b20fc5be")
 	)
 	(wire
 		(pts
@@ -1765,16 +1579,6 @@
 			(type default)
 		)
 		(uuid "5832d226-da9e-442d-9ade-bde7014d8ba8")
-	)
-	(wire
-		(pts
-			(xy 119.38 55.88) (xy 119.38 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a0f56ed-f6bc-4b7c-8f23-0c19b5c74453")
 	)
 	(wire
 		(pts
@@ -1878,16 +1682,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 119.38 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76001a18-e1f1-4f09-9dce-ed16875a0331")
-	)
-	(wire
-		(pts
 			(xy 124.46 106.68) (xy 124.46 109.22)
 		)
 		(stroke
@@ -1895,16 +1689,6 @@
 			(type default)
 		)
 		(uuid "795d2aa0-f902-4938-b628-27b7e14c0a2f")
-	)
-	(wire
-		(pts
-			(xy 119.38 63.5) (xy 123.19 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a1e1b8b-80a7-4b15-bd2c-427111237ded")
 	)
 	(wire
 		(pts
@@ -1958,16 +1742,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 55.88) (xy 119.38 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926936ac-95ba-4e6a-917f-8f2c50b45423")
-	)
-	(wire
-		(pts
 			(xy 25.4 72.39) (xy 71.12 72.39)
 		)
 		(stroke
@@ -1978,13 +1752,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 63.5) (xy 123.19 55.88)
+			(xy 119.38 55.88) (xy 121.92 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b5989cd-5676-4333-a29b-c96be60d109f")
+		(uuid "97e25e2c-eb65-46ac-9431-13f7fbce3932")
 	)
 	(wire
 		(pts
@@ -2036,16 +1810,6 @@
 		)
 		(uuid "a9279513-8e4f-4373-af1c-6e67a607ec48")
 	)
-	(wire
-		(pts
-			(xy 93.98 60.96) (xy 93.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad0836e3-7b05-4c19-9011-6af74866be42")
-	)
 	(bus
 		(pts
 			(xy 33.02 85.09) (xy 33.02 88.9)
@@ -2095,6 +1859,16 @@
 			(type default)
 		)
 		(uuid "b66d2c14-dd24-48e2-9db0-f56894a26458")
+	)
+	(wire
+		(pts
+			(xy 119.38 53.34) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9954737-28fa-443d-9976-1fb2c92efdcd")
 	)
 	(wire
 		(pts
@@ -2168,13 +1942,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 74.93) (xy 81.28 58.42)
+			(xy 128.27 53.34) (xy 128.27 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efc1751a-fc96-4cb4-af5b-7a6d1aa97001")
+		(uuid "e81bf1e7-5f61-492c-afbb-bbe8b4000146")
 	)
 	(bus
 		(pts
@@ -2185,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "f4ca6633-0d8d-454d-82d9-d85e566c970c")
-	)
-	(wire
-		(pts
-			(xy 81.28 58.42) (xy 93.98 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f60f5495-faf5-4646-9e3b-ee34b37875da")
 	)
 	(wire
 		(pts
@@ -2366,18 +2130,8 @@
 		)
 		(uuid "8e00f6ed-21c9-4887-a6de-99e672b7d998")
 	)
-	(label "VCC"
-		(at 119.38 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9392115f-4bf4-402a-9aa4-7f5db7759ac3")
-	)
 	(label "GND"
-		(at 93.98 68.58 180)
+		(at 91.44 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2457,12 +2211,12 @@
 		(uuid "e0a7355a-41ef-445e-b847-29be6b0094cf")
 	)
 	(label "VCC"
-		(at 93.98 60.96 180)
+		(at 121.92 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ed99642f-40aa-4033-b852-ee30276b432a")
 	)
@@ -2552,162 +2306,6 @@
 			(justify right)
 		)
 		(uuid "f69b90fc-32cf-464f-ae4d-7c70024d4935")
-	)
-	(symbol
-		(lib_id "Samacsys:SN74AHC86DR")
-		(at 93.98 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25b9aa75-9edf-4326-bfb3-721a57388af0")
-		(property "Reference" "IC102"
-			(at 106.68 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AHC86DR"
-			(at 106.68 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SOIC127P600X175-14N"
-			(at 115.57 148.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc86"
-			(at 115.57 248.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quadruple 2-Input Exclusive-OR Gates"
-			(at 93.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 115.57 448.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74AHC86DR"
-			(at 115.57 548.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC86DR?qs=D5pVkbrsqqK0yvWJ8LFETg%3D%3D"
-			(at 115.57 648.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 115.57 748.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74AHC86DR"
-			(at 115.57 848.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "32f4cca7-b660-471d-a645-b411f7262625")
-		)
-		(pin "9"
-			(uuid "c4417e31-4c6f-4687-841c-59d0d9b7602a")
-		)
-		(pin "11"
-			(uuid "263aa85e-1f9e-4a77-b02e-0613a671ddb6")
-		)
-		(pin "7"
-			(uuid "b082b812-614d-4e71-867b-1411b3b0a2fb")
-		)
-		(pin "14"
-			(uuid "dfa23320-a753-4d46-bcfd-dc4f3eb00bf4")
-		)
-		(pin "6"
-			(uuid "a71bbcb2-0bc7-4747-b789-5927f41b573d")
-		)
-		(pin "12"
-			(uuid "58c006d6-38a7-4313-8ff4-1d3453ee685c")
-		)
-		(pin "4"
-			(uuid "2196c76b-0c44-4888-8eb3-cf21bd5879d9")
-		)
-		(pin "10"
-			(uuid "7375ac68-a6da-4a73-9869-64e8673f7cca")
-		)
-		(pin "2"
-			(uuid "669c1b88-fd37-4df5-a310-bf1d346d9b55")
-		)
-		(pin "3"
-			(uuid "71ad24ff-46b0-465d-9d99-43bf6a1e4b60")
-		)
-		(pin "8"
-			(uuid "95e477a7-3443-481c-8651-f1d43265789b")
-		)
-		(pin "5"
-			(uuid "3265411b-5549-4795-bb02-609513f7f0ef")
-		)
-		(pin "1"
-			(uuid "cf19d7d2-e727-44dd-8740-ba76d46b94c2")
-		)
-		(instances
-			(project "Computer"
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/4a21659e-6e4a-4683-bbd6-72ca2c7a4ec9"
-					(reference "IC102")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Samacsys:SN74LVC1G14DBVR")
@@ -2989,6 +2587,135 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/4a21659e-6e4a-4683-bbd6-72ca2c7a4ec9"
 					(reference "IC103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:SN74LVC1G86DBVR")
+		(at 93.98 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd1ef1f1-862f-4843-a93c-d23d2f02e9f5")
+		(property "Reference" "IC98"
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G86DBVR"
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOT95P280X145-5N"
+			(at 115.57 148.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf"
+			(at 115.57 248.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Exclusive-OR Gate"
+			(at 93.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 115.57 448.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74LVC1G86DBVR"
+			(at 115.57 548.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G86DBVR?qs=d9gICRQKuCcyH%2F0J6yE9tQ%3D%3D"
+			(at 115.57 648.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 115.57 748.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74LVC1G86DBVR"
+			(at 115.57 848.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "63070388-4b17-4b66-acff-9135f016de2d")
+		)
+		(pin "1"
+			(uuid "c529528b-3ff9-431e-9ac6-cbd2368371e1")
+		)
+		(pin "2"
+			(uuid "01b93038-f7b9-4d6c-baed-57a5d9bd4dcb")
+		)
+		(pin "3"
+			(uuid "a96845db-317e-4d0a-be9b-cf86edf9f4a9")
+		)
+		(pin "4"
+			(uuid "fc8aa917-c45c-46d5-bad0-424cc70b3922")
+		)
+		(instances
+			(project ""
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34/4a21659e-6e4a-4683-bbd6-72ca2c7a4ec9"
+					(reference "IC98")
 					(unit 1)
 				)
 			)

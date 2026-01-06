@@ -860,6 +860,246 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Samacsys:LTST-C170KFKT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C170KFKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Samacsys:LEDC2012X120N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0185/LTST-C170KFKT.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard LEDs - SMD Orange Clear 605nm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C170KFKT"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KFKT?qs=gKd32bbgGM%2FWUWN9MKaKoA%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C170KFKT"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C170KFKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Samacsys:SN74AHC74DR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2767,10 +3007,22 @@
 		(uuid "2dd013d9-bf64-4d23-94e7-8b2b5d20714d")
 	)
 	(junction
+		(at 148.59 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "327ff8aa-06ad-4700-9786-9b97052fc85b")
+	)
+	(junction
 		(at 255.27 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "375717de-810e-41dc-809d-b1423093119f")
+	)
+	(junction
+		(at 149.86 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ea92188-c66c-4740-ad57-36c72bd039b5")
 	)
 	(junction
 		(at 255.27 46.99)
@@ -3524,6 +3776,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 63.5) (xy 148.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042df3ef-1fd1-4990-9ca6-8d6a5c9949d0")
+	)
+	(wire
+		(pts
 			(xy 92.71 124.46) (xy 102.87 124.46)
 		)
 		(stroke
@@ -3581,6 +3843,16 @@
 			(type default)
 		)
 		(uuid "0b61d9a7-fb74-4eb2-bac5-b07a43cc4c50")
+	)
+	(wire
+		(pts
+			(xy 149.86 95.25) (xy 149.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c74b4c4-563e-4192-90e8-23cdfb95d068")
 	)
 	(wire
 		(pts
@@ -3714,6 +3986,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 63.5) (xy 163.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173096ec-7846-4b88-9f62-c5b1097e13f3")
+	)
+	(wire
+		(pts
 			(xy 100.33 111.76) (xy 102.87 111.76)
 		)
 		(stroke
@@ -3841,6 +4123,16 @@
 			(type default)
 		)
 		(uuid "22a79ed1-3293-467b-ba6d-129a78e72ec0")
+	)
+	(wire
+		(pts
+			(xy 172.72 63.5) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232a89ed-ddfa-4d55-a949-1de68d2ea148")
 	)
 	(bus
 		(pts
@@ -4064,6 +4356,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 95.25) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391810ab-f43f-4110-a42a-ae7bb4af97c3")
+	)
+	(wire
+		(pts
 			(xy 142.24 110.49) (xy 142.24 114.3)
 		)
 		(stroke
@@ -4214,7 +4516,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 110.49) (xy 154.94 110.49)
+			(xy 142.24 110.49) (xy 149.86 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4544,6 +4846,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608d1b49-8991-419f-b768-848c31731725")
+	)
+	(wire
+		(pts
 			(xy 327.66 130.81) (xy 344.17 130.81)
 		)
 		(stroke
@@ -4612,6 +4924,16 @@
 		)
 		(uuid "6343c981-63f9-49d7-a1f5-adcc61ad9aec")
 	)
+	(wire
+		(pts
+			(xy 166.37 95.25) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636157d6-d57f-4008-b125-4db0e4e1565c")
+	)
 	(bus
 		(pts
 			(xy 325.12 163.83) (xy 325.12 166.37)
@@ -4674,7 +4996,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 78.74) (xy 151.13 78.74)
+			(xy 133.35 78.74) (xy 148.59 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5921,6 +6243,16 @@
 			(type default)
 		)
 		(uuid "df6b4b6d-c232-40a2-ab92-b61b38b21391")
+	)
+	(wire
+		(pts
+			(xy 149.86 110.49) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e320544f-2706-4140-acde-e071b5e58242")
 	)
 	(wire
 		(pts
@@ -9049,6 +9381,16 @@
 		)
 		(uuid "e6f335fa-a11c-4b76-b9c7-408a7fab999b")
 	)
+	(label "VCC"
+		(at 173.99 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6fb9328-f9de-40d4-a318-205e08eeb54e")
+	)
 	(label "GND"
 		(at 227.33 33.02 180)
 		(effects
@@ -9238,6 +9580,16 @@
 			(justify left bottom)
 		)
 		(uuid "ff69a2a5-5de1-4810-878a-cfc250aa8c0c")
+	)
+	(label "VCC"
+		(at 175.26 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffb09c40-875c-4b80-9d4f-7ef86e825ee7")
 	)
 	(hierarchical_label "DAT[0..7]"
 		(shape tri_state)
@@ -9613,6 +9965,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
 					(reference "C259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C170KFKT")
+		(at 149.86 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fdd4fd0-55e9-4125-92cc-d4fe06ae90b1")
+		(property "Reference" "LED26"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KFKT"
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X120N"
+			(at 162.56 188.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0185/LTST-C170KFKT.pdf"
+			(at 162.56 288.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Orange Clear 605nm"
+			(at 149.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 162.56 488.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KFKT"
+			(at 162.56 588.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KFKT?qs=gKd32bbgGM%2FWUWN9MKaKoA%3D%3D"
+			(at 162.56 688.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 162.56 788.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KFKT"
+			(at 162.56 888.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd7eeb9e-14ac-4152-a995-17c5f2eec81f")
+		)
+		(pin "1"
+			(uuid "a6de935e-ed9c-495f-94f3-1338755aa80d")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
+					(reference "LED26")
 					(unit 1)
 				)
 			)
@@ -10644,6 +11117,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 168.91 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "653fa0e5-c50d-4df7-8999-adccbefd87e5")
+		(property "Reference" "R80"
+			(at 168.91 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 168.91 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 168.91 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3327d0ff-ae4c-4b38-85ff-c1e5bc64dfe5")
+		)
+		(pin "1"
+			(uuid "6e0e8422-3dbc-4829-b9be-f1f45726d7f5")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:CY74FCT163CTSOC")
 		(at 344.17 186.69 0)
 		(unit 1)
@@ -11103,6 +11644,74 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
 					(reference "IC157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83b517b5-72a5-42ee-82d2-92290d2f11af")
+		(property "Reference" "R81"
+			(at 170.18 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 170.18 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 170.18 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e1105c9-05dd-490e-b0c7-d7a033baa669")
+		)
+		(pin "1"
+			(uuid "a96afbe2-6e21-4ff8-b138-7c21dc0c413d")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -12897,6 +13506,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
 					(reference "C264")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C170KFKT")
+		(at 148.59 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0bb8433-9a3a-4c9f-ac00-8a781c81ac44")
+		(property "Reference" "LED25"
+			(at 165.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KFKT"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X120N"
+			(at 161.29 157.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-22-99-0185/LTST-C170KFKT.pdf"
+			(at 161.29 257.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Orange Clear 605nm"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 161.29 457.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KFKT"
+			(at 161.29 557.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KFKT?qs=gKd32bbgGM%2FWUWN9MKaKoA%3D%3D"
+			(at 161.29 657.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 161.29 757.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KFKT"
+			(at 161.29 857.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee97632f-0bf7-4595-bc96-a7507c0df9f8")
+		)
+		(pin "1"
+			(uuid "ded9a48c-15ab-48e4-9621-66fd29455599")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
+					(reference "LED25")
 					(unit 1)
 				)
 			)
