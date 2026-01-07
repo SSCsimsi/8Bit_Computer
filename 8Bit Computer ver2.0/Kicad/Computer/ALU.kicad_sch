@@ -862,6 +862,486 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Samacsys:LTST-C170KGKT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C170KGKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Samacsys:LEDC2012X110N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C170KGKT"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C170KGKT"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C170KGKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Samacsys:LTST-C171KSKT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C171KSKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Samacsys:LTSTC171KSKT"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Yellow 587nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C171KSKT"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C171KSKT?qs=llMtm9xcdM0CwR1bByTaUQ%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C171KSKT"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C171KSKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Samacsys:MP2338GTL-Z"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2057,6 +2537,482 @@
 					(at 25.4 -22.86 180)
 					(length 5.08)
 					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Samacsys:SN74AHC540DWR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SN74AHC540DWR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:SOIC127P1030X265-20N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc540"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Octal Buffers/Drivers With 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.65"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-SN74AHC540DWR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-SN74AHC540DWR"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SN74AHC540DWR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC540DWR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~{OE1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "~{OE2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -10.16 180)
+					(length 5.08)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -12.7 180)
+					(length 5.08)
+					(name "Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -15.24 180)
+					(length 5.08)
+					(name "Y5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -17.78 180)
+					(length 5.08)
+					(name "Y6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -20.32 180)
+					(length 5.08)
+					(name "Y7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -22.86 180)
+					(length 5.08)
+					(name "Y8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4629,6 +5585,12 @@
 		(uuid "04b2d72f-437a-411f-b48c-dbca76cf3d69")
 	)
 	(junction
+		(at 482.6 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04e79d41-e8b5-4884-bf52-51418b3256d0")
+	)
+	(junction
 		(at 52.07 558.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4647,6 +5609,12 @@
 		(uuid "07dcfacd-dfb3-4bd0-a6f2-4a9717429b9b")
 	)
 	(junction
+		(at 416.56 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08292c12-ed49-4b6e-96e8-f221aa100979")
+	)
+	(junction
 		(at 92.71 541.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4663,6 +5631,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a465a4c-7f7a-460e-8c71-5d8f1ce58784")
+	)
+	(junction
+		(at 449.58 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b0469c4-de63-4f7a-b6d7-02baa85699ce")
 	)
 	(junction
 		(at 92.71 553.72)
@@ -4699,6 +5673,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d87432f-0245-4bdb-baea-079369625f2c")
+	)
+	(junction
+		(at 416.56 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ea66b8c-26d1-4aa7-8a81-68c17864cada")
 	)
 	(junction
 		(at 1009.65 542.29)
@@ -4759,6 +5739,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "144773d4-b2db-46ce-8cdf-383b77652a4d")
+	)
+	(junction
+		(at 499.11 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14e03d32-7195-4dfd-a6e1-33fa1ee25eb0")
 	)
 	(junction
 		(at 213.36 461.01)
@@ -4861,6 +5847,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fbd8ab2-8ac2-4dba-9821-b9ad663ef5ed")
+	)
+	(junction
+		(at 482.6 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fbe8aad-39ab-41cf-966a-422b47101c7b")
 	)
 	(junction
 		(at 172.72 524.51)
@@ -5097,6 +6089,12 @@
 		(uuid "39e4b20d-668c-4ef4-94b6-8cb2ca958431")
 	)
 	(junction
+		(at 515.62 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a957830-7ee7-49ac-8e78-053989f06505")
+	)
+	(junction
 		(at 241.3 589.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5229,6 +6227,12 @@
 		(uuid "4c865694-52cc-4027-831f-754276f47921")
 	)
 	(junction
+		(at 515.62 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c8a5003-8e52-4c96-874b-498f503e50d4")
+	)
+	(junction
 		(at 172.72 537.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5245,6 +6249,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dbc9240-24a1-4c87-a0bf-93df4a06fc22")
+	)
+	(junction
+		(at 499.11 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e2f88dd-64b2-47a8-9117-0f2eeb4af0c5")
 	)
 	(junction
 		(at 200.66 557.53)
@@ -5329,6 +6339,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59bbd6f3-ba3d-4fcd-aa78-017a5ecd8af5")
+	)
+	(junction
+		(at 433.07 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a052b24-0b23-4f44-8a68-4106407f1d93")
 	)
 	(junction
 		(at 213.36 499.11)
@@ -5497,6 +6513,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67c869f8-f8a4-4a93-b5a0-821ecfa042f5")
+	)
+	(junction
+		(at 466.09 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ff2c23-99fc-4cb2-ad76-d37b62574da1")
 	)
 	(junction
 		(at 648.97 347.98)
@@ -5775,6 +6797,12 @@
 		(uuid "8357a3fd-6d27-42fd-9dcc-6853e06dff63")
 	)
 	(junction
+		(at 466.09 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "840ce353-ff3f-448c-98b4-e0eefb79e5d2")
+	)
+	(junction
 		(at 241.3 609.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5857,6 +6885,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dffebf2-1fe2-4a34-85b7-078cd4336f90")
+	)
+	(junction
+		(at 52.07 579.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e6e339f-f93b-4a0e-be36-1c6c2e93a1bc")
 	)
 	(junction
 		(at 106.68 533.4)
@@ -6255,10 +7289,22 @@
 		(uuid "c0ef1956-4dc2-4bf5-a8bb-e5017be97ea0")
 	)
 	(junction
+		(at 433.07 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c166be3d-50d9-4d85-b50e-4a63cdc10feb")
+	)
+	(junction
 		(at 525.78 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c222be56-9dc9-4113-a732-393f510316b9")
+	)
+	(junction
+		(at 52.07 571.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2d64914-f5bd-4f00-aded-bda68249a537")
 	)
 	(junction
 		(at 975.36 504.19)
@@ -6633,6 +7679,12 @@
 		(uuid "f861750c-dc43-4873-a641-c3c09afa3adc")
 	)
 	(junction
+		(at 449.58 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f865e100-58f4-4f1f-8558-cebad780b1d4")
+	)
+	(junction
 		(at 241.3 647.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6772,6 +7824,15 @@
 			(type default)
 		)
 		(uuid "02d148cf-e787-48e1-8eca-10d4378d49c0")
+	)
+	(bus_entry
+		(at 370.84 105.41)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02edfc28-5afb-4efd-b293-99b145db874c")
 	)
 	(bus_entry
 		(at 589.28 424.18)
@@ -7105,6 +8166,15 @@
 			(type default)
 		)
 		(uuid "1539a80f-1311-4979-906f-e3395294a5b7")
+	)
+	(bus_entry
+		(at 370.84 107.95)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155f39b3-14f2-425d-9e35-1cbfe2ca2991")
 	)
 	(bus_entry
 		(at 645.16 704.85)
@@ -7539,6 +8609,15 @@
 		(uuid "33eb94db-1b4f-4ec2-86a6-000af214cde6")
 	)
 	(bus_entry
+		(at 370.84 182.88)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36736ba1-64bb-468f-a8e6-5d0e5add9233")
+	)
+	(bus_entry
 		(at 645.16 132.08)
 		(size -2.54 2.54)
 		(stroke
@@ -7591,6 +8670,15 @@
 			(type default)
 		)
 		(uuid "391359ad-571f-40b3-a06c-c790785c367d")
+	)
+	(bus_entry
+		(at 370.84 113.03)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b0fcca-1331-4687-b3b9-f8f8eaed2671")
 	)
 	(bus_entry
 		(at 589.28 429.26)
@@ -7771,6 +8859,15 @@
 			(type default)
 		)
 		(uuid "43370f2f-6634-45b4-a691-3003fbb3ea34")
+	)
+	(bus_entry
+		(at 370.84 167.64)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d26382-b0d3-4420-854b-7af0535a8991")
 	)
 	(bus_entry
 		(at 209.55 373.38)
@@ -8241,6 +9338,15 @@
 		(uuid "644ec579-f5f8-4cc1-b924-435340673929")
 	)
 	(bus_entry
+		(at 370.84 180.34)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6501a59a-6c7b-4d39-8c9e-c0ec4c26b661")
+	)
+	(bus_entry
 		(at 772.16 654.05)
 		(size -2.54 2.54)
 		(stroke
@@ -8664,6 +9770,15 @@
 		(uuid "8454ff87-4218-4b6b-9a7f-62491e804554")
 	)
 	(bus_entry
+		(at 370.84 110.49)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847a5425-45a1-4b2b-9fc8-19272e2a1af8")
+	)
+	(bus_entry
 		(at 645.16 279.4)
 		(size -2.54 2.54)
 		(stroke
@@ -9078,6 +10193,24 @@
 		(uuid "9f19742c-5b23-45e0-a93c-01d957620c8b")
 	)
 	(bus_entry
+		(at 370.84 175.26)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f29ac0b-7f07-492f-8fd0-dc8ea28da331")
+	)
+	(bus_entry
+		(at 370.84 185.42)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f413c9f-9711-4b69-afd2-a2f69c3830d5")
+	)
+	(bus_entry
 		(at 165.1 220.98)
 		(size 2.54 2.54)
 		(stroke
@@ -9159,6 +10292,15 @@
 		(uuid "a66aece3-79ac-468c-8d3c-803e7822ab8b")
 	)
 	(bus_entry
+		(at 370.84 118.11)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67ba70f-4773-4cb6-aad0-a70001882b62")
+	)
+	(bus_entry
 		(at 722.63 666.75)
 		(size 2.54 2.54)
 		(stroke
@@ -9175,6 +10317,15 @@
 			(type default)
 		)
 		(uuid "a70ab697-f508-4a71-bd7c-906c2d6133d9")
+	)
+	(bus_entry
+		(at 370.84 172.72)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a731eb6b-0d35-4ced-b89c-dcb2b21c4c0a")
 	)
 	(bus_entry
 		(at 645.16 198.12)
@@ -9220,6 +10371,15 @@
 			(type default)
 		)
 		(uuid "aa172bf0-d835-484a-9dd5-6dde26231bc3")
+	)
+	(bus_entry
+		(at 370.84 120.65)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa27bc7d-d3e1-4570-ad4e-0a42228aa3a1")
 	)
 	(bus_entry
 		(at 645.16 355.6)
@@ -9690,6 +10850,15 @@
 		(uuid "c3ea3560-3ca9-4907-9464-645df010714c")
 	)
 	(bus_entry
+		(at 370.84 115.57)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4089607-dccd-4fc9-bbb3-4a85ec94f304")
+	)
+	(bus_entry
 		(at 209.55 97.79)
 		(size 2.54 -2.54)
 		(stroke
@@ -10149,6 +11318,15 @@
 		(uuid "e1bacc84-1cd5-45b3-9d20-fb836fc22985")
 	)
 	(bus_entry
+		(at 370.84 123.19)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28bc3c3-a2fc-4d9d-9f31-90bfdd62dd5f")
+	)
+	(bus_entry
 		(at 130.81 227.33)
 		(size -2.54 2.54)
 		(stroke
@@ -10219,6 +11397,15 @@
 			(type default)
 		)
 		(uuid "e5af1faa-fa40-46dc-a2ad-8efb616474cb")
+	)
+	(bus_entry
+		(at 370.84 177.8)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c5f009-0a28-40da-960d-c677c18ee06b")
 	)
 	(bus_entry
 		(at 1148.08 481.33)
@@ -10536,6 +11723,15 @@
 		(uuid "fa240b3b-ef35-4b47-8bea-ee7e8aaa472f")
 	)
 	(bus_entry
+		(at 370.84 170.18)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadb296c-73d3-4171-bba2-35ac3b476ad1")
+	)
+	(bus_entry
 		(at 214.63 223.52)
 		(size -2.54 2.54)
 		(stroke
@@ -10770,6 +11966,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 175.26) (xy 499.11 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01814a8c-3803-4129-b509-8b1438f3634c")
+	)
+	(wire
+		(pts
 			(xy 966.47 516.89) (xy 956.31 516.89)
 		)
 		(stroke
@@ -10837,6 +12043,16 @@
 			(type default)
 		)
 		(uuid "028e7dd6-dc2a-4d15-a29b-c647b73996fb")
+	)
+	(wire
+		(pts
+			(xy 466.09 152.4) (xy 466.09 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b6c18f-09a8-4e3e-89c8-319e1ba112bb")
 	)
 	(wire
 		(pts
@@ -11118,6 +12334,16 @@
 		)
 		(uuid "059786ae-9f73-4331-a296-5a874b2b728d")
 	)
+	(wire
+		(pts
+			(xy 532.13 217.17) (xy 515.62 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061fc4c6-8c6b-49b9-b3c6-4130efc8886b")
+	)
 	(bus
 		(pts
 			(xy 645.16 350.52) (xy 645.16 355.6)
@@ -11170,6 +12396,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 118.11) (xy 370.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073667e6-2ef5-4501-a3ed-41ae1aed1a5a")
+	)
+	(wire
+		(pts
 			(xy 373.38 49.53) (xy 381 49.53)
 		)
 		(stroke
@@ -11217,6 +12453,16 @@
 			(type default)
 		)
 		(uuid "07a18a91-d0d7-4731-a82f-515abe9248ae")
+	)
+	(wire
+		(pts
+			(xy 515.62 154.94) (xy 499.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08176314-c993-43ee-8369-eedae247b558")
 	)
 	(bus
 		(pts
@@ -11300,6 +12546,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 142.24) (xy 449.58 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f2c04f-d6d4-47b4-8e52-d8f415d7b5c2")
+	)
+	(wire
+		(pts
 			(xy 642.62 803.91) (xy 632.46 803.91)
 		)
 		(stroke
@@ -11377,6 +12633,16 @@
 			(type default)
 		)
 		(uuid "09fc85f4-e01a-4a6f-891a-2058b87ce059")
+	)
+	(bus
+		(pts
+			(xy 368.3 120.65) (xy 368.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a272f63-e597-4e44-9fc4-9996b3e2940a")
 	)
 	(wire
 		(pts
@@ -11477,6 +12743,16 @@
 			(type default)
 		)
 		(uuid "0c0007c7-9ac0-44d0-aa14-0c17114c3da1")
+	)
+	(wire
+		(pts
+			(xy 377.19 102.87) (xy 379.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2acf09-d12b-45d2-a54a-6ff42e7ed305")
 	)
 	(bus
 		(pts
@@ -11610,6 +12886,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 172.72) (xy 515.62 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dce3c3b-c6ce-4445-9b1d-dbf76bf26677")
+	)
+	(wire
+		(pts
 			(xy 662.94 740.41) (xy 664.21 740.41)
 		)
 		(stroke
@@ -11670,6 +12956,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 187.96) (xy 379.73 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecf320b-7ac6-4107-a3b9-dc8e2025fc77")
+	)
+	(wire
+		(pts
 			(xy 923.29 468.63) (xy 925.83 468.63)
 		)
 		(stroke
@@ -11707,6 +13003,26 @@
 			(type default)
 		)
 		(uuid "0ee929b6-9205-4fcb-89a2-ee90ee591407")
+	)
+	(wire
+		(pts
+			(xy 433.07 127) (xy 433.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef8948c-2575-43c4-aef8-3aeb7e6a3b74")
+	)
+	(wire
+		(pts
+			(xy 466.09 142.24) (xy 466.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f12ea4d-7503-49d8-9870-1905ef190da7")
 	)
 	(wire
 		(pts
@@ -12050,6 +13366,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 214.63) (xy 433.07 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12838333-acca-4b51-b18a-c811ae502e23")
+	)
+	(wire
+		(pts
 			(xy 740.41 695.96) (xy 742.95 695.96)
 		)
 		(stroke
@@ -12137,6 +13463,16 @@
 			(type default)
 		)
 		(uuid "13d75de9-f918-445c-b177-507864f3f8fb")
+	)
+	(wire
+		(pts
+			(xy 407.67 107.95) (xy 532.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1410eb6d-cab3-471f-962d-3f028d613dfa")
 	)
 	(wire
 		(pts
@@ -12260,6 +13596,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 182.88) (xy 449.58 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15adb9e7-ef8e-4dc8-ab60-e265b9ebdd59")
+	)
+	(wire
+		(pts
 			(xy 642.62 160.02) (xy 632.46 160.02)
 		)
 		(stroke
@@ -12328,6 +13674,16 @@
 		)
 		(uuid "164ba242-8046-4c4b-a795-dd27c51289a7")
 	)
+	(wire
+		(pts
+			(xy 482.6 217.17) (xy 466.09 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1662841a-bf1f-4f8b-8d2e-daad5d5bef6b")
+	)
 	(bus
 		(pts
 			(xy 373.38 55.88) (xy 381 55.88)
@@ -12377,6 +13733,16 @@
 			(type default)
 		)
 		(uuid "16b8a78d-7cff-4ca5-8f18-ea92c8308524")
+	)
+	(wire
+		(pts
+			(xy 532.13 152.4) (xy 532.13 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e582e7-13ad-4ef7-8a2c-6af525f02f0e")
 	)
 	(wire
 		(pts
@@ -12590,6 +13956,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 154.94) (xy 416.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d5e3dc-0f49-465f-add8-db55bd743664")
+	)
+	(wire
+		(pts
 			(xy 648.97 622.3) (xy 648.97 619.76)
 		)
 		(stroke
@@ -12777,6 +14153,16 @@
 			(type default)
 		)
 		(uuid "1ae59922-2d20-43c7-b879-fc0338a5354b")
+	)
+	(wire
+		(pts
+			(xy 52.07 571.5) (xy 66.04 571.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b00914b-1649-433e-9bd1-8df82dc1137b")
 	)
 	(wire
 		(pts
@@ -13080,6 +14466,16 @@
 	)
 	(bus
 		(pts
+			(xy 368.3 118.11) (xy 368.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef25993-b878-4754-94bd-dfba43895e27")
+	)
+	(bus
+		(pts
 			(xy 589.28 599.44) (xy 589.28 594.36)
 		)
 		(stroke
@@ -13197,6 +14593,16 @@
 			(type default)
 		)
 		(uuid "20b524d0-f83e-46fb-bd08-196d00e15dd8")
+	)
+	(wire
+		(pts
+			(xy 416.56 217.17) (xy 416.56 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ec368a-3737-4687-9dbb-a3a841a8605c")
 	)
 	(wire
 		(pts
@@ -13367,6 +14773,16 @@
 			(type default)
 		)
 		(uuid "227d3c83-94c5-4430-b6b5-b6c66e8d1a5c")
+	)
+	(wire
+		(pts
+			(xy 515.62 142.24) (xy 515.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229d968d-3f73-4e99-a96c-b55c5bc24f7c")
 	)
 	(wire
 		(pts
@@ -13630,6 +15046,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 115.57) (xy 370.84 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fcd5cf-70bc-41c5-9e3d-b73f1e8b5be0")
+	)
+	(wire
+		(pts
 			(xy 118.11 232.41) (xy 120.65 232.41)
 		)
 		(stroke
@@ -13647,6 +15073,16 @@
 			(type default)
 		)
 		(uuid "263dedff-ac59-45a1-8b7b-824ca22afacc")
+	)
+	(wire
+		(pts
+			(xy 416.56 142.24) (xy 416.56 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26413fc2-9a96-4730-a8ce-a4e340518a9a")
 	)
 	(wire
 		(pts
@@ -13960,6 +15396,16 @@
 	)
 	(wire
 		(pts
+			(xy 416.56 154.94) (xy 416.56 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8b5d73-21fe-4c2e-b1da-ab8b5e10acd2")
+	)
+	(wire
+		(pts
 			(xy 204.47 104.14) (xy 204.47 100.33)
 		)
 		(stroke
@@ -14090,6 +15536,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 204.47) (xy 499.11 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8669e8-324d-49a8-bcd7-5e2654eab766")
+	)
+	(wire
+		(pts
 			(xy 172.72 100.33) (xy 175.26 100.33)
 		)
 		(stroke
@@ -14127,6 +15583,16 @@
 			(type default)
 		)
 		(uuid "2d296abf-b294-48d7-80bb-0d068434473c")
+	)
+	(wire
+		(pts
+			(xy 433.07 142.24) (xy 433.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2caee6-f188-427e-ac0e-618fcd3f0433")
 	)
 	(wire
 		(pts
@@ -14728,6 +16194,16 @@
 		)
 		(uuid "32c35e6f-2dbc-4e84-a8eb-2112ed2a8697")
 	)
+	(bus
+		(pts
+			(xy 368.3 110.49) (xy 368.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ecf823-c179-47f4-b4a6-dca2b6186a71")
+	)
 	(wire
 		(pts
 			(xy 158.75 570.23) (xy 172.72 570.23)
@@ -14827,6 +16303,26 @@
 			(type default)
 		)
 		(uuid "3482ec77-a597-498a-abc4-6663d36ff8d4")
+	)
+	(wire
+		(pts
+			(xy 410.21 167.64) (xy 407.67 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c60a78-62fe-42d5-8c59-8ffeffb85e1c")
+	)
+	(wire
+		(pts
+			(xy 416.56 214.63) (xy 416.56 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350118e3-49d2-42a2-9e37-1056d73d4b03")
 	)
 	(wire
 		(pts
@@ -14998,6 +16494,16 @@
 		)
 		(uuid "37c7599c-46fe-49ff-82d9-699b3f0c5cf5")
 	)
+	(bus
+		(pts
+			(xy 368.3 113.03) (xy 368.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cc92d0-ca7f-47c2-baba-c7507e90941f")
+	)
 	(wire
 		(pts
 			(xy 85.09 111.76) (xy 87.63 111.76)
@@ -15027,6 +16533,16 @@
 			(type default)
 		)
 		(uuid "381270c2-2dc8-4e25-8fa6-98582a7dd39b")
+	)
+	(wire
+		(pts
+			(xy 466.09 217.17) (xy 449.58 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387251ab-cb7b-4599-968f-e17202c09515")
 	)
 	(bus
 		(pts
@@ -15380,6 +16896,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 214.63) (xy 532.13 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca5ae17-5dd0-49a8-80e8-a4e80ea2faba")
+	)
+	(wire
+		(pts
 			(xy 642.62 642.62) (xy 632.46 642.62)
 		)
 		(stroke
@@ -15580,6 +17106,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 113.03) (xy 499.11 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed4ff9d-d18e-4224-9445-1e0258582cf2")
+	)
+	(wire
+		(pts
 			(xy 520.7 52.07) (xy 520.7 46.99)
 		)
 		(stroke
@@ -15717,6 +17253,16 @@
 			(type default)
 		)
 		(uuid "400fd594-8295-47d7-abb5-2f3e871105df")
+	)
+	(wire
+		(pts
+			(xy 532.13 170.18) (xy 532.13 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407533ac-b4a9-4e95-81a1-20e2a9b4a083")
 	)
 	(bus
 		(pts
@@ -16368,6 +17914,16 @@
 		)
 		(uuid "475b493c-dd8f-4b68-aba6-8e384400b7d8")
 	)
+	(wire
+		(pts
+			(xy 407.67 118.11) (xy 466.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47671c88-b300-4b2d-87bf-b69c93bc524b")
+	)
 	(bus
 		(pts
 			(xy 589.28 624.84) (xy 589.28 619.76)
@@ -16530,6 +18086,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 579.12) (xy 66.04 579.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49616e91-3668-43e9-ab4a-282086950dbc")
+	)
+	(wire
+		(pts
 			(xy 591.82 768.35) (xy 601.98 768.35)
 		)
 		(stroke
@@ -16537,6 +18103,16 @@
 			(type default)
 		)
 		(uuid "496c58a3-842f-40a8-8a11-0b02777fbfbd")
+	)
+	(wire
+		(pts
+			(xy 379.73 180.34) (xy 370.84 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4987cad4-3084-46d7-a16a-63deb9a86449")
 	)
 	(wire
 		(pts
@@ -16607,6 +18183,16 @@
 			(type default)
 		)
 		(uuid "4a441d9b-8928-4857-bf1d-c2b3f425a5eb")
+	)
+	(wire
+		(pts
+			(xy 416.56 125.73) (xy 407.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5361d2-4108-4d91-8766-b04abd03a537")
 	)
 	(wire
 		(pts
@@ -16890,6 +18476,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 120.65) (xy 449.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5986fd-151e-43ef-9c1f-e0753043ca29")
+	)
+	(wire
+		(pts
 			(xy 106.68 520.7) (xy 120.65 520.7)
 		)
 		(stroke
@@ -16927,6 +18523,16 @@
 			(type default)
 		)
 		(uuid "4dadb5fb-f7ae-48be-acfd-3f4d69e25f32")
+	)
+	(wire
+		(pts
+			(xy 449.58 204.47) (xy 449.58 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db035ed-52f6-4caa-9203-4b64311911d6")
 	)
 	(bus
 		(pts
@@ -17300,6 +18906,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 170.18) (xy 532.13 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a303e1-5c82-4c82-a82d-bae159ca8400")
+	)
+	(wire
+		(pts
 			(xy 158.75 584.2) (xy 172.72 584.2)
 		)
 		(stroke
@@ -17508,6 +19124,26 @@
 		)
 		(uuid "53a24a15-9cdc-467a-96f5-8e7ed0ca7449")
 	)
+	(wire
+		(pts
+			(xy 407.67 102.87) (xy 410.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a4243a-8835-48bf-84a6-e8dabf797868")
+	)
+	(wire
+		(pts
+			(xy 379.73 110.49) (xy 370.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a69369-617f-4bc2-b437-2e38350ff804")
+	)
 	(bus
 		(pts
 			(xy 1013.46 384.81) (xy 1045.21 384.81)
@@ -17600,6 +19236,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 107.95) (xy 532.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bff159-6b08-4d41-a6da-1307bd6a63ba")
+	)
+	(wire
+		(pts
 			(xy 966.47 557.53) (xy 956.31 557.53)
 		)
 		(stroke
@@ -17637,6 +19283,16 @@
 			(type default)
 		)
 		(uuid "553ffc5a-e068-477d-9001-e87f54a3c29b")
+	)
+	(bus
+		(pts
+			(xy 368.3 127) (xy 368.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5544716f-3479-4bf5-809f-0dbec704389d")
 	)
 	(wire
 		(pts
@@ -17790,6 +19446,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 165.1) (xy 410.21 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578ed574-c20d-4833-91b0-3bf3e6c84341")
+	)
+	(wire
+		(pts
 			(xy 248.92 85.09) (xy 255.27 85.09)
 		)
 		(stroke
@@ -17847,6 +19513,16 @@
 			(type default)
 		)
 		(uuid "584ea53f-9649-4ef6-ae3a-fd4d32922c38")
+	)
+	(wire
+		(pts
+			(xy 515.62 110.49) (xy 515.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5851a080-418d-47dc-9d20-800c0cbfe6d7")
 	)
 	(wire
 		(pts
@@ -17960,6 +19636,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 177.8) (xy 370.84 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fb9975-c911-4af3-ade9-496532011dae")
+	)
+	(wire
+		(pts
 			(xy 966.47 676.91) (xy 956.31 676.91)
 		)
 		(stroke
@@ -18060,6 +19746,16 @@
 	)
 	(wire
 		(pts
+			(xy 416.56 204.47) (xy 416.56 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a7d411-6c12-4ee4-86a9-bb0060f87119")
+	)
+	(wire
+		(pts
 			(xy 692.15 274.32) (xy 692.15 304.8)
 		)
 		(stroke
@@ -18097,6 +19793,16 @@
 			(type default)
 		)
 		(uuid "59e62f6a-5e55-4108-8580-4c34d3ff1eba")
+	)
+	(wire
+		(pts
+			(xy 449.58 154.94) (xy 433.07 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a010ab4-ff47-44a7-9bab-2d920ef955df")
 	)
 	(wire
 		(pts
@@ -18320,6 +20026,16 @@
 	)
 	(wire
 		(pts
+			(xy 466.09 204.47) (xy 466.09 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d315bf1-31ed-4c1c-9f32-882078fbb940")
+	)
+	(wire
+		(pts
 			(xy 683.26 535.94) (xy 683.26 538.48)
 		)
 		(stroke
@@ -18440,6 +20156,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 125.73) (xy 379.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e636708-a400-4404-9b85-fb9fed5962ae")
+	)
+	(wire
+		(pts
 			(xy 664.21 106.68) (xy 665.48 106.68)
 		)
 		(stroke
@@ -18548,6 +20274,16 @@
 		)
 		(uuid "5f731d0a-b184-4b81-b089-f71f16aea6e3")
 	)
+	(bus
+		(pts
+			(xy 368.3 190.5) (xy 368.3 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7afb5f-8790-421e-bcf1-74f42548b926")
+	)
 	(wire
 		(pts
 			(xy 1145.54 486.41) (xy 1134.11 486.41)
@@ -18607,6 +20343,16 @@
 			(type default)
 		)
 		(uuid "5ff06bbc-935f-4bd5-88a1-e2cd6074ca47")
+	)
+	(bus
+		(pts
+			(xy 368.3 180.34) (xy 368.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6011c6fc-14d5-402d-85ca-d04386568f44")
 	)
 	(bus
 		(pts
@@ -18727,6 +20473,16 @@
 			(type default)
 		)
 		(uuid "61b566a9-9174-4eb3-aa3f-d24660853d46")
+	)
+	(wire
+		(pts
+			(xy 499.11 113.03) (xy 499.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b96fa4-6577-4e14-9388-d16dd9e25ffb")
 	)
 	(wire
 		(pts
@@ -18877,6 +20633,16 @@
 			(type default)
 		)
 		(uuid "63495798-bb93-4a85-9bf9-71b9dc059c5c")
+	)
+	(wire
+		(pts
+			(xy 379.73 172.72) (xy 370.84 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638aa397-133a-41f2-9e85-22573613d624")
 	)
 	(wire
 		(pts
@@ -19058,6 +20824,16 @@
 		)
 		(uuid "657257ff-b076-4b65-8bd7-979ab63834d1")
 	)
+	(bus
+		(pts
+			(xy 368.3 115.57) (xy 368.3 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658d9be0-5f10-4210-9f81-fc0ecb21f809")
+	)
 	(wire
 		(pts
 			(xy 635 320.04) (xy 632.46 320.04)
@@ -19077,6 +20853,16 @@
 			(type default)
 		)
 		(uuid "65afb567-acef-4dc9-b036-9be2ce4a1550")
+	)
+	(wire
+		(pts
+			(xy 449.58 152.4) (xy 449.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c336f5-62bc-4185-b83e-b203b7f1e7da")
 	)
 	(wire
 		(pts
@@ -19107,6 +20893,26 @@
 			(type default)
 		)
 		(uuid "65ddea48-bacf-49aa-a8db-5506b5a00911")
+	)
+	(wire
+		(pts
+			(xy 433.07 123.19) (xy 407.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e92cfe-3ee7-4bda-800a-3ee8659c1964")
+	)
+	(wire
+		(pts
+			(xy 449.58 182.88) (xy 449.58 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66056b49-1fad-48d9-96ce-0d536ea39ae2")
 	)
 	(wire
 		(pts
@@ -20220,6 +22026,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 180.34) (xy 466.09 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714b732a-fe07-42b2-a5f3-1042193a0090")
+	)
+	(wire
+		(pts
 			(xy 200.66 87.63) (xy 209.55 87.63)
 		)
 		(stroke
@@ -20648,6 +22464,16 @@
 		)
 		(uuid "7615251e-82f2-487e-a7b8-e6052238f5e1")
 	)
+	(wire
+		(pts
+			(xy 38.1 571.5) (xy 52.07 571.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76181226-f3fd-48f2-b439-e1697674f433")
+	)
 	(bus
 		(pts
 			(xy 645.16 403.86) (xy 645.16 419.1)
@@ -20807,6 +22633,16 @@
 			(type default)
 		)
 		(uuid "7779c10f-bfa7-47c1-9d20-7a6ec7f361a3")
+	)
+	(wire
+		(pts
+			(xy 416.56 127) (xy 416.56 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777f6209-6385-44b5-b435-e3fad76517ad")
 	)
 	(wire
 		(pts
@@ -21380,6 +23216,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 172.72) (xy 515.62 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da15bb7-9927-46c2-9068-8f57cea9c01d")
+	)
+	(wire
+		(pts
 			(xy 172.72 473.71) (xy 186.69 473.71)
 		)
 		(stroke
@@ -21607,6 +23453,16 @@
 			(type default)
 		)
 		(uuid "80003f45-656b-44e7-84b9-c6517e3a33bb")
+	)
+	(wire
+		(pts
+			(xy 499.11 154.94) (xy 482.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80147671-dbf6-4889-b79b-8b4a97d04bd6")
 	)
 	(wire
 		(pts
@@ -22060,6 +23916,16 @@
 	)
 	(wire
 		(pts
+			(xy 482.6 115.57) (xy 482.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ba8407-1f5c-4588-a163-4235d8eef694")
+	)
+	(wire
+		(pts
 			(xy 200.66 375.92) (xy 209.55 375.92)
 		)
 		(stroke
@@ -22150,6 +24016,16 @@
 	)
 	(wire
 		(pts
+			(xy 416.56 152.4) (xy 416.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b92113-b585-45e0-9b16-3c54c3279059")
+	)
+	(wire
+		(pts
 			(xy 635 553.72) (xy 632.46 553.72)
 		)
 		(stroke
@@ -22167,6 +24043,16 @@
 			(type default)
 		)
 		(uuid "8719c586-7679-451c-98f7-9b36ccd74d48")
+	)
+	(wire
+		(pts
+			(xy 379.73 182.88) (xy 370.84 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871f5489-873c-404c-8ef6-bc35afb3a8a6")
 	)
 	(bus
 		(pts
@@ -22280,6 +24166,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 175.26) (xy 499.11 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d77823-cb67-420a-8a79-f1200bbe78be")
+	)
+	(wire
+		(pts
 			(xy 632.46 289.56) (xy 635 289.56)
 		)
 		(stroke
@@ -22297,6 +24193,16 @@
 			(type default)
 		)
 		(uuid "887a1df8-7a69-4768-8bf0-3e2875f6e36e")
+	)
+	(wire
+		(pts
+			(xy 482.6 152.4) (xy 482.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88abf11a-8e3c-45d4-861f-14efa66a01d0")
 	)
 	(bus
 		(pts
@@ -22357,6 +24263,16 @@
 			(type default)
 		)
 		(uuid "8950634c-3766-4b52-ad47-ca9617e5dbc4")
+	)
+	(wire
+		(pts
+			(xy 433.07 189.23) (xy 433.07 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8951ad1b-9252-4f47-afc7-1a168d16044c")
 	)
 	(wire
 		(pts
@@ -22558,6 +24474,16 @@
 		)
 		(uuid "8c16422d-0d78-45ec-9c1a-aa9b5b4566a1")
 	)
+	(wire
+		(pts
+			(xy 449.58 120.65) (xy 449.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c65710a-fd9a-46f7-b4ed-de1c6283a5e8")
+	)
 	(bus
 		(pts
 			(xy 969.01 419.1) (xy 969.01 424.18)
@@ -22600,6 +24526,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 107.95) (xy 370.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c948225-ad10-4c06-a2d3-74708c097a00")
+	)
+	(wire
+		(pts
 			(xy 168.91 111.76) (xy 168.91 132.08)
 		)
 		(stroke
@@ -22607,6 +24543,16 @@
 			(type default)
 		)
 		(uuid "8cb61dd8-12fd-4d8e-9233-0b646f1315a2")
+	)
+	(wire
+		(pts
+			(xy 532.13 142.24) (xy 532.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbfb283-0d3d-4539-807b-51a7cd80969b")
 	)
 	(bus
 		(pts
@@ -22650,6 +24596,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 214.63) (xy 449.58 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6839cb-7b78-464d-a15a-b0db956d8790")
+	)
+	(wire
+		(pts
 			(xy 599.44 607.06) (xy 601.98 607.06)
 		)
 		(stroke
@@ -22657,6 +24613,16 @@
 			(type default)
 		)
 		(uuid "8da7da83-d4d8-47d6-9a0e-a67b293c1d1c")
+	)
+	(wire
+		(pts
+			(xy 482.6 204.47) (xy 482.6 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da7f9b1-feb8-4af1-9198-6f88442c6cc0")
 	)
 	(wire
 		(pts
@@ -22990,6 +24956,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 170.18) (xy 370.84 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925dd983-1dd9-4529-9d87-6c45ef3c4db8")
+	)
+	(wire
+		(pts
 			(xy 215.9 255.27) (xy 215.9 245.11)
 		)
 		(stroke
@@ -22997,6 +24973,16 @@
 			(type default)
 		)
 		(uuid "92967f33-547d-419e-9df4-e9141accb0a4")
+	)
+	(wire
+		(pts
+			(xy 466.09 214.63) (xy 466.09 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e45fb6-418e-497a-9aa5-c67776d32090")
 	)
 	(wire
 		(pts
@@ -23197,6 +25183,16 @@
 			(type default)
 		)
 		(uuid "96e1e36c-9921-4888-80c3-8193cb6213ca")
+	)
+	(wire
+		(pts
+			(xy 449.58 217.17) (xy 433.07 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970c5cb3-e34e-461a-9c7a-38987d954b79")
 	)
 	(wire
 		(pts
@@ -23570,6 +25566,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 177.8) (xy 482.6 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b818470-69ab-4416-8d08-001c7304ce23")
+	)
+	(wire
+		(pts
 			(xy 806.45 666.75) (xy 812.8 666.75)
 		)
 		(stroke
@@ -23840,6 +25846,16 @@
 	)
 	(wire
 		(pts
+			(xy 407.67 110.49) (xy 515.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e553e04-3499-4d5a-bab5-0ba1ef6494fd")
+	)
+	(wire
+		(pts
 			(xy 158.75 589.28) (xy 172.72 589.28)
 		)
 		(stroke
@@ -23867,6 +25883,16 @@
 			(type default)
 		)
 		(uuid "9ea531ee-b270-4e92-9fd4-ff510f363a8d")
+	)
+	(bus
+		(pts
+			(xy 368.3 182.88) (xy 368.3 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb303da-ef98-4408-8506-698d72ed6bed")
 	)
 	(wire
 		(pts
@@ -23897,6 +25923,16 @@
 			(type default)
 		)
 		(uuid "9eee5778-0b36-4c7c-b509-ceccf668acb9")
+	)
+	(wire
+		(pts
+			(xy 377.19 165.1) (xy 379.73 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4b28d5-1c85-477b-97a8-db62cf7b70df")
 	)
 	(wire
 		(pts
@@ -23977,6 +26013,26 @@
 			(type default)
 		)
 		(uuid "9fe0d793-20a9-45ae-a7f0-84e9dc440990")
+	)
+	(wire
+		(pts
+			(xy 532.13 204.47) (xy 532.13 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a023a143-312a-4bd2-86be-68786d5170f5")
+	)
+	(wire
+		(pts
+			(xy 482.6 142.24) (xy 482.6 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04b1952-7df8-43ee-ad07-50130655542f")
 	)
 	(bus
 		(pts
@@ -24077,6 +26133,16 @@
 			(type default)
 		)
 		(uuid "a14f7edb-9f40-4e1d-9024-a341b3e72a57")
+	)
+	(bus
+		(pts
+			(xy 368.3 177.8) (xy 368.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a157dc2c-b1b3-4bdf-81bc-bdd33fb44eb1")
 	)
 	(wire
 		(pts
@@ -24340,6 +26406,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 152.4) (xy 515.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4623e1d-b693-4f3e-9874-c0a6a1a9958f")
+	)
+	(wire
+		(pts
 			(xy 923.29 640.08) (xy 925.83 640.08)
 		)
 		(stroke
@@ -24477,6 +26553,16 @@
 			(type default)
 		)
 		(uuid "a5c26ca7-6f27-4a7d-a295-5bd2a604ed96")
+	)
+	(wire
+		(pts
+			(xy 433.07 152.4) (xy 433.07 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ec8dc1-f904-4693-bf89-32592b0ce347")
 	)
 	(wire
 		(pts
@@ -24717,6 +26803,16 @@
 			(type default)
 		)
 		(uuid "a89771a3-1d85-4c0a-bb08-211dcaf75949")
+	)
+	(wire
+		(pts
+			(xy 410.21 105.41) (xy 407.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89b0363-238f-468b-8a51-4f7e605efc62")
 	)
 	(wire
 		(pts
@@ -25378,6 +27474,16 @@
 		)
 		(uuid "adf1b015-b69e-4dc7-b268-bb3b626f3a89")
 	)
+	(bus
+		(pts
+			(xy 368.3 107.95) (xy 368.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae047e59-b0c5-4bda-890d-013535555ab0")
+	)
 	(wire
 		(pts
 			(xy 980.44 466.09) (xy 982.98 466.09)
@@ -25810,6 +27916,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 217.17) (xy 499.11 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bc33ed-52e1-4b7a-83a3-bc67f82163c3")
+	)
+	(wire
+		(pts
 			(xy 591.82 586.74) (xy 601.98 586.74)
 		)
 		(stroke
@@ -25857,6 +27973,16 @@
 			(type default)
 		)
 		(uuid "b44db0fb-3a50-40e1-8dbb-e043a271d301")
+	)
+	(wire
+		(pts
+			(xy 379.73 120.65) (xy 370.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b451db61-fee9-4351-a3f1-d4d820a6d163")
 	)
 	(wire
 		(pts
@@ -26090,6 +28216,16 @@
 	)
 	(bus
 		(pts
+			(xy 368.3 167.64) (xy 368.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d7c8dc-b0c7-4adf-9983-c471622efb30")
+	)
+	(bus
+		(pts
 			(xy 702.31 791.21) (xy 715.01 791.21)
 		)
 		(stroke
@@ -26280,6 +28416,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 214.63) (xy 499.11 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9558047-747b-4375-af7f-b6e4b229fa86")
+	)
+	(wire
+		(pts
 			(xy 120.65 469.9) (xy 134.62 469.9)
 		)
 		(stroke
@@ -26287,6 +28433,16 @@
 			(type default)
 		)
 		(uuid "b95b12cc-df85-4981-a5c1-3c443d065394")
+	)
+	(wire
+		(pts
+			(xy 38.1 579.12) (xy 52.07 579.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9713eb8-41b2-48a3-ba0a-3001d41ecd7a")
 	)
 	(wire
 		(pts
@@ -26307,6 +28463,16 @@
 			(type default)
 		)
 		(uuid "b97faa16-74f7-4668-a5d6-f75ba49434e5")
+	)
+	(wire
+		(pts
+			(xy 379.73 167.64) (xy 370.84 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98cf6ea-c817-4159-a597-71f32fd0ec2b")
 	)
 	(wire
 		(pts
@@ -26820,6 +28986,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 154.94) (xy 515.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf77fbc5-1294-4413-8ec0-eeb1de7533b1")
+	)
+	(wire
+		(pts
 			(xy 227.33 609.6) (xy 241.3 609.6)
 		)
 		(stroke
@@ -26980,6 +29156,16 @@
 	)
 	(wire
 		(pts
+			(xy 466.09 118.11) (xy 466.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26566c5-29c3-4408-9e28-8948761a5f1f")
+	)
+	(wire
+		(pts
 			(xy 167.64 226.06) (xy 175.26 226.06)
 		)
 		(stroke
@@ -27120,6 +29306,16 @@
 	)
 	(wire
 		(pts
+			(xy 466.09 154.94) (xy 449.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a0bf8c-c31f-4ff3-bd25-e5badae00a0c")
+	)
+	(wire
+		(pts
 			(xy 642.62 768.35) (xy 632.46 768.35)
 		)
 		(stroke
@@ -27140,6 +29336,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 214.63) (xy 515.62 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d83dff-456f-424d-933a-d339c4a8aedf")
+	)
+	(wire
+		(pts
 			(xy 599.44 289.56) (xy 601.98 289.56)
 		)
 		(stroke
@@ -27147,6 +29353,16 @@
 			(type default)
 		)
 		(uuid "c3e39f45-aa02-4730-a628-3ddff5cc5144")
+	)
+	(wire
+		(pts
+			(xy 379.73 175.26) (xy 370.84 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e3e474-85d6-4b91-bb75-d3efebec5a5d")
 	)
 	(wire
 		(pts
@@ -27217,6 +29433,16 @@
 			(type default)
 		)
 		(uuid "c5338e5c-017a-4d85-a130-f56f0a79213b")
+	)
+	(wire
+		(pts
+			(xy 433.07 217.17) (xy 416.56 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c558a072-5636-47b9-bc48-b5460a91f0e7")
 	)
 	(wire
 		(pts
@@ -27557,6 +29783,16 @@
 			(type default)
 		)
 		(uuid "c9f17afb-f3ca-4214-97c8-a6ded727ae23")
+	)
+	(bus
+		(pts
+			(xy 368.3 105.41) (xy 368.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1fb206-0697-4a4e-917a-4ae4ad118b48")
 	)
 	(wire
 		(pts
@@ -28170,6 +30406,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 105.41) (xy 370.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a5cf32-dc3e-4c02-9732-3b45bd57dd7f")
+	)
+	(wire
+		(pts
 			(xy 38.1 533.4) (xy 52.07 533.4)
 		)
 		(stroke
@@ -28197,6 +30443,16 @@
 			(type default)
 		)
 		(uuid "d2d2d86f-3ae0-4042-a239-2875fc12e827")
+	)
+	(wire
+		(pts
+			(xy 407.67 115.57) (xy 482.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3303821-d7b6-47d1-af47-51ba5e408918")
 	)
 	(wire
 		(pts
@@ -28690,6 +30946,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 185.42) (xy 370.84 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d3708b-2663-4ab5-92af-203ca8725d9f")
+	)
+	(wire
+		(pts
 			(xy 167.64 90.17) (xy 175.26 90.17)
 		)
 		(stroke
@@ -28747,6 +31013,16 @@
 			(type default)
 		)
 		(uuid "d9a6a6a2-6530-40a5-9083-0847da0865fc")
+	)
+	(bus
+		(pts
+			(xy 368.3 172.72) (xy 368.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9be0427-7c98-4968-aa4c-02a8338a6fd1")
 	)
 	(bus
 		(pts
@@ -28960,6 +31236,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 142.24) (xy 499.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbaa5000-7f74-44da-8b1c-80d0c3bb072d")
+	)
+	(wire
+		(pts
 			(xy 172.72 562.61) (xy 186.69 562.61)
 		)
 		(stroke
@@ -29007,6 +31293,16 @@
 			(type default)
 		)
 		(uuid "dc6d8dc9-e408-4ff3-a044-1a4321cb3fc1")
+	)
+	(bus
+		(pts
+			(xy 368.3 170.18) (xy 368.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9c03e7-5a52-4b66-bf6b-4164fc631db7")
 	)
 	(wire
 		(pts
@@ -29270,6 +31566,16 @@
 	)
 	(wire
 		(pts
+			(xy 482.6 177.8) (xy 482.6 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df699054-4d80-45cb-8fed-5479d48b1ade")
+	)
+	(wire
+		(pts
 			(xy 915.67 595.63) (xy 925.83 595.63)
 		)
 		(stroke
@@ -29330,6 +31636,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 152.4) (xy 499.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04462a9-b2c0-4660-880d-29913fbb4925")
+	)
+	(wire
+		(pts
 			(xy 591.82 312.42) (xy 601.98 312.42)
 		)
 		(stroke
@@ -29337,6 +31653,16 @@
 			(type default)
 		)
 		(uuid "e0585b9d-e85e-4a59-a85a-6679b0ac93ef")
+	)
+	(wire
+		(pts
+			(xy 379.73 123.19) (xy 370.84 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07d2a61-8640-41dd-bc41-cf7a2e8c8086")
 	)
 	(wire
 		(pts
@@ -29498,6 +31824,16 @@
 		)
 		(uuid "e23203f3-595f-4608-9374-f209e8d91d54")
 	)
+	(bus
+		(pts
+			(xy 368.3 175.26) (xy 368.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e266bb79-e092-4834-844b-36aa1153f612")
+	)
 	(wire
 		(pts
 			(xy 681.99 223.52) (xy 683.26 223.52)
@@ -29637,6 +31973,16 @@
 			(type default)
 		)
 		(uuid "e3d9d669-d2ae-4f44-ab29-b13f1fbd5fce")
+	)
+	(wire
+		(pts
+			(xy 466.09 180.34) (xy 466.09 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3dc2966-01ca-4801-89ef-9e77d44da1a5")
 	)
 	(wire
 		(pts
@@ -29797,6 +32143,16 @@
 			(type default)
 		)
 		(uuid "e5769cf8-246a-4389-b888-8603cc6f0945")
+	)
+	(wire
+		(pts
+			(xy 433.07 185.42) (xy 407.67 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59c613f-f31e-4a5f-ac72-84e30da081e0")
 	)
 	(bus
 		(pts
@@ -30180,6 +32536,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 217.17) (xy 482.6 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea92e146-c718-43d0-a767-30eb93cab7b3")
+	)
+	(wire
+		(pts
 			(xy 165.1 415.29) (xy 184.15 415.29)
 		)
 		(stroke
@@ -30247,6 +32613,16 @@
 			(type default)
 		)
 		(uuid "eb281a8f-c7f1-41cc-bd00-f80c2e8a5e08")
+	)
+	(wire
+		(pts
+			(xy 482.6 154.94) (xy 466.09 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2922ed-3cfa-4af4-b86c-2dbb6cbda943")
 	)
 	(bus
 		(pts
@@ -30327,6 +32703,16 @@
 			(type default)
 		)
 		(uuid "ebd16758-a106-4b4b-8b32-b2d7cb5a843f")
+	)
+	(wire
+		(pts
+			(xy 379.73 113.03) (xy 370.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3937b7-fac4-4354-bde2-95729d39f155")
 	)
 	(bus
 		(pts
@@ -30770,6 +33156,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 204.47) (xy 515.62 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f075bc0e-f046-4227-9b48-183def242ad1")
+	)
+	(wire
+		(pts
 			(xy 1008.38 379.73) (xy 1010.92 379.73)
 		)
 		(stroke
@@ -31077,6 +33473,16 @@
 			(type default)
 		)
 		(uuid "f42d736a-8dbc-4e18-aed1-8ec99cd1d0b5")
+	)
+	(wire
+		(pts
+			(xy 416.56 187.96) (xy 407.67 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f432fbc8-5d14-4328-85e8-92c85309f383")
 	)
 	(wire
 		(pts
@@ -31590,6 +33996,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 204.47) (xy 433.07 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a940c3-f92f-4f78-aad7-aae9781a9759")
+	)
+	(wire
+		(pts
 			(xy 641.35 702.31) (xy 632.46 702.31)
 		)
 		(stroke
@@ -31838,6 +34254,16 @@
 		)
 		(uuid "fbf38ee2-033a-4b54-baeb-0afed196a185")
 	)
+	(wire
+		(pts
+			(xy 482.6 214.63) (xy 482.6 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc08967e-35e6-4dc7-99ee-7063f169be82")
+	)
 	(bus
 		(pts
 			(xy 589.28 791.21) (xy 589.28 786.13)
@@ -31927,6 +34353,16 @@
 			(type default)
 		)
 		(uuid "fc96665c-32c7-452e-bf99-e199a3691888")
+	)
+	(wire
+		(pts
+			(xy 416.56 189.23) (xy 416.56 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9c8b19-7dd9-409d-9835-cd5813b908b0")
 	)
 	(wire
 		(pts
@@ -36480,6 +38916,16 @@
 		)
 		(uuid "1dba5b59-82f4-4b93-95cf-7e859249a9bd")
 	)
+	(label "A1"
+		(at 377.19 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1dd94634-1849-4926-b5e0-80ede08123e8")
+	)
 	(label "CMD4"
 		(at 120.65 99.06 0)
 		(effects
@@ -36869,6 +39315,16 @@
 			(justify right bottom)
 		)
 		(uuid "26a4c4bd-7cb9-42cd-bab2-934fa4b0d205")
+	)
+	(label "B4"
+		(at 377.19 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26b890a0-7d25-4d9b-b336-5bfe5d2b0a37")
 	)
 	(label "~{CLKd}"
 		(at 182.88 116.84 180)
@@ -37440,6 +39896,16 @@
 		)
 		(uuid "341d3339-46f2-45a1-a3f4-2cc76910b27e")
 	)
+	(label "B0"
+		(at 377.19 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "343a4bd4-a7ca-41ed-9434-f335f73a2daa")
+	)
 	(label "{A[0..7],A234,A015,A67,A0-7}"
 		(at 1106.17 463.55 0)
 		(effects
@@ -37559,6 +40025,16 @@
 			(justify right bottom)
 		)
 		(uuid "374975bd-5394-412c-a8a2-6f3a74c73ec7")
+	)
+	(label "{B[0..7]}"
+		(at 368.3 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37666600-adb3-42e0-8d27-6790c3e12342")
 	)
 	(label "GND"
 		(at 599.44 464.82 180)
@@ -38160,6 +40636,16 @@
 		)
 		(uuid "455a9a01-29f7-471a-9b49-a31d03c42ee7")
 	)
+	(label "VCC"
+		(at 416.56 220.98 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45b1a9dd-96c7-428b-b262-cb0777ad7ab8")
+	)
 	(label "DAT5"
 		(at 251.46 368.3 0)
 		(effects
@@ -38390,6 +40876,16 @@
 		)
 		(uuid "4bf91ee0-316a-4883-9e8c-7c8d759abcbc")
 	)
+	(label "VCC"
+		(at 410.21 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c107740-3826-4bfc-8daa-567559f68db4")
+	)
 	(label "GND"
 		(at 923.29 369.57 180)
 		(effects
@@ -38449,6 +40945,16 @@
 			(justify right bottom)
 		)
 		(uuid "4d645b5b-80d6-40ac-bfcc-ea27c9fd2450")
+	)
+	(label "B5"
+		(at 377.19 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4da50181-0350-4525-a80a-f1944bd783b0")
 	)
 	(label "GND"
 		(at 158.75 481.33 180)
@@ -39500,6 +42006,16 @@
 		)
 		(uuid "635e7104-02ce-43f2-b616-40c61cc010e4")
 	)
+	(label "B6"
+		(at 377.19 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "636dadf6-45d0-425e-80f6-fe0674b64577")
+	)
 	(label "GND"
 		(at 599.44 619.76 180)
 		(effects
@@ -39790,6 +42306,16 @@
 		)
 		(uuid "6b7173ad-7c3a-407e-a674-7958816a86f4")
 	)
+	(label "GND"
+		(at 377.19 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ba17f7b-f08c-4062-9b13-47263732b7ea")
+	)
 	(label "CMD7"
 		(at 635 707.39 0)
 		(effects
@@ -39980,6 +42506,16 @@
 		)
 		(uuid "6f5866ec-2e14-4e81-a2de-b35165649b16")
 	)
+	(label "B2"
+		(at 377.19 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fc1c83a-edb0-4e97-9cff-8ded1fd3e7d0")
+	)
 	(label "A6"
 		(at 1106.17 501.65 0)
 		(effects
@@ -40040,6 +42576,16 @@
 		)
 		(uuid "706fbd53-a201-4731-a30b-c96b7c4e5701")
 	)
+	(label "VCC"
+		(at 410.21 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70881979-123b-438f-9539-f3995d853d0b")
+	)
 	(label "GND"
 		(at 923.29 509.27 180)
 		(effects
@@ -40070,6 +42616,16 @@
 		)
 		(uuid "70d954fc-5544-4007-84f7-36368abf5e66")
 	)
+	(label "GND"
+		(at 377.19 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7119cff8-250d-46f2-8aad-d096732598da")
+	)
 	(label "VCC"
 		(at 635 223.52 0)
 		(effects
@@ -40089,6 +42645,16 @@
 			(justify right bottom)
 		)
 		(uuid "718f024e-5a25-4015-bd4e-b233818a6b57")
+	)
+	(label "B7"
+		(at 377.19 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "719d04a2-52d2-4ae1-8328-9b6a85281fdb")
 	)
 	(label "GND"
 		(at 599.44 187.96 180)
@@ -40219,6 +42785,16 @@
 			(justify left bottom)
 		)
 		(uuid "75b4c3b8-8074-47d8-95e5-4f37a95f9638")
+	)
+	(label "B3"
+		(at 377.19 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75c2860f-cfc0-45b8-8331-52b392bcc871")
 	)
 	(label "GND"
 		(at 220.98 95.25 180)
@@ -40569,6 +43145,16 @@
 			(justify left bottom)
 		)
 		(uuid "7b37b1a3-a54a-4fcb-a3b1-a4dd41b1e02c")
+	)
+	(label "GND"
+		(at 377.19 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c4435af-adc0-45b2-b045-eeb7e9bc9b66")
 	)
 	(label "A4"
 		(at 220.98 85.09 180)
@@ -40990,6 +43576,16 @@
 		)
 		(uuid "83b2fd50-bab4-449e-a148-ed420343158a")
 	)
+	(label "A2"
+		(at 377.19 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "842960af-7ee8-4dbd-ba08-f08c9f4dabfc")
+	)
 	(label "CMD3"
 		(at 599.44 601.98 180)
 		(effects
@@ -41019,6 +43615,16 @@
 			(justify right bottom)
 		)
 		(uuid "84c49c4d-b3da-4fcd-8c01-52dc1207cc2b")
+	)
+	(label "VCC"
+		(at 416.56 158.75 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84dd0681-bc36-484a-921e-d478cd6c1881")
 	)
 	(label "B67"
 		(at 1134.11 429.26 0)
@@ -41800,6 +44406,16 @@
 		)
 		(uuid "95ec194f-34a4-45aa-8452-4413f07b5e65")
 	)
+	(label "GND"
+		(at 410.21 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9614f4d7-40c3-4b9b-84df-f5afbf59b269")
+	)
 	(label "B4"
 		(at 1087.12 402.59 0)
 		(effects
@@ -42190,6 +44806,16 @@
 		)
 		(uuid "a139a65c-f7b6-40f5-9a15-8472c82cb6c1")
 	)
+	(label "A3"
+		(at 377.19 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a155af08-c260-46e2-aa15-48f1adf9871d")
+	)
 	(label "CMD3"
 		(at 599.44 327.66 180)
 		(effects
@@ -42470,6 +45096,16 @@
 		)
 		(uuid "a92b0f55-3f5a-4ff6-a0f8-e5681cd334a4")
 	)
+	(label "B1"
+		(at 377.19 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9d7af0f-a328-46d0-b635-b1715ba63ff9")
+	)
 	(label "B015"
 		(at 1134.11 406.4 0)
 		(effects
@@ -42569,6 +45205,16 @@
 			(justify right bottom)
 		)
 		(uuid "abd176a6-ad62-48cd-8770-779f871c53ce")
+	)
+	(label "{A[0..7]}"
+		(at 368.3 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac1f6fbd-e524-4d9d-83bc-34700b8478a7")
 	)
 	(label "B0-7"
 		(at 1019.81 453.39 0)
@@ -43580,6 +46226,16 @@
 		)
 		(uuid "c0b71bde-fd4d-4321-b242-f336fe517a7a")
 	)
+	(label "A6"
+		(at 377.19 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0e058a8-d399-424d-8cdf-7af86dd7b732")
+	)
 	(label "VCC"
 		(at 85.09 132.08 180)
 		(effects
@@ -44200,6 +46856,16 @@
 		)
 		(uuid "cc5987fe-d725-4ee0-bca0-8700a6ced8f4")
 	)
+	(label "GND"
+		(at 377.19 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc661f29-d9b8-44ea-b751-81d600dd5f17")
+	)
 	(label "CMD2"
 		(at 923.29 382.27 180)
 		(effects
@@ -44640,6 +47306,16 @@
 		)
 		(uuid "d5c4db36-d761-4c26-ac45-93e71e7865a1")
 	)
+	(label "GND"
+		(at 410.21 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5da1298-8d1a-413e-8f24-67ebeb14fad3")
+	)
 	(label "B0-7"
 		(at 1134.11 411.48 0)
 		(effects
@@ -45010,6 +47686,16 @@
 		)
 		(uuid "dcd35027-0c75-491d-b322-aacc8828f39c")
 	)
+	(label "A5"
+		(at 377.19 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd165b5c-508d-4b20-9907-0a0eebf1fc36")
+	)
 	(label "{B[0..7]}"
 		(at 707.39 613.41 180)
 		(effects
@@ -45350,6 +48036,16 @@
 		)
 		(uuid "e2f9277c-6d25-48ac-aca1-2c7a139cc731")
 	)
+	(label "A7"
+		(at 377.19 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3166ded-6c33-4a35-ada6-0e8868bc83e0")
+	)
 	(label "GND"
 		(at 599.44 309.88 180)
 		(effects
@@ -45680,6 +48376,16 @@
 		)
 		(uuid "e98a7a9f-d632-4c09-a332-54aa79134282")
 	)
+	(label "A0"
+		(at 377.19 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9ad7311-318a-4de7-bd2a-61742ea98fd1")
+	)
 	(label "VCC"
 		(at 599.44 365.76 180)
 		(effects
@@ -45979,6 +48685,16 @@
 			(justify left bottom)
 		)
 		(uuid "f041fe7e-1438-4444-8e9c-1af0b545e72e")
+	)
+	(label "A4"
+		(at 377.19 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f04df7c2-4b77-4437-89c0-229350a6f908")
 	)
 	(label "CMD2"
 		(at 923.29 632.46 180)
@@ -49194,6 +51910,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 499.11 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15b5ba3f-538e-4554-a366-7652bfe2e72c")
+		(property "Reference" "R171"
+			(at 501.65 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 501.65 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 500.888 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 499.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 499.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3f6783c-4e05-4411-9c9e-e1fd4ad41e84")
+		)
+		(pin "1"
+			(uuid "3a89a5d5-a2a5-4325-b046-97de9791c395")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 670.56 685.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -50842,6 +53628,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "IC67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C171KSKT")
+		(at 433.07 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b7c1d29-450a-4e86-ab2a-f90b000a7698")
+		(property "Reference" "LED107"
+			(at 425.45 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C171KSKT"
+			(at 427.99 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LTSTC171KSKT"
+			(at 339.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+			(at 239.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow 587nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+			(at 433.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 39.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C171KSKT"
+			(at -60.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C171KSKT?qs=llMtm9xcdM0CwR1bByTaUQ%3D%3D"
+			(at -160.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -260.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C171KSKT"
+			(at -360.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54151af0-e7ba-45aa-85c2-c1c0289e5df6")
+		)
+		(pin "1"
+			(uuid "5bcf4128-3d75-4519-8b70-7b5a2b405b96")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED107")
 					(unit 1)
 				)
 			)
@@ -53441,6 +56348,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:LTST-C171KSKT")
+		(at 416.56 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f515761-7324-489e-9183-4fa0fa91f871")
+		(property "Reference" "LED105"
+			(at 408.94 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C171KSKT"
+			(at 411.48 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LTSTC171KSKT"
+			(at 322.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+			(at 222.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow 587nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+			(at 416.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 22.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C171KSKT"
+			(at -77.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C171KSKT?qs=llMtm9xcdM0CwR1bByTaUQ%3D%3D"
+			(at -177.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -277.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C171KSKT"
+			(at -377.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac6d88cd-3276-4b91-b6b9-9b2c08c85b7e")
+		)
+		(pin "1"
+			(uuid "5dbccd0f-40ef-4e7b-9819-8cd0f74e3153")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:SN74AHC74DR")
 		(at 184.15 132.08 0)
 		(unit 1)
@@ -54049,6 +57077,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:LTST-C171KSKT")
+		(at 466.09 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31f752a2-632b-4c33-997c-d5b90db8dc25")
+		(property "Reference" "LED111"
+			(at 458.47 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C171KSKT"
+			(at 461.01 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LTSTC171KSKT"
+			(at 372.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+			(at 272.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow 587nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+			(at 466.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 72.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C171KSKT"
+			(at -27.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C171KSKT?qs=llMtm9xcdM0CwR1bByTaUQ%3D%3D"
+			(at -127.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -227.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C171KSKT"
+			(at -327.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71ba11f5-cafe-437b-a337-d363fcd0341b")
+		)
+		(pin "1"
+			(uuid "d9ba91b4-ee3c-4263-820c-48c5738e646c")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 255.27 553.72 180)
 		(unit 1)
@@ -54363,6 +57512,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C170KGKT")
+		(at 449.58 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35dd216e-d75e-4558-a786-a0370c19ba16")
+		(property "Reference" "LED110"
+			(at 455.422 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 457.962 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X110N"
+			(at 355.93 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.93 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 449.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 55.93 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KGKT"
+			(at -44.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at -144.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -244.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KGKT"
+			(at -344.07 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97562bb1-8a56-43ff-8cb9-895238d63220")
+		)
+		(pin "2"
+			(uuid "58cd2ec2-7aea-4c7d-80d7-9b7aef9f2faf")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED110")
 					(unit 1)
 				)
 			)
@@ -59832,6 +63102,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 449.58 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "565280f4-3803-4c49-bedd-2b6142c59b19")
+		(property "Reference" "R165"
+			(at 452.12 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 452.12 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 451.358 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 449.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 449.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b981985-1286-4169-8293-4600304e063f")
+		)
+		(pin "1"
+			(uuid "3528f985-8cd9-452b-9cd4-303588254d51")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:LTST-C170KFKT")
 		(at 650.24 772.16 0)
 		(unit 1)
@@ -61031,6 +64371,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:LTST-C170KGKT")
+		(at 416.56 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dad1817-f4fa-461e-a478-0f1c5e672645")
+		(property "Reference" "LED106"
+			(at 422.402 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 424.942 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X110N"
+			(at 322.91 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.91 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 416.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 22.91 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KGKT"
+			(at -77.09 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at -177.09 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -277.09 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KGKT"
+			(at -377.09 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16b83429-c7e5-408a-8525-f7a422b8bf0d")
+		)
+		(pin "2"
+			(uuid "8211216e-6627-47ed-9f50-5b9a4e521120")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 200.66 464.82 180)
 		(unit 1)
@@ -61467,6 +64928,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 449.58 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61edb752-ac4a-41b7-b404-7f13a5c700d7")
+		(property "Reference" "R164"
+			(at 452.12 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 452.12 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 451.358 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 449.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 449.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07532762-d946-48a7-ba3e-850f378e9389")
+		)
+		(pin "1"
+			(uuid "6a8a97b8-8414-4ee0-9c86-9429ef734591")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 213.36 605.79 180)
 		(unit 1)
@@ -61601,6 +65132,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C170KGKT")
+		(at 532.13 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64c00157-a6a5-4e73-ad8a-afabc7827d1d")
+		(property "Reference" "LED120"
+			(at 537.972 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 540.512 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X110N"
+			(at 438.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 338.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 532.13 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 138.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KGKT"
+			(at 38.48 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at -61.52 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -161.52 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KGKT"
+			(at -261.52 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98f52740-06db-46b1-a50c-b10669203aa2")
+		)
+		(pin "2"
+			(uuid "f80dbd89-7087-461d-a6a2-feedb7bd3fdb")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED120")
 					(unit 1)
 				)
 			)
@@ -62983,6 +66635,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:LTST-C171KSKT")
+		(at 499.11 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fc2e80b-fa2e-491e-908c-5cd719513433")
+		(property "Reference" "LED115"
+			(at 491.49 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C171KSKT"
+			(at 494.03 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LTSTC171KSKT"
+			(at 405.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+			(at 305.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow 587nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+			(at 499.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 105.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C171KSKT"
+			(at 5.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C171KSKT?qs=llMtm9xcdM0CwR1bByTaUQ%3D%3D"
+			(at -94.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -194.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C171KSKT"
+			(at -294.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e569837-7455-4505-a181-85543912da42")
+		)
+		(pin "1"
+			(uuid "b54aeb53-fe9e-41c6-adc0-1d4f55b035c7")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 106.68 562.61 180)
 		(unit 1)
@@ -63877,6 +67650,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:LTST-C171KSKT")
+		(at 482.6 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76c192ca-e3a0-49d7-9589-fb716df5916c")
+		(property "Reference" "LED113"
+			(at 474.98 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C171KSKT"
+			(at 477.52 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LTSTC171KSKT"
+			(at 388.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+			(at 288.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow 587nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+			(at 482.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 88.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C171KSKT"
+			(at -11.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C171KSKT?qs=llMtm9xcdM0CwR1bByTaUQ%3D%3D"
+			(at -111.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -211.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C171KSKT"
+			(at -311.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18f9dadb-3765-4935-8665-fea38d9187b6")
+		)
+		(pin "1"
+			(uuid "68c9ef16-48b7-4258-a4ce-9844c874de6f")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:LTST-C170KFKT")
 		(at 975.36 411.48 0)
 		(unit 1)
@@ -64573,6 +68467,197 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 52.07 575.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7be4b295-5666-491f-8fcb-26f0a33fa30d")
+		(property "Reference" "C320"
+			(at 55.88 574.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 55.88 576.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 51.1048 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.07 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1421d5ac-26c7-401c-a879-1a33d302f56a")
+		)
+		(pin "2"
+			(uuid "2df2718f-db82-4fe3-8f75-bc94cba8903c")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "C320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C170KGKT")
+		(at 433.07 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cc86a5d-f97c-4646-b5ff-c994c91ba216")
+		(property "Reference" "LED108"
+			(at 438.912 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 441.452 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X110N"
+			(at 339.42 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 239.42 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 433.07 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 39.42 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KGKT"
+			(at -60.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at -160.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -260.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KGKT"
+			(at -360.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5215eb43-882a-44e7-8f1c-6b86ed51a39d")
+		)
+		(pin "2"
+			(uuid "e5702a5d-b2a6-4a22-a668-d33c12ace7a0")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED108")
 					(unit 1)
 				)
 			)
@@ -67129,6 +71214,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "C313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C171KSKT")
+		(at 515.62 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dd71fe5-fea2-47a0-a28b-e1ceb832ab65")
+		(property "Reference" "LED117"
+			(at 508 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C171KSKT"
+			(at 510.54 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LTSTC171KSKT"
+			(at 421.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+			(at 321.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow 587nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+			(at 515.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 121.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C171KSKT"
+			(at 21.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C171KSKT?qs=llMtm9xcdM0CwR1bByTaUQ%3D%3D"
+			(at -78.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -178.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C171KSKT"
+			(at -278.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10c815b5-5201-4362-855f-9d94f5833f63")
+		)
+		(pin "1"
+			(uuid "ab2c66aa-de64-4629-88d9-af5f50964b34")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED117")
 					(unit 1)
 				)
 			)
@@ -70896,6 +75102,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:SN74AHC540DWR")
+		(at 379.73 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a33ff396-2c17-421c-be8c-040ff8ba2a5e")
+		(property "Reference" "IC281"
+			(at 393.7 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC540DWR"
+			(at 393.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P1030X265-20N"
+			(at 403.86 260.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc540"
+			(at 403.86 360.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octal Buffers/Drivers With 3-State Outputs"
+			(at 379.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.65"
+			(at 403.86 560.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC540DWR"
+			(at 403.86 660.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-SN74AHC540DWR"
+			(at 403.86 760.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 403.86 860.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC540DWR"
+			(at 403.86 960.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c1bcb300-91c3-460c-83ca-c17e94872b28")
+		)
+		(pin "3"
+			(uuid "7a8e2984-7e8f-4316-9ad3-fd89601ab0a7")
+		)
+		(pin "19"
+			(uuid "2e7ec933-a43c-4983-b55e-0b205ac4fbd8")
+		)
+		(pin "14"
+			(uuid "fe41ca5f-de02-4376-935d-7386806906a0")
+		)
+		(pin "6"
+			(uuid "2e430f28-f1ab-4eb9-a21a-2c526dc9173f")
+		)
+		(pin "7"
+			(uuid "494461ef-c127-4d9c-88af-fbc337f898e4")
+		)
+		(pin "1"
+			(uuid "b30d979b-c582-4628-b5e6-ad229c59a1e1")
+		)
+		(pin "2"
+			(uuid "e0885732-19f9-4a5a-ad02-0683de89d4d2")
+		)
+		(pin "4"
+			(uuid "c95f5a81-4733-457d-9ef6-cca459a18e74")
+		)
+		(pin "8"
+			(uuid "956a6da6-cefe-44ed-8a05-e7db493abbf4")
+		)
+		(pin "9"
+			(uuid "a5f6eb7a-f911-4073-8e80-fcc8d998a16f")
+		)
+		(pin "10"
+			(uuid "335b9e90-e928-41e4-b21f-2e75ccd15d16")
+		)
+		(pin "20"
+			(uuid "bc43aebf-8ca0-48ef-8ac6-9c1cbbb4e2d2")
+		)
+		(pin "18"
+			(uuid "ba457ad4-7481-4b60-8585-5b51b93d5e98")
+		)
+		(pin "17"
+			(uuid "ab2137bb-1b86-4c6d-a14f-4fb68fdf47fc")
+		)
+		(pin "16"
+			(uuid "efb427ac-5051-4dbc-9c6b-7c88d4447ce5")
+		)
+		(pin "15"
+			(uuid "0f86edb8-bb02-4417-b329-df36e5d00a3c")
+		)
+		(pin "12"
+			(uuid "9109405a-2372-4e03-898b-bfee537415df")
+		)
+		(pin "13"
+			(uuid "671527e6-8ad1-4d48-a13b-2f0116e252ba")
+		)
+		(pin "11"
+			(uuid "41ec109d-3d9b-4aa6-87a7-91e4ebb34ade")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "IC281")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 995.68 661.67 270)
 		(unit 1)
@@ -71579,6 +75959,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 416.56 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8db6b2b-8f82-4648-8923-f14e91a8d8fb")
+		(property "Reference" "R160"
+			(at 419.1 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 419.1 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 418.338 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 416.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 416.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e234160-e90a-4453-a569-36f78e18b5e4")
+		)
+		(pin "1"
+			(uuid "f5df93da-0bb5-4f37-89db-ffe68c5c1213")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 255.27 541.02 180)
 		(unit 1)
@@ -71711,6 +76161,180 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:SN74AHC540DWR")
+		(at 379.73 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba28dd3-57f7-4a06-b21b-ecb24fd135d9")
+		(property "Reference" "IC280"
+			(at 393.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC540DWR"
+			(at 393.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOIC127P1030X265-20N"
+			(at 403.86 197.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc540"
+			(at 403.86 297.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octal Buffers/Drivers With 3-State Outputs"
+			(at 379.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.65"
+			(at 403.86 497.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC540DWR"
+			(at 403.86 597.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-SN74AHC540DWR"
+			(at 403.86 697.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 403.86 797.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC540DWR"
+			(at 403.86 897.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "098b83c0-4603-4046-add0-62d5475543c5")
+		)
+		(pin "3"
+			(uuid "7f87eb44-f2d9-4cbe-9044-fd89a1024171")
+		)
+		(pin "19"
+			(uuid "b38c9a8a-d58c-4fea-953c-09f0770ceffc")
+		)
+		(pin "14"
+			(uuid "b8f0623e-8fbe-41fa-a241-7fee7d314ea5")
+		)
+		(pin "6"
+			(uuid "ab87bab4-f919-4f1e-9d90-1096fbed1e96")
+		)
+		(pin "7"
+			(uuid "73b88baf-0f49-45de-a607-06d3e97562fb")
+		)
+		(pin "1"
+			(uuid "a81a9a16-f372-4a2c-89cc-428823d4aa02")
+		)
+		(pin "2"
+			(uuid "061f96b8-9618-4f96-9b85-f67bb3102294")
+		)
+		(pin "4"
+			(uuid "5858e7fc-996e-4208-955d-673d572b3186")
+		)
+		(pin "8"
+			(uuid "54ff6461-2e8f-4865-9471-79b75f221824")
+		)
+		(pin "9"
+			(uuid "ece170e8-bad4-404a-9546-d7587b81b50d")
+		)
+		(pin "10"
+			(uuid "d4cefbc1-03ba-4465-89ba-6c8a3345e687")
+		)
+		(pin "20"
+			(uuid "5e540586-5fc5-4796-aa9d-c6395cf5f731")
+		)
+		(pin "18"
+			(uuid "ec42af04-1736-446f-86d7-6079efab3899")
+		)
+		(pin "17"
+			(uuid "9a6d7d01-e323-44c6-b78e-7fa71d168ef5")
+		)
+		(pin "16"
+			(uuid "aadb4829-3a6d-40a3-9c97-3d17661aa90b")
+		)
+		(pin "15"
+			(uuid "2930624b-5d52-4e60-91a3-b28407e3459c")
+		)
+		(pin "12"
+			(uuid "1c50fd64-187f-49ac-a370-a186baf9e1eb")
+		)
+		(pin "13"
+			(uuid "9af93a74-c166-485b-bebc-6e9e4f87d7cd")
+		)
+		(pin "11"
+			(uuid "66aa408f-8c51-4b6d-845c-fa4f56e0e0df")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "IC280")
 					(unit 1)
 				)
 			)
@@ -71885,6 +76509,76 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "IC41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 532.13 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac914439-bf37-4b01-a05d-13ac87918846")
+		(property "Reference" "R174"
+			(at 534.67 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 534.67 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 533.908 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 532.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 532.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd13a504-f0f3-4d27-bede-25aba95ae536")
+		)
+		(pin "1"
+			(uuid "9aaae8cc-d048-4941-b5f6-a1376ecea1d7")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R174")
 					(unit 1)
 				)
 			)
@@ -72340,6 +77034,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 416.56 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae7dca5a-eb7d-4c2d-9e65-064234c3e382")
+		(property "Reference" "R161"
+			(at 419.1 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 419.1 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 418.338 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 416.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 416.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af11bb1b-e46c-4b1d-b959-f62d71f9ebf6")
+		)
+		(pin "1"
+			(uuid "524b84e4-8bc4-4b8d-bfe0-d041c159844e")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 227.33 464.82 180)
 		(unit 1)
@@ -72404,6 +77168,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "C128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C170KGKT")
+		(at 499.11 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aee03f10-3972-4156-b1c8-435a3bc61573")
+		(property "Reference" "LED116"
+			(at 504.952 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 507.492 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X110N"
+			(at 405.46 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 305.46 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 499.11 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 105.46 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KGKT"
+			(at 5.46 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at -94.54 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -194.54 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KGKT"
+			(at -294.54 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2198933f-b4e1-4a42-b474-ce5cac7395b5")
+		)
+		(pin "2"
+			(uuid "6576d142-1f57-43d5-9069-32de5f7a0804")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED116")
 					(unit 1)
 				)
 			)
@@ -73027,6 +77912,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 433.07 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4e498a9-0a0b-4105-8333-5798c0556d17")
+		(property "Reference" "R163"
+			(at 435.61 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 435.61 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 434.848 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 433.07 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 433.07 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f48835c0-5b25-47cb-b9e4-e0d05f77a126")
+		)
+		(pin "1"
+			(uuid "4cc34007-bf84-47e4-82f5-95bb91971cce")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 106.68 473.71 180)
 		(unit 1)
@@ -73091,6 +78046,76 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 482.6 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5dd285e-61ea-4eb6-b330-a8f74d370089")
+		(property "Reference" "R169"
+			(at 485.14 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 485.14 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 484.378 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 482.6 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 482.6 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "775a0dc7-6be0-43ac-ba84-ff957943ce82")
+		)
+		(pin "1"
+			(uuid "f83759d6-9260-41a6-88ee-68befaf424b7")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R169")
 					(unit 1)
 				)
 			)
@@ -74977,6 +80002,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 466.09 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4d04771-07a3-4391-8664-8025b720c724")
+		(property "Reference" "R167"
+			(at 468.63 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 468.63 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 467.868 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 466.09 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7d280e2-294f-4213-a63a-2263f14e6a31")
+		)
+		(pin "1"
+			(uuid "4395a211-14fe-4b8b-afdd-1f67e854841d")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:1N4148WS-7-F")
 		(at 1009.65 403.86 270)
 		(unit 1)
@@ -76193,6 +81288,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "IC84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C170KGKT")
+		(at 482.6 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce91edcd-74c7-427e-a88e-55a1ebbca92c")
+		(property "Reference" "LED114"
+			(at 488.442 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 490.982 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X110N"
+			(at 388.95 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.95 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 482.6 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 88.95 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KGKT"
+			(at -11.05 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at -111.05 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -211.05 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KGKT"
+			(at -311.05 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04df12fb-39db-4c73-8067-d5907c8a1bea")
+		)
+		(pin "2"
+			(uuid "2b52c258-aae6-44b5-b191-920c42d0cc45")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED114")
 					(unit 1)
 				)
 			)
@@ -78805,6 +84021,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:LTST-C171KSKT")
+		(at 449.58 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da991acb-2a8a-4af2-b492-52458755e296")
+		(property "Reference" "LED109"
+			(at 441.96 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C171KSKT"
+			(at 444.5 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LTSTC171KSKT"
+			(at 355.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+			(at 255.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow 587nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+			(at 449.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 55.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C171KSKT"
+			(at -44.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C171KSKT?qs=llMtm9xcdM0CwR1bByTaUQ%3D%3D"
+			(at -144.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -244.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C171KSKT"
+			(at -344.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf7cae55-ad30-4659-a208-8d05a280caba")
+		)
+		(pin "1"
+			(uuid "de97fc07-5811-4c01-9bee-936892e54fe9")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:1N4148WS-7-F")
 		(at 683.26 99.06 270)
 		(unit 1)
@@ -79131,6 +84468,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C170KGKT")
+		(at 515.62 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df138e51-b724-40a6-a20e-935bc61aae58")
+		(property "Reference" "LED118"
+			(at 521.462 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 524.002 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X110N"
+			(at 421.97 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.97 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 515.62 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 121.97 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KGKT"
+			(at 21.97 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at -78.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -178.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KGKT"
+			(at -278.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "297f88f9-553b-4542-84ac-741d5ff72948")
+		)
+		(pin "2"
+			(uuid "d02b9113-7cfc-445d-909d-a5aaddb34d24")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED118")
 					(unit 1)
 				)
 			)
@@ -80120,6 +85578,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 532.13 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e89fe2d6-92a1-4f0e-9d8c-fc4cd6a48dab")
+		(property "Reference" "R175"
+			(at 534.67 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 534.67 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 533.908 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 532.13 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 532.13 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d07920b-aadf-4d5d-a3e5-a23ee5746784")
+		)
+		(pin "1"
+			(uuid "5f231aa9-978b-4b0a-8756-2fde8f23840c")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 52.07 486.41 180)
 		(unit 1)
@@ -80435,6 +85963,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 66.04 575.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea2ebccc-4fb5-400a-95bb-8d7679f57cb5")
+		(property "Reference" "C321"
+			(at 69.85 574.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 69.85 576.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 65.0748 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 575.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "777710cc-f69c-4431-8495-6b153ad86b5e")
+		)
+		(pin "2"
+			(uuid "930f031c-ca58-49df-9fe8-627bc074aecb")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "C321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 120.65 562.61 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -80678,6 +86276,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 499.11 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef02bbae-f35f-4408-8742-7d6e53f70b89")
+		(property "Reference" "R170"
+			(at 501.65 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 501.65 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 500.888 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 499.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 499.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "631282da-1216-4cdc-b512-5c44299523c5")
+		)
+		(pin "1"
+			(uuid "99917c80-2bac-458e-b884-9939a56a7395")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 80.01 486.41 180)
 		(unit 1)
@@ -80818,6 +86486,267 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 515.62 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f033d67d-d663-4823-ba00-8a775542b025")
+		(property "Reference" "R173"
+			(at 518.16 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 518.16 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 517.398 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 515.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 515.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8b1d738-37f0-48c4-b5d9-18e91af1fee7")
+		)
+		(pin "1"
+			(uuid "1c75a024-0928-4190-9fc4-abf70bbf489e")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C171KSKT")
+		(at 532.13 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f29d4dbd-26bc-4343-b9dc-b4b46746ce5e")
+		(property "Reference" "LED119"
+			(at 524.51 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C171KSKT"
+			(at 527.05 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LTSTC171KSKT"
+			(at 438.48 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf"
+			(at 338.48 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow 587nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+			(at 532.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 138.48 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C171KSKT"
+			(at 38.48 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/LITEON/LTST-C171KSKT?qs=llMtm9xcdM0CwR1bByTaUQ%3D%3D"
+			(at -61.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -161.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C171KSKT"
+			(at -261.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bfeae09-4a97-4edf-bcbc-a4f0f83be659")
+		)
+		(pin "1"
+			(uuid "2b8a05a6-416d-4594-b320-80ee79056140")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 482.6 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f30ac21e-af56-4451-a1be-eef856ed6e3b")
+		(property "Reference" "R168"
+			(at 485.14 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 485.14 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 484.378 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 482.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 482.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "248f1e5d-34a6-466b-b9ce-e1f39cc6754d")
+		)
+		(pin "1"
+			(uuid "940ef907-00a6-48f4-8a8c-55ae3d08897b")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 200.66 477.52 180)
 		(unit 1)
@@ -80888,6 +86817,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 466.09 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3a2d158-e8a8-4c96-acae-3ada14e92584")
+		(property "Reference" "R166"
+			(at 468.63 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 468.63 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 467.868 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 466.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f2cbd07-9a56-4263-b011-67d51af347c2")
+		)
+		(pin "1"
+			(uuid "4e79770a-0676-44bb-bd88-4e3dfd53a556")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 241.3 631.19 180)
 		(unit 1)
@@ -80952,6 +86951,76 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "C296")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 433.07 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f42537c9-20cc-4d8e-9c3a-beda5807fabc")
+		(property "Reference" "R162"
+			(at 435.61 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 435.61 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 434.848 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 433.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 433.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86d50308-e13a-48a9-97b5-df10eb3d7fc6")
+		)
+		(pin "1"
+			(uuid "5dc258c0-e897-4300-94c3-d2d82bde712d")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R162")
 					(unit 1)
 				)
 			)
@@ -81151,6 +87220,76 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "C140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 515.62 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6e23f10-e77e-4243-bf73-92885cb35131")
+		(property "Reference" "R172"
+			(at 518.16 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 518.16 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 517.398 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 515.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 515.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdf88a3b-39fd-4d3c-a1f1-6b101a8dcd3f")
+		)
+		(pin "1"
+			(uuid "3c66d339-68a8-4976-a0ff-ecb7469d2625")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "R172")
 					(unit 1)
 				)
 			)
@@ -81571,6 +87710,127 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
 					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Samacsys:LTST-C170KGKT")
+		(at 466.09 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb2f1838-77ca-4a9a-a4b5-211bc81ecd5b")
+		(property "Reference" "LED112"
+			(at 471.932 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 474.472 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:LEDC2012X110N"
+			(at 372.44 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 272.44 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package"
+			(at 466.09 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 72.44 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KGKT"
+			(at -27.56 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at -127.56 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at -227.56 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KGKT"
+			(at -327.56 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a757b26c-84d7-4176-b8a5-3388d55802a6")
+		)
+		(pin "2"
+			(uuid "aed739c5-fc35-472f-88ee-70c431e28b4a")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/c4d8b530-1c6d-45af-88d2-7dc1d4321a34"
+					(reference "LED112")
 					(unit 1)
 				)
 			)
