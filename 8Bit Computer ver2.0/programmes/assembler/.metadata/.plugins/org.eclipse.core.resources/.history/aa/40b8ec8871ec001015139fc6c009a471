@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+using namespace std;
+
+int main() {
+	FILE *fptrCode;
+
+	FILE *fptrCmd;
+	FILE *fptrDat;
+	FILE *fptrAdr;
+
+	// Create a file
+	fptrCode = fopen("code.txt", "r");
+
+	// Close the file
+	fclose(fptr);
+}

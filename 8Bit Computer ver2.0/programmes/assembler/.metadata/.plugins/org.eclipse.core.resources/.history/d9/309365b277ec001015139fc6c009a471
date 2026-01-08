@@ -1,0 +1,42 @@
+
+#include <stdio.h>
+#include <stdint.h>
+
+#define LINELENGTH 16
+#define CMDLENGTH 3
+
+uint8_t CmpString(char* string1, char* string2, uint8_t length);
+
+class Cmd {
+public:
+	char name[CMDLENGTH];
+	uint8_t val;
+
+	uint8_t CmpCmd(char newLine[LINELENGTH]) {
+
+		uint8_t cmdFound = 1;
+
+		cmdFound = CmpString(newLine, name, CMDLENGTH);
+
+		if(cmdFound) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+};
+
+uint8_t CmpString(char* string1, char* string2, uint8_t length) {
+
+	uint8_t equal = 1;
+
+	for(uint8_t i = 0; i >= length; i++) {
+
+		if(string1[i] != string2[i]) {
+			equal = 0;
+			break;
+		}
+	}
+
+	return equal;
+}
