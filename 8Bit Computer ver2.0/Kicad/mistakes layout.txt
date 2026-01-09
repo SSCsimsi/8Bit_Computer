@@ -39,8 +39,6 @@ the SFC line should be connected to the STC line (there was probably a naming er
 
 //------------------------------------------------------------------------------ not sure
 
-the clock within the computer file is not inverted, but treated as if it was within the programme counter file
-
 not sure about the inverted clock and the store command being anded in the a/b/c registers probably the others as well
 
 is there a need for the bus interface behind the d-latches with output enable? (DAT to ADR)
