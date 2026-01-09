@@ -18,9 +18,22 @@ the load command needs a connection to the ADR_disable line of the flash module
 
 
 - RAM
-the load command needs a diode in order to interface to the DAT_dis bus
+the load command needs a diode in order to interface to the DAT_dis bus (don't want to destroy the chip)
 
 
+
+- Flag Register
+the lines from the 2 d-latches (latch 2 of IC130 and latch 1 of IC131) are switched - 2Q\ of IC130 should be connected to OE\ of the bus interface and 1Q should be connected to 2B of IC132
+
+
+
+- Comparator
+the and gate for A<B should have the inverted outputs from the comparator as inputs, so it should be P=DAT\ and P>DAT\
+
+
+
+- Barrel Shift Register
+the SFC line should be connected to the STC line (there was probably a naming error, as both combined would be the SFC line from the simulation)
 
 
 
@@ -30,7 +43,7 @@ the clock within the computer file is not inverted, but treated as if it was wit
 
 not sure about the inverted clock and the store command being anded in the a/b/c registers probably the others as well
 
-is there a need for the bus interface behind the d latches with output enable? (DAT to ADR)
+is there a need for the bus interface behind the d-latches with output enable? (DAT to ADR)
 
 it is a bit of a waste to disable the ln bus twice for the programming mode (Flash Memory)
 
