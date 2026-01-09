@@ -1,0 +1,36 @@
+//----------------------------------------------------------------------- actual problems
+
+- ALU
+the command 0x1E / STA / Store Flags does not need a connection to DAT_dis as it does not output anything to the data bus
+
+
+
+- Programme Counter
+the conditional jump command should not be inverted as it goes into the d latch clock input
+
+the input a (output of the d latch) on the and gate should not be inverted
+
+
+
+- DAT to ADR
+the load command needs a connection to the ADR_disable line of the flash module
+
+
+
+- RAM
+the load command needs a diode in order to interface to the DAT_dis bus
+
+
+
+
+
+//------------------------------------------------------------------------------ not sure
+
+the clock within the computer file is not inverted, but treated as if it was within the programme counter file
+
+not sure about the inverted clock and the store command being anded in the a/b/c registers probably the others as well
+
+is there a need for the bus interface behind the d latches with output enable? (DAT to ADR)
+
+it is a bit of a waste to disable the ln bus twice for the programming mode (Flash Memory)
+
