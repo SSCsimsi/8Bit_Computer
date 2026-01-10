@@ -3127,18 +3127,6 @@
 		(uuid "bed3eae3-fed8-4d85-9c90-daa9cfe08e49")
 	)
 	(junction
-		(at 309.88 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c00cdd6b-9c9e-4fc7-bae3-b4bc5af379b3")
-	)
-	(junction
-		(at 309.88 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3951e2f-69cb-463a-8ffe-8916193d5034")
-	)
-	(junction
 		(at 269.24 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3173,6 +3161,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcaf1791-d62a-4a95-ac2c-3ace74217631")
+	)
+	(no_connect
+		(at 213.36 246.38)
+		(uuid "3bfc019b-9d37-44f7-b84f-dfbf14b56d67")
 	)
 	(no_connect
 		(at 369.57 219.71)
@@ -3862,7 +3854,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 25.4) (xy 309.88 25.4)
+			(xy 295.91 25.4) (xy 323.85 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5392,16 +5384,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 33.02) (xy 323.85 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fda607b-a7b8-4466-9f70-33706d18d047")
-	)
-	(wire
-		(pts
 			(xy 100.33 91.44) (xy 102.87 91.44)
 		)
 		(stroke
@@ -6270,16 +6252,6 @@
 		)
 		(uuid "e6bd1a34-1033-4e69-89a5-68b1b96e3431")
 	)
-	(wire
-		(pts
-			(xy 309.88 25.4) (xy 323.85 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c6b6f3-8ca3-4d1f-a014-9fb7d8858fd6")
-	)
 	(bus
 		(pts
 			(xy 236.22 143.51) (xy 236.22 163.83)
@@ -6302,7 +6274,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 33.02) (xy 309.88 33.02)
+			(xy 295.91 33.02) (xy 323.85 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10012,76 +9984,6 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
 					(reference "LED26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 309.88 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37778d63-d0b6-4a7b-860f-ed669f4ee374")
-		(property "Reference" "C273"
-			(at 313.69 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 313.69 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 308.9148 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 309.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "210faa41-c20f-47f9-a8af-cc89825216f7")
-		)
-		(pin "2"
-			(uuid "4b947f58-d180-4d8d-919a-2a7cd4aa1e24")
-		)
-		(instances
-			(project "Computer"
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
-					(reference "C273")
 					(unit 1)
 				)
 			)
