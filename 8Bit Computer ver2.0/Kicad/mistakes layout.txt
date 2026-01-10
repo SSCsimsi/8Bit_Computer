@@ -1,39 +1,55 @@
+
+
+
+
+
+
+
+
+
+
 //----------------------------------------------------------------------- actual problems
 
-- ALU
-the command 0x1E / STA / Store Flags does not need a connection to DAT_dis as it does not output anything to the data bus
+* ALU -----------------------------------------------------------------------------------
 
-
-
-- Programme Counter
-the conditional jump command should not be inverted as it goes into the d latch clock input
-
-the input a (output of the d latch) on the and gate should not be inverted
-
-
-
-- DAT to ADR
-the load command needs a connection to the ADR_disable line of the flash module
-
-
-
-- RAM
-the load command needs a diode in order to interface to the DAT_dis bus (don't want to destroy the chip)
-
-
+! the command 0x1E / STA / Store Flags does not need a connection to DAT_dis as it does not output anything to the data bus
 
 - Flag Register
-the lines from the 2 d-latches (latch 2 of IC130 and latch 1 of IC131) are switched - 2Q\ of IC130 should be connected to OE\ of the bus interface and 1Q should be connected to 2B of IC132
-
-
+! the lines from the 2 d-latches (latch 2 of IC130 and latch 1 of IC131) are switched - 2Q\ of IC130 should be connected to OE\ of the bus interface and 1Q should be connected to 2B of IC132
 
 - Comparator
-the and gate for A<B should have the inverted outputs from the comparator as inputs, so it should be P=DAT\ and P>DAT\
-
-
+! the and gate for A<B should have the inverted outputs from the comparator as inputs, so it should be P=DAT\ and P>DAT\
 
 - Barrel Shift Register
-the SFC line should be connected to the STC line (there was probably a naming error, as both combined would be the SFC line from the simulation)
+! the SFC line should be connected to the STC line (there was probably a naming error, as both combined would be the SFC line from the simulation)
+
+
+
+* CPU -----------------------------------------------------------------------------------
+
+- Programme Counter
+! the conditional jump command should not be inverted as it goes into the d latch clock input (IC265)
+
+! the input a (on IC160) (output of the d latch) on the and gate should not be inverted
+
+- RAM
+! the load command needs a diode in order to interface to the DAT_dis bus (don't want to destroy the chip)
+
+
+
+* Layout --------------------------------------------------------------------------------
+
+- Pins
+! J16 and J33 on the bottom of the ALU and the IO boards respectively (for the data bus) have a different order to their pins - so the traces of the data bus are mislabled within the io board
+
+! the order of the pins of every connector between the ALU and the Flash board is reversed except for J10, J11, J28 and J27, one combination of which has the top and the bottom connectors switched
+
+
+
+
+
+
+
 
 
 
@@ -44,4 +60,19 @@ not sure about the inverted clock and the store command being anded in the a/b/c
 is there a need for the bus interface behind the d-latches with output enable? (DAT to ADR)
 
 it is a bit of a waste to disable the ln bus twice for the programming mode (Flash Memory)
+
+the bus interfaces for splitting up the subtraction signals within Adder and Incrementor are not needed
+
+could the orientation of the connectors in the layout be reversed?
+
+
+
+
+
+
+
+
+
+
+
 

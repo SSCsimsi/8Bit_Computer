@@ -1108,20 +1108,6 @@ Bus Transfer:
       <pos x="1280" y="980"/>
     </visualElement>
     <visualElement>
-      <elementName>Clock</elementName>
-      <elementAttributes>
-        <entry>
-          <string>runRealTime</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Frequency</string>
-          <int>20</int>
-        </entry>
-      </elementAttributes>
-      <pos x="680" y="60"/>
-    </visualElement>
-    <visualElement>
       <elementName>8 By 8 Pixel Display.dig</elementName>
       <elementAttributes/>
       <pos x="1280" y="1960"/>
@@ -2177,6 +2163,20 @@ Bus Transfer:
       <elementName>Controller Input.dig</elementName>
       <elementAttributes/>
       <pos x="1280" y="2220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Frequency</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="60"/>
     </visualElement>
   </visualElements>
   <wires>

@@ -70,16 +70,16 @@
 0044 LDS
 0045 ST2	 //INT REG2:55
 0046 STR 42 5555
-0047 STO 01	 /* store outputs */
+0047 STO AA	 /* store outputs */ //OUT:AA
 0048 LDO	 /* load outputs */
-0049 STA
+0049 STA	 //A:AA
 004A NOP
 004B BIX
 004C CJP    004A /* keep looping */
 004D LTA	 /* load to address */ //should be 5555
 004E LD 	 //should work, since the address is hopefully still on the bus
-004F STO
-0050 NOP	 //for the loop to repeat starting from here
+004F STO	 //OUT:42
+0050 NOP	 //for the loop to repeat starting from here, from now on, it is possible to enter values, which will be written to the output
 0051 LDU	 /* load unread */
 0052 STA
 0053 BIN
