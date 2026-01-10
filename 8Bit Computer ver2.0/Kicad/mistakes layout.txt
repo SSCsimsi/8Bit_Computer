@@ -2,50 +2,50 @@
 
 * General -------------------------------------------------------------------------------
 
-  registers do not need the and gate connecting the inverted clock signal to the store command in front of their clock input, as the registers only react to a rising edge on their clock input
+  registers do not need the and gate connecting the inverted clock signal to the store command in front of their clock input, as the registers only react to a rising edge on their clock Input 	OK
 
  
 
 * ALU -----------------------------------------------------------------------------------
 
-! the command 0x1E / STA / Store Flags does not need a connection to DAT_dis as it does not output anything to the data bus
+! the command 0x1E / STA / Store Flags does not need a connection to DAT_dis as it does not output anything to the data bus					FIXED
 
 - Flag Register
-! the lines from the 2 d-latches (latch 2 of IC130 and latch 1 of IC131) are switched - 2Q\ of IC130 should be connected to OE\ of the bus interface and 1Q should be connected to 2B of IC132
+! the lines from the 2 d-latches (latch 2 of IC130 and latch 1 of IC131) are switched - 2Q\ of IC130 should be connected to OE\ of the bus interface and 1Q should be connected to 2B of IC132		FIXED
 
 - Comparator
-! the and gate for A<B should have the inverted outputs from the comparator as inputs, so it should be P=DAT\ and P>DAT\
+! the and gate for A<B should have the inverted outputs from the comparator as inputs, so it should be P=DAT\ and P>DAT\					FIXED
 
 - Barrel Shift Register
-! the SFC line should be connected to the STC line (there was probably a naming error, as both combined would be the SFC line from the simulation)
+! the SFC line should be connected to the STC line (there was probably a naming error, as both combined would be the SFC line from the simulation)		FIXED
 
 - Adder/Incrementor
-  the bus interfaces for splitting up the subtraction signals are not needed
+  the bus interfaces for splitting up the subtraction signals are not needed		IDK thought I would Need for 1Bit to 8Bit ,probably not needed
 
 
 
 * CPU -----------------------------------------------------------------------------------
 
 - Programme Counter
-! the conditional jump command should not be inverted as it goes into the d latch clock input (IC265)
-! the input a (on IC160) (output of the d latch) on the and gate should not be inverted
+! the conditional jump command should not be inverted as it goes into the d latch clock input (IC265)		FIXED
+! the input a (on IC160) (output of the d latch) on the and gate should not be inverted				FIXED
 
 - RAM
-! the load command needs a diode in order to interface to the DAT_dis bus (don't want to destroy the chip)
+! the load command needs a diode in order to interface to the DAT_dis bus (don't want to destroy the chip)	FIXED
 
 - Flash
-  it is a bit of a waste to disable the ln bus twice for the programming mode
+  it is a bit of a waste to disable the ln bus twice for the programming mode					IDU ?
 
 - DAT to ADR
-  is there a need for the bus interface behind the d-latches with output enable?
+  is there a need for the bus interface behind the d-latches with output enable?				IDK probably not
 
 
 
 * Layout --------------------------------------------------------------------------------
 
 - Pins
-! J16 and J33 on the bottom of the ALU and the IO boards respectively (for the data bus) have a different order to their pins - so the traces of the data bus are mislabled within the io board
-! the order of the pins of every connector between the ALU and the Flash board is reversed except for J10, J11, J28 and J27, however two of them are switched
+! J16 and J33 on the bottom of the ALU and the IO boards respectively (for the data bus) have a different order to their pins - so the traces of the data bus are mislabled within the io board		FIXED
+! the order of the pins of every connector between the ALU and the Flash board is reversed except for J10, J11, J28 and J27, however two of them are switched		FIXED
 
 
 

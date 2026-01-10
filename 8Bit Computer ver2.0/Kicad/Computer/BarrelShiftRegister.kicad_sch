@@ -6652,7 +6652,7 @@
 		)
 		(uuid "41f611e6-3c20-4e2b-aa25-d5e8a4ce5729")
 	)
-	(label "SFC"
+	(label "STC"
 		(at 74.93 167.64 180)
 		(effects
 			(font
@@ -7211,6 +7211,16 @@
 			(justify left bottom)
 		)
 		(uuid "9c3fcb65-f9b9-4d33-b5ad-b59ac3047d83")
+	)
+	(label "STC"
+		(at 41.91 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eb48a0a-fc41-4a4a-b980-762db1f949aa")
 	)
 	(label "DAT4"
 		(at 400.05 124.46 0)
@@ -7852,16 +7862,6 @@
 		)
 		(uuid "f3153bc5-4fb3-4f18-aed5-bbac0213d33d")
 	)
-	(label "SFC"
-		(at 41.91 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f36a3287-1043-458e-b22a-682df2543ab1")
-	)
 	(label "1Stage0"
 		(at 167.64 69.85 180)
 		(effects
@@ -7964,7 +7964,7 @@
 		)
 		(uuid "68372e84-b2cc-438c-a442-7d379ca7595a")
 	)
-	(hierarchical_label "SFC"
+	(hierarchical_label "STC"
 		(shape input)
 		(at 36.83 105.41 180)
 		(effects

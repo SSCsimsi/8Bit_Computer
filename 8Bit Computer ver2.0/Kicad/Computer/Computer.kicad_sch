@@ -28242,7 +28242,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 128.27 499.1099 0)
 			(effects
 				(font
@@ -28312,7 +28312,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 140.97 302.2599 0)
 			(effects
 				(font
@@ -28458,7 +28458,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 80.01 772.1599 0)
 			(effects
 				(font
@@ -29160,7 +29160,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 144.78 687.0699 0)
 			(effects
 				(font
@@ -29351,7 +29351,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 107.95 302.2599 0)
 			(effects
 				(font
@@ -29782,7 +29782,8 @@
 	)
 	(symbol
 		(lib_id "Samacsys:M20-8890845")
-		(at 358.14 646.43 180)
+		(at 358.14 628.65 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29790,7 +29791,7 @@
 		(dnp no)
 		(uuid "1c7dc6a3-17d7-4fa9-becf-3e9540166d2d")
 		(property "Reference" "J29"
-			(at 341.63 638.8101 0)
+			(at 341.63 636.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29799,7 +29800,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 341.63 636.2701 0)
+			(at 341.63 638.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29808,7 +29809,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M208890845"
-			(at 341.63 551.51 0)
+			(at 341.63 723.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29818,7 +29819,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-889.pdf"
-			(at 341.63 451.51 0)
+			(at 341.63 823.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29828,7 +29829,7 @@
 			)
 		)
 		(property "Description" "2.54mm (0.1\") Pitch SIL SMT Horizontal Pin Header, 2.5mm housing height, gold, 8 contacts"
-			(at 358.14 646.43 0)
+			(at 358.14 628.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29837,7 +29838,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 341.63 251.51 0)
+			(at 341.63 1023.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29847,7 +29848,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M20-8890845"
-			(at 341.63 151.51 0)
+			(at 341.63 1123.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29857,7 +29858,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-8890845?qs=k41KVqW3ymqbj55BP%2FIx8Q%3D%3D"
-			(at 341.63 51.51 0)
+			(at 341.63 1223.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29867,7 +29868,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 341.63 -48.49 0)
+			(at 341.63 1323.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29877,7 +29878,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M20-8890845"
-			(at 341.63 -148.49 0)
+			(at 341.63 1423.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30600,7 +30601,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 74.93 364.4899 0)
 			(effects
 				(font
@@ -31056,7 +31057,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 91.44 302.2599 0)
 			(effects
 				(font
@@ -31421,7 +31422,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 78.74 499.1099 0)
 			(effects
 				(font
@@ -32342,7 +32343,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 78.74 436.8799 0)
 			(effects
 				(font
@@ -32552,7 +32553,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 124.46 302.2599 0)
 			(effects
 				(font
@@ -32864,7 +32865,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 129.54 772.1599 0)
 			(effects
 				(font
@@ -33124,7 +33125,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 95.25 436.8799 0)
 			(effects
 				(font
@@ -33368,7 +33369,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 194.31 687.0699 0)
 			(effects
 				(font
@@ -33559,7 +33560,8 @@
 	)
 	(symbol
 		(lib_id "Samacsys:M20-8890845")
-		(at 358.14 574.04 180)
+		(at 358.14 556.26 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33567,7 +33569,7 @@
 		(dnp no)
 		(uuid "40862642-f448-4c55-b245-d6f4fa38430a")
 		(property "Reference" "J26"
-			(at 341.63 566.4201 0)
+			(at 341.63 563.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33576,7 +33578,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 341.63 563.8801 0)
+			(at 341.63 566.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33585,7 +33587,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M208890845"
-			(at 341.63 479.12 0)
+			(at 341.63 651.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33595,7 +33597,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-889.pdf"
-			(at 341.63 379.12 0)
+			(at 341.63 751.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33605,7 +33607,7 @@
 			)
 		)
 		(property "Description" "2.54mm (0.1\") Pitch SIL SMT Horizontal Pin Header, 2.5mm housing height, gold, 8 contacts"
-			(at 358.14 574.04 0)
+			(at 358.14 556.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33614,7 +33616,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 341.63 179.12 0)
+			(at 341.63 951.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33624,7 +33626,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M20-8890845"
-			(at 341.63 79.12 0)
+			(at 341.63 1051.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33634,7 +33636,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-8890845?qs=k41KVqW3ymqbj55BP%2FIx8Q%3D%3D"
-			(at 341.63 -20.88 0)
+			(at 341.63 1151.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33644,7 +33646,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 341.63 -120.88 0)
+			(at 341.63 1251.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33654,7 +33656,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M20-8890845"
-			(at 341.63 -220.88 0)
+			(at 341.63 1351.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33715,7 +33717,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 157.48 364.4899 0)
 			(effects
 				(font
@@ -34235,7 +34237,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 179.07 772.1599 0)
 			(effects
 				(font
@@ -35132,7 +35134,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 74.93 302.2599 0)
 			(effects
 				(font
@@ -35202,7 +35204,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 128.27 687.0699 0)
 			(effects
 				(font
@@ -35514,7 +35516,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 161.29 499.1099 0)
 			(effects
 				(font
@@ -35948,7 +35950,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 124.46 364.4899 0)
 			(effects
 				(font
@@ -36349,7 +36351,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 95.25 687.0699 0)
 			(effects
 				(font
@@ -36888,7 +36890,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 95.25 499.1099 0)
 			(effects
 				(font
@@ -37104,7 +37106,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 96.52 772.1599 0)
 			(effects
 				(font
@@ -38065,7 +38067,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 190.5 302.2599 0)
 			(effects
 				(font
@@ -38118,7 +38120,8 @@
 	)
 	(symbol
 		(lib_id "Samacsys:M20-8890845")
-		(at 321.31 769.62 180)
+		(at 321.31 751.84 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38126,7 +38129,7 @@
 		(dnp no)
 		(uuid "7a92a4f6-04fc-4603-a817-316112d70cf3")
 		(property "Reference" "J33"
-			(at 304.8 762.0001 0)
+			(at 304.8 759.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38135,7 +38138,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 304.8 759.4601 0)
+			(at 304.8 761.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38144,7 +38147,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M208890845"
-			(at 304.8 674.7 0)
+			(at 304.8 846.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38154,7 +38157,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-889.pdf"
-			(at 304.8 574.7 0)
+			(at 304.8 946.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38164,7 +38167,7 @@
 			)
 		)
 		(property "Description" "2.54mm (0.1\") Pitch SIL SMT Horizontal Pin Header, 2.5mm housing height, gold, 8 contacts"
-			(at 321.31 769.62 0)
+			(at 321.31 751.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38173,7 +38176,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 304.8 374.7 0)
+			(at 304.8 1146.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38183,7 +38186,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M20-8890845"
-			(at 304.8 274.7 0)
+			(at 304.8 1246.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38193,7 +38196,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-8890845?qs=k41KVqW3ymqbj55BP%2FIx8Q%3D%3D"
-			(at 304.8 174.7 0)
+			(at 304.8 1346.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38203,7 +38206,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 304.8 74.7 0)
+			(at 304.8 1446.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38213,7 +38216,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M20-8890845"
-			(at 304.8 -25.3 0)
+			(at 304.8 1546.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38403,7 +38406,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 128.27 436.8799 0)
 			(effects
 				(font
@@ -38473,7 +38476,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 157.48 302.2599 0)
 			(effects
 				(font
@@ -38680,7 +38683,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 162.56 772.1599 0)
 			(effects
 				(font
@@ -38733,7 +38736,8 @@
 	)
 	(symbol
 		(lib_id "Samacsys:M20-8890845")
-		(at 358.14 670.56 180)
+		(at 358.14 652.78 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38741,7 +38745,7 @@
 		(dnp no)
 		(uuid "81951a59-e2e0-4f53-871e-753f1ab3769f")
 		(property "Reference" "J30"
-			(at 341.63 662.9401 0)
+			(at 341.63 660.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38750,7 +38754,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 341.63 660.4001 0)
+			(at 341.63 662.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38759,7 +38763,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M208890845"
-			(at 341.63 575.64 0)
+			(at 341.63 747.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38769,7 +38773,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-889.pdf"
-			(at 341.63 475.64 0)
+			(at 341.63 847.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38779,7 +38783,7 @@
 			)
 		)
 		(property "Description" "2.54mm (0.1\") Pitch SIL SMT Horizontal Pin Header, 2.5mm housing height, gold, 8 contacts"
-			(at 358.14 670.56 0)
+			(at 358.14 652.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38788,7 +38792,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 341.63 275.64 0)
+			(at 341.63 1047.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38798,7 +38802,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M20-8890845"
-			(at 341.63 175.64 0)
+			(at 341.63 1147.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38808,7 +38812,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-8890845?qs=k41KVqW3ymqbj55BP%2FIx8Q%3D%3D"
-			(at 341.63 75.64 0)
+			(at 341.63 1247.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38818,7 +38822,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 341.63 -24.36 0)
+			(at 341.63 1347.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38828,7 +38832,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M20-8890845"
-			(at 341.63 -124.36 0)
+			(at 341.63 1447.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38889,7 +38893,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 146.05 772.1599 0)
 			(effects
 				(font
@@ -39029,7 +39033,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 78.74 687.0699 0)
 			(effects
 				(font
@@ -39152,7 +39156,8 @@
 	)
 	(symbol
 		(lib_id "Samacsys:M20-8890845")
-		(at 358.14 622.3 180)
+		(at 358.14 604.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39160,7 +39165,7 @@
 		(dnp no)
 		(uuid "83783cbb-47f9-468b-bdbc-6bb036f925a9")
 		(property "Reference" "J28"
-			(at 341.63 614.6801 0)
+			(at 341.63 612.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39169,7 +39174,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 341.63 612.1401 0)
+			(at 341.63 614.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39178,7 +39183,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M208890845"
-			(at 341.63 527.38 0)
+			(at 341.63 699.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39188,7 +39193,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-889.pdf"
-			(at 341.63 427.38 0)
+			(at 341.63 799.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39198,7 +39203,7 @@
 			)
 		)
 		(property "Description" "2.54mm (0.1\") Pitch SIL SMT Horizontal Pin Header, 2.5mm housing height, gold, 8 contacts"
-			(at 358.14 622.3 0)
+			(at 358.14 604.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39207,7 +39212,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 341.63 227.38 0)
+			(at 341.63 999.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39217,7 +39222,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M20-8890845"
-			(at 341.63 127.38 0)
+			(at 341.63 1099.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39227,7 +39232,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-8890845?qs=k41KVqW3ymqbj55BP%2FIx8Q%3D%3D"
-			(at 341.63 27.38 0)
+			(at 341.63 1199.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39237,7 +39242,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 341.63 -72.62 0)
+			(at 341.63 1299.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39247,7 +39252,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M20-8890845"
-			(at 341.63 -172.62 0)
+			(at 341.63 1399.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39864,7 +39869,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 111.76 687.0699 0)
 			(effects
 				(font
@@ -40572,7 +40577,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 173.99 364.4899 0)
 			(effects
 				(font
@@ -40710,7 +40715,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 195.58 772.1599 0)
 			(effects
 				(font
@@ -42530,7 +42535,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 91.44 364.4899 0)
 			(effects
 				(font
@@ -42740,7 +42745,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 173.99 302.2599 0)
 			(effects
 				(font
@@ -43140,7 +43145,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 177.8 436.8799 0)
 			(effects
 				(font
@@ -43471,7 +43476,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 177.8 499.1099 0)
 			(effects
 				(font
@@ -43806,7 +43811,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 111.76 436.8799 0)
 			(effects
 				(font
@@ -44273,7 +44278,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 111.76 499.1099 0)
 			(effects
 				(font
@@ -44343,7 +44348,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 190.5 364.4899 0)
 			(effects
 				(font
@@ -44534,7 +44539,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 113.03 772.1599 0)
 			(effects
 				(font
@@ -45062,7 +45067,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 161.29 687.0699 0)
 			(effects
 				(font
@@ -45236,7 +45241,8 @@
 	)
 	(symbol
 		(lib_id "Samacsys:M20-8890845")
-		(at 358.14 549.91 180)
+		(at 358.14 532.13 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45244,7 +45250,7 @@
 		(dnp no)
 		(uuid "c9528b7d-99b7-47d2-b675-02c5e697f50e")
 		(property "Reference" "J25"
-			(at 341.63 542.2901 0)
+			(at 341.63 539.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45253,7 +45259,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 341.63 539.7501 0)
+			(at 341.63 542.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45262,7 +45268,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M208890845"
-			(at 341.63 454.99 0)
+			(at 341.63 627.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45272,7 +45278,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-889.pdf"
-			(at 341.63 354.99 0)
+			(at 341.63 727.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45282,7 +45288,7 @@
 			)
 		)
 		(property "Description" "2.54mm (0.1\") Pitch SIL SMT Horizontal Pin Header, 2.5mm housing height, gold, 8 contacts"
-			(at 358.14 549.91 0)
+			(at 358.14 532.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45291,7 +45297,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 341.63 154.99 0)
+			(at 341.63 927.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45301,7 +45307,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M20-8890845"
-			(at 341.63 54.99 0)
+			(at 341.63 1027.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45311,7 +45317,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-8890845?qs=k41KVqW3ymqbj55BP%2FIx8Q%3D%3D"
-			(at 341.63 -45.01 0)
+			(at 341.63 1127.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45321,7 +45327,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 341.63 -145.01 0)
+			(at 341.63 1227.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45331,7 +45337,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M20-8890845"
-			(at 341.63 -245.01 0)
+			(at 341.63 1327.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45462,7 +45468,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 140.97 364.4899 0)
 			(effects
 				(font
@@ -45706,7 +45712,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 144.78 499.1099 0)
 			(effects
 				(font
@@ -45759,7 +45765,8 @@
 	)
 	(symbol
 		(lib_id "Samacsys:M20-8890845")
-		(at 358.14 598.17 180)
+		(at 358.14 580.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45767,7 +45774,7 @@
 		(dnp no)
 		(uuid "ccc8cb91-0913-4fe3-afbb-4d2f7f3ca4fa")
 		(property "Reference" "J27"
-			(at 341.63 590.5501 0)
+			(at 341.63 588.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45776,7 +45783,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 341.63 588.0101 0)
+			(at 341.63 590.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45785,7 +45792,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M208890845"
-			(at 341.63 503.25 0)
+			(at 341.63 675.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45795,7 +45802,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-889.pdf"
-			(at 341.63 403.25 0)
+			(at 341.63 775.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45805,7 +45812,7 @@
 			)
 		)
 		(property "Description" "2.54mm (0.1\") Pitch SIL SMT Horizontal Pin Header, 2.5mm housing height, gold, 8 contacts"
-			(at 358.14 598.17 0)
+			(at 358.14 580.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45814,7 +45821,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 341.63 203.25 0)
+			(at 341.63 975.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45824,7 +45831,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M20-8890845"
-			(at 341.63 103.25 0)
+			(at 341.63 1075.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45834,7 +45841,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-8890845?qs=k41KVqW3ymqbj55BP%2FIx8Q%3D%3D"
-			(at 341.63 3.25 0)
+			(at 341.63 1175.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45844,7 +45851,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 341.63 -96.75 0)
+			(at 341.63 1275.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45854,7 +45861,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M20-8890845"
-			(at 341.63 -196.75 0)
+			(at 341.63 1375.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46594,7 +46601,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 107.95 364.4899 0)
 			(effects
 				(font
@@ -46785,7 +46792,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 194.31 436.8799 0)
 			(effects
 				(font
@@ -47237,7 +47244,8 @@
 	)
 	(symbol
 		(lib_id "Samacsys:M20-7910842R")
-		(at 227.33 651.51 0)
+		(at 227.33 669.29 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47245,7 +47253,7 @@
 		(dnp no)
 		(uuid "dbf91c50-2f77-400c-afc3-617ffa246810")
 		(property "Reference" "J14"
-			(at 243.84 659.1299 0)
+			(at 243.84 661.6701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47254,7 +47262,7 @@
 			)
 		)
 		(property "Value" "M20-7910842R"
-			(at 243.84 664.718 0)
+			(at 243.84 656.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47263,7 +47271,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:M207910842R"
-			(at 243.84 746.43 0)
+			(at 243.84 574.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47273,7 +47281,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/harwin-inc/M20-7910842R/6559285?msockid=39f1ec84d77b6f4428b7f904d6676eed"
-			(at 243.84 846.43 0)
+			(at 243.84 474.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47283,7 +47291,7 @@
 			)
 		)
 		(property "Description" "2.54mm (0.1\") Pitch SIL Horizontal SMT Socket Assembly, selective gold + tin (Tape & Reel packing), 8 contacts"
-			(at 227.33 651.51 0)
+			(at 227.33 669.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47292,7 +47300,7 @@
 			)
 		)
 		(property "Height" "2.65"
-			(at 243.84 1046.43 0)
+			(at 243.84 274.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47302,7 +47310,7 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M20-7910842R"
-			(at 243.84 1146.43 0)
+			(at 243.84 174.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47312,7 +47320,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7910842R?qs=k41KVqW3ympJ6ZCQNkwKKw%3D%3D"
-			(at 243.84 1246.43 0)
+			(at 243.84 74.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47322,7 +47330,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 243.84 1346.43 0)
+			(at 243.84 -25.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47332,7 +47340,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M20-7910842R"
-			(at 243.84 1446.43 0)
+			(at 243.84 -125.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47775,7 +47783,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 161.29 436.8799 0)
 			(effects
 				(font
@@ -48471,7 +48479,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 194.31 499.1099 0)
 			(effects
 				(font
@@ -48541,7 +48549,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 144.78 436.8799 0)
 			(effects
 				(font
@@ -48611,7 +48619,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "390"
 			(at 177.8 687.0699 0)
 			(effects
 				(font

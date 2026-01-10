@@ -3183,10 +3183,6 @@
 		(uuid "b8e0f2a2-9bdc-476d-b851-2a7547e4fbc0")
 	)
 	(no_connect
-		(at 213.36 243.84)
-		(uuid "f0bb5389-20fb-4b89-8306-63c76c8ef397")
-	)
-	(no_connect
 		(at 243.84 248.92)
 		(uuid "f2b1f9b5-1602-45f0-a9b8-ccba90aa6bf3")
 	)
@@ -4066,16 +4062,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 246.38) (xy 204.47 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cb06f93-a582-4d38-a856-923c505c9551")
-	)
-	(wire
-		(pts
 			(xy 269.24 39.37) (xy 281.94 39.37)
 		)
 		(stroke
@@ -4796,23 +4782,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 246.38) (xy 204.47 255.27)
+			(xy 204.47 243.84) (xy 204.47 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d892dd5-43ea-4439-a961-a4712b8776b5")
-	)
-	(wire
-		(pts
-			(xy 189.23 222.25) (xy 191.77 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea236d4-2a2f-4fb5-aea9-4113fa501bce")
 	)
 	(wire
 		(pts
@@ -4883,6 +4859,16 @@
 			(type default)
 		)
 		(uuid "613560c9-af89-4072-899f-0ed1c385b03f")
+	)
+	(wire
+		(pts
+			(xy 213.36 243.84) (xy 204.47 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61385abb-3123-4bfa-9fbc-7dac07901fc6")
 	)
 	(wire
 		(pts
@@ -5243,16 +5229,6 @@
 			(type default)
 		)
 		(uuid "7cf6ba2a-3e89-4a20-b851-8c4f14e17c18")
-	)
-	(wire
-		(pts
-			(xy 161.29 224.79) (xy 163.83 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7df6e6c4-07a3-4cf4-bb74-bf22fc03fefd")
 	)
 	(wire
 		(pts
@@ -5656,7 +5632,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 222.25) (xy 163.83 222.25)
+			(xy 210.82 238.76) (xy 213.36 238.76)
 		)
 		(stroke
 			(width 0)
@@ -5693,16 +5669,6 @@
 			(type default)
 		)
 		(uuid "b088e60a-6aba-40e3-a71b-9010aa3a7da0")
-	)
-	(wire
-		(pts
-			(xy 199.39 238.76) (xy 213.36 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b129c754-26f3-4e70-855c-68fa42f92adc")
 	)
 	(wire
 		(pts
@@ -5893,16 +5859,6 @@
 			(type default)
 		)
 		(uuid "c1eea909-9dc5-4d00-a710-1fca8b22d8ad")
-	)
-	(wire
-		(pts
-			(xy 199.39 219.71) (xy 199.39 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4252b3c-8b1d-49e1-bee0-dc0fb11a200a")
 	)
 	(bus
 		(pts
@@ -6253,16 +6209,6 @@
 			(type default)
 		)
 		(uuid "e320544f-2706-4140-acde-e071b5e58242")
-	)
-	(wire
-		(pts
-			(xy 189.23 219.71) (xy 199.39 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e43c1097-569e-4fd5-9e38-4070cc704438")
 	)
 	(bus
 		(pts
@@ -8521,16 +8467,6 @@
 		)
 		(uuid "5eb33bd4-1399-4774-94b3-ec03b2f31c8b")
 	)
-	(label "GND"
-		(at 161.29 224.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f28e70f-e6ce-4f93-91a4-8c6123eb5ba0")
-	)
 	(label "TC1"
 		(at 372.11 201.93 0)
 		(effects
@@ -9282,7 +9218,7 @@
 		(uuid "d63ec730-e9d0-4280-983b-cb842edd1144")
 	)
 	(label "CJP"
-		(at 161.29 222.25 180)
+		(at 210.82 238.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9520,16 +9456,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9e1db98-19cf-4cac-9ccb-7c3088c9e3e8")
-	)
-	(label "VCC"
-		(at 191.77 222.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbf8fe84-0c79-41d6-a571-298375e01dd3")
 	)
 	(label "ADR14"
 		(at 336.55 227.33 0)
@@ -10086,135 +10012,6 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
 					(reference "LED26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:SN74LVC1G14DBVR")
-		(at 163.83 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20383738-c5c2-4209-9d60-e1399f73ccca")
-		(property "Reference" "IC265"
-			(at 176.53 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC1G14DBVR"
-			(at 176.53 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SOT95P280X145-5N"
-			(at 185.42 314.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1136296.pdf"
-			(at 185.42 414.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEXAS INSTRUMENTS - SN74LVC1G14DBVR - IC, SCHMITT TRIGGER INVERTER, SMD"
-			(at 163.83 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 185.42 614.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74LVC1G14DBVR"
-			(at 185.42 714.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G14DBVR?qs=dT9u2OTAaVWRIgCrQFnxuQ%3D%3D"
-			(at 185.42 814.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 185.42 914.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74LVC1G14DBVR"
-			(at 185.42 1014.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4798f4d4-55f6-43b8-a1c5-9ea6369bb36f")
-		)
-		(pin "3"
-			(uuid "8d70e924-91d9-4306-b670-3d8796fab704")
-		)
-		(pin "2"
-			(uuid "dc8fe652-6405-4ca0-b72f-69a453eeb033")
-		)
-		(pin "4"
-			(uuid "cee8f41f-5643-4a08-9cfc-47d2bc5fe744")
-		)
-		(pin "5"
-			(uuid "f0375551-800f-40e7-ab06-ffb0bb3df5f4")
-		)
-		(instances
-			(project "Computer"
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/94b0c6d4-a0ed-4382-b2de-ee1cd48dbaa6"
-					(reference "IC265")
 					(unit 1)
 				)
 			)

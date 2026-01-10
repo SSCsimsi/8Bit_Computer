@@ -5504,6 +5504,16 @@
 		)
 		(uuid "375f95e3-9d77-4530-9198-85adbaf05b48")
 	)
+	(label "~{P>DAT}"
+		(at 187.96 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37b062b0-c9ed-4d43-b566-71bf270de501")
+	)
 	(label "VCC"
 		(at 157.48 121.92 0)
 		(effects
@@ -5644,16 +5654,6 @@
 		)
 		(uuid "61112607-5f30-4578-a5cb-d058a333e868")
 	)
-	(label "A>B"
-		(at 187.96 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "620fce7d-f0d4-4317-9448-68de717ad4ac")
-	)
 	(label "GND"
 		(at 144.78 30.48 180)
 		(effects
@@ -5704,7 +5704,7 @@
 		)
 		(uuid "762c62e1-8631-44fd-85cc-eb44670243b1")
 	)
-	(label "A=B"
+	(label "~{P=DAT}"
 		(at 187.96 30.48 180)
 		(effects
 			(font
@@ -5712,7 +5712,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "78c05aa2-ca63-43d9-bf1c-9ad9f0a2303c")
+		(uuid "79e531ec-c9b7-4806-8395-5ca143aadbba")
 	)
 	(label "CMP_{smaller}"
 		(at 40.64 64.77 0)
