@@ -1,5 +1,6 @@
 
-#include <stdio.h>
+#include "commands.cpp"
+
 #include <stdint.h>
 
 #include <iostream>
@@ -9,8 +10,10 @@
 
 using namespace std;
 
-#define LINELENGTH 16
 #define CMDLENGTH 3
+
+list<Cmd> Commands;
+list<Cmd>::iterator Iterator;
 
 class Cmd {
 public:
@@ -25,12 +28,12 @@ public:
 		val = valIn;
 	}
 
-	uint8_t CmpCmd(string newLine) {
+	uint8_t Compare(string newLine) {
 
 		return name.compare(newLine.resize(CMDLENGTH));
 	}
 
-	uint8_t PutCmd() {
+	uint8_t Put() {
 
 		return val;
 	}
@@ -42,5 +45,15 @@ private:
 	uint8_t val;
 
 };
+
+
+
+
+
+
+
+
+
+
 
 

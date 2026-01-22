@@ -1,0 +1,35 @@
+
+#include "main.h"
+
+int main() {
+
+	FILE *fptrCode;
+
+	FILE *fptrCmd;
+	FILE *fptrDat;
+	FILE *fptrAdr;
+
+	/* Open the code */
+	fstream fptrCode("code.txt", "r");
+
+	/* Create the hex files for programming the computer */
+	fstream fptrCmd("cmd.hex", "w"); //cmd and dat in one file, since they are combined in one flash chip
+	fstream fptrAdr("adr.hex", "w");
+
+	String newLine;
+	fgets(newLine, LINELENGTH, fptrCode);
+
+	list<Cmd> Commands;
+
+	list<Cmd>::iterator Iterator;
+
+	Cmd Jump;
+	Jump.Init("jmp", 0x01);
+	Commands.insert(Iterator, Jump);
+
+
+	/* Close the files */
+	fclose(fptrCode);
+	fclose(fptrCmd);
+	fclose(fptrAdr);
+}

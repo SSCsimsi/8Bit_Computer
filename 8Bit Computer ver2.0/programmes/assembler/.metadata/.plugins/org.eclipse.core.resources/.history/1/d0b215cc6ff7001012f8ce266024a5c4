@@ -1,0 +1,9 @@
+
+#include "main.h"
+
+	list<Cmd> Commands;
+	list<Cmd>::iterator Iterator;
+
+	Cmd Jump;
+	Jump.Init("jmp", 0x01);
+	Commands.insert(Iterator, Jump);

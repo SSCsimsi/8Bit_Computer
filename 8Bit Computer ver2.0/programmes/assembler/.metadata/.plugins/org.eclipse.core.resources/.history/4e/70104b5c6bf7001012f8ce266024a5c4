@@ -1,0 +1,46 @@
+
+#include "commands.h"
+
+#include <stdint.h>
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <list>
+
+using namespace std;
+
+#define CMDLENGTH 3
+
+class Cmd {
+public:
+
+	/*
+	 * the name is made up of 3 ascii symbols,
+	 * the value has to fit within 8 bits
+	 */
+	void Init(string nameIn, uint8_t valIn) {
+
+		name = nameIn;
+		val = valIn;
+	}
+
+	uint8_t Cmp(string newLine) {
+
+		return name.compare(newLine.resize(CMDLENGTH));
+	}
+
+	uint8_t Put() {
+
+		return val;
+	}
+
+
+private:
+
+	string name;
+	uint8_t val;
+
+};
+
+

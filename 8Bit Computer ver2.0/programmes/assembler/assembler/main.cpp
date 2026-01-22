@@ -9,29 +9,29 @@ int main() {
 	FILE *fptrDat;
 	FILE *fptrAdr;
 
-	// Open the code
-	fptrCode = fopen("code.txt", "r");
+	/* Open the code */
+	ifstream codeFile("code.txt");
 
-	// Create the hex files for programming the computer
-	fptrCmd = fopen("cmd.hex", "w");
-	fptrDat = fopen("dat.hex", "w");
-	fptrAdr = fopen("adr.hex", "w");
+	/* Create the hex files for programming the computer */
+	ofstream cmdFile("cmd.hex"); //cmd and dat in one file, since they are combined in one flash chip
+	ofstream adrFile("adr.hex");
 
-	char newLine[LINELENGTH];
-	fgets(newLine, LINELENGTH, fptrCode);
+	string newLine;
+	CreateList();
 
-	list<Cmd> Commands;
+	getline(codeFile, newLine);
+	for(Cmd cmd : Commands) {
+		if(cmd.Compare(newLine)) {
+			cmdFile << cmd.Put();
+			//TODO: convert string to binary
+			cmdFile << newLine.substr(4, 5);
+		}
 
-	list<Cmd>::iterator Iterator;
-
-	Cmd Jump;
-	Jump.Init("jmp", 0x01);
-	Commands.insert(Iterator, Jump);
+	}
 
 
-	// Close the files
-	fclose(fptrCode);
-	fclose(fptrCmd);
-	fclose(fptrDat);
-	fclose(fptrAdr);
+	/* Close the files */
+	codeFile.close();
+	cmdFile.close();
+	adrFile.close();
 }
