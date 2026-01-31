@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+using namespace std;
+
+int main() {
+	FILE *fptr;
+
+	// Create a file
+	fptr = fopen("code.txt", "r");
+
+	// Close the file
+	fclose(fptr);
+}

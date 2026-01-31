@@ -1,0 +1,89 @@
+0000 nop 00 0000
+0001 sto FB 0001
+0002 lod    0001
+0003 sta 
+0004 stb 07	 //A:FB, B:06
+0005 add 	 
+0006 stb 	 //A:FB, B:02, C8:high
+0007 adc	 
+0008 stc	 //C:FE, C8:low
+0009 inc	 
+000A sta
+000B stb FF	 //A:FF, B:FF
+000C cpe 	 
+000D sts
+000E sta 01	 //SHIFT DIST:01, A:01
+000F sfc	 
+0010 stc	 //C:80
+0011 dec
+0012 sta
+0013 stb 7E	 //A:7F, B:7E
+0014 cpb
+0015 sta	 //A:01
+0016 cps
+0017 stf	 //C8:high
+0018 lcr	 /* load carry flag */
+0019 sta	 //A:01
+001A bwn	 /* bitwise not */
+001B sta
+001C sts 03	 //A:FE, SHIFT DIST:03
+001D sft
+001E sta	 //A:1F
+001F ldf
+0020 stc	 //C:01
+0021 inc
+0022 stf	 //C8:low, Ovf:high
+0023 ldo
+0024 stb	 //A:1F, B:02
+0025 sub
+0026 sta	 //A:1D
+0027 lda
+0028 bin	 /* binary not */
+0029 cjp    002B /* conditional jump */
+002A stb 01
+002B nop
+002C ldb	 // should be 02
+002D bio	 /* binary or */
+002E sta	 //A:01
+002F bia	 /* binary and */
+0030 sta	 //A:01
+0031 stb 00	 //B:00
+0032 bix	 /* binary xor */
+0033 sta	 //A:01
+0034 bwa	 /* bitwise and */
+0035 cjp    0037
+0036 sta 0F
+0037 nop
+0038 bwn	 /* bitwise not */
+0039 sta	 //A:F0
+003A stb 0F
+003B bwo	 /* bitwise or */
+003C sta	 //A:FF
+003D stb AA	 //B:AA
+003E bwx	 /* bitwise xor */
+003F stc	 //C:55
+0040 ldc
+0041 sts	 //SHIFT DIST:55
+0042 lds	 /* load shift distance */
+0043 st1	 /* store interface reg1 */ //INT REG1:55
+0044 lds
+0045 st2	 //INT REG2:55
+0046 str 42 5555
+0047 sto AA	 /* store outputs */ //OUT:AA
+0048 ldo	 /* load outputs */
+0049 sta	 //A:AA
+004A nop
+004B bix
+004C cjp    004A /* keep looping */
+004D lta	 /* load to address */ //should be 5555
+004E LD 	 //should work, since the address is hopefully still on the bus
+004F sto	 //OUT:42
+0050 nop	 //for the loop to repeat starting from here, from now on, it is possible to enter values, which will be written to the output
+0051 ldu	 /* load unread */
+0052 sta
+0053 bin
+0054 cjp    0057
+0055 ldi	 /* load inputs */
+0056 sto
+0057 nop
+0058 jmp    0050

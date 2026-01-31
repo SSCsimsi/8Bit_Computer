@@ -1,0 +1,9 @@
+
+#include <stdio.h>
+#include <stdint.h>
+
+class Cmd {
+public:
+	char name[3];
+	uint8_t val;
+};

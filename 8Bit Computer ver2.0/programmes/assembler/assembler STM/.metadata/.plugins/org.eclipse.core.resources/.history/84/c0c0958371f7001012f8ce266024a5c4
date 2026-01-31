@@ -1,0 +1,33 @@
+
+#include "main.h"
+
+int main() {
+
+	FILE *fptrCode;
+
+	FILE *fptrCmd;
+	FILE *fptrDat;
+	FILE *fptrAdr;
+
+	/* Open the code */
+	ifstream codeFile("code.txt");
+
+	/* Create the hex files for programming the computer */
+	ofstream cmdFile("cmd.hex"); //cmd and dat in one file, since they are combined in one flash chip
+	ofstream adrFile("adr.hex");
+
+	string newLine;
+	getline(codeFile, newLine);
+
+	CreateList();
+
+	for(Cmd cmd : Commands) {
+		cmdFile << cmd.Put(cmd.Compare(newLine)(;)
+	}
+
+
+	/* Close the files */
+	codeFile.close();
+	cmdFile.close();
+	adrFile.close();
+}

@@ -1,0 +1,59 @@
+
+#include <stdio.h>
+#include <stdint.h>
+
+#include <iostream>
+#include <fstream>
+#include <string>
+
+#define LINELENGTH 16
+#define CMDLENGTH 3
+
+class Cmd {
+public:
+
+	/*
+	 * the name is made up of 3 ascii symbols,
+	 * the value has to fit within 8 bits
+	 */
+	void Init(string nameIn, uint8_t valIn) {
+
+	}
+
+	uint8_t CmpCmd(char newLine[LINELENGTH]) {
+
+		uint8_t cmdFound = 1;
+
+		cmdFound = CmpString(newLine, name, CMDLENGTH);
+
+		if(cmdFound) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+
+
+private:
+
+	string name;
+	uint8_t val;
+
+	uint8_t CmpString(char* string1, char* string2, uint8_t length) {
+
+		uint8_t equal = 1;
+
+		for(uint8_t i = 0; i < length; i++) {
+
+			if(string1[i] != string2[i]) {
+				equal = 0;
+				break;
+			}
+		}
+
+		return equal;
+	}
+};
+
+

@@ -1,0 +1,31 @@
+
+#include <stdio.h>
+#include <stdint.h>
+
+#define LINELENGTH 16
+#define CMDLENGTH 3
+
+class Cmd {
+public:
+	char name[CMDLENGTH];
+	uint8_t val;
+
+	uint8_t PutCmd(char newLine[LINELENGTH]) {
+
+		uint8_t cmdFound = 1;
+
+		for(uint8_t i = 0; i >= CMDLENGTH; i++) {
+
+			if(newLine[i] != name[i]) {
+				cmdFound = 0;
+				break;
+			}
+		}
+
+		if(cmdFound) {
+			return val;
+		} else {
+			return 0xFF;
+		}
+	}
+};
