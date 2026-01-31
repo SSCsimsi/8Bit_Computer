@@ -80,7 +80,8 @@ int main() {
 	while(getline(codeFile, newLine)) {
 
 		check = 0;
-        newLine = newLine.substr(5);
+        newLine = newLine.substr(5); //cut off the line number
+        newLine.append("000000000000");  //in order to avoid an empty string later
 
 		for(Cmd cmd : Commands) {
 
@@ -95,8 +96,8 @@ int main() {
                 if(cmd.Req(Requires::Data) or cmd.Req(Requires::Both)) {
 
                     /* write 8bits to the cmd file */
-                    uint8_t val = stoi(newLine.substr(4,2));
-		            cmdFile.write(reinterpret_cast<char*>(&val), 1);
+                    uint8_t val = stoul(newLine.substr(4,2), nullptr, 16);
+		            cmdFile.write(reinterpret_cast<char*>(&val), 1); //an error occurs here
 
                 } else {
 
@@ -106,18 +107,18 @@ int main() {
                 }
 
                 /* 
-                 * cmd -- 0000 
+                 * cmd -- 0000
                  */
                 if(cmd.Req(Requires::Address) or cmd.Req(Requires::Both)) {
 
                     /* write 16bits to the adr file */
-                    uint16_t adr = stoi(newLine.substr(7,4));
+                    uint8_t adr = stoul(newLine.substr(7,4), nullptr, 16);
 		            adrFile.write(reinterpret_cast<char*>(&adr), 1);
 
                 } else {
 
                     /* write 0x0000 to the adr file, this value will not be used during execution */
-                    uint16_t adr = 0x0000;
+                    uint8_t adr = 0x0000;
 		            adrFile.write(reinterpret_cast<char*>(&adr), 1);
                 }
 
@@ -126,8 +127,6 @@ int main() {
 			}
 		}
 
-        
-
 		if(!check) {
 
 			ofstream Error("UnknownCommand.txt");
@@ -135,10 +134,6 @@ int main() {
 
 			return -1;
 		}
-
-
-
-		
 	}
 
 	/* Close the files */
