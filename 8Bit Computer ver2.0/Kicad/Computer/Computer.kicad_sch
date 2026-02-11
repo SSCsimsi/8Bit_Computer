@@ -17773,16 +17773,6 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 650.24) (xy 528.32 650.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b5042d-125d-4cb4-a6e1-477f1ea62ef9")
-	)
-	(wire
-		(pts
 			(xy 77.47 774.7) (xy 77.47 777.24)
 		)
 		(stroke
@@ -20603,7 +20593,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 650.24) (xy 505.46 650.24)
+			(xy 492.76 650.24) (xy 528.32 650.24)
 		)
 		(stroke
 			(width 0)
@@ -34294,126 +34284,6 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
 					(reference "LED91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Samacsys:1N4148WS-7-F")
-		(at 520.7 650.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4412cd84-000b-4597-bb29-9f3c8b7720a2")
-		(property "Reference" "D30"
-			(at 513.08 642.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS-7-F"
-			(at 513.08 645.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SOD2513X120N"
-			(at 509.27 552.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N4148WS_BAV16WS.pdf"
-			(at 509.27 452.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Switching 150mA 75V 200mW SOD323 Diodes Inc 1N4148WS-7-F Switching Diode, 150mA 75V, 2-Pin SOD-323"
-			(at 520.7 650.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 509.27 252.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-1N4148WS-F"
-			(at 509.27 152.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4148WS-7-F?qs=4drIV0IxA0r8aNy7%2Fu4kVw%3D%3D"
-			(at 509.27 52.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 509.27 -47.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1N4148WS-7-F"
-			(at 509.27 -147.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73de6c9b-c18a-4136-968c-4ac7fa86fa84")
-		)
-		(pin "2"
-			(uuid "de658f75-0bc7-4f22-a65b-0de70754c6e1")
-		)
-		(instances
-			(project ""
-				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
-					(reference "D30")
 					(unit 1)
 				)
 			)
