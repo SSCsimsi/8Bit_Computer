@@ -51,3 +51,53 @@ In file included from ..\main.cpp:2:
 ..\main.h:45:48: note:   initializing argument 2 of 'uint8_t Cmd::CmpString(char*, char*, uint8_t)'
    45 |         uint8_t CmpString(char* string1, char* string2, uint8_t length) {
       |                                          ~~~~~~^~~~~~~
+10:41:38 **** Rebuild of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o assembler.exe main.o 
+10:50:59 **** Incremental Build of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o assembler.exe main.o 
+10:51:26 **** Incremental Build of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o assembler.exe main.o 
+Info: Nothing to build for assembler
+10:53:21 **** Incremental Build of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o assembler.exe main.o 
+10:56:01 **** Incremental Build of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o assembler.exe main.o 
+10:59:44 **** Incremental Build of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:93:74: warning: right operand of comma operator has no effect [-Wunused-value]
+   93 |                                 cmdFile << reinterpret_cast<char*>(&b), 1;
+      |                                                                          ^
+g++ -o assembler.exe main.o 
+11:00:09 **** Incremental Build of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o assembler.exe main.o 
+Info: Nothing to build for assembler
+Info: Nothing to build for assembler
+Info: Nothing to build for assembler
+11:17:47 **** Incremental Build of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o assembler.exe main.o 
+11:21:45 **** Incremental Build of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o assembler.exe main.o 
+Info: Nothing to build for assembler
+11:28:28 **** Incremental Build of configuration Debug for project assembler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o assembler.exe main.o 
+Info: Nothing to build for assembler
