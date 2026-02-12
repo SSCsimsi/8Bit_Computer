@@ -4930,7 +4930,7 @@
 		)
 		(uuid "0dced75a-468b-4830-a8b0-c767311018b1")
 	)
-	(text "0000 1010"
+	(text "0000 1011"
 		(exclude_from_sim no)
 		(at 623.316 401.066 0)
 		(effects
@@ -5310,7 +5310,7 @@
 		)
 		(uuid "9fe581e2-92a4-4135-99cb-eb5745ea731f")
 	)
-	(text "0000 1011"
+	(text "0000 1100"
 		(exclude_from_sim no)
 		(at 628.396 442.214 0)
 		(effects
@@ -38570,16 +38570,6 @@
 		)
 		(uuid "167cbbdd-5a2a-45b9-bf75-8f5e651c2b5a")
 	)
-	(label "GND"
-		(at 599.44 419.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16a87285-ba14-4096-ab2f-a8de56dd13a1")
-	)
 	(label "VCC"
 		(at 1000.76 575.31 0)
 		(effects
@@ -39989,16 +39979,6 @@
 			(justify right bottom)
 		)
 		(uuid "37666600-adb3-42e0-8d27-6790c3e12342")
-	)
-	(label "GND"
-		(at 599.44 464.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "37a0c338-3c96-45b9-9f03-276678267579")
 	)
 	(label "VCC"
 		(at 958.85 598.17 0)
@@ -43321,6 +43301,16 @@
 		(uuid "7f87f57b-24c5-47d9-9361-9c515f0cd607")
 	)
 	(label "VCC"
+		(at 599.44 419.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fb0f4c3-f954-4864-8760-91afd15303be")
+	)
+	(label "VCC"
 		(at 923.29 374.65 180)
 		(effects
 			(font
@@ -43609,6 +43599,16 @@
 			(justify left bottom)
 		)
 		(uuid "85286b21-b333-4876-a459-dc65c46902db")
+	)
+	(label "GND"
+		(at 599.44 454.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8571d3aa-d664-4b9b-8932-701ad1fbb865")
 	)
 	(label "GND"
 		(at 118.11 393.7 180)
@@ -45800,16 +45800,6 @@
 		)
 		(uuid "b991dd05-76fc-4abc-8917-a70e3a27b848")
 	)
-	(label "VCC"
-		(at 599.44 459.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b9d95ed4-40eb-4b3b-94c9-27663182c0cd")
-	)
 	(label "GND"
 		(at 958.85 635 0)
 		(effects
@@ -46679,6 +46669,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca548b64-034b-4c48-bbd0-3bfd6ca28491")
+	)
+	(label "GND"
+		(at 599.44 459.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca76c1a0-78db-474a-bc10-e53cc2ad57a3")
 	)
 	(label "DIS5"
 		(at 760.73 669.29 0)
@@ -47619,16 +47619,6 @@
 			(justify right bottom)
 		)
 		(uuid "dc554c03-d971-4475-8210-5be85de32be7")
-	)
-	(label "VCC"
-		(at 599.44 454.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dcc4df19-fcd9-45cf-9c8d-176ce7fec212")
 	)
 	(label "DAT6"
 		(at 172.72 236.22 180)
@@ -49309,6 +49299,16 @@
 			(justify left bottom)
 		)
 		(uuid "feabbfa0-46df-41cc-982d-9fb470add5fe")
+	)
+	(label "VCC"
+		(at 599.44 464.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fec7a813-31d8-42d6-8e76-df5e7f414e8f")
 	)
 	(label "VCC"
 		(at 635 309.88 0)
