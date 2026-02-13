@@ -35,7 +35,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="460"/>
+      <pos x="1520" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -49,7 +49,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="580"/>
+      <pos x="1520" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -63,7 +63,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="700"/>
+      <pos x="1520" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -106,7 +106,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>8</int>
+          <int>16</int>
         </entry>
         <entry>
           <string>Data</string>
@@ -118,7 +118,7 @@
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <file>C:\Files\GitHub\Computer_HTL\8Bit Computer ver2.0\programmes\test\hex\test, CMD</file>
+          <file>C:\Files\GitHub\Computer_HTL\8Bit Computer ver2.0\programmes\assembler\assembler VSC\cmd</file>
         </entry>
         <entry>
           <string>autoReload</string>
@@ -126,44 +126,6 @@
         </entry>
       </elementAttributes>
       <pos x="1280" y="440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>ROM</elementName>
-      <elementAttributes>
-        <entry>
-          <string>AddrBits</string>
-          <int>16</int>
-        </entry>
-        <entry>
-          <string>isProgramMemory</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>DAT</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>8</int>
-        </entry>
-        <entry>
-          <string>Data</string>
-          <data>0,1,0,0,0,2,0,0,fd,6*0,ff,0,0,1</data>
-        </entry>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>hex</intFormat>
-        </entry>
-        <entry>
-          <string>lastDataFile</string>
-          <file>C:\Files\GitHub\Computer_HTL\8Bit Computer ver2.0\programmes\test\hex\test, DAT</file>
-        </entry>
-        <entry>
-          <string>autoReload</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="1280" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
@@ -194,14 +156,14 @@
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <file>C:\Files\GitHub\Computer_HTL\8Bit Computer ver2.0\programmes\test\hex\test, ADR</file>
+          <file>C:\Files\GitHub\Computer_HTL\8Bit Computer ver2.0\programmes\assembler\assembler VSC\adr</file>
         </entry>
         <entry>
           <string>autoReload</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1280" y="680"/>
+      <pos x="1280" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -264,7 +226,7 @@ avoid bus collisions</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1400" y="580"/>
+      <pos x="1440" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -278,34 +240,76 @@ avoid bus collisions</string>
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1400" y="700"/>
+      <pos x="1480" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
       <pos x="1040" y="620"/>
     </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>16</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>8,8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1360" y="460"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
+      <p1 x="1020" y="560"/>
+      <p2 x="1120" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="560"/>
+      <p2 x="1280" y="560"/>
+    </wire>
+    <wire>
       <p1 x="1260" y="480"/>
       <p2 x="1280" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="480"/>
+      <p2 x="1400" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="640"/>
+      <p2 x="1440" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="580"/>
+      <p2 x="1460" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="580"/>
+      <p2 x="1520" y="580"/>
     </wire>
     <wire>
       <p1 x="1100" y="580"/>
       <p2 x="1120" y="580"/>
     </wire>
     <wire>
-      <p1 x="1340" y="580"/>
-      <p2 x="1380" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="1420" y="580"/>
-      <p2 x="1460" y="580"/>
-    </wire>
-    <wire>
       <p1 x="1180" y="580"/>
       <p2 x="1200" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="660"/>
+      <p2 x="1480" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="500"/>
+      <p2 x="1120" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="520"/>
+      <p2 x="1520" y="520"/>
     </wire>
     <wire>
       <p1 x="1100" y="520"/>
@@ -316,44 +320,8 @@ avoid bus collisions</string>
       <p2 x="1220" y="520"/>
     </wire>
     <wire>
-      <p1 x="1240" y="680"/>
-      <p2 x="1280" y="680"/>
-    </wire>
-    <wire>
-      <p1 x="1080" y="620"/>
-      <p2 x="1100" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="1360" y="620"/>
-      <p2 x="1400" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="620"/>
-      <p2 x="1040" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="1340" y="460"/>
-      <p2 x="1460" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="1200" y="780"/>
-      <p2 x="1400" y="780"/>
-    </wire>
-    <wire>
-      <p1 x="1240" y="560"/>
-      <p2 x="1280" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="560"/>
-      <p2 x="1120" y="560"/>
-    </wire>
-    <wire>
-      <p1 x="1260" y="720"/>
-      <p2 x="1280" y="720"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="500"/>
-      <p2 x="1120" y="500"/>
+      <p1 x="1400" y="520"/>
+      <p2 x="1420" y="520"/>
     </wire>
     <wire>
       <p1 x="1260" y="600"/>
@@ -368,44 +336,44 @@ avoid bus collisions</string>
       <p2 x="1280" y="440"/>
     </wire>
     <wire>
-      <p1 x="1220" y="760"/>
-      <p2 x="1360" y="760"/>
+      <p1 x="1080" y="620"/>
+      <p2 x="1100" y="620"/>
     </wire>
     <wire>
-      <p1 x="1340" y="700"/>
-      <p2 x="1380" y="700"/>
+      <p1 x="1020" y="620"/>
+      <p2 x="1040" y="620"/>
     </wire>
     <wire>
-      <p1 x="1420" y="700"/>
-      <p2 x="1460" y="700"/>
+      <p1 x="1340" y="460"/>
+      <p2 x="1360" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="460"/>
+      <p2 x="1520" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1440" y="540"/>
+      <p2 x="1440" y="640"/>
     </wire>
     <wire>
       <p1 x="1200" y="580"/>
-      <p2 x="1200" y="780"/>
-    </wire>
-    <wire>
-      <p1 x="1360" y="620"/>
-      <p2 x="1360" y="760"/>
+      <p2 x="1200" y="660"/>
     </wire>
     <wire>
       <p1 x="1220" y="520"/>
-      <p2 x="1220" y="760"/>
+      <p2 x="1220" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1480" y="600"/>
+      <p2 x="1480" y="660"/>
     </wire>
     <wire>
       <p1 x="1240" y="440"/>
       <p2 x="1240" y="560"/>
     </wire>
     <wire>
-      <p1 x="1240" y="560"/>
-      <p2 x="1240" y="680"/>
-    </wire>
-    <wire>
-      <p1 x="1400" y="600"/>
-      <p2 x="1400" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="1400" y="720"/>
-      <p2 x="1400" y="780"/>
+      <p1 x="1400" y="480"/>
+      <p2 x="1400" y="520"/>
     </wire>
     <wire>
       <p1 x="1100" y="520"/>
@@ -418,10 +386,6 @@ avoid bus collisions</string>
     <wire>
       <p1 x="1260" y="380"/>
       <p2 x="1260" y="480"/>
-    </wire>
-    <wire>
-      <p1 x="1260" y="600"/>
-      <p2 x="1260" y="720"/>
     </wire>
     <wire>
       <p1 x="1260" y="480"/>

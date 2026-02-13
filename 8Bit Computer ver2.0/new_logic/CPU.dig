@@ -2168,12 +2168,12 @@ Bus Transfer:
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
-          <string>Frequency</string>
-          <int>20</int>
-        </entry>
-        <entry>
           <string>runRealTime</string>
           <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>2147483647</int>
         </entry>
       </elementAttributes>
       <pos x="680" y="60"/>

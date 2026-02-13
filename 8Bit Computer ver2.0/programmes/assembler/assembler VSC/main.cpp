@@ -72,8 +72,8 @@ int main() {
 	ifstream codeFile("code.txt");
 
 	/* Create the hex files for programming the computer */
-	ofstream cmdFile("cmd.hex"); //cmd and dat in one file, since they are combined in one flash chip
-	ofstream adrFile("adr.hex");
+	ofstream cmdFile("cmd"); //cmd and dat in one file, since they are combined in one flash chip
+	ofstream adrFile("adr");
 
     /* Create a txt for logging errors */
     ofstream errorLog("errors.txt");
