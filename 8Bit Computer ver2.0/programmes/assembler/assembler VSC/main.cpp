@@ -4,6 +4,7 @@
 #include <fstream>
 #include <string>
 #include <list>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -61,7 +62,7 @@ private:
 
 list<Cmd> Commands;
 
-void CreateList();
+void CreateList(void);
 
 int main() {
 
@@ -74,72 +75,81 @@ int main() {
 	ofstream cmdFile("cmd.hex"); //cmd and dat in one file, since they are combined in one flash chip
 	ofstream adrFile("adr.hex");
 
+    /* Create a txt for logging errors */
+    ofstream errorLog("errors.txt");
+
 	string newLine;
 	uint8_t check;
 
+    uint16_t currentLine = 0;
+
 	while(getline(codeFile, newLine)) {
 
-		check = 0;
-        newLine = newLine.substr(5); //cut off the line number
+        check = 0;
+        uint8_t pos = newLine.find(' ') + 1;
+        newLine = newLine.substr(pos); //cut off the line number
         newLine.append("000000000000");  //in order to avoid an empty string later
 
 		for(Cmd cmd : Commands) {
 
 			if(cmd.Compare(newLine)) {
 
-				uint8_t b = cmd.Put();
-				cmdFile.write(reinterpret_cast<char*>(&b), 1);
+                /* write cmd value to the file */
+                uint8_t b = cmd.Put();
+                cmdFile.write(reinterpret_cast<char*>(&b), 1);
 
-                /*
-                 * cmd 00 ----
-                 */
+
+
+                /* cmd XX ---- */
+                uint8_t val = 0x00;
                 if(cmd.Req(Requires::Data) or cmd.Req(Requires::Both)) {
 
-                    /* write 8bits to the cmd file */
-                    uint8_t val = stoul(newLine.substr(4,2), nullptr, 16);
-		            cmdFile.write(reinterpret_cast<char*>(&val), 1); //an error occurs here
-
-                } else {
-
-                    /* write 0x00 to the cmd file, this value will not be used during execution */
-                    uint8_t val = 0x00;
-		            cmdFile.write(reinterpret_cast<char*>(&val), 1);
+                    /* try to write 8 data bits to the cmd file */
+                    try{
+                        val = stoul(newLine.substr(4,2), nullptr, 16);
+                    }
+                    catch(exception e) {}
                 }
+                cmdFile.write(reinterpret_cast<char*>(&val), 1);
 
-                /* 
-                 * cmd -- 0000
-                 */
+
+
+                /* cmd -- XXXX */
+                uint16_t adr = 0x0000;
                 if(cmd.Req(Requires::Address) or cmd.Req(Requires::Both)) {
 
-                    /* write 16bits to the adr file */
-                    uint8_t adr = stoul(newLine.substr(7,4), nullptr, 16);
-		            adrFile.write(reinterpret_cast<char*>(&adr), 1);
-
-                } else {
-
-                    /* write 0x0000 to the adr file, this value will not be used during execution */
-                    uint8_t adr = 0x0000;
-		            adrFile.write(reinterpret_cast<char*>(&adr), 1);
+                    /* try to write 16bits to the adr file */
+                    try{
+                        adr = stoul(newLine.substr(7,4), nullptr, 16);
+                    } 
+                    catch(exception e) {}
                 }
+                adrFile.write(reinterpret_cast<char*>(&adr), 2);
 
-				check = 1;
-				break;
+                check = 1;
+                break;
+
 			}
 		}
 
 		if(!check) {
 
-			ofstream Error("UnknownCommand.txt");
-			Error.close();
+            stringstream s;
+            s << hex << (int)currentLine;
+            string line = s.str();
 
+			errorLog << "unknown command at line: " << line << endl;
 			return -1;
 		}
+
+        currentLine++;
 	}
 
 	/* Close the files */
 	codeFile.close();
 	cmdFile.close();
 	adrFile.close();
+    errorLog.close();
 }
 
 void CreateList() {
@@ -152,9 +162,9 @@ void CreateList() {
     cmd.Init("cjp", 0x02, Requires::Both,    Disables::None);       Commands.push_back(cmd); // Jump if
 
     // --- BUS TRANSFER ---
-    cmd.Init("sti", 0x03, Requires::Data,    Disables::None);       Commands.push_back(cmd); // Store to interface reg 1
-    cmd.Init("stj", 0x04, Requires::Data,    Disables::None);       Commands.push_back(cmd); // Store to interface reg 2
-    cmd.Init("ldi", 0x05, Requires::Nothing, Disables::AddressBus); Commands.push_back(cmd); // Load interface regs
+    cmd.Init("stx", 0x03, Requires::Data,    Disables::None);       Commands.push_back(cmd); // Store to interface reg 1
+    cmd.Init("sty", 0x04, Requires::Data,    Disables::None);       Commands.push_back(cmd); // Store to interface reg 2
+    cmd.Init("ldz", 0x05, Requires::Nothing, Disables::AddressBus); Commands.push_back(cmd); // Load interface regs
 
     // --- STORAGE ---
     cmd.Init("sto", 0x06, Requires::Both,    Disables::DataBus);    Commands.push_back(cmd); // Store to RAM
@@ -170,14 +180,14 @@ void CreateList() {
     cmd.Init("dec", 0x0C, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Decrement
 
     // --- LOGIC ---
-    cmd.Init("bnt", 0x0D, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Binary Not
-    cmd.Init("bor", 0x0E, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Binary Or
-    cmd.Init("ban", 0x0F, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Binary And
-    cmd.Init("bxr", 0x10, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Binary Xor
-    cmd.Init("not", 0x11, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Bitwise Not
-    cmd.Init("orr", 0x12, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Bitwise Or
-    cmd.Init("and", 0x13, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Bitwise And
-    cmd.Init("xor", 0x14, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Bitwise Xor
+    cmd.Init("not", 0x0D, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Binary Not
+    cmd.Init("orr", 0x0E, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Binary Or
+    cmd.Init("and", 0x0F, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Binary And
+    cmd.Init("xor", 0x10, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Binary Xor
+    cmd.Init("bnt", 0x11, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Bitwise Not
+    cmd.Init("bor", 0x12, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Bitwise Or
+    cmd.Init("ban", 0x13, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Bitwise And
+    cmd.Init("bxr", 0x14, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Bitwise Xor
 
     // --- COMPARE ---
     cmd.Init("cgt", 0x15, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Compare Greater than
@@ -226,3 +236,4 @@ void CreateList() {
 
     */
 }
+
