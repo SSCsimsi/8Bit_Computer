@@ -6,11 +6,12 @@
 #include <list>
 #include <bits/stdc++.h>
 
+
 using namespace std;
 
 #define CMDLENGTH 3
 
-enum Requires{
+enum Requires{  
     Nothing,
     Data,
     Address,
@@ -37,8 +38,8 @@ public:
         dis = disIn;
 	}
 
-	uint8_t Compare(string newLine) {
-		return name == newLine.substr(0, CMDLENGTH);
+	string Name() {
+		return name;
 	}
 
 	uint8_t Put() {
@@ -49,8 +50,8 @@ public:
         return (req == reqIn);
     }
 
-    uint8_t Dis(Disables disIn) {
-        return (dis == disIn);
+    Disables Dis() {
+        return dis;
     }
 
 private:
@@ -63,6 +64,7 @@ private:
 list<Cmd> Commands;
 
 void CreateList(void);
+string ToHex(uint16_t num);
 
 int main() {
 
@@ -72,8 +74,8 @@ int main() {
 	ifstream codeFile("code.txt");
 
 	/* Create the hex files for programming the computer */
-	ofstream cmdFile("cmd"); //cmd and dat in one file, since they are combined in one flash chip
-	ofstream adrFile("adr");
+	ofstream cmdFile("cmd", ios::binary); //cmd and dat in one file, since they are combined in one flash chip
+	ofstream adrFile("adr", ios::binary);
 
     /* Create a txt for logging errors */
     ofstream errorLog("errors.txt");
@@ -83,22 +85,28 @@ int main() {
 
     uint16_t currentLine = 0;
 
+    Disables prevBusAccess = None;
+
 	while(getline(codeFile, newLine)) {
 
         check = 0;
+
+        /* cut off the line number */
         uint8_t pos = newLine.find(' ') + 1;
-        newLine = newLine.substr(pos); //cut off the line number
-        newLine.append("000000000000");  //in order to avoid an empty string later
+        newLine = newLine.substr(pos);
+
+        /* in order to avoid an empty string later */
+        newLine = newLine.append("               ");
 
 		for(Cmd cmd : Commands) {
 
-			if(cmd.Compare(newLine)) {
+			if(cmd.Name() == newLine.substr(0, newLine.find(' '))) {
 
                 /* write cmd value to the file */
                 uint8_t b = cmd.Put();
                 cmdFile.write(reinterpret_cast<char*>(&b), 1);
 
-
+                
 
                 /* cmd XX ---- */
                 uint8_t val = 0x00;
@@ -106,9 +114,14 @@ int main() {
 
                     /* try to write 8 data bits to the cmd file */
                     try{
-                        val = stoul(newLine.substr(4,2), nullptr, 16);
+                        /* replace all spaces with 0, to avoid weird behaviour */
+                        string s = newLine.substr(4,2);
+                        //s.replace(s.begin(), s.end(), ' ', '0');
+                        val = stoul(s, nullptr, 16);
                     }
-                    catch(exception e) {}
+                    catch(exception e) {
+                        errorLog << "unknown data value at line: " << ToHex(currentLine) << endl;
+                    }
                 }
                 cmdFile.write(reinterpret_cast<char*>(&val), 1);
 
@@ -120,29 +133,32 @@ int main() {
 
                     /* try to write 16bits to the adr file */
                     try{
-                        adr = stoul(newLine.substr(7,4), nullptr, 16);
+                        /* replace all spaces with 0, to avoid weird behaviour */
+                        string s = newLine.substr(7,4);
+                        //s.replace(s.begin(), s.end(), ' ', '0');
+                        adr = stoul(s, nullptr, 16);
                     } 
-                    catch(exception e) {}
+                    catch(exception e) {
+                        errorLog << "unknown address value at line: " << ToHex(currentLine) << endl;
+                    }
                 }
                 adrFile.write(reinterpret_cast<char*>(&adr), 2);
 
+
+
+                currentLine++;
+                prevBusAccess = cmd.Dis();
+
                 check = 1;
                 break;
-
 			}
 		}
 
 		if(!check) {
 
-            stringstream s;
-            s << hex << (int)currentLine;
-            string line = s.str();
-
-			errorLog << "unknown command at line: " << line << endl;
+			errorLog << "unknown command at line: " << ToHex(currentLine) << endl;
 			return -1;
 		}
-
-        currentLine++;
 	}
 
 	/* Close the files */
@@ -237,3 +253,8 @@ void CreateList() {
     */
 }
 
+string ToHex(uint16_t num) {
+    stringstream s;
+    s << hex << (int)num;
+    return s.str();
+}
