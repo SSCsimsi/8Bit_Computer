@@ -110,13 +110,14 @@ int main() {
 
                 /* cmd XX ---- */
                 uint8_t val = 0x00;
-                if(cmd.Req(Requires::Data) or cmd.Req(Requires::Both)) {
+
+                /* only if the command needs data, and no previous command is outputting data to the bus */
+                if((cmd.Req(Requires::Data) or cmd.Req(Requires::Both)) and !(prevBusAccess == Disables::DataBus)) {
 
                     /* try to write 8 data bits to the cmd file */
                     try{
-                        /* replace all spaces with 0, to avoid weird behaviour */
-                        string s = newLine.substr(4,2);
-                        //s.replace(s.begin(), s.end(), ' ', '0');
+                        newLine = newLine.substr(newLine.find(' ') + 1);
+                        string s = newLine.substr(0, 2);
                         val = stoul(s, nullptr, 16);
                     }
                     catch(exception e) {
@@ -129,13 +130,14 @@ int main() {
 
                 /* cmd -- XXXX */
                 uint16_t adr = 0x0000;
-                if(cmd.Req(Requires::Address) or cmd.Req(Requires::Both)) {
+
+                /* only if the command needs an address, and no previous command is outputting an address to the bus */
+                if((cmd.Req(Requires::Address) or cmd.Req(Requires::Both)) and !(prevBusAccess == Disables::AddressBus)) {
 
                     /* try to write 16bits to the adr file */
                     try{
-                        /* replace all spaces with 0, to avoid weird behaviour */
-                        string s = newLine.substr(7,4);
-                        //s.replace(s.begin(), s.end(), ' ', '0');
+                        newLine = newLine.substr(newLine.find(' ') + 1);
+                        string s = newLine.substr(0, 4);
                         adr = stoul(s, nullptr, 16);
                     } 
                     catch(exception e) {
@@ -183,8 +185,8 @@ void CreateList() {
     cmd.Init("ldz", 0x05, Requires::Nothing, Disables::AddressBus); Commands.push_back(cmd); // Load interface regs
 
     // --- STORAGE ---
-    cmd.Init("sto", 0x06, Requires::Both,    Disables::DataBus);    Commands.push_back(cmd); // Store to RAM
-    cmd.Init("lod", 0x07, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Load from RAM
+    cmd.Init("sto", 0x06, Requires::Both,    Disables::None);       Commands.push_back(cmd); // Store to RAM
+    cmd.Init("lod", 0x07, Requires::Address, Disables::DataBus);    Commands.push_back(cmd); // Load from RAM
 
     // --- ALU ---
     cmd.Init("add", 0x08, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Add
