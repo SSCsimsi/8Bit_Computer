@@ -3143,6 +3143,39 @@ Bus Transfer:
       </elementAttributes>
       <pos x="1560" y="0"/>
     </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Size</string>
+          <int>0</int>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>51</red>
+            <green>153</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1600" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1600" y="-100"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
