@@ -156,16 +156,6 @@
       <pos x="1280" y="160"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>CLR_PC</string>
-        </entry>
-      </elementAttributes>
-      <pos x="340" y="700"/>
-    </visualElement>
-    <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
@@ -414,7 +404,7 @@ flag reg:
 - load flags</string>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="1000"/>
+      <pos x="1740" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>DAT to ADR interface.dig</elementName>
@@ -609,7 +599,7 @@ Bus Transfer:
 - load from interface registers</string>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="860"/>
+      <pos x="1740" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>Input Control.dig</elementName>
@@ -652,7 +642,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="240" y="160"/>
+      <pos x="360" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>DipSwitch</elementName>
@@ -662,7 +652,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="260" y="160"/>
+      <pos x="380" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>DipSwitch</elementName>
@@ -672,7 +662,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="280" y="160"/>
+      <pos x="400" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>DipSwitch</elementName>
@@ -682,7 +672,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="300" y="160"/>
+      <pos x="420" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>DipSwitch</elementName>
@@ -692,7 +682,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="320" y="160"/>
+      <pos x="440" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>DipSwitch</elementName>
@@ -702,7 +692,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="340" y="160"/>
+      <pos x="460" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>DipSwitch</elementName>
@@ -712,7 +702,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="360" y="160"/>
+      <pos x="480" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>DipSwitch</elementName>
@@ -722,7 +712,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="380" y="160"/>
+      <pos x="500" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -740,7 +730,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="160"/>
+      <pos x="500" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -762,7 +752,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="120"/>
+      <pos x="500" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -785,7 +775,7 @@ Bus Transfer:
           </awt-color>
         </entry>
       </elementAttributes>
-      <pos x="360" y="100"/>
+      <pos x="480" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -800,10 +790,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[60]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[59]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="380" y="100"/>
+      <pos x="500" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>DiodeForward</elementName>
@@ -900,7 +890,7 @@ Bus Transfer:
           <string>8*8</string>
         </entry>
       </elementAttributes>
-      <pos x="1680" y="100"/>
+      <pos x="1700" y="-20"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -1042,7 +1032,7 @@ Bus Transfer:
     <visualElement>
       <elementName>Button</elementName>
       <elementAttributes/>
-      <pos x="280" y="460"/>
+      <pos x="400" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1056,32 +1046,32 @@ Bus Transfer:
           <string>6</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="400"/>
+      <pos x="500" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Button</elementName>
       <elementAttributes/>
-      <pos x="320" y="460"/>
+      <pos x="440" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Button</elementName>
       <elementAttributes/>
-      <pos x="320" y="500"/>
+      <pos x="440" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>Button</elementName>
       <elementAttributes/>
-      <pos x="360" y="460"/>
+      <pos x="480" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Button</elementName>
       <elementAttributes/>
-      <pos x="320" y="420"/>
+      <pos x="440" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Button</elementName>
       <elementAttributes/>
-      <pos x="380" y="400"/>
+      <pos x="500" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Controller Input.dig</elementName>
@@ -1091,7 +1081,7 @@ Bus Transfer:
     <visualElement>
       <elementName>Button</elementName>
       <elementAttributes/>
-      <pos x="680" y="60"/>
+      <pos x="360" y="-300"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -1151,7 +1141,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[93]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[92]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="840" y="-60"/>
@@ -1169,7 +1159,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[93]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[92]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="800" y="-60"/>
@@ -1187,7 +1177,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[93]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[92]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="780" y="-60"/>
@@ -1232,7 +1222,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[93]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[92]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="920" y="-60"/>
@@ -1250,7 +1240,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[93]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[92]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="940" y="-60"/>
@@ -1268,7 +1258,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[93]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[92]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="900" y="-60"/>
@@ -1286,7 +1276,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[93]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[92]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="880" y="-60"/>
@@ -1520,7 +1510,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1180" y="-60"/>
@@ -1538,7 +1528,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1220" y="-60"/>
@@ -1556,7 +1546,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1240" y="-60"/>
@@ -1601,7 +1591,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1300" y="-60"/>
@@ -1619,7 +1609,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1280" y="-60"/>
@@ -1637,7 +1627,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1320" y="-60"/>
@@ -1655,7 +1645,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1340" y="-60"/>
@@ -1700,7 +1690,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1400" y="-60"/>
@@ -1718,7 +1708,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1380" y="-60"/>
@@ -1736,7 +1726,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1420" y="-60"/>
@@ -1754,7 +1744,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1440" y="-60"/>
@@ -1799,7 +1789,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1500" y="-60"/>
@@ -1817,7 +1807,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1480" y="-60"/>
@@ -1835,7 +1825,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1520" y="-60"/>
@@ -1853,7 +1843,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[117]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[116]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1540" y="-60"/>
@@ -2088,7 +2078,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="980" y="-240"/>
@@ -2106,7 +2096,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1020" y="-240"/>
@@ -2124,7 +2114,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1040" y="-240"/>
@@ -2169,7 +2159,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1100" y="-240"/>
@@ -2187,7 +2177,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1080" y="-240"/>
@@ -2205,7 +2195,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1120" y="-240"/>
@@ -2223,7 +2213,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1140" y="-240"/>
@@ -2268,7 +2258,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1200" y="-240"/>
@@ -2286,7 +2276,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1180" y="-240"/>
@@ -2304,7 +2294,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1220" y="-240"/>
@@ -2322,7 +2312,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1240" y="-240"/>
@@ -2367,7 +2357,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1300" y="-240"/>
@@ -2385,7 +2375,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1280" y="-240"/>
@@ -2403,7 +2393,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1320" y="-240"/>
@@ -2421,7 +2411,7 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[149]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[148]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
       <pos x="1340" y="-240"/>
@@ -2746,7 +2736,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="100"/>
+      <pos x="2020" y="-20"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -2765,7 +2755,7 @@ Bus Transfer:
           </awt-color>
         </entry>
       </elementAttributes>
-      <pos x="1720" y="80"/>
+      <pos x="1740" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2787,7 +2777,7 @@ Bus Transfer:
           <string>1*4</string>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="-20"/>
+      <pos x="1860" y="-140"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -2810,7 +2800,7 @@ Bus Transfer:
           </awt-color>
         </entry>
       </elementAttributes>
-      <pos x="1820" y="-40"/>
+      <pos x="1840" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -2825,10 +2815,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[191]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="-40"/>
+      <pos x="1860" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -2843,10 +2833,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[191]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="-40"/>
+      <pos x="1820" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -2861,15 +2851,15 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[191]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1780" y="-40"/>
+      <pos x="1800" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="1840" y="-60"/>
+      <pos x="1860" y="-180"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2891,7 +2881,7 @@ Bus Transfer:
           <string>1*4</string>
         </entry>
       </elementAttributes>
-      <pos x="1940" y="-20"/>
+      <pos x="1960" y="-140"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -2906,10 +2896,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[191]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="-40"/>
+      <pos x="1940" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -2924,10 +2914,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[191]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1940" y="-40"/>
+      <pos x="1960" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -2942,10 +2932,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[191]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1900" y="-40"/>
+      <pos x="1920" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -2960,15 +2950,15 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[191]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[190]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="-40"/>
+      <pos x="1900" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>Ground</elementName>
       <elementAttributes/>
-      <pos x="1940" y="-60"/>
+      <pos x="1960" y="-180"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2990,37 +2980,259 @@ Bus Transfer:
           <string>4,4</string>
         </entry>
       </elementAttributes>
+      <pos x="1960" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>255</red>
+            <green>0</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="-320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>255</red>
+            <green>0</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="-320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1780" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1820" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1860" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2020" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1740" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1780" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1820" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1860" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
+        </entry>
+      </elementAttributes>
       <pos x="1940" y="0"/>
     </visualElement>
     <visualElement>
-      <elementName>Seven-Seg-Hex</elementName>
+      <elementName>LED</elementName>
       <elementAttributes>
         <entry>
-          <string>Color</string>
-          <awt-color>
-            <red>255</red>
-            <green>0</green>
-            <blue>255</blue>
-            <alpha>255</alpha>
-          </awt-color>
+          <string>rotation</string>
+          <rotation rotation="3"/>
         </entry>
-      </elementAttributes>
-      <pos x="1880" y="-200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Seven-Seg-Hex</elementName>
-      <elementAttributes>
         <entry>
           <string>Color</string>
-          <awt-color>
-            <red>255</red>
-            <green>0</green>
-            <blue>255</blue>
-            <alpha>255</alpha>
-          </awt-color>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1780" y="-200"/>
+      <pos x="1980" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3031,94 +3243,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1800" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1840" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1880" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1920" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="2000" y="80"/>
+      <pos x="2020" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -3144,7 +3272,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="140"/>
+      <pos x="2020" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3155,10 +3283,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1720" y="120"/>
+      <pos x="1740" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3169,10 +3297,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="120"/>
+      <pos x="1780" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3183,10 +3311,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="120"/>
+      <pos x="1820" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3197,10 +3325,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="120"/>
+      <pos x="1860" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3211,10 +3339,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="120"/>
+      <pos x="1900" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3225,10 +3353,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="120"/>
+      <pos x="1940" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3239,10 +3367,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1960" y="120"/>
+      <pos x="1980" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3253,10 +3381,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="120"/>
+      <pos x="2020" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -3282,7 +3410,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="180"/>
+      <pos x="2020" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3293,10 +3421,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1720" y="160"/>
+      <pos x="1740" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3307,10 +3435,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="160"/>
+      <pos x="1780" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3321,10 +3449,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="160"/>
+      <pos x="1820" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3335,10 +3463,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="160"/>
+      <pos x="1860" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3349,10 +3477,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="160"/>
+      <pos x="1900" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3363,10 +3491,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="160"/>
+      <pos x="1940" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3377,10 +3505,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1960" y="160"/>
+      <pos x="1980" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3391,10 +3519,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="160"/>
+      <pos x="2020" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -3420,7 +3548,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="220"/>
+      <pos x="2020" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3431,10 +3559,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1720" y="200"/>
+      <pos x="1740" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3445,10 +3573,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="200"/>
+      <pos x="1780" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3459,10 +3587,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="200"/>
+      <pos x="1820" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3473,10 +3601,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="200"/>
+      <pos x="1860" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3487,10 +3615,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="200"/>
+      <pos x="1900" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3501,10 +3629,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="200"/>
+      <pos x="1940" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3515,10 +3643,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1960" y="200"/>
+      <pos x="1980" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3529,10 +3657,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="200"/>
+      <pos x="2020" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -3558,7 +3686,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="260"/>
+      <pos x="2020" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3569,10 +3697,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1720" y="240"/>
+      <pos x="1740" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3583,10 +3711,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="240"/>
+      <pos x="1780" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3597,10 +3725,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="240"/>
+      <pos x="1820" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3611,10 +3739,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="240"/>
+      <pos x="1860" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3625,10 +3753,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="240"/>
+      <pos x="1900" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3639,10 +3767,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="240"/>
+      <pos x="1940" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3653,10 +3781,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1960" y="240"/>
+      <pos x="1980" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3667,10 +3795,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="240"/>
+      <pos x="2020" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -3696,7 +3824,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="300"/>
+      <pos x="2020" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3707,10 +3835,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1720" y="280"/>
+      <pos x="1740" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3721,10 +3849,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="280"/>
+      <pos x="1780" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3735,10 +3863,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="280"/>
+      <pos x="1820" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3749,10 +3877,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="280"/>
+      <pos x="1860" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3763,10 +3891,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="280"/>
+      <pos x="1900" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3777,10 +3905,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="280"/>
+      <pos x="1940" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3791,10 +3919,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1960" y="280"/>
+      <pos x="1980" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3805,10 +3933,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="280"/>
+      <pos x="2020" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -3834,7 +3962,7 @@ Bus Transfer:
           <string>1*8</string>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="340"/>
+      <pos x="2020" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3845,10 +3973,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1720" y="320"/>
+      <pos x="1740" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3859,10 +3987,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="320"/>
+      <pos x="1780" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3873,10 +4001,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="320"/>
+      <pos x="1820" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3887,10 +4015,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="320"/>
+      <pos x="1860" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3901,10 +4029,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="320"/>
+      <pos x="1900" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3915,10 +4043,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1920" y="320"/>
+      <pos x="1940" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3929,10 +4057,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="1960" y="320"/>
+      <pos x="1980" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -3943,148 +4071,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
+          <awt-color reference="../../../../visualElement[188]/elementAttributes/entry[2]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="2000" y="320"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Splitter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>mirror</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>splitterSpreading</string>
-          <int>2</int>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Input Splitting</string>
-          <string>8</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>1*8</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2000" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1720" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1760" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1800" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1840" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1880" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1920" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Color</string>
-          <awt-color reference="../../../../visualElement[189]/elementAttributes/entry[2]/awt-color"/>
-        </entry>
-      </elementAttributes>
-      <pos x="2000" y="360"/>
+      <pos x="2020" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -4099,10 +4089,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[60]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[59]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="340" y="100"/>
+      <pos x="460" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -4117,10 +4107,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[60]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[59]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="320" y="100"/>
+      <pos x="440" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -4135,10 +4125,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[60]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[59]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="300" y="100"/>
+      <pos x="420" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -4153,10 +4143,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[60]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[59]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="280" y="100"/>
+      <pos x="400" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -4171,10 +4161,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[60]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[59]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="260" y="100"/>
+      <pos x="380" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>LED</elementName>
@@ -4189,10 +4179,10 @@ Bus Transfer:
         </entry>
         <entry>
           <string>Color</string>
-          <awt-color reference="../../../../visualElement[60]/elementAttributes/entry[3]/awt-color"/>
+          <awt-color reference="../../../../visualElement[59]/elementAttributes/entry[3]/awt-color"/>
         </entry>
       </elementAttributes>
-      <pos x="240" y="100"/>
+      <pos x="360" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Button</elementName>
@@ -4202,7 +4192,7 @@ Bus Transfer:
           <rotation rotation="1"/>
         </entry>
       </elementAttributes>
-      <pos x="440" y="180"/>
+      <pos x="560" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4220,7 +4210,7 @@ Bus Transfer:
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1725" y="-240"/>
+      <pos x="1745" y="-360"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4238,7 +4228,7 @@ Bus Transfer:
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1792" y="33"/>
+      <pos x="1814" y="-83"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4256,7 +4246,7 @@ Bus Transfer:
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="195" y="57"/>
+      <pos x="316" y="116"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -4274,7 +4264,199 @@ Bus Transfer:
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="210" y="334"/>
+      <pos x="330" y="354"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Button</elementName>
+      <elementAttributes/>
+      <pos x="1340" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>clear</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1296" y="-282"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>accept</string>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="-240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="-240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1*2</string>
+        </entry>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>36</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Clock Module</string>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="291" y="-365"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>T1--T0
+0        --      0          &gt;          off
+0        --      1          &gt;          button
+1        --      0          &gt;          1hz
+1        --      1          &gt;          max (off for performance reasons)</string>
+        </entry>
+      </elementAttributes>
+      <pos x="529" y="-304"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes/>
+      <pos x="580" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>T1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="447" y="-234"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>T0</string>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="487" y="-234"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Frequency</string>
+          <int>2147483647</int>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="-220"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -4327,27 +4509,27 @@ Bus Transfer:
       <p2 x="1040" y="-220"/>
     </wire>
     <wire>
-      <p1 x="1820" y="-60"/>
-      <p2 x="1840" y="-20"/>
+      <p1 x="1840" y="-180"/>
+      <p2 x="1860" y="-140"/>
     </wire>
     <wire>
-      <p1 x="1920" y="-60"/>
-      <p2 x="1940" y="-20"/>
+      <p1 x="1940" y="-180"/>
+      <p2 x="1960" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="-220"/>
+      <p2 x="380" y="-240"/>
     </wire>
     <wire>
       <p1 x="720" y="0"/>
       <p2 x="940" y="0"/>
     </wire>
     <wire>
-      <p1 x="1640" y="0"/>
-      <p2 x="1940" y="0"/>
-    </wire>
-    <wire>
       <p1 x="940" y="0"/>
       <p2 x="1480" y="0"/>
     </wire>
     <wire>
-      <p1 x="640" y="1280"/>
+      <p1 x="620" y="1280"/>
       <p2 x="1280" y="1280"/>
     </wire>
     <wire>
@@ -4355,15 +4537,19 @@ Bus Transfer:
       <p2 x="1440" y="1280"/>
     </wire>
     <wire>
+      <p1 x="360" y="-260"/>
+      <p2 x="380" y="-260"/>
+    </wire>
+    <wire>
       <p1 x="1080" y="260"/>
       <p2 x="1280" y="260"/>
     </wire>
     <wire>
-      <p1 x="1700" y="260"/>
-      <p2 x="2000" y="260"/>
+      <p1 x="1720" y="260"/>
+      <p2 x="2020" y="260"/>
     </wire>
     <wire>
-      <p1 x="620" y="1540"/>
+      <p1 x="600" y="1540"/>
       <p2 x="1280" y="1540"/>
     </wire>
     <wire>
@@ -4379,12 +4565,20 @@ Bus Transfer:
       <p2 x="1280" y="520"/>
     </wire>
     <wire>
-      <p1 x="380" y="140"/>
-      <p2 x="640" y="140"/>
+      <p1 x="520" y="520"/>
+      <p2 x="560" y="520"/>
     </wire>
     <wire>
-      <p1 x="1700" y="140"/>
-      <p2 x="2000" y="140"/>
+      <p1 x="440" y="520"/>
+      <p2 x="500" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1860" y="-140"/>
+      <p2 x="1940" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="140"/>
+      <p2 x="2020" y="140"/>
     </wire>
     <wire>
       <p1 x="720" y="780"/>
@@ -4395,16 +4589,16 @@ Bus Transfer:
       <p2 x="940" y="1420"/>
     </wire>
     <wire>
-      <p1 x="540" y="400"/>
-      <p2 x="1200" y="400"/>
-    </wire>
-    <wire>
       <p1 x="1240" y="400"/>
       <p2 x="1280" y="400"/>
     </wire>
     <wire>
       <p1 x="1400" y="400"/>
       <p2 x="1520" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="400"/>
+      <p2 x="1200" y="400"/>
     </wire>
     <wire>
       <p1 x="720" y="1040"/>
@@ -4419,8 +4613,24 @@ Bus Transfer:
       <p2 x="1520" y="-20"/>
     </wire>
     <wire>
-      <p1 x="1840" y="-20"/>
-      <p2 x="1920" y="-20"/>
+      <p1 x="1680" y="-20"/>
+      <p2 x="1700" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="-20"/>
+      <p2 x="2020" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="20"/>
+      <p2 x="2020" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="20"/>
+      <p2 x="1140" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="20"/>
+      <p2 x="1520" y="20"/>
     </wire>
     <wire>
       <p1 x="1400" y="1300"/>
@@ -4435,12 +4645,8 @@ Bus Transfer:
       <p2 x="1280" y="660"/>
     </wire>
     <wire>
-      <p1 x="760" y="20"/>
-      <p2 x="1140" y="20"/>
-    </wire>
-    <wire>
-      <p1 x="1140" y="20"/>
-      <p2 x="1520" y="20"/>
+      <p1 x="360" y="-280"/>
+      <p2 x="380" y="-280"/>
     </wire>
     <wire>
       <p1 x="1200" y="280"/>
@@ -4471,10 +4677,6 @@ Bus Transfer:
       <p2 x="1280" y="160"/>
     </wire>
     <wire>
-      <p1 x="440" y="160"/>
-      <p2 x="620" y="160"/>
-    </wire>
-    <wire>
       <p1 x="920" y="800"/>
       <p2 x="940" y="800"/>
     </wire>
@@ -4499,10 +4701,6 @@ Bus Transfer:
       <p2 x="1160" y="1440"/>
     </wire>
     <wire>
-      <p1 x="320" y="420"/>
-      <p2 x="380" y="420"/>
-    </wire>
-    <wire>
       <p1 x="1400" y="420"/>
       <p2 x="1560" y="420"/>
     </wire>
@@ -4524,7 +4722,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1400" y="1700"/>
-      <p2 x="1640" y="1700"/>
+      <p2 x="1660" y="1700"/>
     </wire>
     <wire>
       <p1 x="760" y="1700"/>
@@ -4555,6 +4753,10 @@ Bus Transfer:
       <p2 x="1540" y="40"/>
     </wire>
     <wire>
+      <p1 x="420" y="40"/>
+      <p2 x="580" y="40"/>
+    </wire>
+    <wire>
       <p1 x="1540" y="40"/>
       <p2 x="1560" y="40"/>
     </wire>
@@ -4564,7 +4766,7 @@ Bus Transfer:
     </wire>
     <wire>
       <p1 x="1400" y="1960"/>
-      <p2 x="1660" y="1960"/>
+      <p2 x="1680" y="1960"/>
     </wire>
     <wire>
       <p1 x="760" y="1960"/>
@@ -4575,8 +4777,12 @@ Bus Transfer:
       <p2 x="1280" y="1320"/>
     </wire>
     <wire>
-      <p1 x="620" y="1320"/>
+      <p1 x="600" y="1320"/>
       <p2 x="1020" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="-300"/>
+      <p2 x="1620" y="-300"/>
     </wire>
     <wire>
       <p1 x="840" y="940"/>
@@ -4587,10 +4793,6 @@ Bus Transfer:
       <p2 x="940" y="300"/>
     </wire>
     <wire>
-      <p1 x="1700" y="300"/>
-      <p2 x="2000" y="300"/>
-    </wire>
-    <wire>
       <p1 x="1080" y="1580"/>
       <p2 x="1280" y="1580"/>
     </wire>
@@ -4599,7 +4801,7 @@ Bus Transfer:
       <p2 x="940" y="1580"/>
     </wire>
     <wire>
-      <p1 x="580" y="2220"/>
+      <p1 x="560" y="2220"/>
       <p2 x="1280" y="2220"/>
     </wire>
     <wire>
@@ -4627,24 +4829,28 @@ Bus Transfer:
       <p2 x="1160" y="1840"/>
     </wire>
     <wire>
+      <p1 x="1720" y="180"/>
+      <p2 x="2020" y="180"/>
+    </wire>
+    <wire>
       <p1 x="800" y="180"/>
       <p2 x="1280" y="180"/>
     </wire>
     <wire>
-      <p1 x="1700" y="180"/>
-      <p2 x="2000" y="180"/>
+      <p1 x="500" y="180"/>
+      <p2 x="640" y="180"/>
     </wire>
     <wire>
       <p1 x="720" y="2100"/>
       <p2 x="940" y="2100"/>
     </wire>
     <wire>
-      <p1 x="300" y="440"/>
-      <p2 x="380" y="440"/>
-    </wire>
-    <wire>
       <p1 x="840" y="440"/>
       <p2 x="1280" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="440"/>
+      <p2 x="500" y="440"/>
     </wire>
     <wire>
       <p1 x="1060" y="1720"/>
@@ -4653,6 +4859,18 @@ Bus Transfer:
     <wire>
       <p1 x="1400" y="1720"/>
       <p2 x="1520" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="60"/>
+      <p2 x="2020" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="60"/>
+      <p2 x="840" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="60"/>
+      <p2 x="1600" y="60"/>
     </wire>
     <wire>
       <p1 x="1140" y="1340"/>
@@ -4679,18 +4897,6 @@ Bus Transfer:
       <p2 x="1560" y="700"/>
     </wire>
     <wire>
-      <p1 x="340" y="700"/>
-      <p2 x="540" y="700"/>
-    </wire>
-    <wire>
-      <p1 x="680" y="60"/>
-      <p2 x="840" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="840" y="60"/>
-      <p2 x="1600" y="60"/>
-    </wire>
-    <wire>
       <p1 x="800" y="1980"/>
       <p2 x="1280" y="1980"/>
     </wire>
@@ -4699,12 +4905,20 @@ Bus Transfer:
       <p2 x="1520" y="1980"/>
     </wire>
     <wire>
+      <p1 x="440" y="-320"/>
+      <p2 x="500" y="-320"/>
+    </wire>
+    <wire>
       <p1 x="920" y="320"/>
       <p2 x="940" y="320"/>
     </wire>
     <wire>
       <p1 x="1000" y="320"/>
       <p2 x="1080" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="320"/>
+      <p2 x="1620" y="320"/>
     </wire>
     <wire>
       <p1 x="920" y="1600"/>
@@ -4739,6 +4953,10 @@ Bus Transfer:
       <p2 x="1280" y="200"/>
     </wire>
     <wire>
+      <p1 x="500" y="200"/>
+      <p2 x="620" y="200"/>
+    </wire>
+    <wire>
       <p1 x="920" y="2120"/>
       <p2 x="940" y="2120"/>
     </wire>
@@ -4755,24 +4973,20 @@ Bus Transfer:
       <p2 x="1160" y="2120"/>
     </wire>
     <wire>
-      <p1 x="320" y="460"/>
-      <p2 x="340" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="460"/>
-      <p2 x="380" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="460"/>
-      <p2 x="300" y="460"/>
-    </wire>
-    <wire>
       <p1 x="720" y="1740"/>
       <p2 x="940" y="1740"/>
     </wire>
     <wire>
       <p1 x="1080" y="1740"/>
       <p2 x="1280" y="1740"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="460"/>
+      <p2 x="500" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="80"/>
+      <p2 x="580" y="80"/>
     </wire>
     <wire>
       <p1 x="1060" y="2000"/>
@@ -4803,10 +5017,6 @@ Bus Transfer:
       <p2 x="1020" y="1360"/>
     </wire>
     <wire>
-      <p1 x="1700" y="340"/>
-      <p2 x="2000" y="340"/>
-    </wire>
-    <wire>
       <p1 x="1160" y="340"/>
       <p2 x="1260" y="340"/>
     </wire>
@@ -4827,7 +5037,7 @@ Bus Transfer:
       <p2 x="1280" y="980"/>
     </wire>
     <wire>
-      <p1 x="660" y="1240"/>
+      <p1 x="640" y="1240"/>
       <p2 x="1440" y="1240"/>
     </wire>
     <wire>
@@ -4839,8 +5049,16 @@ Bus Transfer:
       <p2 x="1320" y="-220"/>
     </wire>
     <wire>
-      <p1 x="1700" y="220"/>
-      <p2 x="2000" y="220"/>
+      <p1 x="400" y="-220"/>
+      <p2 x="440" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="220"/>
+      <p2 x="2020" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="220"/>
+      <p2 x="600" y="220"/>
     </wire>
     <wire>
       <p1 x="720" y="220"/>
@@ -4859,8 +5077,16 @@ Bus Transfer:
       <p2 x="940" y="860"/>
     </wire>
     <wire>
-      <p1 x="340" y="480"/>
-      <p2 x="380" y="480"/>
+      <p1 x="440" y="480"/>
+      <p2 x="460" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="480"/>
+      <p2 x="500" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="480"/>
+      <p2 x="420" y="480"/>
     </wire>
     <wire>
       <p1 x="920" y="1760"/>
@@ -4879,12 +5105,12 @@ Bus Transfer:
       <p2 x="940" y="1120"/>
     </wire>
     <wire>
-      <p1 x="1660" y="100"/>
-      <p2 x="1680" y="100"/>
+      <p1 x="1720" y="100"/>
+      <p2 x="2020" y="100"/>
     </wire>
     <wire>
-      <p1 x="1700" y="100"/>
-      <p2 x="2000" y="100"/>
+      <p1 x="560" y="100"/>
+      <p2 x="680" y="100"/>
     </wire>
     <wire>
       <p1 x="1120" y="740"/>
@@ -4947,12 +5173,8 @@ Bus Transfer:
       <p2 x="1100" y="880"/>
     </wire>
     <wire>
-      <p1 x="400" y="500"/>
-      <p2 x="580" y="500"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="500"/>
-      <p2 x="380" y="500"/>
+      <p1 x="460" y="500"/>
+      <p2 x="500" y="500"/>
     </wire>
     <wire>
       <p1 x="1000" y="1140"/>
@@ -4971,8 +5193,8 @@ Bus Transfer:
       <p2 x="1160" y="1140"/>
     </wire>
     <wire>
-      <p1 x="380" y="120"/>
-      <p2 x="660" y="120"/>
+      <p1 x="1660" y="-120"/>
+      <p2 x="1960" y="-120"/>
     </wire>
     <wire>
       <p1 x="920" y="2040"/>
@@ -4985,10 +5207,6 @@ Bus Transfer:
     <wire>
       <p1 x="1100" y="2040"/>
       <p2 x="1280" y="2040"/>
-    </wire>
-    <wire>
-      <p1 x="1700" y="380"/>
-      <p2 x="2000" y="380"/>
     </wire>
     <wire>
       <p1 x="1400" y="380"/>
@@ -5011,16 +5229,12 @@ Bus Transfer:
       <p2 x="1520" y="1020"/>
     </wire>
     <wire>
-      <p1 x="640" y="140"/>
-      <p2 x="640" y="1280"/>
+      <p1 x="640" y="180"/>
+      <p2 x="640" y="1240"/>
     </wire>
     <wire>
       <p1 x="1600" y="60"/>
       <p2 x="1600" y="2540"/>
-    </wire>
-    <wire>
-      <p1 x="580" y="500"/>
-      <p2 x="580" y="2220"/>
     </wire>
     <wire>
       <p1 x="1540" y="0"/>
@@ -5083,6 +5297,10 @@ Bus Transfer:
       <p2 x="840" y="940"/>
     </wire>
     <wire>
+      <p1 x="520" y="420"/>
+      <p2 x="520" y="520"/>
+    </wire>
+    <wire>
       <p1 x="1100" y="1060"/>
       <p2 x="1100" y="1200"/>
     </wire>
@@ -5107,8 +5325,12 @@ Bus Transfer:
       <p2 x="1100" y="2280"/>
     </wire>
     <wire>
-      <p1 x="400" y="400"/>
-      <p2 x="400" y="500"/>
+      <p1 x="460" y="480"/>
+      <p2 x="460" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-300"/>
+      <p2 x="460" y="-240"/>
     </wire>
     <wire>
       <p1 x="720" y="0"/>
@@ -5179,12 +5401,20 @@ Bus Transfer:
       <p2 x="720" y="1820"/>
     </wire>
     <wire>
-      <p1 x="340" y="460"/>
-      <p2 x="340" y="480"/>
+      <p1 x="1680" y="-20"/>
+      <p2 x="1680" y="1960"/>
     </wire>
     <wire>
-      <p1 x="660" y="120"/>
-      <p2 x="660" y="1240"/>
+      <p1 x="1620" y="-300"/>
+      <p2 x="1620" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="220"/>
+      <p2 x="600" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="1320"/>
+      <p2 x="600" y="1540"/>
     </wire>
     <wire>
       <p1 x="1560" y="40"/>
@@ -5231,10 +5461,6 @@ Bus Transfer:
       <p2 x="1240" y="1600"/>
     </wire>
     <wire>
-      <p1 x="540" y="400"/>
-      <p2 x="540" y="700"/>
-    </wire>
-    <wire>
       <p1 x="1120" y="740"/>
       <p2 x="1120" y="940"/>
     </wire>
@@ -5275,6 +5501,14 @@ Bus Transfer:
       <p2 x="1440" y="620"/>
     </wire>
     <wire>
+      <p1 x="420" y="-260"/>
+      <p2 x="420" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="460"/>
+      <p2 x="420" y="480"/>
+    </wire>
+    <wire>
       <p1 x="1060" y="1020"/>
       <p2 x="1060" y="1060"/>
     </wire>
@@ -5295,16 +5529,16 @@ Bus Transfer:
       <p2 x="1060" y="2040"/>
     </wire>
     <wire>
-      <p1 x="1640" y="0"/>
-      <p2 x="1640" y="1700"/>
+      <p1 x="360" y="-300"/>
+      <p2 x="360" y="-280"/>
     </wire>
     <wire>
-      <p1 x="300" y="440"/>
-      <p2 x="300" y="460"/>
+      <p1 x="680" y="100"/>
+      <p2 x="680" y="400"/>
     </wire>
     <wire>
-      <p1 x="940" y="-20"/>
-      <p2 x="940" y="0"/>
+      <p1 x="620" y="200"/>
+      <p2 x="620" y="1280"/>
     </wire>
     <wire>
       <p1 x="1260" y="340"/>
@@ -5315,16 +5549,20 @@ Bus Transfer:
       <p2 x="1260" y="720"/>
     </wire>
     <wire>
-      <p1 x="620" y="160"/>
-      <p2 x="620" y="1320"/>
+      <p1 x="940" y="-20"/>
+      <p2 x="940" y="0"/>
     </wire>
     <wire>
-      <p1 x="620" y="1320"/>
-      <p2 x="620" y="1540"/>
+      <p1 x="560" y="80"/>
+      <p2 x="560" y="100"/>
     </wire>
     <wire>
-      <p1 x="1200" y="280"/>
-      <p2 x="1200" y="400"/>
+      <p1 x="560" y="220"/>
+      <p2 x="560" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="520"/>
+      <p2 x="560" y="2220"/>
     </wire>
     <wire>
       <p1 x="1520" y="20"/>
@@ -5363,12 +5601,24 @@ Bus Transfer:
       <p2 x="1520" y="2240"/>
     </wire>
     <wire>
+      <p1 x="1200" y="280"/>
+      <p2 x="1200" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="320"/>
+      <p2 x="1200" y="400"/>
+    </wire>
+    <wire>
       <p1 x="1140" y="-20"/>
       <p2 x="1140" y="20"/>
     </wire>
     <wire>
       <p1 x="1140" y="1340"/>
       <p2 x="1140" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-300"/>
+      <p2 x="500" y="-240"/>
     </wire>
     <wire>
       <p1 x="1080" y="1580"/>
@@ -5423,12 +5673,12 @@ Bus Transfer:
       <p2 x="760" y="1700"/>
     </wire>
     <wire>
-      <p1 x="440" y="160"/>
-      <p2 x="440" y="180"/>
+      <p1 x="440" y="-320"/>
+      <p2 x="440" y="-220"/>
     </wire>
     <wire>
-      <p1 x="1660" y="100"/>
-      <p2 x="1660" y="1960"/>
+      <p1 x="1660" y="-120"/>
+      <p2 x="1660" y="1700"/>
     </wire>
   </wires>
   <measurementOrdering/>
