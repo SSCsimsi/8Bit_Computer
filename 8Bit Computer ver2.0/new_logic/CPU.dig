@@ -2612,12 +2612,12 @@ Bus Transfer:
           <int>36</int>
         </entry>
         <entry>
-          <string>snapToGrid</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
           <string>Description</string>
           <string>Programme Counter</string>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
         </entry>
       </elementAttributes>
       <pos x="996" y="-372"/>
@@ -3876,12 +3876,12 @@ Bus Transfer:
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
-          <string>snapToGrid</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
           <string>Description</string>
           <string>clear</string>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
         </entry>
       </elementAttributes>
       <pos x="1296" y="-282"/>
@@ -3890,12 +3890,12 @@ Bus Transfer:
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
-          <string>snapToGrid</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
           <string>Description</string>
           <string>accept</string>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
         </entry>
       </elementAttributes>
       <pos x="684" y="-139"/>
@@ -3944,10 +3944,6 @@ Bus Transfer:
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>1*2</string>
-        </entry>
-        <entry>
           <string>mirror</string>
           <boolean>true</boolean>
         </entry>
@@ -3956,12 +3952,16 @@ Bus Transfer:
           <int>2</int>
         </entry>
         <entry>
-          <string>Output Splitting</string>
-          <string>2</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1*2</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2</string>
         </entry>
       </elementAttributes>
       <pos x="520" y="20"/>
@@ -4002,16 +4002,16 @@ Bus Transfer:
           <int>16</int>
         </entry>
         <entry>
-          <string>snapToGrid</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
           <string>Description</string>
           <string>T1--T0
 0        --      0          &gt;          off
 0        --      1          &gt;          button
 1        --      0          &gt;          1hz
 1        --      1          &gt;          max</string>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
         </entry>
       </elementAttributes>
       <pos x="548" y="1"/>
@@ -4025,12 +4025,12 @@ Bus Transfer:
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
-          <string>snapToGrid</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
           <string>Description</string>
           <string>T1</string>
+        </entry>
+        <entry>
+          <string>snapToGrid</string>
+          <boolean>false</boolean>
         </entry>
       </elementAttributes>
       <pos x="467" y="86"/>
@@ -4053,12 +4053,12 @@ Bus Transfer:
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
-          <string>Frequency</string>
-          <int>500</int>
-        </entry>
-        <entry>
           <string>runRealTime</string>
           <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>500</int>
         </entry>
       </elementAttributes>
       <pos x="380" y="100"/>
@@ -4320,16 +4320,16 @@ Bus Transfer:
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
           <string>Input Splitting</string>
           <string>1*4</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
           <string>4</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
         </entry>
       </elementAttributes>
       <pos x="560" y="-140"/>
