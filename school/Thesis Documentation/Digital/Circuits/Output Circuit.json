@@ -1,0 +1,13 @@
+
+
+{signal: [
+  {name: 'clk', 			wave:'0P..', period: 2},
+  {name: 'command', 		wave:'x===', data:[" cmd 1", " cmd 2", " cmd 3"], period: 2, phase: 0.15},
+  {name: 'data', 			wave:'x===', data:["data 1", "data 2", "data 3"], period: 2, phase: 0.15},
+  {name: 'address', 		wave:'x===', data:[" adr 1", " adr 2", " adr 3"], period: 2, phase: 0.15},
+  {name: 'cmd detected', 	wave:'0.1.0...', period: 1, phase: 0.15},
+  {name: 'bus disable', 	wave:'0..1.0..', period: 1, phase: 0.15},
+  {name: 'write', 			wave:'0..1.0..', period: 1, phase: 0.15},
+  {name: 'buffer val', 		wave:'0.....10........', period: 0.5, phase: 0.15},
+] 
+  }

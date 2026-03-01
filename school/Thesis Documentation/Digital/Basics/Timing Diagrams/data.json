@@ -1,0 +1,8 @@
+
+
+{signal: [
+  {name: 'clk', 			wave:'p...', period: 2},
+  //{name: 'undefined', 		wave:'x...',  period: 2},
+  {name: 'data', 	wave:'2222', data:[" val 1", " val 2", " val 3", " val 4"], period: 2, phase: 0.15},
+] 
+  }
