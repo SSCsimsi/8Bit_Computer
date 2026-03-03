@@ -38,7 +38,7 @@
 0025 sub 00
 0026 sta 	 //A:1D
 0027 lda 
-0028 not 	 /* binary not */
+0028 bnt 	 /* binary not */
 0029 cjp 002B	 /* conditional jump */
 002A stb 01
 002B nop 
@@ -69,7 +69,7 @@
 0044 ldd 
 0045 sty 	 //INT REG2:55
 0046 sto 42 5555
-0047 sto AA 0000 /* store outputs */ //OUT:AA
+0047 sop AA 0000 /* store outputs */ //OUT:AA
 0048 lop 	 /* load outputs */
 0049 sta 	 //A:AA
 004A nop 
