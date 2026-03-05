@@ -2951,6 +2951,16 @@
 		)
 		(uuid "590dddba-502c-484f-97b6-af903569b518")
 	)
+	(text "Jump"
+		(exclude_from_sim no)
+		(at 72.898 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5dd080b7-3fc9-4455-9136-f504e345b20f")
+	)
 	(text "0x01\n\n"
 		(exclude_from_sim no)
 		(at 80.772 85.09 0)
@@ -2960,6 +2970,16 @@
 			)
 		)
 		(uuid "619032b0-2446-459b-8970-2ea620ce857b")
+	)
+	(text "jmp"
+		(exclude_from_sim no)
+		(at 80.772 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "735e2a87-b3d7-420e-ae93-ae01417b23ec")
 	)
 	(text "0x02\n\n\n"
 		(exclude_from_sim no)
@@ -2981,6 +3001,26 @@
 			)
 		)
 		(uuid "aefa6817-3d53-4b8a-85ca-da11d024f9cd")
+	)
+	(text "cjp"
+		(exclude_from_sim no)
+		(at 80.772 121.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db2802c5-116b-4188-8e35-49d07a1bca53")
+	)
+	(text "Jump if"
+		(exclude_from_sim no)
+		(at 73.152 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1086cdc-97a5-49b9-8a2a-7d0882de1ee3")
 	)
 	(junction
 		(at 269.24 46.99)

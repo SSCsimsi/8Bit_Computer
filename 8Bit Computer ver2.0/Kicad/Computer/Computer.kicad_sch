@@ -5986,6 +5986,12 @@
 		(uuid "07d369c4-75b9-4841-9947-115efe114a84")
 	)
 	(junction
+		(at 506.73 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0839b715-aa0f-46f9-abd2-cefe7c25cb63")
+	)
+	(junction
 		(at 547.37 713.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10243,7 +10249,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 444.5) (xy 554.99 444.5)
+			(xy 386.08 444.5) (xy 496.57 444.5)
 		)
 		(stroke
 			(width 0)
@@ -11171,6 +11177,16 @@
 		)
 		(uuid "1f3e4759-6582-45dc-9d22-23addd620246")
 	)
+	(wire
+		(pts
+			(xy 530.86 458.47) (xy 542.29 458.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4ff40c-9243-492c-a829-61e5126979fc")
+	)
 	(bus
 		(pts
 			(xy 217.17 454.66) (xy 217.17 457.2)
@@ -11600,6 +11616,16 @@
 			(type default)
 		)
 		(uuid "27adf0f5-ec86-4477-8b77-82367b72e7ca")
+	)
+	(wire
+		(pts
+			(xy 510.54 472.44) (xy 513.08 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282a16a7-35fe-4744-b023-2823b82864b1")
 	)
 	(wire
 		(pts
@@ -12420,6 +12446,16 @@
 			(type default)
 		)
 		(uuid "385422df-1a79-4469-8cc6-f36a278db941")
+	)
+	(wire
+		(pts
+			(xy 533.4 455.93) (xy 530.86 455.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387a7bc1-fc30-463a-aa35-37ee03e0c439")
 	)
 	(wire
 		(pts
@@ -14561,6 +14597,16 @@
 		)
 		(uuid "6430bebf-db81-4797-9c3d-fa8463039263")
 	)
+	(wire
+		(pts
+			(xy 542.29 458.47) (xy 542.29 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6453e62d-7746-4c31-ad12-91c3e5947e2a")
+	)
 	(bus
 		(pts
 			(xy 360.68 313.69) (xy 360.68 316.23)
@@ -16173,6 +16219,16 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 458.47) (xy 502.92 458.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814c5380-9f8a-43ac-8b3a-2f892a4fb8db")
+	)
+	(wire
+		(pts
 			(xy 227.33 439.42) (xy 219.71 439.42)
 		)
 		(stroke
@@ -16290,6 +16346,16 @@
 			(type default)
 		)
 		(uuid "83981fff-17bf-4a07-9fba-1ca66e9e079c")
+	)
+	(wire
+		(pts
+			(xy 542.29 444.5) (xy 554.99 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e9e76f-dea5-4732-b9f9-3bd546a8e676")
 	)
 	(wire
 		(pts
@@ -17973,6 +18039,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 461.01) (xy 505.46 461.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77a6c60-d9d2-4c3d-a485-a6b8e77f9afe")
+	)
+	(wire
+		(pts
 			(xy 138.43 307.34) (xy 121.92 307.34)
 		)
 		(stroke
@@ -18503,6 +18579,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 444.5) (xy 496.57 461.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b375ca02-5fdc-46ed-bdef-f0313370543d")
+	)
+	(wire
+		(pts
 			(xy 358.14 574.04) (xy 364.49 574.04)
 		)
 		(stroke
@@ -18763,6 +18849,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 313.69) (xy 506.73 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b762a97f-b993-4cf3-a97c-7f63f30f2198")
+	)
+	(wire
+		(pts
 			(xy 219.71 521.97) (xy 227.33 521.97)
 		)
 		(stroke
@@ -19000,6 +19096,16 @@
 			(type default)
 		)
 		(uuid "bd04a817-daeb-475d-9fb9-dc302e475507")
+	)
+	(wire
+		(pts
+			(xy 520.7 472.44) (xy 523.24 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1fc184-5aca-4af4-baa6-3649b47a0379")
 	)
 	(bus
 		(pts
@@ -21863,6 +21969,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 306.07) (xy 506.73 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35f65b1-ce35-4931-b367-983f770a6d5b")
+	)
+	(wire
+		(pts
 			(xy 227.33 223.52) (xy 219.71 223.52)
 		)
 		(stroke
@@ -23121,6 +23237,16 @@
 		)
 		(uuid "27d2a601-b748-41ee-97d3-c23f0effd0ef")
 	)
+	(label "GNDA"
+		(at 506.73 316.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28844ab3-f3d1-48f3-8ad4-d6aac81344b4")
+	)
 	(label "LNM7"
 		(at 358.14 549.91 0)
 		(effects
@@ -23661,6 +23787,16 @@
 		)
 		(uuid "3eb0365e-2a23-45d3-b365-98aa884ddb58")
 	)
+	(label "VCCA"
+		(at 523.24 472.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f44c886-a4b1-42ec-a8cb-fd6485318753")
+	)
 	(label "CMD0"
 		(at 39.37 642.62 180)
 		(effects
@@ -23790,6 +23926,16 @@
 			(justify left bottom)
 		)
 		(uuid "4a0eee5c-6d54-4bff-9647-9c2efd346d82")
+	)
+	(label "VCCA"
+		(at 502.92 458.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a6bbd00-092f-494b-8952-8fa380af2b6b")
 	)
 	(label "DAT1"
 		(at 255.27 754.38 180)
@@ -25461,6 +25607,16 @@
 		)
 		(uuid "a8e75b80-a430-4c23-99a8-083ecf0028b8")
 	)
+	(label "GNDA"
+		(at 510.54 472.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a90509d2-08fe-4166-9f0c-8009084bb55a")
+	)
 	(label "LN13"
 		(at 227.33 543.56 180)
 		(effects
@@ -26790,6 +26946,16 @@
 			(justify right bottom)
 		)
 		(uuid "eb6f2364-d402-4cd8-84b2-f8de61a2fb8d")
+	)
+	(label "GNDA"
+		(at 533.4 455.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebcf6812-3af8-46bb-88e2-f6927f651253")
 	)
 	(label "ADR4"
 		(at 227.33 257.81 180)
@@ -28990,6 +29156,73 @@
 			(project ""
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
 					(reference "LED88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 516.89 472.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b566307-e725-47e2-9fbe-bd10f60ee4b2")
+		(property "Reference" "C323"
+			(at 517.144 465.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 517.144 468.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 513.08 473.4052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 516.89 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 516.89 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41cd4fc1-26d8-46d6-9391-466137daa273")
+		)
+		(pin "2"
+			(uuid "0fb2b3eb-8c9c-4bc7-adae-c99aba9b8ec1")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
+					(reference "C323")
 					(unit 1)
 				)
 			)
@@ -37013,6 +37246,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:SN74LVC1G14DBVR")
+		(at 530.86 461.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c6acae2-fe15-4ab3-80bc-2e234ab9586c")
+		(property "Reference" "IC238"
+			(at 518.16 451.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G14DBVR"
+			(at 518.16 448.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOT95P280X145-5N"
+			(at 509.27 366.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1136296.pdf"
+			(at 509.27 266.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEXAS INSTRUMENTS - SN74LVC1G14DBVR - IC, SCHMITT TRIGGER INVERTER, SMD"
+			(at 530.86 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 509.27 66.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74LVC1G14DBVR"
+			(at 509.27 -33.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G14DBVR?qs=dT9u2OTAaVWRIgCrQFnxuQ%3D%3D"
+			(at 509.27 -133.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 509.27 -233.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74LVC1G14DBVR"
+			(at 509.27 -333.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae7c6e78-bab5-4ac6-bb41-f69849966c21")
+		)
+		(pin "3"
+			(uuid "49b79f36-018d-4abe-bca0-0a9f58aa3308")
+		)
+		(pin "2"
+			(uuid "35060fc3-06c2-47c2-ac33-086d62ffef3d")
+		)
+		(pin "4"
+			(uuid "f07560ed-43da-4d79-af16-4c7a013b87ae")
+		)
+		(pin "5"
+			(uuid "de360e62-4f2d-43fb-b6bc-83057c71e368")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
+					(reference "IC238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys:M20-7911042R")
 		(at 227.33 250.19 0)
 		(unit 1)
@@ -42252,6 +42613,73 @@
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 506.73 309.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a445d8c6-0924-4a10-a285-065109896f89")
+		(property "Reference" "C273"
+			(at 512.572 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 512.572 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 505.7648 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 506.73 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 506.73 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42dd3e3b-324b-40a9-9242-1434202b0581")
+		)
+		(pin "2"
+			(uuid "1889510f-d655-4169-9b61-9dcb9061dfe5")
+		)
+		(instances
+			(project "Computer"
+				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14"
+					(reference "C273")
 					(unit 1)
 				)
 			)

@@ -2521,6 +2521,26 @@
 		)
 		(uuid "01e7c264-193e-4ac1-ab03-021ed28948d6")
 	)
+	(text "sty"
+		(exclude_from_sim no)
+		(at 64.008 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1bb76bb6-d81b-400a-8db1-04519f97c3e5")
+	)
+	(text "ldz"
+		(exclude_from_sim no)
+		(at 64.262 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d24e539-f08a-4904-8669-320a709fe5cc")
+	)
 	(text "0000 0100"
 		(exclude_from_sim no)
 		(at 112.776 66.294 0)
@@ -2530,6 +2550,16 @@
 			)
 		)
 		(uuid "1ea174a5-116e-47f6-b798-e34e259c4e59")
+	)
+	(text "stx"
+		(exclude_from_sim no)
+		(at 64.008 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3200e26b-a40d-483f-b4fb-c623885dbe14")
 	)
 	(text "0x04\n\n\n"
 		(exclude_from_sim no)
@@ -2561,6 +2591,26 @@
 		)
 		(uuid "6434463c-009c-47b0-91a5-0843468d3df5")
 	)
+	(text "store to interface reg 2"
+		(exclude_from_sim no)
+		(at 59.436 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba32d5d6-40d0-46a7-9341-1e9a72758292")
+	)
+	(text "store to interface reg 1"
+		(exclude_from_sim no)
+		(at 60.706 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf80586d-a59d-4fdd-95e7-ca29241e5d39")
+	)
 	(text "0x03\n\n"
 		(exclude_from_sim no)
 		(at 64.262 46.99 0)
@@ -2570,6 +2620,16 @@
 			)
 		)
 		(uuid "f74e4a20-edf7-425c-ab66-1dcaee02eac3")
+	)
+	(text "Load interface regs"
+		(exclude_from_sim no)
+		(at 60.198 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd059773-fa48-417a-b04c-009dbaaf943f")
 	)
 	(junction
 		(at 144.78 194.31)
