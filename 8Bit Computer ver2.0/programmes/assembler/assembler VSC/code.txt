@@ -1,4 +1,13 @@
 0000 nop
+xxxx sta 00
+xxxx stb 00
+xxxx stc 00
+xxxx std 00
+xxxx sop 00
+xxxx sti 00
+xxxx stf 00
+xxxx stx 00
+xxxx sty 00
 0001 sto FB 0001
 0002 lod 0001
 0003 sta 
@@ -22,15 +31,15 @@
 0015 sta 	 //A:01
 0016 clt 
 0017 stf 	 //C8:high
-0018 lcr 	 /* load carry flag */
-0019 sta 	 //A:01
+0018 nop 	 /* load carry flag */
+0019 sta 01	 //A:01
 001A bnt 	 /* bitwise not */
 001B sta 
 001C std 03	 //A:FE, SHIFT DIST:03
 001D sft 
 001E sta 	 //A:1F
-001F ldf 
-0020 stc 	 //C:01
+001F nop 
+0020 stc 01	 //C:01
 0021 inc 
 0022 stf 	 //C8:low, Ovf:high
 0023 ldo 
