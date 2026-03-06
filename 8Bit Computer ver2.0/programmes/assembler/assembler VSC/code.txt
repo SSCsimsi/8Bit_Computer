@@ -48,7 +48,7 @@ xxxx sty 00
 0026 sta 	 //A:1D
 0027 lda 
 0028 bnt 	 /* binary not */
-0029 cjp 002B	 /* conditional jump */
+0029 cjp 0034	 /* conditional jump */ //2B without xxxx lines
 002A stb 01
 002B nop 
 002C ldb 	 // should be 02
@@ -60,7 +60,7 @@ xxxx sty 00
 0032 xor 	 /* binary xor */
 0033 sta 	 //A:01
 0034 ban 	 /* bitwise and */
-0035 cjp 0037
+0035 cjp 0040	 //37 without xxxx lines
 0036 sta 0F
 0037 nop 
 0038 bnt 	 /* bitwise not */
@@ -83,7 +83,7 @@ xxxx sty 00
 0049 sta 	 //A:AA
 004A nop 
 004B xor 
-004C cjp 004A	 /* keep looping */
+004C cjp 0053	 /* keep looping */ //4A without xxxx lines
 004D ldz 	 /* load to address */ //should be 5555
 004E lod 	 
 004F sop 	 //OUT:42
@@ -91,8 +91,8 @@ xxxx sty 00
 0051 ldu 	 /* load unread */
 0052 sta 
 0053 not 
-0054 cjp 0057
+0054 cjp 0060	 //57 without xxxx lines
 0055 ldi 	 /* load inputs */
 0056 sop 
 0057 nop 
-0058 jmp 0050
+0058 jmp 0059	 //50 without xxxx lines
