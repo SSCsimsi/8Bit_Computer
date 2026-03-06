@@ -1,0 +1,13 @@
+
+
+{signal: [
+  {name: 'clk', 		wave:'P...', period: 2},
+  {name: 'A', 			wave:'x2x.', data:"data", period: 2, phase: 0.15},
+  {name: '!A', 			wave:'x2x.', data:"!data", period: 2, phase: 0.15},
+  {name: 'EN', 			wave:'010.', period: 2, phase: 0.15},
+  {name: 'D-Latch', 	wave:'0.10', period: 2, phase: 1.15},
+  {name: 'Register', 	wave:'x.2.', data:"!data", period: 2, phase: 1.15},
+  {name: 'Out',			wave:'x.2x', data:"!data", period: 2, phase: 1.15},
+] 
+  }
+
