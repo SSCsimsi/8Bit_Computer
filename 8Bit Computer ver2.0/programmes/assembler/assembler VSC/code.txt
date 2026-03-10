@@ -1,10 +1,98 @@
 0000 nop
-0001 sto FF 55AA
-0002 stx AA
-0003 sty 55
-0004 ldz
-0005 lod
-0006 sop
-0007 lod 55AA
-0008 sta
-0009 jmp 0000
+xxxx sta 00
+xxxx stb 00
+xxxx stc 00
+xxxx std 00
+xxxx sop 00
+xxxx sti 00
+xxxx stf 00
+xxxx stx 00
+xxxx sty 00
+0001 sto FB 0001
+0002 lod 0001
+0003 sta 
+0004 stb 07	 //A:FB, B:06
+0005 add 	 
+0006 stb 	 //A:FB, B:02, C8:high
+0007 adc 
+0008 stc 	 //C:FE, C8:low
+0009 inc 	 
+000A sta 
+000B stb FF	 //A:FF, B:FF
+000C ceq 	 
+000D std 
+000E sta 01	 //SHIFT DIST:01, A:01
+000F sfc 	 
+0010 stc 	 //C:80
+0011 dec 
+0012 sta 
+0013 stb 7E	 //A:7F, B:7E
+0014 cgt 
+0015 sta 	 //A:01
+0016 clt 
+0017 stf 	 //C8:high
+0018 nop 	 /* load carry flag */
+0019 sta 01	 //A:01
+001A bnt 	 /* bitwise not */
+001B sta 
+001C std 03	 //A:FE, SHIFT DIST:03
+001D sft 
+001E sta 	 //A:1F
+001F nop 
+0020 stc 01	 //C:01
+0021 inc 
+0022 stf 	 //C8:low, Ovf:high
+0023 nop 
+0024 stb 02	 //A:1F, B:02
+0025 sub 00
+0026 sta 	 //A:1D
+0027 lda 
+0028 bnt 	 /* binary not */
+0029 cjp 0034	 /* conditional jump */ //2B without xxxx lines
+002A stb 01
+002B nop 
+002C ldb 	 // should be 02
+002D orr 	 /* binary or */
+002E sta 	 //A:01
+002F and 	 /* binary and */
+0030 sta 	 //A:01
+0031 stb 00	 //B:00
+0032 xor 	 /* binary xor */
+0033 sta 	 //A:01
+0034 ban 	 /* bitwise and */
+0035 cjp 0040	 //37 without xxxx lines
+0036 sta 0F
+0037 nop 
+0038 bnt 	 /* bitwise not */
+0039 sta 	 //A:F0
+003A stb 0F
+003B bor 	 /* bitwise or */
+003C sta 	 //A:FF
+003D stb AA	 //B:AA
+003E bxr 	 /* bitwise xor */
+003F stc 	 //C:55
+0040 ldc 
+0041 std 	 //SHIFT DIST:55
+0042 ldd 	 /* load shift distance */
+0043 stx 	 /* store interface reg1 */ //INT REG1:55
+0044 ldd 
+0045 sty 	 //INT REG2:55
+0046 sto 42 5555
+0047 sop AA 0000 /* store outputs */ //OUT:AA
+0048 lop 	 /* load outputs */
+0049 sta 	 //A:AA
+004A nop 
+004B xor 
+004C cjp 0053	 /* keep looping */ //4A without xxxx lines
+004D ldz 	 /* load to address */ //should be 5555
+004E lod 	 
+004F sop 	 //OUT:42
+0050 nop 	 
+0051 ldu 	 /* load unread */
+0052 sta 
+0053 not 
+0054 cjp 0060	 //57 without xxxx lines
+0055 ldi 	 /* load inputs */
+0056 sop 
+0057 nop 
+0058 jmp 0059	 //50 without xxxx lines
