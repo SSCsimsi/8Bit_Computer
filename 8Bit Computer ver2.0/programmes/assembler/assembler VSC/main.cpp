@@ -105,8 +105,8 @@ int main() {
 
         check = 0;
 
-        /* cut off the line number */
-        uint8_t pos = newLine.find(' ') + 1;
+        /* cut off the line number at the first semicolon*/
+        uint8_t pos = newLine.find(';') + 1;
         newLine = newLine.substr(pos);
 
         /* in order to avoid an empty string later */
