@@ -5,6 +5,7 @@
 #include <string>
 #include <list>
 #include <bits/stdc++.h>
+#include <cstdio>
 
 
 using namespace std;
@@ -75,14 +76,17 @@ private:
 list<Cmd> Commands;
 
 void CreateList(void);
-string ToHex(uint16_t num);
+string ToHex(uint16_t num, uint8_t len);
 
 int main() {
 
 	CreateList();
 
-	/* Open the code */
+	/* Open the code to be read from */
 	ifstream codeFile("code.txt");
+
+    /* temporary file for rewriting code */
+    ofstream tmpCode("tmp.txt");
 
 	/* Create the hex files for programming the computer */
 	ofstream cmdFile("cmd", ios::binary); //cmd and dat in one file, since they are combined in one flash chip
@@ -90,6 +94,8 @@ int main() {
 
     /* Create a txt for logging errors */
     ofstream errorLog("errors.txt");
+
+
 
 	string newLine;
 	uint8_t check;
@@ -101,13 +107,24 @@ int main() {
     uint16_t prevAdr = 0;
     Duration prevAdrDuration = oneCycle;
 
+
+
 	while(getline(codeFile, newLine)) {
 
         check = 0;
 
-        /* cut off the line number at the first semicolon*/
-        uint8_t pos = newLine.find(';') + 1;
+        /* beginn reading the code from the first semicolon */
+        uint8_t pos = newLine.find(";") + 1;
         newLine = newLine.substr(pos);
+
+        /* cut out any spaces */
+        pos = newLine.find_first_not_of(' ');
+        if(pos != 0) {
+            newLine = newLine.substr(pos);
+        }
+
+        /* write new line numbers at the beginning of the lines */
+        tmpCode << ToHex(currentLine, 4) + "; " + newLine << endl;
 
         /* in order to avoid an empty string later */
         newLine = newLine.append("               ");
@@ -135,7 +152,7 @@ int main() {
                         val = stoul(s, nullptr, 16);
                     }
                     catch(exception e) {
-                        errorLog << "unknown data value at line: " << ToHex(currentLine) << endl;
+                        errorLog << "unknown data value at line: " << ToHex(currentLine, 4) << endl;
                     }
                 }
                 cmdFile.write(reinterpret_cast<char*>(&val), 1);
@@ -156,7 +173,7 @@ int main() {
                         prevAdr = adr;
                     } 
                     catch(exception e) {
-                        errorLog << "unknown address value at line: " << ToHex(currentLine) << endl;
+                        errorLog << "unknown address value at line: " << ToHex(currentLine, 4) << endl;
                     }
                 }
 
@@ -179,16 +196,34 @@ int main() {
 
 		if(!check) {
 
-			errorLog << "unknown command at line: " << ToHex(currentLine) << endl;
+			errorLog << "unknown command at line: " << ToHex(currentLine, 4) << endl;
 			return -1;
 		}
 	}
 
-	/* Close the files */
-	codeFile.close();
-	cmdFile.close();
+    /* close and reopen the tmp file for reading*/
+    tmpCode.close();
+    ifstream newTmpCode("tmp.txt");
+
+    /* delete and recreate the original code.txt for transferring the code with new line numbers */
+    codeFile.close();
+    remove("code.txt");
+    ofstream newCodeFile("code.txt");
+
+    /* transfer rewritten code to the code file */
+    while(getline(newTmpCode, newLine)) {
+        newCodeFile << newLine << endl;
+    }
+
+    /* delete temporary file */
+    newTmpCode.close();
+    remove("tmp.txt");
+
+    /* Close the files */
+	newCodeFile.close();
 	adrFile.close();
     errorLog.close();
+    cmdFile.close();
 }
 
 void CreateList() {
@@ -276,8 +311,24 @@ void CreateList() {
     */
 }
 
-string ToHex(uint16_t num) {
-    stringstream s;
-    s << hex << (int)num;
-    return s.str();
+string ToHex(uint16_t num, uint8_t len) {
+
+    string out = "000000000000000000000000";
+
+    try {
+        stringstream s;
+        s << hex << (int)num;
+
+        uint8_t strLen = s.str().length();
+
+        out = out.insert((len-strLen), s.str());
+        out = out.substr(0, len);
+
+        transform(out.begin(), out.end(), out.begin(),::toupper);
+    }
+    catch(exception e) {
+
+    }
+
+    return out;
 }
