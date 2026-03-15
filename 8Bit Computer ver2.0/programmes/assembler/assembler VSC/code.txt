@@ -1,8 +1,13 @@
+label: hi
+label: hello
+label: welcome
+
+
 //------ setup -------------------------------------------
-0000; nop 
+0000; nop welcome
 0001; sta 00
 0002; stb 00
-0003; stc 00
+0003; stc 00 
 0004; std 00
 0005; sop 00
 0006; sti 00
@@ -23,7 +28,7 @@
 // ------ store input value ------------------------------
 // increment input counter
 000E; nop
-000F; inc
+000F; inc hi
 0010; stc
 
 
@@ -43,7 +48,7 @@
 
 // if (c == 1)
 001B; nop
-001C; ldc 
+001C; ldc hello
 001D; sta
 001E; stb 01
 001F; ceq

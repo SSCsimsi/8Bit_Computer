@@ -73,7 +73,40 @@ private:
     Duration dur;
 };
 
+class Label {
+public:
+    void SetName(string nameIn) {
+        name = nameIn;
+    }
+
+    void SetPosition(uint16_t lineIn) {
+        line = lineIn;
+    }
+
+    void SetDestination(uint16_t toIn) {
+        to = toIn;
+    }
+
+    string GetName() {
+        return name;
+    }
+
+    uint16_t GetPosition() {
+        return line;
+    }
+
+    uint16_t GetDestination() {
+        return to;
+    }
+
+private:
+    string name = "undef.";
+    uint16_t line = 0;
+    uint16_t to = 0;
+};
+
 list<Cmd> Commands;
+list<Label> Labels;
 
 void CreateList(void);
 string ToHex(uint16_t num, uint8_t len);
@@ -109,11 +142,60 @@ int main() {
 
 
 
+    /* check for labels and their positions */
+    ifstream tmpCodeFile("code.txt");
+
+    while(getline(tmpCodeFile, newLine)) {
+
+        /* store label, and skip to next cycle */
+        if(newLine.find("label:") == 0) {
+
+            Label label;
+
+            newLine = newLine.substr(6);
+            uint8_t pos = newLine.find_first_not_of(' ');
+            label.SetName(newLine.substr(pos));
+
+            errorLog << "label found: " << label.GetName() << endl;
+
+            Labels.push_back(label);
+            continue;
+        }
+
+        for(Label label : Labels) {
+
+            if(newLine.find(label.GetName()) != newLine.npos) {
+
+                if(newLine.find("nop") != newLine.npos) {
+                    label.SetDestination(currentLine);
+
+                    errorLog << "destination of " << label.GetName() << " is: " << ToHex(label.GetDestination(), 4) << endl;
+                }
+                else {
+                    label.SetPosition(currentLine);
+
+                    errorLog << "position of " << label.GetName() << " is: " << ToHex(label.GetPosition(), 4) << endl;
+                }
+            }
+        }
+
+        if(newLine.find(";") != newLine.npos) {
+            currentLine++;
+        }
+    }
+
+    tmpCodeFile.close();
+
+
+
+    currentLine = 0;
+
 	while(getline(codeFile, newLine)) {
 
         check = 0;
 
-        if(newLine.empty() or (newLine.find("//") == 0 )) {
+        /* skips empty lines, ones with comments, or label definitions */
+        if(newLine.empty() or (newLine.find("//") == 0 ) or (newLine.find("label:") == 0)) {
             tmpCode << newLine << endl;
             continue;
         }
@@ -124,9 +206,7 @@ int main() {
 
         /* cut out any spaces */
         pos = newLine.find_first_not_of(' ');
-        if(pos != 0) {
-            newLine = newLine.substr(pos);
-        }
+        newLine = newLine.substr(pos);
 
         /* write new line numbers at the beginning of the lines */
         tmpCode << ToHex(currentLine, 4) + "; " + newLine << endl;
