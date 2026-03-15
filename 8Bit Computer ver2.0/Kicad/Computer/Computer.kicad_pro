@@ -707,7 +707,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "VBUS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 199)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 3.0,
@@ -973,6 +973,9 @@
       ],
       "/ALU/{C[0..7]}": [
         "C[0..7]"
+      ],
+      "/CLKM": [
+        "CLK"
       ],
       "/CMD0": [
         "CMD[0..7]"
@@ -1428,6 +1431,9 @@
       ],
       "/{LN[0..15]}": [
         "LN[0..15]"
+      ],
+      "/~{CLKMd}": [
+        "CLK"
       ],
       "/~{CLKd}": [
         "CLK"

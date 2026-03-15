@@ -2993,7 +2993,7 @@
 	)
 	(text "CLEAR Button"
 		(exclude_from_sim no)
-		(at 54.102 154.178 0)
+		(at 101.092 150.368 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3071,7 +3071,7 @@
 		(uuid "40a0365e-5247-475b-9bd3-d0f3436a8c50")
 	)
 	(junction
-		(at 36.83 170.18)
+		(at 83.82 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4772c923-8bae-4ad3-910d-ab8e2ed72ca4")
@@ -3095,7 +3095,7 @@
 		(uuid "7e07612f-eb53-4978-9242-e6e5e3da2555")
 	)
 	(junction
-		(at 106.68 167.64)
+		(at 128.27 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86dcc6ef-f82f-47ef-abec-110c8b2cfcd4")
@@ -3197,7 +3197,7 @@
 		(uuid "facdc76e-d942-44a6-913e-3d7278cee8c7")
 	)
 	(junction
-		(at 72.39 167.64)
+		(at 119.38 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcaf1791-d62a-4a95-ac2c-3ace74217631")
@@ -3774,7 +3774,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 167.64) (xy 36.83 158.75)
+			(xy 83.82 163.83) (xy 83.82 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3884,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 167.64) (xy 69.85 167.64)
+			(xy 119.38 163.83) (xy 116.84 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4284,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 170.18) (xy 72.39 176.53)
+			(xy 119.38 166.37) (xy 119.38 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4294,7 +4294,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 176.53) (xy 36.83 170.18)
+			(xy 83.82 172.72) (xy 83.82 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4604,7 +4604,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 167.64) (xy 39.37 167.64)
+			(xy 83.82 163.83) (xy 86.36 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4884,7 +4884,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 170.18) (xy 39.37 170.18)
+			(xy 83.82 166.37) (xy 86.36 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5054,7 +5054,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 167.64) (xy 106.68 167.64)
+			(xy 135.89 163.83) (xy 128.27 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5184,7 +5184,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 181.61) (xy 106.68 179.07)
+			(xy 128.27 177.8) (xy 128.27 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5234,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 176.53) (xy 36.83 176.53)
+			(xy 119.38 172.72) (xy 83.82 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5414,7 +5414,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 167.64) (xy 106.68 171.45)
+			(xy 128.27 163.83) (xy 128.27 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5594,7 +5594,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 158.75) (xy 72.39 167.64)
+			(xy 119.38 154.94) (xy 119.38 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5714,7 +5714,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 170.18) (xy 36.83 170.18)
+			(xy 77.47 166.37) (xy 83.82 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6064,7 +6064,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 170.18) (xy 72.39 170.18)
+			(xy 116.84 166.37) (xy 119.38 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6354,7 +6354,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 167.64) (xy 72.39 167.64)
+			(xy 128.27 163.83) (xy 119.38 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6364,7 +6364,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 158.75) (xy 72.39 158.75)
+			(xy 83.82 154.94) (xy 119.38 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8110,7 +8110,7 @@
 		(uuid "1e36078b-3dd2-4322-87a3-382dbbf7a29b")
 	)
 	(label "~{CLR}"
-		(at 130.81 167.64 0)
+		(at 135.89 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8570,7 +8570,7 @@
 		(uuid "7001ecdc-94f1-4fb4-ac20-055cdabc28b8")
 	)
 	(label "GND"
-		(at 30.48 170.18 180)
+		(at 77.47 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9500,7 +9500,7 @@
 		(uuid "ff1edbf8-8490-4a76-923d-cc5bf3aacf16")
 	)
 	(label "VCC"
-		(at 106.68 181.61 270)
+		(at 128.27 177.8 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10661,7 +10661,7 @@
 	)
 	(symbol
 		(lib_id "Samacsys:B3FS-4055P")
-		(at 39.37 167.64 0)
+		(at 86.36 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10670,7 +10670,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c81d2ae-77ff-448f-a6f7-9f63fb514978")
 		(property "Reference" "S1"
-			(at 54.61 160.02 0)
+			(at 101.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10678,7 +10678,7 @@
 			)
 		)
 		(property "Value" "B3FS-4055P"
-			(at 54.61 162.56 0)
+			(at 101.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10686,7 +10686,7 @@
 			)
 		)
 		(property "Footprint" "Samacsys:B3FS4055P"
-			(at 66.04 262.56 0)
+			(at 113.03 258.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10696,7 +10696,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf"
-			(at 66.04 362.56 0)
+			(at 113.03 358.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10706,7 @@
 			)
 		)
 		(property "Description" "Switch Tactile N.O. SPST Projected Plunger Gull Wing 0.05A 24VDC 2.55N SMD T/R"
-			(at 39.37 167.64 0)
+			(at 86.36 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +10715,7 @@
 			)
 		)
 		(property "Height" "7.3"
-			(at 66.04 562.56 0)
+			(at 113.03 558.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10725,7 +10725,7 @@
 			)
 		)
 		(property "Mouser Part Number" "653-B3FS-4055P"
-			(at 66.04 662.56 0)
+			(at 113.03 658.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10735,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3FS-4055P?qs=8Kz9Wu9QwqWEoBxnkyUN7A%3D%3D"
-			(at 66.04 762.56 0)
+			(at 113.03 758.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,7 +10745,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 66.04 862.56 0)
+			(at 113.03 858.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +10755,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3FS-4055P"
-			(at 66.04 962.56 0)
+			(at 113.03 958.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12471,7 +12471,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 175.26 0)
+		(at 128.27 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12480,7 +12480,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb51a858-9fb1-4207-8eb6-f2a16ab9dd74")
 		(property "Reference" "R20"
-			(at 109.22 173.9899 0)
+			(at 130.81 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,7 +12489,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 109.22 176.5299 0)
+			(at 130.81 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12498,7 +12498,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 104.902 175.26 90)
+			(at 126.492 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,7 +12507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 175.26 0)
+			(at 128.27 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12516,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 175.26 0)
+			(at 128.27 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
