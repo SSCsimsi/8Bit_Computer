@@ -1,4 +1,5 @@
-0000; nop //------ setup -------------------------------------------
+//------ setup -------------------------------------------
+0000; nop 
 0001; sta 00
 0002; stb 00
 0003; stc 00
@@ -6,68 +7,131 @@
 0005; sop 00
 0006; sti 00
 0007; stf 00
-0008; sty 00 // -- setup done --------------------------------------
-0009; nop //++++++ read inputs +++++++++++++++++++++++++++++++++++++
+0008; sty 00
+
+
+
+// ------ wait for input ---------------------------------
+0009; nop
 000A; ldu
 000B; sta
 000C; not
-000D; cjp 0009 // /\ loop back for inputs /\ -----------------------
-000E; nop //++++++ store input values ++++++++++++++++++++++++++++++
+000D; cjp 0009 // /\ loop back for inputs /\
+
+
+
+// ------ store input value ------------------------------
+// increment input counter
+000E; nop
 000F; inc
 0010; stc
-0011; ldc // check if (c == 0)
+
+
+// if (c == 0)
+0011; ldc
 0012; sta
 0013; stb 00
 0014; ceq
 0015; sta
 0016; not
 0017; cjp 001B // \/ skip if (c != 0) \/
+
 0018; ldi
 0019; sto 0000 //  INPUT 1
 001A; jmp 0009 // /\ go back to read inputs /\
+
+
+// if (c == 1)
 001B; nop
-001C; ldc // check if (c == 1)
+001C; ldc 
 001D; sta
 001E; stb 01
 001F; ceq
 0020; sta
 0021; not
 0022; cjp 0026 // \/ skip if (c != 1) \/
+
 0023; ldi
 0024; sto 0001 // INPUT 2
 0025; jmp 0009 // /\ go back to read inputs /\
+
+
+// else
 0026; nop
 0027; ldi
-0028; sto 0002 // INPUT 3 ------------------------------------------
-0029; lod 0000 //++ decide on calculation method +++++++++++++++++++
+0028; sto 0002 // INPUT 3
+
+
+
+
+
+// ------ decide calculation method -------------------------------
+0029; lod 0000 
 002A; sta
+
+
+// if (mode != 0)
 002B; stb 00
 002C; ceq
 002D; sta
 002E; not
 002F; cjp xxxx // \/ skip if (mode != 0) \/
-0030; nop //add +++++++++++++++++++++++++++++++++++++++++++++++++++
+// add
+0030; nop  
 0031; nop
 0032; nop
-0033; jmp 0000 //-- program end -----------------------------------
+0033; jmp 0000 // program end
+
+
+// if (mode != 1)
 0034; stb 01
 0035; ceq
 0036; sta
 0037; not
 0038; cjp xxxx // \/ skip if (mode != 1) \/
-0039; nop //subtract ++++++++++++++++++++++++++++++++++++++++++++++
+// subtract
+0039; nop 
 003A; nop
 003B; nop
-003C; jmp 0000 //-- program end -----------------------------------
+003C; jmp 0000 // program end
+
+
+// if (mode != 2)
 003D; stb 02
 003E; ceq
 003F; sta
 0040; not
 0041; cjp xxxx // \/ skip if (mode != 2) \/
-0042; nop //multiply ++++++++++++++++++++++++++++++++++++++++++++++
+// multiply
+0042; nop 
 0043; nop
 0044; nop
-0045; jmp 0000 //-- program end -----------------------------------
-0046; nop //divide ++++++++++++++++++++++++++++++++++++++++++++++++
+0045; jmp 0000 // program end
+
+
+// else divide
+0046; nop
 0047; nop
 0048; nop
+0049; jmp 0000 // program end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

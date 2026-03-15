@@ -113,6 +113,11 @@ int main() {
 
         check = 0;
 
+        if(newLine.empty() or (newLine.find("//") == 0 )) {
+            tmpCode << newLine << endl;
+            continue;
+        }
+
         /* beginn reading the code from the first semicolon */
         uint8_t pos = newLine.find(";") + 1;
         newLine = newLine.substr(pos);
@@ -128,6 +133,8 @@ int main() {
 
         /* in order to avoid an empty string later */
         newLine = newLine.append("               ");
+
+
 
 		for(Cmd cmd : Commands) {
 
@@ -197,7 +204,7 @@ int main() {
 		if(!check) {
 
 			errorLog << "unknown command at line: " << ToHex(currentLine, 4) << endl;
-			return -1;
+			//return -1;
 		}
 	}
 
