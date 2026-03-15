@@ -141,10 +141,10 @@ int main() {
     Duration prevAdrDuration = oneCycle;
 
 
-
-    /* check for labels and their positions */
+    
     ifstream tmpCodeFile("code.txt");
 
+    /* check for labels and their positions */
     while(getline(tmpCodeFile, newLine)) {
 
         /* store label, and skip to next cycle */
@@ -153,32 +153,37 @@ int main() {
             Label label;
 
             newLine = newLine.substr(6);
+
+            /* cut off spaces */
             uint8_t pos = newLine.find_first_not_of(' ');
-            label.SetName(newLine.substr(pos));
+            newLine = newLine.substr(pos);
+            if(newLine.find(' ') != newLine.npos) {
+                pos = newLine.find(' ');
+                newLine = newLine.substr(0,pos);
+            }
 
-            errorLog << "label found: " << label.GetName() << endl;
-
+            label.SetName(newLine);
             Labels.push_back(label);
             continue;
         }
 
+        /* check for every known label within the current line */
         for(Label label : Labels) {
 
             if(newLine.find(label.GetName()) != newLine.npos) {
 
+                /* if found next to "nop" it is meant to be jumped to */
                 if(newLine.find("nop") != newLine.npos) {
                     label.SetDestination(currentLine);
-
-                    errorLog << "destination of " << label.GetName() << " is: " << ToHex(label.GetDestination(), 4) << endl;
                 }
+                /* otherwise it is next to jmp or cjp, of which the location needs to be stored */
                 else {
                     label.SetPosition(currentLine);
-
-                    errorLog << "position of " << label.GetName() << " is: " << ToHex(label.GetPosition(), 4) << endl;
                 }
             }
         }
 
+        /* current line shows the line within the assembled programme, so it will only increment if a command was found */
         if(newLine.find(";") != newLine.npos) {
             currentLine++;
         }
@@ -248,9 +253,18 @@ int main() {
 
                 /* cmd -- XXXX */
                 uint16_t adr = 0x0000;
+                bool labelDetected = false;
+
+                /* if there's a label at this position, it will write the destination to adr */
+                for(Label label : Labels) {
+                    if(label.GetPosition() == currentLine) {
+                        adr = label.GetDestination();
+                        labelDetected = true;
+                    }
+                }
 
                 /* if the command needs an address, and no previous command is outputting an address to the bus */
-                if((cmd.Req(Requires::Address) or cmd.Req(Requires::Both)) and !(prevBusAccess == Disables::AddressBus)) {
+                if((cmd.Req(Requires::Address) or cmd.Req(Requires::Both)) and !(prevBusAccess == Disables::AddressBus) and !labelDetected) {
 
                     /* try to write 16bits to the adr file */
                     try{
