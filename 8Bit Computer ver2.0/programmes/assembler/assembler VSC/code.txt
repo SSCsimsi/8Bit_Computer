@@ -1,10 +1,9 @@
-label: hi
-label: hello
-label: welcome
+label: input
+label: skipVal1
 
 
 //------ setup -------------------------------------------
-0000; nop welcome
+0000; nop 
 0001; sta 00
 0002; stb 00
 0003; stc 00 
@@ -17,18 +16,18 @@ label: welcome
 
 
 // ------ wait for input ---------------------------------
-0009; nop
+0009; nop input
 000A; ldu
 000B; sta
 000C; not
-000D; cjp 0009 // /\ loop back for inputs /\
+000D; cjp input // /\ loop back for inputs /\
 
 
 
 // ------ store input value ------------------------------
 // increment input counter
 000E; nop
-000F; inc hi
+000F; inc 
 0010; stc
 
 
@@ -39,7 +38,7 @@ label: welcome
 0014; ceq
 0015; sta
 0016; not
-0017; cjp 001B // \/ skip if (c != 0) \/
+0017; cjp skipVal1 // \/ skip if (c != 0) \/
 
 0018; ldi
 0019; sto 0000 //  INPUT 1
@@ -48,7 +47,7 @@ label: welcome
 
 // if (c == 1)
 001B; nop
-001C; ldc hello
+001C; ldc 
 001D; sta
 001E; stb 01
 001F; ceq

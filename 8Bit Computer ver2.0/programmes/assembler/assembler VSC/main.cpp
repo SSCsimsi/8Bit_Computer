@@ -79,8 +79,8 @@ public:
         name = nameIn;
     }
 
-    void SetPosition(uint16_t lineIn) {
-        line = lineIn;
+    void AddPosition(uint16_t lineIn) {
+        line.push_back(lineIn);
     }
 
     void SetDestination(uint16_t toIn) {
@@ -91,7 +91,7 @@ public:
         return name;
     }
 
-    uint16_t GetPosition() {
+    list<uint16_t> GetPosition() {
         return line;
     }
 
@@ -101,7 +101,7 @@ public:
 
 private:
     string name = "undef.";
-    uint16_t line = 0;
+    list<uint16_t> line;
     uint16_t to = 0;
 };
 
@@ -167,24 +167,27 @@ int main() {
             continue;
         }
 
-        /* check for every known label within the current line */
-        for(Label label : Labels) {
 
-            if(newLine.find(label.GetName()) != newLine.npos) {
-
-                /* if found next to "nop" it is meant to be jumped to */
-                if(newLine.find("nop") != newLine.npos) {
-                    label.SetDestination(currentLine);
-                }
-                /* otherwise it is next to jmp or cjp, of which the location needs to be stored */
-                else {
-                    label.SetPosition(currentLine);
-                }
-            }
-        }
 
         /* current line shows the line within the assembled programme, so it will only increment if a command was found */
         if(newLine.find(";") != newLine.npos) {
+
+            /* check for every known label within the current line */
+            for(Label label : Labels) {
+
+                if(newLine.find(label.GetName()) != newLine.npos) {
+
+                    /* if found next to "nop" it is meant to be jumped to */
+                    if(newLine.find("nop") != newLine.npos) {
+                        label.SetDestination(currentLine);
+                    }
+                    /* otherwise it is next to jmp or cjp, of which the location needs to be stored */
+                    else {
+                        label.AddPosition(currentLine);
+                    }
+                }
+            }
+
             currentLine++;
         }
     }
@@ -251,15 +254,26 @@ int main() {
 
 
 
+
+
+
                 /* cmd -- XXXX */
                 uint16_t adr = 0x0000;
                 bool labelDetected = false;
 
                 /* if there's a label at this position, it will write the destination to adr */
                 for(Label label : Labels) {
-                    if(label.GetPosition() == currentLine) {
-                        adr = label.GetDestination();
-                        labelDetected = true;
+
+                    list<uint16_t> positions;
+                    positions = label.GetPosition();
+
+                    for(uint16_t i : positions) {
+                        if(i == currentLine) {
+                            adr = label.GetDestination();
+                            labelDetected = true;
+
+                            errorLog << "replaced address at line: " << ToHex(currentLine, 4) << " with: " << ToHex(label.GetDestination(), 4) << endl;
+                        }
                     }
                 }
 
@@ -285,6 +299,9 @@ int main() {
                 adrFile.write(reinterpret_cast<char*>(&adr), 2);
 
 
+
+
+                
                 
                 currentLine++;
                 prevBusAccess = cmd.Dis();
