@@ -1,5 +1,10 @@
+label: start
 label: input
-label: skipVal1
+label: skipadd
+label: skipsub
+label: skipmult
+
+
 
 //------ setup -------------------------------------------
 0000; nop 
@@ -10,113 +15,93 @@ label: skipVal1
 0005; sop 00
 0006; sti 00
 0007; stf 00
-0008; sty 00
+0008; stx 00
+0009; sty 00
 
 
 
 // ------ wait for input ---------------------------------
-0009; nop input
-000A; ldu
-000B; sta
-000C; not 
-000D; cjp input // /\ loop back for inputs /\
+000A; nop input
+000B; ldu
+000C; sta
+000D; not 
+000E; cjp input // /\ loop back for inputs /\
 
 
 
 // ------ store input value ------------------------------
 // increment input counter
-000E; nop
-000F; inc 
-0010; stc
+000F; nop
+0010; inc 
+0011; stc
 
 
-// if (c == 0)
-0011; ldc
-0012; sta
-0013; stb 00
-0014; ceq
-0015; sta
-0016; not
-0017; cjp skipVal1 // \/ skip if (c != 0) \/
 
-0018; ldi
-0019; sto 0000 //  INPUT 1
-001A; jmp 0009 // /\ go back to read inputs /\
-
-
-// if (c == 1)
-001B; nop skipVal1
-001C; ldc
-001D; sta
-001E; stb 01
-001F; ceq
-0020; sta
-0021; not
-0022; cjp 0026 // \/ skip if (c != 1) \/
-
-0023; ldi
-0024; sto 0001 // INPUT 2
-0025; jmp 0009 // /\ go back to read inputs /\
-
-
-// else
-0026; nop
-0027; ldi
-0028; sto 0002 // INPUT 3
-
-
+// store values to ram
+0012; ldc
+0013; stx
+0014; ldz
+0015; ldi
 
 
 
 // ------ decide calculation method -------------------------------
-0029; lod 0000 
-002A; sta
+0016; lod 0000 
+0017; sta
 
 
 // if (mode != 0)
-002B; stb 00
-002C; ceq
-002D; sta
-002E; not
-002F; cjp xxxx // \/ skip if (mode != 0) \/
+0018; stb 00
+0019; ceq
+001A; sta
+001B; not
+001C; cjp skipadd 
+// skip if (mode != 0)
+
 // add
-0030; nop  
-0031; nop
-0032; nop
-0033; jmp 0000 // program end
+001D; nop  
+001E; nop
+001F; nop
+0020; jmp start
 
 
 // if (mode != 1)
-0034; stb 01
-0035; ceq
-0036; sta
-0037; not
-0038; cjp xxxx // \/ skip if (mode != 1) \/
+0021; nop skipadd
+0022; stb 01
+0023; ceq
+0024; sta
+0025; not
+0026; cjp skipsub 
+// skip if (mode != 1)
+
 // subtract
-0039; nop 
-003A; nop
-003B; nop
-003C; jmp 0000 // program end
+0027; nop 
+0028; nop
+0029; nop
+002A; jmp start
 
 
 // if (mode != 2)
-003D; stb 02
-003E; ceq
-003F; sta
-0040; not
-0041; cjp xxxx // \/ skip if (mode != 2) \/
+002B; nop skipsub
+002C; stb 02
+002D; ceq
+002E; sta
+002F; nop
+0030; cjp skipmult 
+//skip if (mode != 2)
+
 // multiply
-0042; nop 
-0043; nop
-0044; nop
-0045; jmp 0000 // program end
+0031; nop 
+0032; nop
+0033; nop
+0034; jmp start
 
 
 // else divide
-0046; nop
-0047; nop
-0048; nop
-0049; jmp 0000 // program end
+0035; nop skipmult
+0036; nop
+0037; nop
+0038; jmp start
 
 
 
