@@ -91,7 +91,7 @@ public:
         return name;
     }
 
-    list<uint16_t> GetPosition() {
+    list<uint16_t> GetPositions() {
         return line;
     }
 
@@ -162,8 +162,6 @@ int main() {
                 newLine = newLine.substr(0,pos);
             }
 
-            errorLog << "found label: " << newLine << endl;
-
             label.SetName(newLine);
             Labels.push_back(label);
             continue;
@@ -174,22 +172,29 @@ int main() {
         /* current line shows the line within the assembled programme, so it will only increment if a command was found */
         if(newLine.find(";") != newLine.npos) {
 
+            /* cut off comments */
+            if(newLine.find("//") != newLine.npos) {
+                newLine = newLine.substr(0, newLine.find("//"));
+            }
+
             /* check for every known label within the current line */
-            for(Label label : Labels) {
+            for(Label &label : Labels) {
 
                 if(newLine.find(label.GetName()) != newLine.npos) {
 
                     /* if found next to "nop" it is meant to be jumped to */
                     if(newLine.find("nop") != newLine.npos) {
-                    
                         label.SetDestination(currentLine);
-                        errorLog << "found destination for: " << label.GetName() << " at: " << currentLine << endl;
                     }
+
                     /* otherwise it is next to jmp or cjp, of which the location needs to be stored */
                     else if((newLine.find("jmp") != newLine.npos) or (newLine.find("cjp") != newLine.npos)) {
-
                         label.AddPosition(currentLine);
-                        errorLog << "found position of: " << label.GetName() << " at: " << currentLine << endl;
+                    }
+
+                    /* other locations are not allowed */
+                    else {
+                        errorLog << "illegal position for label \"" << label.GetName() << "\" at line: " << ToHex(currentLine, 4) << endl;
                     }
                 }
             }
@@ -270,15 +275,11 @@ int main() {
                 /* if there's a label at this position, it will write the destination to adr */
                 for(Label label : Labels) {
 
-                    list<uint16_t> positions;
-                    positions = label.GetPosition();
+                    for(uint16_t i : label.GetPositions()) {
 
-                    for(uint16_t i : positions) {
                         if(i == currentLine) {
                             adr = label.GetDestination();
                             labelDetected = true;
-
-                            errorLog << "replaced address at line: " << ToHex(currentLine, 4) << " with: " << ToHex(label.GetDestination(), 4) << endl;
                         }
                     }
                 }

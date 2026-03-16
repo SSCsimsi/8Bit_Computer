@@ -1,7 +1,6 @@
 label: input
 label: skipVal1
 
-
 //------ setup -------------------------------------------
 0000; nop 
 0001; sta 00
@@ -19,7 +18,7 @@ label: skipVal1
 0009; nop input
 000A; ldu
 000B; sta
-000C; not
+000C; not 
 000D; cjp input // /\ loop back for inputs /\
 
 
