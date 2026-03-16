@@ -162,6 +162,8 @@ int main() {
                 newLine = newLine.substr(0,pos);
             }
 
+            errorLog << "found label: " << newLine << endl;
+
             label.SetName(newLine);
             Labels.push_back(label);
             continue;
@@ -180,10 +182,14 @@ int main() {
                     /* if found next to "nop" it is meant to be jumped to */
                     if(newLine.find("nop") != newLine.npos) {
                         label.SetDestination(currentLine);
+
+                        errorLog << "found destination for: " << label.GetName() << " at: " << currentLine << endl;
                     }
                     /* otherwise it is next to jmp or cjp, of which the location needs to be stored */
                     else {
                         label.AddPosition(currentLine);
+
+                        errorLog << "found position of: " << label.GetName() << " at: " << currentLine << endl;
                     }
                 }
             }

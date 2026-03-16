@@ -46,8 +46,8 @@ label: skipVal1
 
 
 // if (c == 1)
-001B; nop
-001C; ldc 
+001B; nop skipVal1
+001C; ldc
 001D; sta
 001E; stb 01
 001F; ceq
