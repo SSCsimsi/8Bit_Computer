@@ -373,7 +373,7 @@ void CreateList() {
     // --- BUS TRANSFER ---
     cmd.Init("stx", 0x03, Requires::Data,    Duration::oneCycle, Disables::None);       Commands.push_back(cmd); // Store to interface reg 1
     cmd.Init("sty", 0x04, Requires::Data,    Duration::oneCycle, Disables::None);       Commands.push_back(cmd); // Store to interface reg 2
-    cmd.Init("ldz", 0x05, Requires::Nothing, Duration::oneCycle, Disables::AddressBus); Commands.push_back(cmd); // Load interface regs
+    cmd.Init("ldz", 0x05, Requires::Nothing, Duration::oneCycle, Disables::None);       Commands.push_back(cmd); // Load interface regs
 
     // --- STORAGE ---
     cmd.Init("sto", 0x06, Requires::Both,    Duration::oneCycle,  Disables::None);      Commands.push_back(cmd); // Store to RAM
