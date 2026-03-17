@@ -162,6 +162,8 @@ int main() {
                 newLine = newLine.substr(0,pos);
             }
 
+            errorLog << "found label: " << newLine << endl;
+
             label.SetName(newLine);
             Labels.push_back(label);
             continue;
@@ -185,11 +187,15 @@ int main() {
                     /* if found next to "nop" it is meant to be jumped to */
                     if(newLine.find("nop") != newLine.npos) {
                         label.SetDestination(currentLine);
+
+                        errorLog << "found destination for: " << label.GetName() << " at: " << ToHex(currentLine, 4) << endl;
                     }
 
                     /* otherwise it is next to jmp or cjp, of which the location needs to be stored */
                     else if((newLine.find("jmp") != newLine.npos) or (newLine.find("cjp") != newLine.npos)) {
                         label.AddPosition(currentLine);
+
+                        //errorLog << "found position of: " << label.GetName() << " at: " << ToHex(currentLine, 4) << endl;
                     }
 
                     /* other locations are not allowed */
@@ -204,6 +210,8 @@ int main() {
     }
 
     tmpCodeFile.close();
+
+    errorLog << endl;
 
 
 
@@ -280,6 +288,8 @@ int main() {
                         if(i == currentLine) {
                             adr = label.GetDestination();
                             labelDetected = true;
+
+                            errorLog << "replaced address at line " << ToHex(currentLine, 4) << " with: " << ToHex(label.GetDestination(), 4) << " > " << label.GetName() << endl;
                         }
                     }
                 }

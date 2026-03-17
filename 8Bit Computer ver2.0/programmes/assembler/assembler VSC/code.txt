@@ -7,7 +7,7 @@ label: skipmult
 
 
 //------ setup -------------------------------------------
-0000; nop 
+0000; nop start
 0001; sta 00
 0002; stb 00
 0003; stc 00 
@@ -86,7 +86,7 @@ label: skipmult
 002C; stb 02
 002D; ceq
 002E; sta
-002F; nop
+002F; not
 0030; cjp skipmult 
 //skip if (mode != 2)
 

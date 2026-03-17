@@ -1,1 +1,19 @@
-unknown data value at line: 0030
+found label: start
+found label: input
+found label: skipadd
+found label: skipsub
+found label: skipmult
+found destination for: start at: 0000
+found destination for: input at: 000A
+found destination for: skipadd at: 0021
+found destination for: skipsub at: 002B
+found destination for: skipmult at: 0035
+
+replaced address at line 000E with: 000A > input
+replaced address at line 001C with: 0021 > skipadd
+replaced address at line 0020 with: 0000 > start
+replaced address at line 0026 with: 002B > skipsub
+replaced address at line 002A with: 0000 > start
+replaced address at line 0030 with: 0035 > skipmult
+replaced address at line 0034 with: 0000 > start
+replaced address at line 0038 with: 0000 > start
