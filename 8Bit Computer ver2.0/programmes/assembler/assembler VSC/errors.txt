@@ -3,17 +3,17 @@ found label: input
 found label: skipadd
 found label: skipsub
 found label: skipmult
-found destination for: start at: 0000
-found destination for: input at: 000A
-found destination for: skipadd at: 0021
-found destination for: skipsub at: 002B
-found destination for: skipmult at: 0035
+found destination for: start at: 000A
+found destination for: input at: 000B
+found destination for: skipadd at: 0023
+found destination for: skipsub at: 002D
+found destination for: skipmult at: 0037
 
-replaced address at line 000E with: 000A > input
-replaced address at line 001C with: 0021 > skipadd
-replaced address at line 0020 with: 0000 > start
-replaced address at line 0026 with: 002B > skipsub
-replaced address at line 002A with: 0000 > start
-replaced address at line 0030 with: 0035 > skipmult
-replaced address at line 0034 with: 0000 > start
-replaced address at line 0038 with: 0000 > start
+replaced address at line 000F with: 000B > input
+replaced address at line 001E with: 0023 > skipadd
+replaced address at line 0022 with: 000A > start
+replaced address at line 0028 with: 002D > skipsub
+replaced address at line 002C with: 000A > start
+replaced address at line 0032 with: 0037 > skipmult
+replaced address at line 0036 with: 000A > start
+replaced address at line 003A with: 000A > start

@@ -7,7 +7,7 @@ label: skipmult
 
 
 //------ setup -------------------------------------------
-0000; nop start
+0000; nop 
 0001; sta 00
 0002; stb 00
 0003; stc 00 
@@ -17,91 +17,92 @@ label: skipmult
 0007; stf 00
 0008; stx 00
 0009; sty 00
+000A; nop start
 
 
 
 // ------ wait for input ---------------------------------
-000A; nop input
-000B; ldu
-000C; sta
-000D; not 
-000E; cjp input // /\ loop back for inputs /\
+000B; nop input
+000C; ldu
+000D; sta
+000E; not 
+000F; cjp input // /\ loop back for inputs /\
 
 
 
 // ------ store input value ------------------------------
 // increment input counter
-000F; nop
-0010; inc 
-0011; stc
+0010; nop
+0011; inc 
+0012; stc
 
 
 
 // store values to ram
-0012; ldc
-0013; stx
-0014; ldz
-0015; ldi
-
+0013; ldc
+0014; stx
+0015; ldz
+0016; ldi
+0017; sto
 
 
 // ------ decide calculation method -------------------------------
-0016; lod 0000 
-0017; sta
+0018; lod 0000 
+0019; sta
 
 
 // if (mode != 0)
-0018; stb 00
-0019; ceq
-001A; sta
-001B; not
-001C; cjp skipadd 
+001A; stb 00
+001B; ceq
+001C; sta
+001D; not
+001E; cjp skipadd 
 // skip if (mode != 0)
 
 // add
-001D; nop  
-001E; nop
-001F; nop
-0020; jmp start
+001F; nop  
+0020; nop
+0021; nop
+0022; jmp start
 
 
 // if (mode != 1)
-0021; nop skipadd
-0022; stb 01
-0023; ceq
-0024; sta
-0025; not
-0026; cjp skipsub 
+0023; nop skipadd
+0024; stb 01
+0025; ceq
+0026; sta
+0027; not
+0028; cjp skipsub 
 // skip if (mode != 1)
 
 // subtract
-0027; nop 
-0028; nop
-0029; nop
-002A; jmp start
+0029; nop 
+002A; nop
+002B; nop
+002C; jmp start
 
 
 // if (mode != 2)
-002B; nop skipsub
-002C; stb 02
-002D; ceq
-002E; sta
-002F; not
-0030; cjp skipmult 
+002D; nop skipsub
+002E; stb 02
+002F; ceq
+0030; sta
+0031; not
+0032; cjp skipmult 
 //skip if (mode != 2)
 
 // multiply
-0031; nop 
-0032; nop
-0033; nop
-0034; jmp start
+0033; nop 
+0034; nop
+0035; nop
+0036; jmp start
 
 
 // else divide
-0035; nop skipmult
-0036; nop
-0037; nop
-0038; jmp start
+0037; nop skipmult
+0038; nop
+0039; nop
+003A; jmp start
 
 
 
