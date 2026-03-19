@@ -5,12 +5,8 @@
 #include <string>
 #include <list>
 #include <bits/stdc++.h>
-#include <cstdio>
-
 
 using namespace std;
-
-#define CMDLENGTH 3
 
 enum Requires{  
     Nothing,
@@ -33,10 +29,6 @@ enum Duration{
 class Cmd {
 public:
 
-	/*
-	 * the name is made up of 3 ascii symbols,
-	 * the value has to fit within 8 bits
-	 */
 	void Init(string nameIn, uint8_t valIn, Requires reqIn, Duration durIn, Disables disIn) {
 		name = nameIn;
 		val = valIn;
@@ -122,7 +114,7 @@ int main() {
     ofstream tmpCode("tmp.txt");
 
 	/* Create the hex files for programming the computer */
-	ofstream cmdFile("cmd", ios::binary); //cmd and dat in one file, since they are combined in one flash chip
+	ofstream cmdFile("cmd", ios::binary); //cmd and dat in one file, since they are combined in one chip
 	ofstream adrFile("adr", ios::binary);
 
     /* Create a txt for logging errors */
@@ -141,8 +133,6 @@ int main() {
     uint16_t prevAdr = 0;
     Duration prevAdrDuration = oneCycle;
 
-
-    
     ifstream tmpCodeFile("code.txt");
 
     /* check for labels and their positions */
@@ -172,7 +162,10 @@ int main() {
 
 
 
-        /* current line shows the line within the assembled programme, so it will only increment if a command was found */
+        /* 
+         * current line shows the line within the assembled programme, 
+         * so it will only increment if a command was found 
+         */
         if(newLine.find(";") != newLine.npos) {
 
             /* cut off comments */
@@ -189,19 +182,19 @@ int main() {
                     if(newLine.find("nop") != newLine.npos) {
                         label.SetDestination(currentLine);
 
-                        errorLog << "found destination for: " << label.GetName() << " at: " << ToHex(currentLine, 4) << endl;
+                        errorLog << "found destination for: " << label.GetName();
+                        errorLog << " at: " << ToHex(currentLine, 4) << endl;
                     }
 
                     /* otherwise it is next to jmp or cjp, of which the location needs to be stored */
                     else if((newLine.find("jmp") != newLine.npos) or (newLine.find("cjp") != newLine.npos)) {
                         label.AddPosition(currentLine);
-
-                        //errorLog << "found position of: " << label.GetName() << " at: " << ToHex(currentLine, 4) << endl;
                     }
 
                     /* other locations are not allowed */
                     else {
-                        errorLog << "illegal position for label \"" << label.GetName() << "\" at line: " << ToHex(currentLine, 4) << endl;
+                        errorLog << "illegal position for label \"" << label.GetName();
+                        errorLog << "\" at line: " << ToHex(currentLine, 4) << endl;
                     }
                 }
             }
@@ -257,8 +250,12 @@ int main() {
                 /* cmd XX ---- */
                 uint8_t val = 0x00;
 
-                /* only if the command needs data, and no previous command is outputting data to the bus */
-                if((cmd.Req(Requires::Data) or cmd.Req(Requires::Both)) and !(prevBusAccess == Disables::DataBus)) {
+                /* 
+                 * only if the command needs data, and no previous command 
+                 * is outputting data to the bus 
+                 */
+                if((cmd.Req(Requires::Data) or cmd.Req(Requires::Both)) and 
+                !(prevBusAccess == Disables::DataBus)) {
 
                     /* try to write 8 data bits to the cmd file */
                     try{
@@ -271,9 +268,6 @@ int main() {
                     }
                 }
                 cmdFile.write(reinterpret_cast<char*>(&val), 1);
-
-
-
 
 
 
@@ -290,13 +284,19 @@ int main() {
                             adr = label.GetDestination();
                             labelDetected = true;
 
-                            errorLog << "replaced address at line " << ToHex(currentLine, 4) << " with: " << ToHex(label.GetDestination(), 4) << " > " << label.GetName() << endl;
+                            errorLog << "replaced address at line " << ToHex(currentLine, 4);
+                            errorLog << " with: " << ToHex(label.GetDestination(), 4);
+                            errorLog << " > " << label.GetName() << endl;
                         }
                     }
                 }
 
-                /* if the command needs an address, and no previous command is outputting an address to the bus */
-                if((cmd.Req(Requires::Address) or cmd.Req(Requires::Both)) and !(prevToLastBusAccess == Disables::AddressBus) and !labelDetected) {
+                /* 
+                 * if the command needs an address, and no previous command 
+                 * is outputting an address to the bus 
+                 */
+                if((cmd.Req(Requires::Address) or cmd.Req(Requires::Both)) and 
+                !(prevToLastBusAccess == Disables::AddressBus) and !labelDetected) {
 
                     /* try to write 16bits to the adr file */
                     try{
@@ -318,9 +318,6 @@ int main() {
 
 
 
-
-                
-                
                 currentLine++;
                 prevToLastBusAccess = prevBusAccess;
                 prevBusAccess = cmd.Dis();
@@ -328,7 +325,7 @@ int main() {
 
                 check = 1;
                 break;
-			}
+			}          
 		}
 
 		if(!check) {
@@ -375,7 +372,7 @@ void CreateList() {
     // --- BUS TRANSFER ---
     cmd.Init("stx", 0x03, Requires::Data,    Duration::oneCycle, Disables::None);       Commands.push_back(cmd); // Store to interface reg 1
     cmd.Init("sty", 0x04, Requires::Data,    Duration::oneCycle, Disables::None);       Commands.push_back(cmd); // Store to interface reg 2
-    cmd.Init("ldz", 0x05, Requires::Nothing, Duration::oneCycle, Disables::AddressBus);       Commands.push_back(cmd); // Load interface regs
+    cmd.Init("ldz", 0x05, Requires::Nothing, Duration::oneCycle, Disables::AddressBus); Commands.push_back(cmd); // Load interface regs
 
     // --- STORAGE ---
     cmd.Init("sto", 0x06, Requires::Both,    Duration::oneCycle,  Disables::None);      Commands.push_back(cmd); // Store to RAM
@@ -436,21 +433,23 @@ void CreateList() {
 
 
 
-    /* unused, since we did not build the screen
+    // unused on the physical version, as there is no screen
 
     // --- SCREEN ---
-    cmd.Init("str", 0x2B, Requires::Both,    Disables::None);       Commands.push_back(cmd); // Store Row
-    cmd.Init("ldr", 0x2C, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Load Row
+    cmd.Init("str", 0x2B, Requires::Both,    Duration::oneCycle,  Disables::None);      Commands.push_back(cmd); // Store Row
+    cmd.Init("ldr", 0x2C, Requires::Nothing, Duration::twoCycles, Disables::DataBus);   Commands.push_back(cmd); // Load Row
 
     // --- CONTROLLER ---
-    cmd.Init("lin", 0x2D, Requires::Nothing, Disables::DataBus);    Commands.push_back(cmd); // Load Inputs
-
-    */
+    cmd.Init("lin", 0x2D, Requires::Nothing, Duration::oneCycle,  Disables::DataBus);   Commands.push_back(cmd); // Load Inputs
 }
 
 string ToHex(uint16_t num, uint8_t len) {
 
-    string out = "000000000000000000000000";
+    string out;
+
+    for(int i; i < len; i++) {
+        out = out + "0";
+    }
 
     try {
         stringstream s;
@@ -463,9 +462,7 @@ string ToHex(uint16_t num, uint8_t len) {
 
         transform(out.begin(), out.end(), out.begin(),::toupper);
     }
-    catch(exception e) {
-
-    }
+    catch(exception e) {}
 
     return out;
 }
