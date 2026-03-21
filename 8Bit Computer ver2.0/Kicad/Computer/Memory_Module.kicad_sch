@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "60f916ba-70a6-4c71-a7d3-0d83572d0371")
 	(paper "A4")
+	(title_block
+		(title "${SHEETNAME}")
+		(date "2026-03-21")
+		(rev "2.7")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -4444,7 +4449,7 @@
 		(dnp no)
 		(uuid "1c7dc6a3-17d7-4fa9-becf-3e9540166d2d")
 		(property "Reference" "J29"
-			(at 24.13 129.5399 0)
+			(at 18.796 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4458,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 24.13 132.0799 0)
+			(at 21.336 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4728,7 @@
 		(dnp no)
 		(uuid "40862642-f448-4c55-b245-d6f4fa38430a")
 		(property "Reference" "J26"
-			(at 24.13 57.1499 0)
+			(at 18.796 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4737,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 24.13 59.6899 0)
+			(at 21.336 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5006,7 @@
 		(dnp no)
 		(uuid "81951a59-e2e0-4f53-871e-753f1ab3769f")
 		(property "Reference" "J30"
-			(at 24.13 153.6699 0)
+			(at 18.796 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +5015,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 24.13 156.2099 0)
+			(at 21.336 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5216,7 @@
 		(dnp no)
 		(uuid "83783cbb-47f9-468b-bdbc-6bb036f925a9")
 		(property "Reference" "J28"
-			(at 24.13 105.4099 0)
+			(at 18.796 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5225,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 24.13 107.9499 0)
+			(at 21.336 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5423,7 @@
 		(dnp no)
 		(uuid "8f8bad42-0906-4a7e-a5fb-e385024635ac")
 		(property "Reference" "J31"
-			(at 24.13 180.3401 0)
+			(at 23.114 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5432,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 24.13 177.8001 0)
+			(at 20.574 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +5779,7 @@
 		(dnp no)
 		(uuid "c9528b7d-99b7-47d2-b675-02c5e697f50e")
 		(property "Reference" "J25"
-			(at 24.13 33.0199 0)
+			(at 18.796 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5788,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 24.13 35.5599 0)
+			(at 21.336 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +5919,7 @@
 		(dnp no)
 		(uuid "ccc8cb91-0913-4fe3-afbb-4d2f7f3ca4fa")
 		(property "Reference" "J27"
-			(at 24.13 81.2799 0)
+			(at 18.796 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +5928,7 @@
 			)
 		)
 		(property "Value" "M20-8890845"
-			(at 24.13 83.8199 0)
+			(at 21.336 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +6641,7 @@
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/13a36bad-d32b-469d-8a9a-941e54d6dd87"
-					(page "26")
+					(page "48")
 				)
 			)
 		)
@@ -6768,7 +6773,7 @@
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/13a36bad-d32b-469d-8a9a-941e54d6dd87"
-					(page "23")
+					(page "45")
 				)
 			)
 		)

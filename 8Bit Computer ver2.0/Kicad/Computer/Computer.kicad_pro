@@ -2128,48 +2128,28 @@
       "AdderSubstractor_ALU"
     ],
     [
-      "13a36bad-d32b-469d-8a9a-941e54d6dd87",
-      "Memory_Module"
-    ],
-    [
       "8ebf493e-e100-4f41-822b-081dfc4af4d2",
       "AdderSubstractor"
-    ],
-    [
-      "af9afd94-c55f-4e9c-afa1-53e0d366f8d9",
-      "FlashMemory"
     ],
     [
       "14c02bf6-6973-447f-9aa8-955c6f14b343",
       "BarrelShifter"
     ],
     [
-      "239906f3-96ff-459e-bb86-2117576fa9f4",
-      "ADR_Flash"
-    ],
-    [
       "7baa2808-4e64-4cb4-a7c2-d145cb207a9e",
       "BarrelShiftRegister"
-    ],
-    [
-      "92cf7861-17b3-419e-a95a-2465abb49387",
-      "CMD_DAT_Flash"
     ],
     [
       "402b8e77-e36c-4584-a5cb-d39046319430",
       "Comparator_ALU"
     ],
     [
-      "99e5fbb2-ef39-48db-8492-f961bb4d4348",
-      "RAM"
+      "823669ff-5b5b-4dce-b835-8de9741e6d5e",
+      "Comparator"
     ],
     [
       "e315c350-9efb-4aaf-a2cb-7d45d2a19385",
       "Capacitors_ALU"
-    ],
-    [
-      "823669ff-5b5b-4dce-b835-8de9741e6d5e",
-      "Comparator"
     ],
     [
       "aa0b4166-3249-46f4-b1e7-b527180eb580",
@@ -2214,6 +2194,42 @@
     [
       "ba5a7074-f649-4584-80a3-402a8e31fba6",
       "InputOutput"
+    ],
+    [
+      "6004bc72-bd3c-4634-8f0f-c3a3bace4d3e",
+      "Output_IO"
+    ],
+    [
+      "019d82d6-4e54-4abc-befd-5665fd47cfac",
+      "Input_unread_IO"
+    ],
+    [
+      "1472687b-e3dc-4b49-b471-5591eb1e7250",
+      "Input_store_IO"
+    ],
+    [
+      "a8e031c8-b5cd-4aec-a136-2fc4d652d94e",
+      "Input_Buttons_LEDs_IO"
+    ],
+    [
+      "13a36bad-d32b-469d-8a9a-941e54d6dd87",
+      "Memory_Module"
+    ],
+    [
+      "af9afd94-c55f-4e9c-afa1-53e0d366f8d9",
+      "FlashMemory"
+    ],
+    [
+      "239906f3-96ff-459e-bb86-2117576fa9f4",
+      "ADR_Flash"
+    ],
+    [
+      "92cf7861-17b3-419e-a95a-2465abb49387",
+      "CMD_DAT_Flash"
+    ],
+    [
+      "99e5fbb2-ef39-48db-8492-f961bb4d4348",
+      "RAM"
     ]
   ],
   "text_variables": {}

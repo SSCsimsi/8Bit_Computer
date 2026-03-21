@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "52a58335-cedb-4333-a9fc-72ffd06340e9")
 	(paper "A4")
+	(title_block
+		(title "${SHEETNAME}")
+		(date "2026-03-21")
+		(rev "2.7")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -3647,7 +3652,7 @@
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/13a36bad-d32b-469d-8a9a-941e54d6dd87/af9afd94-c55f-4e9c-afa1-53e0d366f8d9"
-					(page "24")
+					(page "46")
 				)
 			)
 		)
@@ -3779,7 +3784,7 @@
 		(instances
 			(project "Computer"
 				(path "/1196a00e-6878-4d6d-82b7-9e052dfe7c14/13a36bad-d32b-469d-8a9a-941e54d6dd87/af9afd94-c55f-4e9c-afa1-53e0d366f8d9"
-					(page "25")
+					(page "47")
 				)
 			)
 		)

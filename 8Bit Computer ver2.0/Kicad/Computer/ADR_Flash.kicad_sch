@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "0f283be9-62a3-4eb6-af95-7b4c842974c1")
 	(paper "A4")
+	(title_block
+		(title "${SHEETNAME}")
+		(date "2026-03-21")
+		(rev "2.7")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x25_Odd_Even"
 			(pin_names

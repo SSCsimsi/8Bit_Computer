@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "15997d2c-7430-46d5-810e-9aca62efbd1f")
 	(paper "A4")
+	(title_block
+		(title "${SHEETNAME}")
+		(date "2026-03-21")
+		(rev "2.7")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers

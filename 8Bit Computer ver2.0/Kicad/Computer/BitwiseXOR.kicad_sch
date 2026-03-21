@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "26d44008-758d-4158-8602-565be5bf6a03")
 	(paper "A4")
+	(title_block
+		(title "${SHEETNAME}")
+		(date "2026-03-21")
+		(rev "2.7")
+	)
 	(lib_symbols
 		(symbol "Samacsys:SN74ABT574ADWR"
 			(exclude_from_sim no)
