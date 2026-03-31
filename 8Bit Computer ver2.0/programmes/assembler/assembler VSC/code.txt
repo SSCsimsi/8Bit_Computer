@@ -1,8 +1,8 @@
-label: start
-label: input
-label: skipadd
-label: skipsub
-label: skipmult
+label: Start
+label: Add
+label: Sub
+label: Mul
+label: Div
 
 
 
@@ -17,97 +17,100 @@ label: skipmult
 0007; stf 00
 0008; stx 00
 0009; sty 00
-000A; nop start
 
 
 
 // ------ wait for input ---------------------------------
-000B; nop input
-000C; ldu
-000D; sta
-000E; not 
-000F; cjp input // /\ loop back for inputs /\
+000A; nop Start
+000B; ldu
+000C; sta
+000D; not 
+000E; cjp Start // loop back for inputs
 
 
 
 // ------ store input value ------------------------------
 // increment input counter
-0010; nop
-0011; inc 
-0012; stc
-
-
+000F; nop
+0010; inc
+0011; stc
 
 // store values to ram
-0013; ldc
-0014; stx
-0015; ldz
-0016; ldi
-0017; sto
+0012; ldc
+0013; stx
+0014; ldz
+0015; ldi
+0016; sto
+
+// return if there are less than 3 inputs
+0017; ldc
+0018; sta
+0019; stb 03
+001A; clt
+001B; cjp Start
+
 
 
 // ------ decide calculation method -------------------------------
-0018; lod 0000 
-0019; sta
 
+001C; lod 0001 // the calculation mode
+001D; sta
 
-// if (mode != 0)
-001A; stb 00
-001B; ceq
-001C; sta
-001D; not
-001E; cjp skipadd 
-// skip if (mode != 0)
+// if (mode == 0)
+001E; stb 00
+001F; ceq
+0020; cjp Add
 
-// add
-001F; nop  
-0020; nop
-0021; nop
-0022; jmp start
+// if (mode == 1)
+0021; stb 01
+0022; ceq
+0023; cjp Sub
 
-
-// if (mode != 1)
-0023; nop skipadd
-0024; stb 01
+// if (mode == 2)
+0024; stb 02
 0025; ceq
-0026; sta
-0027; not
-0028; cjp skipsub 
-// skip if (mode != 1)
+0026; cjp Mul
 
-// subtract
-0029; nop 
-002A; nop
-002B; nop
-002C; jmp start
-
-
-// if (mode != 2)
-002D; nop skipsub
-002E; stb 02
-002F; ceq
-0030; sta
-0031; not
-0032; cjp skipmult 
-//skip if (mode != 2)
-
-// multiply
-0033; nop 
-0034; nop
-0035; nop
-0036; jmp start
-
-
-// else divide
-0037; nop skipmult
-0038; nop
-0039; nop
-003A; jmp start
+// if (mode == 3)
+0027; stb 03
+0028; ceq
+0029; cjp Div
 
 
 
 
+// ------ add -----------------------------------------------------
+002A; nop Add
+002B; lod 0000
+002C; sta
+002D; lod 0002
+002E; stb
+002F; add
+0030; sop
+0031; jmp Start
 
+
+// ------ sub -----------------------------------------------------
+0032; nop Sub
+0033; lod 0000
+0034; sta
+0035; lod 0002
+0036; stb
+0037; sub
+0038; sop
+0039; jmp Start
+
+
+
+// ------ mul -----------------------------------------------------
+003A; nop Mul
+003B; jmp Start
+
+
+
+// ------ div -----------------------------------------------------
+003C; nop Div
+003D; jmp Start
 
 
 

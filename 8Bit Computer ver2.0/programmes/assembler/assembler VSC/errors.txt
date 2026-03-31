@@ -1,19 +1,21 @@
-found label: start
-found label: input
-found label: skipadd
-found label: skipsub
-found label: skipmult
-found destination for: start at: 000A
-found destination for: input at: 000B
-found destination for: skipadd at: 0023
-found destination for: skipsub at: 002D
-found destination for: skipmult at: 0037
+found label: Start
+found label: Add
+found label: Sub
+found label: Mul
+found label: Div
+found destination for: Start at: 000A
+found destination for: Add at: 002A
+found destination for: Sub at: 0032
+found destination for: Mul at: 003A
+found destination for: Div at: 003C
 
-replaced address at line 000F with: 000B > input
-replaced address at line 001E with: 0023 > skipadd
-replaced address at line 0022 with: 000A > start
-replaced address at line 0028 with: 002D > skipsub
-replaced address at line 002C with: 000A > start
-replaced address at line 0032 with: 0037 > skipmult
-replaced address at line 0036 with: 000A > start
-replaced address at line 003A with: 000A > start
+replaced address at line 000E with: 000A > Start
+replaced address at line 001B with: 000A > Start
+replaced address at line 0020 with: 002A > Add
+replaced address at line 0023 with: 0032 > Sub
+replaced address at line 0026 with: 003A > Mul
+replaced address at line 0029 with: 003C > Div
+replaced address at line 0031 with: 000A > Start
+replaced address at line 0039 with: 000A > Start
+replaced address at line 003B with: 000A > Start
+replaced address at line 003D with: 000A > Start
