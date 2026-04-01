@@ -1,13 +1,17 @@
+label: Restart
 label: Start
 label: Add
 label: Sub
 label: Mul
+label: MulReturn
 label: Div
+label: DivReturn
+label: Error
 
 
 
 //------ setup -------------------------------------------
-0000; nop 
+0000; nop Restart
 0001; sta 00
 0002; stb 00
 0003; stc 00 
@@ -76,41 +80,106 @@ label: Div
 0028; ceq
 0029; cjp Div
 
+// else (error detected)
+002A; jmp Error
 
 
 
 // ------ add -----------------------------------------------------
-002A; nop Add
-002B; lod 0000
-002C; sta
-002D; lod 0002
-002E; stb
-002F; add
-0030; sop
-0031; jmp Start
+002B; nop Add
+002C; lod 0000
+002D; sta
+002E; lod 0002
+002F; stb
+0030; add
+
+0031; sop
+0032; jmp Start
+
 
 
 // ------ sub -----------------------------------------------------
-0032; nop Sub
-0033; lod 0000
-0034; sta
-0035; lod 0002
-0036; stb
-0037; sub
-0038; sop
-0039; jmp Start
+0033; nop Sub
+0034; lod 0000
+0035; sta
+0036; lod 0002
+0037; stb
+0038; sub
+
+0039; sop
+003A; jmp Start
 
 
 
-// ------ mul -----------------------------------------------------
-003A; nop Mul
-003B; jmp Start
+
+// ------ mul ------------------------------------------------------
+
+// ------------------------ memory map: ------------------------- //
+//                                                                //
+// 0000 > val 1                                                   //
+// 0001 > operation                                               //
+// 0002 > val 2                                                   //
+//                                                                //
+// 0010 > position of current bit being pulled from the number    //
+// 0011 > temporary shift distance for val 1                      //
+// 0012 > temporary calculation value for adding shifted values   //
+//                                                                //
+//                                                                //
+//                                                                //
+// -------------------------------------------------------------- //
+
+003B; nop Mul
+003C; sto 01 0010
+003D; sto 00 0012
+
+// calc dist
+003E; nop MulReturn
+003F; lod 0002
+0040; sta
+0041; lod 0010
+0042; stb
+0043; ban
+0044; sta
+0045; stb 01
+0046; sub
+0047; sto 0011
+
+// select next bit
+0048; lod 0010
+0049; sta
+004A; std 01
+004B; sft
+004C; sto 0010
+
+// add shifted value to accumulator
+004D; lod 0000
+004E; sta
+004F; lod 0011
+0050; std
+0051; sft
+0052; sta
+0053; lod 0012
+0054; stb
+0055; add
+0056; sto 0012
+
+// keep looping until the last bit is checked
+0057; lod 0010
+0058; sta
+0059; stb 80
+005A; ceq
+005B; sta
+005C; not
+005D; cjp MulReturn
+
+
+005E; jmp Start
 
 
 
 // ------ div -----------------------------------------------------
-003C; nop Div
-003D; jmp Start
+005F; nop Div
+0060; jmp Start
 
 
 

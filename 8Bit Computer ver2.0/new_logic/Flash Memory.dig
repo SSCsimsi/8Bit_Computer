@@ -77,7 +77,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="440"/>
+      <pos x="900" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -87,7 +87,7 @@
           <string>DAT_dis</string>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="500"/>
+      <pos x="900" y="500"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
@@ -178,7 +178,7 @@
           <string>ADR_dis</string>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="560"/>
+      <pos x="900" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -188,17 +188,17 @@
           <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="1020" y="620"/>
+      <pos x="900" y="620"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="1120" y="500"/>
+      <pos x="1000" y="500"/>
     </visualElement>
     <visualElement>
       <elementName>D_FF</elementName>
       <elementAttributes/>
-      <pos x="1120" y="560"/>
+      <pos x="1000" y="560"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -245,7 +245,7 @@ avoid bus collisions</string>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="1040" y="620"/>
+      <pos x="920" y="620"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -261,15 +261,24 @@ avoid bus collisions</string>
       </elementAttributes>
       <pos x="1360" y="460"/>
     </visualElement>
+    <visualElement>
+      <elementName>D_FF</elementName>
+      <elementAttributes/>
+      <pos x="1100" y="560"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="1020" y="560"/>
-      <p2 x="1120" y="560"/>
+      <p1 x="900" y="560"/>
+      <p2 x="1000" y="560"/>
     </wire>
     <wire>
       <p1 x="1240" y="560"/>
       <p2 x="1280" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="560"/>
+      <p2 x="1100" y="560"/>
     </wire>
     <wire>
       <p1 x="1260" y="480"/>
@@ -292,31 +301,35 @@ avoid bus collisions</string>
       <p2 x="1520" y="580"/>
     </wire>
     <wire>
-      <p1 x="1100" y="580"/>
-      <p2 x="1120" y="580"/>
+      <p1 x="980" y="580"/>
+      <p2 x="1000" y="580"/>
     </wire>
     <wire>
-      <p1 x="1180" y="580"/>
+      <p1 x="1160" y="580"/>
       <p2 x="1200" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="580"/>
+      <p2 x="1100" y="580"/>
     </wire>
     <wire>
       <p1 x="1200" y="660"/>
       <p2 x="1480" y="660"/>
     </wire>
     <wire>
-      <p1 x="1020" y="500"/>
-      <p2 x="1120" y="500"/>
+      <p1 x="900" y="500"/>
+      <p2 x="1000" y="500"/>
     </wire>
     <wire>
       <p1 x="1460" y="520"/>
       <p2 x="1520" y="520"/>
     </wire>
     <wire>
-      <p1 x="1100" y="520"/>
-      <p2 x="1120" y="520"/>
+      <p1 x="980" y="520"/>
+      <p2 x="1000" y="520"/>
     </wire>
     <wire>
-      <p1 x="1180" y="520"/>
+      <p1 x="1060" y="520"/>
       <p2 x="1220" y="520"/>
     </wire>
     <wire>
@@ -328,7 +341,7 @@ avoid bus collisions</string>
       <p2 x="1280" y="600"/>
     </wire>
     <wire>
-      <p1 x="1020" y="440"/>
+      <p1 x="900" y="440"/>
       <p2 x="1240" y="440"/>
     </wire>
     <wire>
@@ -336,12 +349,16 @@ avoid bus collisions</string>
       <p2 x="1280" y="440"/>
     </wire>
     <wire>
-      <p1 x="1080" y="620"/>
-      <p2 x="1100" y="620"/>
+      <p1 x="960" y="620"/>
+      <p2 x="980" y="620"/>
     </wire>
     <wire>
-      <p1 x="1020" y="620"/>
-      <p2 x="1040" y="620"/>
+      <p1 x="900" y="620"/>
+      <p2 x="920" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="620"/>
+      <p2 x="1080" y="620"/>
     </wire>
     <wire>
       <p1 x="1340" y="460"/>
@@ -364,6 +381,14 @@ avoid bus collisions</string>
       <p2 x="1220" y="640"/>
     </wire>
     <wire>
+      <p1 x="980" y="520"/>
+      <p2 x="980" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="580"/>
+      <p2 x="980" y="620"/>
+    </wire>
+    <wire>
       <p1 x="1480" y="600"/>
       <p2 x="1480" y="660"/>
     </wire>
@@ -376,12 +401,8 @@ avoid bus collisions</string>
       <p2 x="1400" y="520"/>
     </wire>
     <wire>
-      <p1 x="1100" y="520"/>
-      <p2 x="1100" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="1100" y="580"/>
-      <p2 x="1100" y="620"/>
+      <p1 x="1080" y="580"/>
+      <p2 x="1080" y="620"/>
     </wire>
     <wire>
       <p1 x="1260" y="380"/>

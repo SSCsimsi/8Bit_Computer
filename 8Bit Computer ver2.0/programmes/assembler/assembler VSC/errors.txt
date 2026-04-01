@@ -1,21 +1,31 @@
+found label: Restart
 found label: Start
 found label: Add
 found label: Sub
 found label: Mul
+found label: MulReturn
 found label: Div
+found label: DivReturn
+found label: Error
+found destination for: Restart at: 0000
 found destination for: Start at: 000A
-found destination for: Add at: 002A
-found destination for: Sub at: 0032
-found destination for: Mul at: 003A
-found destination for: Div at: 003C
+found destination for: Add at: 002B
+found destination for: Sub at: 0033
+found destination for: Mul at: 003B
+found destination for: Mul at: 003E
+found destination for: MulReturn at: 003E
+found destination for: Div at: 005F
 
 replaced address at line 000E with: 000A > Start
 replaced address at line 001B with: 000A > Start
-replaced address at line 0020 with: 002A > Add
-replaced address at line 0023 with: 0032 > Sub
-replaced address at line 0026 with: 003A > Mul
-replaced address at line 0029 with: 003C > Div
-replaced address at line 0031 with: 000A > Start
-replaced address at line 0039 with: 000A > Start
-replaced address at line 003B with: 000A > Start
-replaced address at line 003D with: 000A > Start
+replaced address at line 0020 with: 002B > Add
+replaced address at line 0023 with: 0033 > Sub
+replaced address at line 0026 with: 003E > Mul
+replaced address at line 0029 with: 005F > Div
+replaced address at line 002A with: 0000 > Error
+replaced address at line 0032 with: 000A > Start
+replaced address at line 003A with: 000A > Start
+replaced address at line 005D with: 003E > Mul
+replaced address at line 005D with: 003E > MulReturn
+replaced address at line 005E with: 000A > Start
+replaced address at line 0060 with: 000A > Start
