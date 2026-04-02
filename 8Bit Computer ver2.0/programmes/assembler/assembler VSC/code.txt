@@ -131,57 +131,62 @@ label: Error
 
 003A; nop Mul
 003B; sto 01 0010
-003C; sto 00 0012
+003C; nop
+003D; sto 00 0012
 
 // calc dist
-003D; nop MReturn
-003E; lod 0002
-003F; sta
-0040; lod 0010
-0041; stb
-0042; ban
-0043; sta
-0044; stb 01
-0045; sub
-0046; sto 0011
+003E; nop MulRet
+003F; lod 0002
+0040; sta
+0041; lod 0010
+0042; stb
+0043; ban
+0044; sta
+0045; stb 01
+0046; sub
+// fix the shift direction
+0047; sta
+0048; stb 08
+0049; sub
+004A; sto 0011
 
 // select next bit
-0047; lod 0010
-0048; sta
-0049; std 01
-004A; sft
-004B; sto 0010
+004B; lod 0010
+004C; sta
+004D; std 07 // should be 01, but the shift register shifts in the wrong direction
+004E; sft
+004F; sto 0010
 
 // add shifted value to accumulator
-004C; lod 0000
-004D; sta
-004E; lod 0011
-004F; std
-0050; sft
+0050; lod 0000
 0051; sta
-0052; lod 0012
-0053; stb
-0054; add
-0055; sto 0012
+0052; lod 0011
+0053; std
+0054; sft
+0055; sta
+0056; lod 0012
+0057; stb
+0058; add
+0059; sto 0012
 
 // keep looping until the last bit is checked
-0056; lod 0010
-0057; sta
-0058; stb 80
-0059; ceq
-005A; sta
-005B; not
-005C; cjp MulRet
+005A; lod 0010
+005B; sta
+005C; stb 80
+005D; ceq
+005E; sta
+005F; not
+0060; cjp MulRet
 
-005D; lod 0012
-005E; sop
-005F; jmp Start
+0061; lod 0012
+0062; sop
+0063; jmp Start
 
 
 
 // ------ div -----------------------------------------------------
-0060; nop Div
-0061; jmp Start
+0064; nop Div
+0065; jmp Start
 
 
 
