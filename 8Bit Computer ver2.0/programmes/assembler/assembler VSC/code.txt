@@ -3,9 +3,9 @@ label: Start
 label: Add
 label: Sub
 label: Mul
-label: MReturn
+label: MulRet
 label: Div
-label: DReturn
+label: DivRet
 label: Error
 
 
@@ -127,6 +127,8 @@ label: Error
 //                                                                //
 // -------------------------------------------------------------- //
 
+// sft shifts in the wrong direction!!!
+
 003A; nop Mul
 003B; sto 01 0010
 003C; sto 00 0012
@@ -169,7 +171,7 @@ label: Error
 0059; ceq
 005A; sta
 005B; not
-005C; cjp MReturn
+005C; cjp MulRet
 
 005D; lod 0012
 005E; sop

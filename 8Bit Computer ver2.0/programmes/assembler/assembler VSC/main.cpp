@@ -173,28 +173,68 @@ int main() {
                 newLine = newLine.substr(0, newLine.find("//"));
             }
 
+            // add spaces, otherwise it would not be possible to search for labels
+            newLine.append("   ");
+
             /* check for every known label within the current line */
             for(Label &label : Labels) {
 
-                if(newLine.find(label.GetName()) != newLine.npos) {
+                bool run = true;
+                string labelInLine = "undef.";
+                
+                // indexes
+                uint16_t ind1 = 0;
+                uint16_t ind2 = 0;
 
-                    /* if found next to "nop" it is meant to be jumped to */
-                    if(newLine.find("nop") != newLine.npos) {
-                        label.SetDestination(currentLine);
+                while(run) {
 
-                        errorLog << "found destination for: " << label.GetName();
-                        errorLog << " at: " << ToHex(currentLine, 4) << endl;
+                    try {
+
+                        if(newLine.find(' ', ind1 + 1) != newLine.npos) {
+                            ind1 = newLine.find(' ', ind1 + 1);
+                        }
+                        else {
+                            run = false;
+                        }
+
+                        if(newLine.find(' ', ind1 + 1) != newLine.npos) {
+                            ind2 = newLine.find(' ', ind1 + 1);
+                        }
+                        else {
+                            run = false;
+                        }
+
+                        labelInLine = newLine.substr(ind1 + 1, ind2 - ind1 - 1);
+
+                        if(labelInLine == label.GetName()) {
+
+                            /* if found next to "nop" it is meant to be jumped to */
+                            if(newLine.find("nop") != newLine.npos) {
+                                label.SetDestination(currentLine);
+
+                                errorLog << "found destination for: " << label.GetName();
+                                errorLog << " at: " << ToHex(currentLine, 4) << endl;
+                            }
+
+                            /* otherwise it is next to jmp or cjp, of which the location needs to be stored */
+                            else if((newLine.find("jmp") != newLine.npos) or (newLine.find("cjp") != newLine.npos)) {
+                                label.AddPosition(currentLine);
+                            }
+
+                            /* other locations are not allowed */
+                            else {
+                                errorLog << "illegal position for label \"" << label.GetName();
+                                errorLog << "\" at line: " << ToHex(currentLine, 4) << endl;
+                            }
+
+                            run = false;
+                        }
                     }
+                    catch(exception e) {
 
-                    /* otherwise it is next to jmp or cjp, of which the location needs to be stored */
-                    else if((newLine.find("jmp") != newLine.npos) or (newLine.find("cjp") != newLine.npos)) {
-                        label.AddPosition(currentLine);
-                    }
+                        errorLog << "error while searching for labels at line " << ToHex(currentLine, 4) << endl;
 
-                    /* other locations are not allowed */
-                    else {
-                        errorLog << "illegal position for label \"" << label.GetName();
-                        errorLog << "\" at line: " << ToHex(currentLine, 4) << endl;
+                        run = false;
                     }
                 }
             }

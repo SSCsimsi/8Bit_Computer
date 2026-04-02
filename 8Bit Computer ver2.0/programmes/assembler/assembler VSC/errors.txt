@@ -3,16 +3,15 @@ found label: Start
 found label: Add
 found label: Sub
 found label: Mul
-found label: MReturn
+found label: MulRet
 found label: Div
-found label: DReturn
+found label: DivRet
 found label: Error
 found destination for: Restart at: 0000
 found destination for: Start at: 000A
 found destination for: Add at: 002A
 found destination for: Sub at: 0032
 found destination for: Mul at: 003A
-found destination for: MReturn at: 003D
 found destination for: Div at: 0060
 
 replaced address at line 000E with: 000A > Start
@@ -24,6 +23,6 @@ replaced address at line 0028 with: 0060 > Div
 replaced address at line 0029 with: 0000 > Error
 replaced address at line 0031 with: 000A > Start
 replaced address at line 0039 with: 000A > Start
-replaced address at line 005C with: 003D > MReturn
+replaced address at line 005C with: 0000 > MulRet
 replaced address at line 005F with: 000A > Start
 replaced address at line 0061 with: 000A > Start
