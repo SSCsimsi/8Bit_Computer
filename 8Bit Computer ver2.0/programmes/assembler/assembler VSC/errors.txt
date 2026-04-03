@@ -1,5 +1,6 @@
 found label: Restart
-found label: Start
+found label: WaitForRelease
+found label: WaitForInput
 found label: Add
 found label: Sub
 found label: Mul
@@ -8,22 +9,24 @@ found label: Div
 found label: DivRet
 found label: Error
 found destination for: Restart at: 0000
-found destination for: Start at: 000A
-found destination for: Add at: 002A
-found destination for: Sub at: 0032
-found destination for: Mul at: 003A
-found destination for: MulRet at: 003E
-found destination for: Div at: 0064
+found destination for: WaitForRelease at: 0010
+found destination for: WaitForInput at: 0013
+found destination for: Add at: 0033
+found destination for: Sub at: 003B
+found destination for: Mul at: 0043
+found destination for: MulRet at: 0047
+found destination for: Div at: 006D
 
-replaced address at line 000E with: 000A > Start
-replaced address at line 001A with: 000A > Start
-replaced address at line 001F with: 002A > Add
-replaced address at line 0022 with: 0032 > Sub
-replaced address at line 0025 with: 003A > Mul
-replaced address at line 0028 with: 0064 > Div
-replaced address at line 0029 with: 0000 > Error
-replaced address at line 0031 with: 000A > Start
-replaced address at line 0039 with: 000A > Start
-replaced address at line 0060 with: 003E > MulRet
-replaced address at line 0063 with: 000A > Start
-replaced address at line 0065 with: 000A > Start
+replaced address at line 0012 with: 0010 > WaitForRelease
+replaced address at line 0017 with: 0013 > WaitForInput
+replaced address at line 0023 with: 0010 > WaitForRelease
+replaced address at line 0028 with: 0033 > Add
+replaced address at line 002B with: 003B > Sub
+replaced address at line 002E with: 0043 > Mul
+replaced address at line 0031 with: 006D > Div
+replaced address at line 0032 with: 0000 > Error
+replaced address at line 003A with: 0000 > Restart
+replaced address at line 0042 with: 0000 > Restart
+replaced address at line 0069 with: 0047 > MulRet
+replaced address at line 006C with: 0000 > Restart
+replaced address at line 006E with: 0000 > Restart

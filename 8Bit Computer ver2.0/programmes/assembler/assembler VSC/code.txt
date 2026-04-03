@@ -1,5 +1,6 @@
 label: Restart
-label: Start
+label: WaitForRelease
+label: WaitForInput
 label: Add
 label: Sub
 label: Mul
@@ -11,6 +12,7 @@ label: Error
 
 
 //------ setup -------------------------------------------
+
 0000; nop Restart
 0001; sta 00
 0002; stb 00
@@ -22,92 +24,107 @@ label: Error
 0008; stx 00
 0009; sty 00
 
+// input values
+000A; sto 00 0000
+000B; sto 00 0001
+000C; sto 00 0002
+
+// values for multiplication
+000D; sto 00 0010
+000E; sto 00 0011
+000F; sto 00 0012
 
 
-// ------ wait for input ---------------------------------
-000A; nop Start
-000B; ldu
-000C; sta
-000D; not 
-000E; cjp Start // loop back for inputs
 
+// ------ input handling ------------------------------------------
 
+// wait for button to not be pressed anymore
+0010; nop WaitForRelease
+0011; ldu
+0012; cjp WaitForRelease
 
-// ------ store input value ------------------------------
+// wait for input
+0013; nop WaitForInput
+0014; ldu
+0015; sta
+0016; not 
+0017; cjp WaitForInput
+
 // store values to ram
-000F; ldc
-0010; stx
-0011; ldz
-0012; ldi
-0013; sto
+0018; ldc
+0019; stx
+001A; ldz
+001B; ldi
+001C; sto
 
 // increment input counter
-0014; inc
-0015; stc
+001D; inc
+001E; stc
 
 // return if there are less than 3 inputs
-0016; ldc
-0017; sta
-0018; stb 03
-0019; clt
-001A; cjp Start
+001F; ldc
+0020; sta
+0021; stb 03
+0022; clt
+0023; cjp WaitForRelease
 
 
 
 // ------ decide calculation method -------------------------------
 
-001B; lod 0001 // the calculation mode
-001C; sta
+0024; lod 0001 // the calculation mode
+0025; sta
 
 // if (mode == 0)
-001D; stb 00
-001E; ceq
-001F; cjp Add
+0026; stb 00
+0027; ceq
+0028; cjp Add
 
 // if (mode == 1)
-0020; stb 01
-0021; ceq
-0022; cjp Sub
+0029; stb 01
+002A; ceq
+002B; cjp Sub
 
 // if (mode == 2)
-0023; stb 02
-0024; ceq
-0025; cjp Mul
+002C; stb 02
+002D; ceq
+002E; cjp Mul
 
 // if (mode == 3)
-0026; stb 03
-0027; ceq
-0028; cjp Div
+002F; stb 03
+0030; ceq
+0031; cjp Div
 
 // else (error detected)
-0029; jmp Error
+0032; jmp Error
 
 
 
 // ------ add -----------------------------------------------------
-002A; nop Add
-002B; lod 0000
-002C; sta
-002D; lod 0002
-002E; stb
-002F; add
 
-0030; sop
-0031; jmp Start
+0033; nop Add
+0034; lod 0000
+0035; sta
+0036; lod 0002
+0037; stb
+0038; add
+
+0039; sop
+003A; jmp Restart
 
 
 
 // ------ sub -----------------------------------------------------
-0032; nop Sub
-0033; lod 0000
-0034; sta
-0035; lod 0002
-0036; stb
-0037; sub
 
-0038; sop
-0039; jmp Start
+003B; nop Sub
+003C; lod 0000
+003D; sta
+003E; lod 0002
+003F; stb
+0040; sub
 
+0041; sop
+0042; jmp Restart
 
 
 
@@ -129,64 +146,65 @@ label: Error
 
 // sft shifts in the wrong direction!!!
 
-003A; nop Mul
-003B; sto 01 0010
-003C; nop
-003D; sto 00 0012
+0043; nop Mul
+0044; sto 01 0010
+0045; nop
+0046; sto 00 0012
 
 // calc dist
-003E; nop MulRet
-003F; lod 0002
-0040; sta
-0041; lod 0010
-0042; stb
-0043; ban
-0044; sta
-0045; stb 01
-0046; sub
+0047; nop MulRet
+0048; lod 0002
+0049; sta
+004A; lod 0010
+004B; stb
+004C; ban
+004D; sta
+004E; stb 01
+004F; sub
 // fix the shift direction
-0047; sta
-0048; stb 08
-0049; sub
-004A; sto 0011
+0050; stb
+0051; sta 08
+0052; sub
+0053; sto 0011
 
 // select next bit
-004B; lod 0010
-004C; sta
-004D; std 07 // should be 01, but the shift register shifts in the wrong direction
-004E; sft
-004F; sto 0010
+0054; lod 0010
+0055; sta
+0056; std 07 // should be 01, but the shift register shifts in the wrong direction
+0057; sft
+0058; sto 0010
 
 // add shifted value to accumulator
-0050; lod 0000
-0051; sta
-0052; lod 0011
-0053; std
-0054; sft
-0055; sta
-0056; lod 0012
-0057; stb
-0058; add
-0059; sto 0012
+0059; lod 0000
+005A; sta
+005B; lod 0011
+005C; std
+005D; sft
+005E; sta
+005F; lod 0012
+0060; stb
+0061; add
+0062; sto 0012
 
 // keep looping until the last bit is checked
-005A; lod 0010
-005B; sta
-005C; stb 80
-005D; ceq
-005E; sta
-005F; not
-0060; cjp MulRet
+0063; lod 0010
+0064; sta
+0065; stb 80
+0066; ceq
+0067; sta
+0068; not
+0069; cjp MulRet
 
-0061; lod 0012
-0062; sop
-0063; jmp Start
+006A; lod 0012
+006B; sop
+006C; jmp Restart
 
 
 
 // ------ div -----------------------------------------------------
-0064; nop Div
-0065; jmp Start
+
+006D; nop Div
+006E; jmp Restart
 
 
 
