@@ -166,7 +166,7 @@ int main() {
          * current line shows the line within the assembled programme, 
          * so it will only increment if a command was found 
          */
-        if(newLine.find(";") != newLine.npos) {
+        if((newLine.find(";") != newLine.npos) and (newLine.find("//") != 0)) {
 
             /* cut off comments */
             if(newLine.find("//") != newLine.npos) {
