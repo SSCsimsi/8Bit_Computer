@@ -11,30 +11,33 @@ found label: MulRet
 found label: MulAddSkip
 found label: Div
 found label: DivRet
+found label: Test
 found destination for: Restart at: 0000
-found destination for: WaitForRelease at: 0011
-found destination for: WaitForInput at: 0014
-found destination for: Add at: 0034
-found destination for: Sub at: 003C
-found destination for: Mul at: 0044
-found destination for: MulRet at: 0048
-found destination for: MulAddSkip at: 0060
-found destination for: Div at: 0070
-found destination for: Wait at: 0072
+found destination for: Test at: 0011
+found destination for: WaitForRelease at: 001A
+found destination for: WaitForInput at: 001D
+found destination for: Add at: 0042
+found destination for: Sub at: 004A
+found destination for: Mul at: 0052
+found destination for: MulRet at: 0056
+found destination for: MulAddSkip at: 0071
+found destination for: Div at: 0081
+found destination for: Wait at: 0083
 
-replaced address at line 0013 with: 0011 > WaitForRelease
-replaced address at line 0018 with: 0014 > WaitForInput
-replaced address at line 0024 with: 0011 > WaitForRelease
-replaced address at line 0029 with: 0034 > Add
-replaced address at line 002C with: 003C > Sub
-replaced address at line 002F with: 0044 > Mul
-replaced address at line 0032 with: 0070 > Div
-replaced address at line 0033 with: 0000 > Error
-replaced address at line 003B with: 0072 > Wait
-replaced address at line 0043 with: 0072 > Wait
-replaced address at line 0051 with: 0060 > MulAddSkip
-replaced address at line 006C with: 0048 > MulRet
-replaced address at line 006F with: 0072 > Wait
-replaced address at line 0071 with: 0072 > Wait
-replaced address at line 0079 with: 0000 > Restart
-replaced address at line 007A with: 0072 > Wait
+replaced address at line 0019 with: 0011 > Test
+replaced address at line 001C with: 001A > WaitForRelease
+replaced address at line 0021 with: 001D > WaitForInput
+replaced address at line 0032 with: 001A > WaitForRelease
+replaced address at line 0037 with: 0042 > Add
+replaced address at line 003A with: 004A > Sub
+replaced address at line 003D with: 0052 > Mul
+replaced address at line 0040 with: 0081 > Div
+replaced address at line 0041 with: 0000 > Error
+replaced address at line 0049 with: 0083 > Wait
+replaced address at line 0051 with: 0083 > Wait
+replaced address at line 005F with: 0071 > MulAddSkip
+replaced address at line 007D with: 0056 > MulRet
+replaced address at line 0080 with: 0083 > Wait
+replaced address at line 0082 with: 0083 > Wait
+replaced address at line 008A with: 0000 > Restart
+replaced address at line 008B with: 0083 > Wait
