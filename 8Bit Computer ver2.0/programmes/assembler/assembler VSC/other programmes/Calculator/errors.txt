@@ -7,6 +7,7 @@ found label: WaitForInput
 found label: StoreInput1
 found label: StoreMode
 found label: StoreInput2
+found label: StoringDone
 found label: Add
 found label: Sub
 found label: Mul
@@ -17,35 +18,37 @@ found label: DivRet
 found destination for: Restart at: 0000
 found destination for: WaitForRelease at: 0011
 found destination for: WaitForInput at: 0014
-found destination for: StoreInput1 at: 0026
-found destination for: StoreMode at: 002A
-found destination for: StoreInput2 at: 002E
-found destination for: Add at: 0041
-found destination for: Sub at: 0049
-found destination for: Mul at: 0051
-found destination for: MulRet at: 0055
-found destination for: MulAddSkip at: 0070
-found destination for: Div at: 0080
-found destination for: Wait at: 0082
+found destination for: StoreInput1 at: 0024
+found destination for: StoreMode at: 0028
+found destination for: StoreInput2 at: 002C
+found destination for: StoringDone at: 0030
+found destination for: Add at: 0047
+found destination for: Sub at: 004F
+found destination for: Mul at: 0057
+found destination for: MulRet at: 005B
+found destination for: MulAddSkip at: 0076
+found destination for: Div at: 0086
+found destination for: Wait at: 0088
 
 replaced address at line 0013 with: 0011 > WaitForRelease
 replaced address at line 0018 with: 0014 > WaitForInput
-replaced address at line 001F with: 0026 > StoreInput1
-replaced address at line 0022 with: 002A > StoreMode
-replaced address at line 0025 with: 002E > StoreInput2
-replaced address at line 0029 with: 0011 > WaitForRelease
-replaced address at line 002D with: 0011 > WaitForRelease
-replaced address at line 0031 with: 0011 > WaitForRelease
-replaced address at line 0036 with: 0041 > Add
-replaced address at line 0039 with: 0049 > Sub
-replaced address at line 003C with: 0051 > Mul
-replaced address at line 003F with: 0080 > Div
-replaced address at line 0040 with: 0000 > Error
-replaced address at line 0048 with: 0082 > Wait
-replaced address at line 0050 with: 0082 > Wait
-replaced address at line 005E with: 0070 > MulAddSkip
-replaced address at line 007C with: 0055 > MulRet
-replaced address at line 007F with: 0082 > Wait
-replaced address at line 0081 with: 0082 > Wait
-replaced address at line 0089 with: 0000 > Restart
-replaced address at line 008A with: 0082 > Wait
+replaced address at line 001D with: 0024 > StoreInput1
+replaced address at line 0020 with: 0028 > StoreMode
+replaced address at line 0023 with: 002C > StoreInput2
+replaced address at line 0027 with: 0030 > StoringDone
+replaced address at line 002B with: 0030 > StoringDone
+replaced address at line 002F with: 0030 > StoringDone
+replaced address at line 0037 with: 0011 > WaitForRelease
+replaced address at line 003C with: 0047 > Add
+replaced address at line 003F with: 004F > Sub
+replaced address at line 0042 with: 0057 > Mul
+replaced address at line 0045 with: 0086 > Div
+replaced address at line 0046 with: 0000 > Error
+replaced address at line 004E with: 0088 > Wait
+replaced address at line 0056 with: 0088 > Wait
+replaced address at line 0064 with: 0076 > MulAddSkip
+replaced address at line 0082 with: 005B > MulRet
+replaced address at line 0085 with: 0088 > Wait
+replaced address at line 0087 with: 0088 > Wait
+replaced address at line 008F with: 0000 > Restart
+replaced address at line 0090 with: 0088 > Wait

@@ -1,1 +1,40 @@
+found label: Error
+found label: Restart
+found label: Wait
+found label: Loop
+found label: WaitForRelease
+found label: WaitForInput
+found label: Add
+found label: Sub
+found label: Mul
+found label: MulRet
+found label: MulAddSkip
+found label: Div
+found label: DivRet
+found destination for: Restart at: 0000
+found destination for: WaitForRelease at: 0011
+found destination for: WaitForInput at: 0014
+found destination for: Add at: 0034
+found destination for: Sub at: 003C
+found destination for: Mul at: 0044
+found destination for: MulRet at: 0048
+found destination for: MulAddSkip at: 0063
+found destination for: Div at: 0073
+found destination for: Wait at: 0075
 
+replaced address at line 0013 with: 0011 > WaitForRelease
+replaced address at line 0018 with: 0014 > WaitForInput
+replaced address at line 0024 with: 0011 > WaitForRelease
+replaced address at line 0029 with: 0034 > Add
+replaced address at line 002C with: 003C > Sub
+replaced address at line 002F with: 0044 > Mul
+replaced address at line 0032 with: 0073 > Div
+replaced address at line 0033 with: 0000 > Error
+replaced address at line 003B with: 0075 > Wait
+replaced address at line 0043 with: 0075 > Wait
+replaced address at line 0051 with: 0063 > MulAddSkip
+replaced address at line 006F with: 0048 > MulRet
+replaced address at line 0072 with: 0075 > Wait
+replaced address at line 0074 with: 0075 > Wait
+replaced address at line 007C with: 0000 > Restart
+replaced address at line 007D with: 0075 > Wait
