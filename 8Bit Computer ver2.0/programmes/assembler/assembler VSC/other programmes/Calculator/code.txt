@@ -1,0 +1,288 @@
+// global labels
+label: Error
+label: Restart
+label: Wait
+label: Loop
+
+// input labels
+label: WaitForRelease
+label: WaitForInput
+label: StoreInput1
+label: StoreMode
+label: StoreInput2
+
+// addition labels
+label: Add
+
+// subtraction labels
+label: Sub
+
+// multiplication labels
+label: Mul
+label: MulRet
+label: MulAddSkip
+
+// division labels
+label: Div
+label: DivRet
+
+
+
+//------ setup -------------------------------------------
+
+// ------------------------ memory map: ------------------------- //
+//                                                                //
+// 0000 > val 1                                                   //
+// 0001 > operation                                               //
+// 0002 > val 2                                                   //
+// 0003 > temp val                                                //
+//                                                                //
+// 0010 > position of current bit being pulled from the number    //
+// 0011 > temporary shift distance for val 1                      //
+// 0012 > accumulator for the result                              //
+//                                                                //
+//                                                                //
+//                                                                //
+// -------------------------------------------------------------- //
+
+0000; nop Restart
+0001; sta 00
+0002; stb 00
+0003; stc 00 
+0004; std 00
+0005; sop 00
+0006; sti 00
+0007; stf 00
+0008; stx 00
+0009; sty 00
+000A; ldu
+
+// input values
+000B; sto 00 0000
+000C; sto 00 0001
+000D; sto 00 0002
+
+// values for multiplication
+000E; sto 00 0010
+000F; sto 00 0011
+0010; sto 00 0012
+
+
+
+// ------ input handling ------------------------------------------
+
+// wait for button to not be pressed anymore
+0011; nop WaitForRelease
+0012; ldu
+0013; cjp WaitForRelease
+
+// wait for input
+0014; nop WaitForInput
+0015; ldu
+0016; sto 0003
+0017; not 
+0018; cjp WaitForInput
+
+0019; ldc
+001A; sta
+
+// increment input counter
+001B; inc
+001C; stc
+
+001D; stb 00
+001E; ceq
+001F; cjp StoreInput1
+0020; stb 01
+0021; ceq
+0022; cjp StoreMode
+0023; stb 02
+0024; ceq
+0025; cjp StoreInput2
+
+0026; nop StoreInput1
+0027; lod 0003
+0028; sto 0000
+0029; jmp WaitForRelease
+
+002A; nop StoreMode
+002B; lod 0003
+002C; sto 0001
+002D; jmp WaitForRelease
+
+002E; nop StoreInput2
+002F; lod 0003
+0030; sto 0002
+0031; jmp WaitForRelease
+
+
+
+// ------ decide calculation method -------------------------------
+
+0032; lod 0001 // the calculation mode
+0033; sta
+
+// if (mode == 0)
+0034; stb 00
+0035; ceq
+0036; cjp Add
+
+// if (mode == 1)
+0037; stb 01
+0038; ceq
+0039; cjp Sub
+
+// if (mode == 2)
+003A; stb 02
+003B; ceq
+003C; cjp Mul
+
+// if (mode == 3)
+003D; stb 03
+003E; ceq
+003F; cjp Div
+
+// else (error detected)
+0040; jmp Error
+
+
+
+// ------ add -----------------------------------------------------
+
+0041; nop Add
+0042; lod 0000
+0043; sta
+0044; lod 0002
+0045; stb
+0046; add
+
+0047; sop
+0048; jmp Wait
+
+
+
+// ------ sub -----------------------------------------------------
+
+0049; nop Sub
+004A; lod 0000
+004B; sta
+004C; lod 0002
+004D; stb
+004E; sub
+
+004F; sop
+0050; jmp Wait
+
+
+
+// ------ mul ------------------------------------------------------
+
+// ------------------------ memory map: ------------------------- //
+//                                                                //
+// 0000 > val 1                                                   //
+// 0001 > operation                                               //
+// 0002 > val 2                                                   //
+// 0003 > temp val                                                //
+//                                                                //
+// 0010 > position of current bit being pulled from the number    //
+// 0011 > temporary shift distance for val 1                      //
+// 0012 > accumulator for the result                              //
+//                                                                //
+//                                                                //
+//                                                                //
+// -------------------------------------------------------------- //
+
+// sft shifts in the wrong direction!!!
+
+0051; nop Mul
+0052; sto 01 0010
+0053; nop
+0054; sto 00 0012
+
+// calc dist
+0055; nop MulRet
+0056; lod 0002
+0057; sta
+0058; lod 0010
+0059; stb
+005A; ban
+005B; sta
+005C; stb 00
+005D; ceq
+005E; cjp MulAddSkip
+005F; lda
+0060; stc
+0061; dec
+// fix shift direction
+0062; stb
+0063; sta 07
+0064; sub
+0065; sto 0011
+
+// add shifted value to accumulator
+0066; lod 0000
+0067; sta
+0068; lod 0011
+0069; std
+006A; sfc
+006B; sta
+006C; lod 0012
+006D; stb
+006E; add
+006F; sto 0012
+
+// select next bit
+0070; nop MulAddSkip
+0071; lod 0010
+0072; sta
+0073; std 07 // shift by one
+0074; sfc
+0075; sto 0010
+
+// keep looping until the last bit is checked
+0076; lod 0010
+0077; sta
+0078; stb 80
+0079; ceq
+007A; sta
+007B; not
+007C; cjp MulRet
+
+007D; lod 0012
+007E; sop
+007F; jmp Wait
+
+
+
+// ------ div -----------------------------------------------------
+
+0080; nop Div
+0081; jmp Wait
+
+
+
+// ------ loop ----------------------------------------------------
+
+0082; nop Wait
+0083; ldu // incase it stayed high
+
+// loop for a bit
+0084; nop
+0085; nop
+0086; nop
+0087; nop
+
+// actually check the input
+0088; ldu
+0089; cjp Restart
+008A; jmp Wait
+
+
+
+
+
+
+
+
+
+
