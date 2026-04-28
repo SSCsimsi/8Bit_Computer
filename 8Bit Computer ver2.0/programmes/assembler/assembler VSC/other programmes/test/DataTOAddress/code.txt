@@ -1,21 +1,47 @@
 label: Start
 
 0000; nop Start
+
+
+
 0001; sto FF FFFF
+
 0002; stx FF
 0003; sty FF
 0004; ldz
 0005; nop
 0006; lod
+
 0007; sta
 
+
+
+; nop
+; nop
+; nop
+; nop
+
+
+
+; sta 55
 
 0008; stx 55
 0009; sty 55
 000A; ldz
-000B; nop
-000C; sto FF
+000B; lda
+000C; sto
 000D; nop
+
 000E; lod 5555
+
 000F; stb
+
+
+
+; nop
+; nop
+; nop
+; nop
+
+
 0010; jmp Start
